@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Eye, Wind } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Imp de Grand Alfheim: Guía de raza de jugador de 2026 y Dominio nocturno",
+  description: "Domina la raza Imp de Grand Alfheim con nuestra guía de 2026. Conoce sus rasgos de visión nocturna, la mecánica de sus alas y las mejores estrategias iniciales para esta raza única.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Imp+Race+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Imp de Grand Alfheim**: La única raza de jugador que actualmente no tiene una isla de origen dedicada, apareciendo en su lugar en la Isla Leprechaun.
+- **Dominio nocturno**: Los Imps poseen una **Visión nocturna** superior, lo que los convierte en la mejor opción para la exploración y el combate nocturnos.
+- **Movilidad aérea**: Al ser la única raza con alas, los Imps obtienen opciones únicas de verticalidad y movimiento gracias a su rasgo de **Alas**.
+- **Origen regional**: Históricamente originarios de las **Áreas Alpinas del Sureste**, aunque actualmente son nómadas.
+- **Mejores clases**: Muy recomendado para **Asesinos** y **Magos** que se benefician del sigilo y el posicionamiento.
+</Callout>
+
+<Section icon={Map} title="El Imp de Grand Alfheim: Orígenes e historia">
+
+El **Imp de Grand Alfheim** se destaca como una de las razas de jugador más distintivas en el meta actual de 2026. A diferencia de los Gnomos o los Leprechauns, que han establecido hogares ancestrales, los Imps son los vagabundos del sureste. Originarios de las escarpadas Áreas Alpinas, estas criaturas se han adaptado a los picos duros y fríos donde el sol rara vez penetra en los profundos valles. Este entorno los ha forjado como los "Maestros de la Noche", un título que llevan con orgullo en el mundo de Grand Alfheim.
+
+Actualmente, la raza Imp presenta un desafío único para los nuevos jugadores. Debido a que sus territorios nativos de Alphine aún no están completamente colonizados como zonas de inicio, todos los jugadores Imp comienzan su viaje en la **Isla Leprechaun**. Esto crea una dinámica interesante en la que los Imps deben navegar por una cultura extranjera antes de poder aventurarse realmente en el mundo para reclamar su propia herencia.
+
+| Atributo | Detalle |
+| :--- | :--- |
+| **Región de origen** | Áreas Alpinas del Sureste |
+| **Punto de aparición actual** | Isla Leprechaun |
+| **Rasgo principal** | Visión nocturna mejorada |
+| **Rasgo físico** | Alas funcionales |
+| **Estatus social** | Raza nómada / minoritaria |
+
+<Callout type="info" title="Historia del mundo">
+Aunque actualmente carecen de una isla propia, los desarrolladores han insinuado futuras expansiones centradas en el Sureste Alpino, lo que podría introducir arquitectura y líneas de misiones dedicadas para los Imps.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rasgos raciales y habilidades pasivas">
+
+Elegir al **Imp de Grand Alfheim** no es solo una decisión cosmética; cambia fundamentalmente la forma en que percibes el mundo del juego. Su conjunto de habilidades raciales está muy orientado a la utilidad y el reconocimiento. En un juego donde el ciclo nocturno puede ser castigadoramente oscuro, la biología natural del Imp proporciona una enorme ventaja táctica.
+
+### Mecánicas de visión nocturna
+Los ojos del Imp están específicamente evolucionados para capturar la mínima luz. Mientras que otras razas pueden requerir antorchas o iluminación mágica para navegar por mazmorras o bosques nocturnos, el Imp ve el mundo en un espectro claro y de alto contraste.
+
+| Nivel de visión | Raza | Rango de visibilidad | Claridad |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1** | Humano / Gnomo | 10-15 Metros | Baja / Borrosa |
+| **Nivel 2** | Leprechaun | 20-25 Metros | Moderada |
+| **Nivel 3** | **Imp de Grand Alfheim** | 50+ Metros | Alta / Nítida |
+
+### El poder del vuelo
+Quizás la característica más icónica del Imp son sus alas. Aunque no proporcionan un vuelo infinito (para mantener el equilibrio del juego), ofrecen una movilidad inigualable en el juego temprano y medio.
+
+<CardGrid cols={3}>
+  <Card title="Planeo">
+    - **Sin coste de resistencia**
+    - Alta velocidad horizontal
+    - Perfecto para cruzar brechas
+  </Card>
+  <Card title="Ascenso vertical">
+    - **Coste de resistencia medio**
+    - Acceso rápido a terreno elevado
+    - Posicionamiento estratégico
+  </Card>
+  <Card title="Bombardeo en picado">
+    - **Utilidad de combate**
+    - Aumenta el daño por caída a los enemigos
+    - Mecánica de escape rápido
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Usa tus alas para explorar los campamentos enemigos desde arriba antes de entablar combate. Identificar objetivos de alto valor es mucho más fácil cuando tienes una vista de pájaro literal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de inicio: Supervivencia en la Isla Leprechaun">
+
+Dado que el **Imp de Grand Alfheim** aparece en la Isla Leprechaun, tus primeras horas implicarán navegar por un paisaje que no está diseñado para tu tamaño o habilidades. Sin embargo, este inicio "desplazado" puede convertirse en una ventaja significativa si sigues la ruta de progresión correcta.
+
+<Steps>
+  <Step num="1" title="Domina los controles">
+    Familiarízate con la activación de las alas. A diferencia del salto estándar, el vuelo del Imp requiere ritmo. Practica el aleteo intermitente para maximizar la distancia sin agotar tu barra de resistencia.
+  </Step>
+  <Step num="2" title="Farmeo nocturno">
+    Mientras los Leprechauns se retiran a sus hogares por la noche, este es el momento en que debes estar más activo. Usa tu visión nocturna para encontrar apariciones nocturnas raras y recursos que otros jugadores pasan por alto.
+  </Step>
+  <Step num="3" title="Migración al sureste">
+    Una vez que alcances el nivel 15, comienza tu viaje hacia el sureste. Aquí es donde tus bonificaciones raciales por el terreno alpino finalmente comenzarán a proporcionar mejoras pasivas a la regeneración de salud y la velocidad.
+  </Step>
+</Steps>
+
+| Hito inicial | Nivel recomendado | Objetivo |
+| :--- | :--- | :--- |
+| **Primer vuelo** | Nivel 1 | Llegar a la Torre de vigilancia Leprechaun |
+| **Cazador nocturno** | Nivel 5 | Derrotar a 20 Merodeadores Nocturnos |
+| **Salida de la isla** | Nivel 10 | Asegurar el pasaje al Continente |
+
+<Callout type="warning" title="Advertencia de aparición">
+Debido a que apareces en la Isla Leprechaun, ten cuidado de no activar las alertas de "Intruso" en las zonas exclusivas para Leprechauns. Tu estado de Imp te hace más visible para ciertos NPC guardianes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de combate y sinergias de clase">
+
+El **Imp de Grand Alfheim** destaca en roles que requieren alta movilidad y capacidad de "primer golpe". En PvP (Jugador contra Jugador), un Imp que controla el reloj controla la batalla. Si puedes forzar un enfrentamiento durante el ciclo nocturno, tu tasa de victorias aumentará significativamente.
+
+### Builds recomendadas
+No todas las clases son iguales para el Imp. Querrás elegir una clase que aproveche tu sigilo natural y tu verticalidad.
+
+| Clase | Calificación de sinergia | Razón |
+| :--- | :--- | :--- |
+| **Asesino** | ★★★★★ | La visión nocturna permite una ejecución perfecta en sigilo. |
+| **Mago** | ★★★★☆ | La verticalidad permite lanzar hechizos de forma segura desde los tejados. |
+| **Guerrero** | ★★☆☆☆ | Las alas son menos efectivas con armadura pesada equipada. |
+| **Explorador** | ★★★★☆ | Excelente para mantener a distancia a los enemigos en terrenos irregulares. |
+
+### Ventajas tácticas
+- **Mejoras nocturnas**: Muchos conjuntos de equipo específicos para Imps en 2026 proporcionan un +15% de daño durante el ciclo nocturno.
+- **Reinicio aéreo**: Si una pelea va mal, a menudo puedes volar a una repisa donde las criaturas de cuerpo a cuerpo no puedan seguirte, lo que te permite curarte.
+- **Fusión con las sombras**: En áreas de poca luz, las alas oscuras del Imp proporcionan una bonificación de camuflaje natural, lo que los hace más difíciles de fijar como objetivo.
+
+<Callout type="success" title="Consejo de combate">
+Lleva siempre "Pociones de resistencia". Tus alas son tu mejor herramienta ofensiva y defensiva; quedarte sin resistencia en el aire es la forma más rápida de llegar a una pantalla de "Fin de la partida".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalización y progresión">
+
+La expresión del personaje es una parte muy importante de la experiencia del **Imp de Grand Alfheim**. En la actualización de 2026, la personalización de las alas se ha ampliado para incluir varias formas, patrones de membrana y efectos de brillo que reflejan la alineación de tu personaje.
+
+### Tipos de alas
+Tus alas no son solo para mostrar; se pueden mejorar a través de misiones raciales específicas que se encuentran en el Templo de los Comienzos y la Oda al Abismo.
+
+| Tipo de ala | Requisito | Beneficio |
+| :--- | :--- | :--- |
+| **De cuero** | Predeterminado | Velocidad y durabilidad equilibradas. |
+| **De plumas** | Misión: Alcanzar el cielo | Límite de altitud más alto, vuelo más silencioso. |
+| **De obsidiana** | Botín raro | +10% de defensa, resistente al daño por fuego. |
+| **Etérea** | Fin del juego | Permite ráfagas cortas de teletransportación. |
+
+<Callout type="tip" title="Información de personalización">
+No ignores a los mercaderes de "Tinte Alpino". Colores específicos pueden proporcionar una resistencia ambiental menor en las regiones nevadas del sureste.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de maestría Imp">
+
+Para dominar verdaderamente al **Imp de Grand Alfheim**, debes intentar completar estos hitos raciales. Al hacerlo, desbloquearás títulos ocultos y aumentos de estadísticas permanentes que son exclusivos del linaje Imp.
+
+<Checklist
+  id="imp-mastery"
+  title="Objetivos de progresión del Imp:"
+  items={[
+    "Alcanzar el nivel 20 y desbloquear 'Vuelo sostenido'",
+    "Descubrir el puesto de avanzada Imp oculto en el Área Alpina del Sureste",
+    "Ganar 10 duelos nocturnos contra otras razas",
+    "Obtener el título 'Maestro de la Noche' del NPC Imp Anciano",
+    "Equipar un conjunto completo de armadura de sombras alpinas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué los Imps aparecen en la Isla Leprechaun en lugar de en la suya propia?",
+    answer: "Actualmente, las Áreas Alpinas del Sureste se consideran zonas de alto nivel. Para garantizar un comienzo justo para los nuevos jugadores, los desarrolladores de Grand Alfheim colocaron el punto de aparición de los Imps en la Isla Leprechaun, que es más amigable para principiantes."
+  },
+  {
+    question: "¿Funciona la visión nocturna del Imp en todas las mazmorras?",
+    answer: "Sí, el rasgo de visión nocturna es una habilidad pasiva que se activa cada vez que los niveles de luz caen por debajo de cierto umbral, incluyendo mazmorras profundas como la Oda al Abismo."
+  },
+  {
+    question: "¿Puedo usar mis alas mientras uso armadura pesada?",
+    answer: "Puedes, pero no es recomendable. La armadura pesada aumenta significativamente el coste de resistencia del vuelo y reduce tu distancia de planeo."
+  },
+  {
+    question: "¿Es el Imp de Grand Alfheim bueno para jugar en solitario?",
+    answer: "Totalmente. Su capacidad para escapar volando y su visión superior los convierte en una de las razas más seguras para los jugadores en solitario que desean evitar combates innecesarios."
+  }
+]} />
+
+</Section>

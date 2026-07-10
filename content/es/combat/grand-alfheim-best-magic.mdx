@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim: La mejor magia, selección de raza y rankings de hechizos",
+  description: "Descubre las mejores configuraciones de magia en Grand Alfheim. Compara mecánicas de acceso anticipado, estadísticas elementales y los futuros repertorios de hechizos bloqueados por raza.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Best+Magic+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: La elección de la **mejor magia en Grand Alfheim** está directamente vinculada a la raza inicial de tu personaje.
+- **Estado de bloqueo de raza**: Los estilos de magia terminarán estando estrictamente bloqueados a razas específicas, por lo que la selección temprana es crucial.
+- **Mejor opción de daño**: Salamander destaca como la opción de magia elemental ofensiva más fuerte.
+- **Mejor opción de apoyo**: Undine es la opción principal para los jugadores que se centran en la curación y la magia de agua defensiva.
+- **Estado actual**: Las ventajas y restricciones de magia son cosméticas durante el desarrollo inicial, pero se aplicarán por completo en futuras actualizaciones.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción general del sistema de magia de Grand Alfheim">
+
+Elegir la **mejor configuración de magia en Grand Alfheim** requiere comprender cómo se alinean los poderes elementales con las nueve razas jugables. En Grand Alfheim, la magia está profundamente integrada con tu identidad racial. Aunque las versiones actuales de acceso anticipado tratan estas elecciones como cosméticas, las próximas actualizaciones bloquearán estrictamente grupos específicos de magia a sus respectivas razas.
+
+<Callout type="warning" title="Bloqueo de creación de personaje">
+No puedes cambiar tu raza ni tu tipo de magia para una ranura de personaje después de haberlo creado. Planifica tu configuración cuidadosamente antes de finalizar tu personaje.
+</Callout>
+
+Así es como se alinean los tipos de magia con las razas disponibles:
+
+| Raza | Tipo de magia | Rol principal | Especialidad mágica |
+|-|-|-|-|
+| **Salamander** | Magia de fuego | DPS principal | Alto poder ofensivo y daño por quemadura |
+| **Undine** | Magia de agua | Sanador / Apoyo | Hechizos de curación y control de masas |
+| **Sylph** | Magia de viento | Velocidad / Movilidad | Maniobras de alta velocidad y ataques de viento |
+| **Gnome** | Magia de tierra | Tanque / Defensa | Barreras defensivas y control de masas |
+| **Spriggan** | Magia de ilusión | Utilidad / Explorador | Búsqueda de tesoros e ilusiones |
+
+</Section>
+
+<Section icon={Swords} title="Rankings de magia elemental">
+
+Para determinar la **mejor magia en Grand Alfheim** según tu estilo de juego, debemos analizar el rendimiento de cada elemento en escenarios de combate. Dado que no puedes cambiar de elemento más adelante, elegir un elemento de nivel superior asegura una progresión más fluida a través de mazmorras como el Templo de los Comienzos.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Magia de fuego">
+    - **Mayor daño base**
+    - Excelentes hechizos de área de efecto
+    - Ideal para subir de nivel rápidamente
+  </Card>
+  <Card title="Nivel A: Agua y Viento">
+    - **Alta utilidad y curación**
+    - Velocidad de movimiento excepcional
+    - Genial para mazmorras en grupo
+  </Card>
+  <Card title="Nivel B: Tierra e Ilusión">
+    - **Estadísticas defensivas fuertes**
+    - Ventajas de utilidad específicas
+    - Progresión en solitario más lenta
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recomendación para jugadores en solitario">
+Si juegas principalmente en solitario, Salamander (Fuego) o Sylph (Viento) ofrecen las velocidades de nivelación más rápidas debido a su alto daño y movilidad.
+</Callout>
+
+La siguiente tabla desglosa la efectividad de cada tipo de magia en diferentes actividades:
+
+| Elemento mágico | Grindeo en solitario | Utilidad en mazmorras | Potencial PvP | Clasificación general |
+|-|-|-|-|-|
+| **Fuego (Salamander)** | Excelente | Alta | Alta | ★★★★★ |
+| **Agua (Undine)** | Media | Excelente | Media | ★★★★☆ |
+| **Viento (Sylph)** | Alta | Media | Alta | ★★★★☆ |
+| **Tierra (Gnome)** | Media | Alta | Media | ★★★☆☆ |
+| **Ilusión (Spriggan)** | Baja | Alta | Media | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para configurar tu magia">
+
+Desbloquear todo el potencial de las **mejores configuraciones de magia en Grand Alfheim** requiere configurar tu personaje correctamente desde el principio. Sigue este plan de progresión paso a paso para optimizar tu construcción mágica.
+
+<Steps>
+  <Step num="1" title="Selecciona tu raza inicial">
+    Elige tu raza basándote en el elemento mágico que deseas dominar. Consulta la [Página de Razas de la Wiki de Grand Alfheim](https://grand-alfheim.fandom.com/wiki/Races) para ver los estilos de alas, ya que estas elecciones son permanentes.
+  </Step>
+  <Step num="2" title="Adquiere libros de hechizos básicos">
+    Viaja a la isla inicial de tu raza (como la Isla Leprechaun o la Isla Gnome) para comprar o encontrar tus libros de hechizos de nivel principiante.
+  </Step>
+  <Step num="3" title="Cultiva mazmorras iniciales">
+    Completa la mazmorra del Templo de los Comienzos para obtener armaduras y armas de escala mágica inicial que aumenten tus estadísticas elementales.
+  </Step>
+  <Step num="4" title="Mejora tus niveles de hechizo">
+    Gasta tus puntos de habilidad para mejorar tus ataques elementales principales antes de invertir en talentos de utilidad secundarios.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota sobre el equilibrio actual">
+Desde las últimas actualizaciones de 2026, las pasivas raciales siguen siendo equilibradas. Céntrate en dominar los tiempos de lanzamiento de hechizos y la gestión de maná.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidad entre raza y magia">
+
+Cada raza ofrece atributos físicos únicos junto con su magia elemental. Al elegir la **mejor magia en Grand Alfheim** para tu personaje, considera cómo los rasgos físicos de la raza complementan sus habilidades mágicas.
+
+| Raza | Tipo de alas | Visión nocturna | Domador de bestias | Herrería |
+|-|-|-|-|-|
+| **Imp** | Alas de diablo | Sí | No | No |
+| **Cait Sith** | Alas de bestia | Sí | Sí | No |
+| **Leprechaun** | Mecánicas | No | No | Sí |
+| **Pooka** | Alas de hada | No | No | No |
+
+<Callout type="success" title="Bono de sinergia">
+Combinar la alta velocidad de movimiento de Cait Sith con la magia de viento crea la configuración de exploración más rápida del juego, perfecta para reunir recursos raros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión mágica">
+
+Sigue tu progreso mágico usando esta lista para asegurarte de que tu personaje esté totalmente optimizado para mazmorras de final de juego como la Oda al Abismo.
+
+<Checklist
+  id="magic-milestones"
+  title="Hitos mágicos:"
+  items={[
+    "Selecciona una raza que corresponda a tu elemento mágico preferido",
+    "Obtén un conjunto completo de armadura de escala elemental en mazmorras",
+    "Desbloquea los cuatro hechizos activos para tu elemento elegido",
+    "Maximiza tu hechizo de daño principal al nivel 10",
+    "Adquiere un bastón o arma elemental que aumente el daño mágico"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor magia de Grand Alfheim para principiantes?",
+    answer: "La magia de fuego (Salamander) es la mejor opción para principiantes debido a su alto daño y sus sencillas rotaciones de hechizos ofensivos."
+  },
+  {
+    question: "¿Puedo cambiar mi elemento mágico más adelante en el juego?",
+    answer: "No. La magia está bloqueada a tu raza elegida, y las razas de los personajes no se pueden cambiar después de la creación del personaje."
+  },
+  {
+    question: "¿La magia de Undine tiene hechizos ofensivos?",
+    answer: "Sí, la magia de agua de Undine cuenta con ataques básicos de agua ofensivos junto con sus principales habilidades de curación y apoyo."
+  },
+  {
+    question: "¿Las ventajas raciales están totalmente activas en la versión actual?",
+    answer: "Las ventajas raciales se están implementando en fases. Consulta las actualizaciones oficiales de Discord para conocer el estado de activación más reciente."
+  }
+]} />
+
+</Section>

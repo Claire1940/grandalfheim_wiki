@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servidor privado de Grand Alfheim: Guía de acceso y jugabilidad",
+  description: "Aprende cómo acceder al entorno del servidor privado de Grand Alfheim, elegir las mejores razas, dominar las clases de combate y completar la ruta de progresión para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Servidor privado de Grand Alfheim**: El acceso oficial se realiza principalmente a través de la plataforma Roblox mediante el Acceso anticipado o los servidores VIP privados.
+- **Selección de raza**: Salamander, Sylph y Undine dominan actualmente el **Nivel S** para roles ofensivos y de apoyo.
+- **Núcleo del combate**: Dominar el **sistema de desvío (parry) y resistencia** es más crítico que el daño bruto en las mazmorras de alto nivel.
+- **Objetivo del endgame**: Alcanzar el nivel 50 para ingresar a la **Oda al Abismo**, que se abre solo en intervalos específicos a las 12:00 AM/PM.
+- **Flexibilidad de clase**: Puedes cambiar de clase con un **Herrero** sin perder la progresión general de tu personaje.
+</Callout>
+
+<Section icon={Map} title="Acceso a los servidores privados y acceso anticipado de Grand Alfheim">
+
+La experiencia en el **servidor privado de Grand Alfheim** está definida actualmente por las fases de Acceso anticipado y Demo pública del juego en la plataforma Roblox. A partir de julio de 2026, el equipo de desarrollo ha realizado la transición a una Demo pública muy estable, lo que permite a los jugadores explorar territorios raciales a gran escala y participar en combates tanto PvE como PvP. Aunque muchos jugadores buscan un \"servidor privado\" independiente, la forma más segura de disfrutar de un entorno controlado es a través de la función oficial de servidor VIP de Roblox, que proporciona una instancia privada para ti y los miembros de tu gremio para farmear jefes sin interferencias externas.
+
+**Puntos destacados del video:**
+- **Configuración inicial**: Cómo navegar por la pantalla de creación de personajes y seleccionar tu primera raza de hada.
+- **Mecánicas de movimiento**: Un análisis profundo del sistema de vuelo y cómo conservar la resistencia al viajar.
+- **Vista previa del combate**: Demostración en tiempo real de las clases Espadachín y Maestro arquero en la zona de inicio.
+- **Recorrido por la mazmorra**: Una primera mirada al Templo de los Comienzos y sus mecánicas principales de rompecabezas.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim" />
+
+Para maximizar tu rendimiento dentro de una instancia privada o pública, es esencial comprender la estructura del servidor. El juego utiliza un sólido sistema de guardado de datos que traslada tu progreso a través de todas las instancias oficiales, incluidos los servidores VIP privados.
+
+| Tipo de servidor | Accesibilidad | Ideal para | Características |
+| :--- | :--- | :--- | :--- |
+| **Demo pública** | Abierto para todos | Juego social, comercio | Alta densidad de jugadores, PvP activo |
+| **Servidor VIP privado** | Compra con Robux | Farmeo de jefes, entrenamiento | Entorno controlado, sin molestias de terceros |
+| **Acceso anticipado** | Miembros del grupo | Probar nuevas builds | Vistas previas del contenido de la Fase 6+ |
+| **Servidores de eventos** | Tiempo limitado | Recompensas especiales | Doble de tasa de drop, jefes únicos |
+
+<Callout type="tip" title="Consejo profesional">
+Únete siempre al grupo oficial de Roblox de Grand Alfheim. La membresía a menudo otorga acceso a fases de prueba específicas exclusivas para la comunidad y proporciona un aumento del 10% de experiencia en ciertos territorios.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de selección de raza: Elige tu identidad">
+
+Elegir tu raza es la decisión más permanente en el entorno del **servidor privado de Grand Alfheim**. Cada una de las nueve razas de hadas viene con una afinidad mágica única y una especialidad pasiva que dicta tu estilo de juego óptimo. Aunque todas las razas son viables para el juego casual, los jugadores competitivos deben centrarse en la sinergia entre la magia racial y su clase de combate prevista.
+
+<CardGrid cols={3}>
+  <Card title="Salamander (Nivel S)">
+    - **Magia**: Magia de fuego
+    - **Identidad**: Presión ofensiva pura
+    - **Ideal para**: Builds cuerpo a cuerpo agresivas como Titanblade o Berserker.
+  </Card>
+  <Card title="Sylph (Nivel S)">
+    - **Magia**: Magia de viento
+    - **Identidad**: Movilidad inigualable
+    - **Ideal para**: Jugadores que valoran la velocidad, el espaciado y el combate aéreo.
+  </Card>
+  <Card title="Undine (Nivel S)">
+    - **Magia**: Agua/Curación
+    - **Identidad**: Soporte de grupo vital
+    - **Ideal para**: Mazmorras e incursiones de jefes de alto nivel donde el sustento es clave.
+  </Card>
+</CardGrid>
+
+Para aquellos que buscan una utilidad más especializada, las razas de Nivel A y Nivel B ofrecen ventajas de nicho que pueden ser increíblemente poderosas en las manos adecuadas.
+
+| Tier | Raza | Tipo de magia | Especialidad primaria | Build recomendada |
+| :--- | :--- | :--- | :--- | :--- |
+| **A** | **Cait Sith** | Invocación | Domesticación de bestias | Maestro de bestias/DPS móvil |
+| **A** | **Spriggan** | Ilusión | Búsqueda de tesoros | Utilidad/PvP táctico |
+| **A** | **Pooka** | Música | Potenciadores de equipo | Bardo/Soporte de grupo |
+| **B** | **Gnome** | Tierra | Durabilidad | Tanque/Clase Aegis |
+| **B** | **Imp** | Maldición | Visión nocturna | Especialista en perjuicios |
+| **B** | **Leprechaun** | Rayo | Artesanía/Alas | Herrero/Builds tecnológicas |
+
+<Callout type="success" title="Bonificación por sinergia">
+Si juegas en grupo en un servidor privado, asegúrate de tener al menos un **Undine** y un **Pooka**. La combinación de curación y potenciadores ofensivos reduce significativamente el tiempo de limpieza para el Templo de los Comienzos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases de combate y equipamiento de armas">
+
+En Grand Alfheim, tu clase está determinada por el arma que tienes equipada. A diferencia de otros juegos de rol donde tu clase está bloqueada, puedes visitar a un Herrero en cualquier momento para probar un nuevo estilo de lucha. Esta flexibilidad es fundamental para la experiencia en el **servidor privado de Grand Alfheim**, lo que te permite adaptarte a las diferentes mecánicas de los jefes sobre la marcha.
+
+<Steps>
+  <Step num="1" title="Visita la forja">
+    Localiza al Herrero en la ciudad de inicio o en las principales capitales raciales. Necesitarás una pequeña cantidad de dinero para comprar tu primera arma de inicio.
+  </Step>
+  <Step num="2" title="Selecciona tu arma">
+    Elige entre clases como Espadachín (Equilibrado), Maestro arquero (A distancia) o Aegis (Tanque). Cada una viene con un árbol de habilidades único que se desbloquea a medida que subes de nivel.
+  </Step>
+  <Step num="3" title="Domina los controles">
+    Practica el tiempo de tus ataques M1 (Básico), M2 (Finta) y F (Desvío). En Grand Alfheim, un desvío exitoso crea una gran apertura para ataques críticos.
+  </Step>
+  <Step num="4" title="Asigna puntos de habilidad">
+    Abre tu menú (tecla M) e invierte puntos en el árbol de tu clase. Concéntrate en unas pocas habilidades principales en lugar de dispersar demasiado los puntos.
+  </Step>
+</Steps>
+
+| Clase | Arma | Estadística principal | Estilo de juego | Dificultad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espadachín** | Espada | STR | Combos cuerpo a cuerpo equilibrados | Principiante |
+| **Maestro arquero** | Arco | DEX | Distanciamiento/Ataque a distancia | Moderada |
+| **Asesino** | Dagas | DEX/STR | Alto daño de ráfaga/Veneno | Avanzada |
+| **Titanblade** | Espadón | STR | Impacto pesado/Daño de área | Moderada |
+| **Aegis** | Gran escudo | STR | Defensivo/Tanque | Moderada |
+| **Púgil** | Guanteletes | STR | Combos rápidos a corta distancia | Avanzada |
+
+<Callout type="warning" title="Gestión de la resistencia">
+Cada acción, incluyendo esquivar (Q) y bloquear (F), consume resistencia. Si tu resistencia llega a cero, quedarás aturdido, dejándote vulnerable al ataque definitivo de un jefe. Nunca agotes tu barra por completo durante una secuencia ofensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Hoja de ruta de progresión: Subiendo del nivel 1 al 50">
+
+Navegar de manera eficiente por el **servidor privado de Grand Alfheim** requiere un enfoque estructurado para las misiones y el farmeo. Subir de nivel no se trata solo de puntos de experiencia; se trata de mejorar tu equipo y tus habilidades mágicas en conjunto. Utiliza la siguiente lista de verificación para asegurarte de alcanzar tus hitos.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos de progresión esenciales:"
+  items={[
+    "Completa el tutorial completo y alcanza el nivel 5",
+    "Obtén tu primera arma de clase del Herrero",
+    "Desbloquea la habilidad de Magia de Nivel 1 de tu raza",
+    "Limpia el Templo de los Comienzos (Nivel 10-15)",
+    "Farmea un conjunto completo de armadura Azure Knightplate o Nightbreaker",
+    "Alcanza el nivel 50 y prepárate para la Oda al Abismo"
+  ]}
+/>
+
+El mundo está dividido en varias zonas de dificultad. Mantenerte dentro de tu rango de nivel es vital para la supervivencia, especialmente cuando juegas en solitario.
+
+| Rango de nivel | Zona/Actividad | Objetivo clave | Equipo recomendado |
+| :--- | :--- | :--- | :--- |
+| **1-10** | Territorio de inicio | Misiones principales | Armas de inicio de hierro |
+| **10-20** | Templo de los Comienzos | Primera limpieza de mazmorra | Conjunto Azure Knightplate |
+| **20-30** | Capitales raciales | Misiones de clase avanzada | Night's Edge / Bone Daggers |
+| **30-40** | Jefes de territorio | Farmeo de drops raros | Conjunto Bloodcrown Regalia |
+| **40-50** | Zonas de alto nivel | Optimización de build | Armas épicas/legendarias |
+| **50+** | Oda al Abismo | Incursiones de endgame | Equipo mítico Voidrune |
+
+<Callout type="info" title="Entrada a la mazmorra">
+Se puede ingresar al Templo de los Comienzos desde los territorios de Salamander, Undine o Gnome. Si una entrada está muy concurrida en un servidor público, prueba con otra para encontrar una cola más rápida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desafíos de endgame: Mazmorras, jefes y botín mítico">
+
+Una vez que alcanzas el límite de nivel en el **servidor privado de Grand Alfheim**, tu enfoque cambia a la mazmorra \"Oda al Abismo\". Este es actualmente el contenido más difícil del juego, requiriendo un grupo coordinado de al menos cuatro jugadores. Las recompensas, sin embargo, son la única fuente de equipamiento de nivel Mítico como la **Voidrune Edge** y el **Nightreaver Bow**.
+
+**Mecánicas de la mazmorra: Oda al Abismo**
+- **Ventana de entrada**: La entrada de la mazmorra en el territorio Gnome solo se abre a las 12:00 AM y 12:00 PM, hora del este, durante 10 minutos.
+- **El ascensor**: Debes descender a Valdrayn utilizando el ascensor central.
+- **La fase de las torres**: Cuando el jefe tenga poca salud, se activarán cuatro torres. Debes dividir a tu equipo para destruir las cuatro simultáneamente, o el jefe regenerará salud.
+
+| Jefe | Ubicación | Dificultad | Drops notables |
+| :--- | :--- | :--- | :--- |
+| **Bone Dragon** | Templo de los Comienzos | Moderada | Obsidian Requiem, Azure Reaver |
+| **Treant** | Templo (Minijefe) | Fácil | Snarl Hound Claws, Conjunto Verdant |
+| **Satyr** | Mundo Salamander | Moderada | Bloodcrown Regalia, Iron Axe |
+| **Valdrayn** | Oda al Abismo | Difícil | Voidrune Edge, Abyssal Covenant |
+
+<Callout type="tip" title="Consejo de estrategia">
+Durante la batalla contra Valdrayn, asigna a un jugador (preferiblemente un Aegis) para mantener la atención del jefe mientras los otros tres se concentran por completo en las torres durante la fase final.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo me uno a un servidor privado de Grand Alfheim?",
+    answer: "Puedes comprar un servidor privado (servidor VIP) directamente desde la página del juego Grand Alfheim en Roblox por una tarifa mensual en Robux. Alternativamente, únete al Discord oficial para encontrar miembros de la comunidad que organicen sesiones privadas gratuitas."
+  },
+  {
+    question: "¿Puedo restablecer mis estadísticas o mi clase?",
+    answer: "Sí. Puedes cambiar tu arma con cualquier Herrero para cambiar tu clase. Los restablecimientos de estadísticas están disponibles ocasionalmente a través de NPCs específicos o durante eventos de actualizaciones importantes."
+  },
+  {
+    question: "¿Cuál es la mejor raza para jugadores en solitario?",
+    answer: "Sylph es muy recomendada para jugadores en solitario debido a su velocidad de vuelo y movilidad, lo que les permite escapar de situaciones peligrosas y kitear a los jefes de manera más efectiva."
+  },
+  {
+    question: "¿Cuándo se lanzará la próxima gran actualización (Fase 7)?",
+    answer: "Los desarrolladores suelen publicar los calendarios de actualización en su cuenta oficial de X (anteriormente Twitter) y Discord. La Fase 6 se completó recientemente a principios de 2026, y se espera la Fase 7 a finales de este año."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pooka en Grand Alfheim: Guía del Mapa y de Raza",
+  description: "Explora el mapa de los Pooka en Grand Alfheim. Descubre la raza Pooka, los puntos de interés locales, mazmorras, mejoras del herrero y estrategias de progresión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Pooka+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: La región de los Pooka en Grand Alfheim introduce un mapa masivo con temática de castillo que cuenta con mecánicas de desplazamiento únicas y progresión vertical.
+- **Estado de las razas**: Actualmente las razas son cosméticas, pero elegir Pooka bloqueará a tu personaje en clases mágicas específicas en futuras actualizaciones.
+- **Mazmorra local**: Una mazmorra de alto nivel se encuentra cerca de las zonas de aparición, ofreciendo equipo avanzado y batallas contra jefes.
+- **Ubicación del herrero**: El herrero en la plaza central permite a los jugadores cambiar y mejorar armas como la Espada de Titán.
+- **Decisión permanente**: La selección de raza en Grand Alfheim es permanente por ranura de personaje, por lo que la planificación temprana es esencial.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Mapa de Pooka en Grand Alfheim y Puntos de Interés">
+
+El territorio Pooka destaca como una de las regiones visualmente más impresionantes del juego. Dominado por un enorme castillo medieval, el mapa combina una estructura de arquitectura de piedra con extensos paisajes naturales. Los jugadores que aparezcan en esta zona se encontrarán rodeados de densos bosques, verdes campos ondulados y acantilados empinados. Un elemento destacado del terreno es una enorme cascada que desemboca en los valles inferiores, creando un diseño vertical dinámico que recompensa a las clases de alta movilidad.
+
+En el corazón del territorio se encuentra la plaza central, que sirve como el principal punto de reunión social y de servicios para los jugadores. Esta área alberga servicios esenciales, como estaciones para cambiar de armas, herreros de mejora y tablones de misiones. Alrededor de la plaza hay varios edificios interactivos, como la mansión del Alcalde, que desempeña un papel central en la historia local y la progresión de misiones. Más allá de la seguridad de las murallas del castillo, los jugadores pueden explorar una misteriosa torre de piedra en espiral que se eleva hacia el cielo, insinuando futuros contenidos de expansión.
+
+**Puntos Destacados del Video:**
+- Recorrido detallado de la plaza central del castillo y el diseño del pueblo.
+- Ubicación del herrero local y la estación de cambio de armas.
+- Muestra visual de la mansión del Alcalde y su diseño interior.
+- Ruta de viaje que lleva a la entrada de la cercana mazmorra de alto nivel.
+
+<YouTubeEmbed videoId="3IfIKbia97s" title="Grand Alfheim Pooka Map Showcase" />
+
+El diseño del mapa Pooka fomenta la exploración, con senderos ocultos que conducen a cofres y nodos de recursos distribuidos por los campos exteriores. Navegar por los acantilados verticales puede ser un desafío, pero utilizar mecánicas de planeador o habilidades de clase de alta movilidad facilita significativamente el desplazamiento por el terreno.
+
+| Punto de Interés | Ubicación | Función Principal | NPC Clave |
+| --- | --- | --- | --- |
+| Plaza Central | Centro del Castillo | Centro de jugadores y cambio de armas | Herrero |
+| Casa del Alcalde | Terraza Superior | Progresión de misiones e historia | Alcalde |
+| Torre en Espiral | Campos del Norte | Desafío de desplazamiento y exploración | Ninguno |
+| Cascada del Valle | Límite Sur | Recolección de recursos y mirador panorámico | Ninguno |
+
+<Callout type="success" title="Consejo de Exploración">
+Usa las plataformas elevadas alrededor de las murallas del castillo para planear hacia los campos exteriores. Esto ahorra un tiempo de viaje significativo al dirigirse hacia la mazmorra o los nodos de recolección.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de la Raza Pooka y Afiliaciones Mágicas">
+
+Grand Alfheim cuenta con nueve razas distintas que los jugadores pueden elegir al comienzo de su viaje. Aunque la pantalla de creación de personajes ofrece una variedad de opciones estéticas, comprender las mecánicas a largo plazo de la raza elegida es crucial para la optimización en el juego tardío. Actualmente, en la versión de acceso anticipado de 2026, las ventajas raciales aún no se han aplicado por completo. Esto significa que todas las razas son temporalmente cosméticas, lo que permite a los jugadores concentrarse puramente en la personalización visual.
+
+Sin embargo, el equipo de desarrollo ha confirmado que las futuras actualizaciones introducirán sistemas de magia bloqueados por raza. Una vez implementado este sistema, los elementos mágicos estarán estrictamente vinculados a la raza elegida. Por ejemplo, los Salamander tendrán derechos exclusivos sobre la magia de fuego, los personajes Undine dominarán la magia de curación y agua, y los Gnome dominarán la magia de tierra. Elegir la raza Pooka ahora prepara la ranura de tu personaje para su próxima clase mágica especializada, lo que la convierte en una opción estratégica para los jugadores que prefieren roles de utilidad y soporte.
+
+<CardGrid cols={3}>
+  <Card title="Raza Pooka">
+    - **Estética**: Elegantes alas de hada
+    - **Magia Futura**: Magia de utilidad especializada
+    - **Rol**: Soporte y control de masas
+  </Card>
+  <Card title="Raza Sylph">
+    - **Estética**: Alas verdes translúcidas
+    - **Magia Futura**: Magia de viento de alta velocidad
+    - **Rol**: Movilidad y ataques rápidos
+  </Card>
+  <Card title="Raza Salamander">
+    - **Estética**: Alas rojas ardientes
+    - **Magia Futura**: Magia de fuego de alto daño
+    - **Rol**: DPS ofensivo puro
+  </Card>
+</CardGrid>
+
+Se recomienda planificar tu build en torno a estas futuras restricciones, ya que la selección de raza está bloqueada actualmente para cada ranura de personaje y no se puede cambiar después de la creación. Si planeas jugar con una build centrada en la magia, alinear tu preferencia estética con el bloqueo mágico planificado es la forma más segura de evitar tener que rehacer un personaje en futuros parches.
+
+| Raza | Región | Especialidad Mágica Planeada | Enfoque de Estilo de Juego |
+| --- | --- | --- | --- |
+| Pooka | Valle del Castillo | Magia de Utilidad y Soporte | Soporte Táctico |
+| Sylph | Praderas del Suroeste | Magia de Viento | Velocidad y Agilidad |
+| Undine | Humedales del Este | Magia de Agua y Curación | Curación y Defensa |
+| Salamander | Desierto del Sur | Magia de Fuego | Alto Daño de Ráfaga |
+| Gnome | Escarcha del Norte | Magia de Tierra | Defensa y Tanque |
+
+<Callout type="info" title="Nota sobre la Actualización de Razas">
+Mantente atento a las hojas de ruta oficiales de desarrollo en 2026. Aunque las razas son cosméticas hoy en día, la transición a sistemas de magia bloqueados alterará drásticamente la viabilidad de las builds de personajes existentes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preparación para la Mazmorra y Progresión de Combate">
+
+Justo fuera de las murallas principales del castillo del territorio Pooka se encuentra la entrada a una formidable mazmorra. Mientras que los jugadores novatos suelen dar sus primeros pasos en el Templo de los Comienzos ubicado en el territorio Cait, la mazmorra de la región Pooka ofrece un fuerte aumento en la dificultad. Superar esta mazmorra requiere una sólida comprensión de las mecánicas de combate, equipo mejorado y una coordinación adecuada del grupo.
+
+Antes de entrar, los jugadores deben optimizar su equipamiento en la plaza central. Cambiar a opciones de alto daño como la Espada de Titán o configuraciones de alta movilidad como la clase Duelista puede marcar una gran diferencia al enfrentarse a los grupos de enemigos en el interior.
+
+<Steps>
+  <Step num="1" title="Optimización de Equipo">
+    Visita al herrero de la plaza central para mejorar tus armas principales y armaduras al nivel más alto posible antes de entrar.
+  </Step>
+  <Step num="2" title="Abastecimiento de Consumibles">
+    Compra pociones de curación y potenciadores de estadísticas a los mercaderes locales para mantener tu salud durante los enfrentamientos prolongados con los jefes.
+  </Step>
+  <Step num="3" title="Formación del Grupo">
+    Reúne un equipo equilibrado que consista en un tanque de alta defensa, un sanador dedicado y distribuidores de daño constante.
+  </Step>
+  <Step num="4" title="Ejecución de la Estrategia del Jefe">
+    Concéntrate en esquivar los ataques indicados en el suelo y coordina las habilidades de control de masas para romper la postura del jefe durante las fases críticas.
+  </Step>
+</Steps>
+
+Las recompensas por completar la mazmorra Pooka incluyen conjuntos de armadura raros, materiales de mejora de alto nivel y armas exclusivas que no se pueden obtener mediante el farmeo estándar en el mundo abierto.
+
+| Nombre del Objeto | Tipo de Ranura | Estadística Principal | Fuente de Obtención |
+| --- | --- | --- | --- |
+| Placa de Caballero Pooka | Armadura de Pecho | Defensa Física | Jefe de Mazmorra |
+| Mandoble del Valle | Arma | Daño de Corte | Jefe de Mazmorra |
+| Botas de Paso de Viento | Pies | Velocidad de Movimiento | Cofre Raro de Mazmorra |
+| Anillo de Voluntad de Hierro | Accesorio | Vida Máxima | Cofre Común de Mazmorra |
+
+<Callout type="warning" title="Advertencia de la Mazmorra">
+Se desaconseja encarecidamente intentar la mazmorra Pooka en solitario para jugadores con equipo insuficiente. La densidad de enemigos cerca de la entrada puede abrumar rápidamente a los aventureros solitarios que carecen de habilidades de área de efecto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Herrero de la Plaza y Personalización de Equipamiento">
+
+El herrero ubicado en el ala este de la plaza Pooka es la piedra angular de la progresión del personaje en esta región. A diferencia de los mercaderes básicos, el herrero ofrece servicios especializados que permiten a los jugadores refinar sus armas, cambiar de clase y mejorar los niveles de su equipo. Invertir recursos en mejoras de armas es la forma más eficiente de aumentar tu daño, especialmente al prepararte para el contenido de alto nivel.
+
+Cambiar de armas con el herrero te permite probar diferentes estilos de juego. Por ejemplo, la transición de una build de Duelista de ritmo rápido a una build de Espada de Titán de golpe pesado cambia tus animaciones de ataque, alcance y capacidades defensivas.
+
+| Nivel de Mejora | Materiales Requeridos | Costo en Oro | Tasa de Éxito |
+| --- | --- | --- | --- |
+| Nivel 1 | Mineral de Hierro Común | 500 de Oro | 100% |
+| Nivel 2 | Acero Refinado | 1500 de Oro | 90% |
+| Nivel 3 | Cristal Pooka Raro | 5000 de Oro | 75% |
+| Nivel 4 | Núcleo Impecable | 15000 de Oro | 50% |
+
+Mejorar armas al Nivel 3 y más allá requiere Cristales Pooka, que solo se pueden farmear de monstruos de élite en los campos del norte u obtenerse como drops raros de la mazmorra local.
+
+<Callout type="tip" title="Gestión de Recursos">
+No desperdicies materiales de mejora de alto nivel en armas iniciales. Guarda tus Cristales Pooka para las armas obtenidas de los jefes de mazmorra para maximizar la eficiencia de tus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión Pooka">
+
+Para asegurarte de haber completado todo el contenido dentro de la región Pooka, utiliza la siguiente lista para realizar un seguimiento de tus hitos.
+
+<Checklist
+  id="pooka-progression"
+  title="Hitos de la Región Pooka:"
+  items={[
+    "Desbloquear el punto de aparición de la Plaza Central y hablar con el Herrero",
+    "Localizar y explorar la mansión del Alcalde en la terraza superior",
+    "Encontrar el cofre oculto en la cima de la Torre en Espiral del Norte",
+    "Mejorar al menos un arma principal al Nivel 2 con el herrero local",
+    "Completar una mazmorra del valle Pooka local con un grupo"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa por Hito">
+Completar todos los hitos regionales asegura que tu personaje esté completamente preparado para el contenido de alto nivel introducido en las zonas de escarcha del norte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre Pooka en Grand Alfheim">
+
+Para ayudar a los jugadores a navegar por esta región, aquí hay respuestas a las preguntas más comunes sobre el mapa de los Pooka y las mecánicas de raza.
+
+<FAQ items={[
+  {
+    question: "¿Cómo elijo la raza Pooka en Grand Alfheim?",
+    answer: "Puedes seleccionar la raza Pooka durante la pantalla de creación inicial del personaje. Ten en cuenta que esta decisión es permanente para esa ranura de personaje y no se puede cambiar más adelante."
+  },
+  {
+    question: "¿Dónde se encuentra el herrero en el mapa de Pooka?",
+    answer: "El herrero está ubicado en la sección este de la plaza central del castillo, justo al lado de la estación de cambio de armas."
+  },
+  {
+    question: "¿Están activas las ventajas raciales para la raza Pooka en 2026?",
+    answer: "Actualmente, todas las ventajas raciales están inactivas, ya que son puramente cosméticas durante la fase de acceso anticipado. Serán funcionales en una futura actualización de bloqueo de magia."
+  },
+  {
+    question: "¿Cuál es la mejor arma para usar en la mazmorra Pooka?",
+    answer: "La Espada de Titán es muy recomendada debido a su alto daño base y ataques de barrido, que ayudan a controlar los densos grupos de enemigos dentro de la mazmorra."
+  }
+]} />
+
+<Callout type="info" title="Soporte de la Comunidad">
+Para actualizaciones en tiempo real y asistencia para buscar grupo, únete a los canales oficiales de la comunidad para coordinar incursiones en mazmorras y compartir consejos de progresión con otros jugadores.
+</Callout>
+
+</Section>

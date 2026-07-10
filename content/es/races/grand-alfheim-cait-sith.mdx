@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cait Sith de Grand Alfheim: Guía de mecánicas de raza y exhibición del mapa",
+  description: "Domina la raza Cait Sith de Grand Alfheim, explora el territorio de Catsa y aprende a optimizar tus builds con habilidades de vuelo y doma de bestias.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cait+Sith+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cait Sith de Grand Alfheim**: Raza de hadas ligera que cuenta con una agilidad inigualable, vista mejorada y habilidades de doma únicas.
+- **Territorio de Catsa**: Una zona temática del desierto recientemente detallada que cuenta con estaciones de artesanía esenciales y alcaldes de facciones.
+- **Mecánicas de combate**: Las cadenas de ataque M1 mejoradas y los sistemas de vuelo más fluidos hacen que los Cait Sith sean muy competitivos en 2026.
+- **Pasiva única**: La única raza capaz de utilizar la doma de monstruos para desplegar compañeros de batalla.
+</Callout>
+
+<Section icon={Map} title="Explorando el territorio de Catsa en Grand Alfheim">
+
+La raza Cait Sith de Grand Alfheim comienza su viaje en el territorio de Catsa recientemente optimizado. Esta región presenta un tema desértico distintivo, compartiendo similitudes estéticas con la Ciudad de los Salamandras (Salamander Town). El entorno ha sido diseñado para simplificar la progresión al inicio del juego, proporcionando a los jugadores acceso inmediato a estaciones de artesanía esenciales y NPCs de facción.
+
+**Puntos destacados del video:**
+- Recorrido detallado de la arquitectura de la ciudad de Catsa con temática del desierto.
+- Demostración de las animaciones de vuelo y ataque M1 recientemente actualizadas y más fluidas.
+- Ubicaciones de la herrería local y la oficina del alcalde.
+
+<YouTubeEmbed videoId="gkiDTZ7BlXo" title="CAIT SITH GOT A MINI REVAMP!! | Grand Alfheim" />
+
+La ciudad sirve como un centro vital para los jugadores que buscan forjar armas, establecer puntos de reaparición o cocinar comida. Aunque los jugadores no pueden entrar a los edificios residenciales individuales, el diseño de mundo abierto garantiza que todos los NPCs de utilidad sean fácilmente accesibles.
+
+| Ubicación | NPC clave / Característica | Función principal |
+| --- | --- | --- |
+| Centro de la ciudad | Hoguera | Cocinar comida y restaurar salud |
+| Herrería | Herrero | Fabricar y mejorar armas de facción |
+| Mansión del Alcalde | Alcalde | Registro de puntos de reaparición y misiones de facción |
+| Borde del oasis | Fuente de agua | Pescar y recolectar recursos líquidos |
+
+<Callout type="tip" title="Consejo de navegación">
+Usa el sistema de marcadores amarillos en el territorio de Catsa para localizar rápidamente la Mansión del Alcalde. Registrar tu punto de reaparición aquí garantiza que no pierdas el progreso al aventurarte en el desierto circundante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades raciales y estadísticas de Cait Sith">
+
+Elegir la raza Cait Sith de Grand Alfheim otorga acceso a un conjunto específico de habilidades pasivas y activas. Conocida como una de las clases ligeras, esta raza destaca en escaramuzas de alta velocidad, movimiento vertical y precisión a larga distancia.
+
+<CardGrid cols={3}>
+  <Card title="Vista mejorada">
+    - **Precisión a larga distancia**
+    - Ideal para builds de arquero
+    - HUD de apuntado extendido
+  </Card>
+  <Card title="Pasiva de correr por la pared">
+    - **Alta movilidad vertical**
+    - Recorre hasta 30 metros
+    - Evita peligros en el suelo
+  </Card>
+  <Card title="Doma de monstruos">
+    - **Invoca aliados de batalla**
+    - Tasa del 0% en jefes de tipo dios maligno
+    - Escala pasivamente con el nivel
+  </Card>
+</CardGrid>
+
+La mecánica distintiva de los Cait Sith es su capacidad exclusiva para domar monstruos. Aunque los jefes de alto nivel no se pueden domar, los monstruos estándar del desierto se pueden reclutar para atraer la atención del enemigo (aggro) o infligir daño adicional durante la progresión en solitario.
+
+| Habilidad | Rendimiento base | Potencial máximo | Estadística principal |
+| --- | --- | --- | --- |
+| Vuelo | Velocidad estándar | Alto escalado de agilidad | Destreza |
+| Correr por la pared | 10 metros de distancia | 30 metros de distancia | Agilidad |
+| Vista | +15% de precisión de rango | +30% de precisión de rango | Percepción |
+| Doma | Bestias de nivel 1 | Bestias de nivel 3 | Carisma |
+
+<Callout type="warning" title="Advertencia de sensibilidad">
+En el lore oficial, la cola y las orejas de un Cait Sith son apéndices muy sensibles. Aunque esto no reduce directamente tus estadísticas defensivas en el juego, tirar o fijar como objetivo estas áreas en PvP puede provocar animaciones de tambaleo temporal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión paso a paso del Cait Sith">
+
+Para maximizar el potencial de tu personaje Cait Sith de Grand Alfheim, sigue esta ruta de progresión estructurada. Esto te asegura desbloquear las mecánicas de vuelo esenciales y las mejoras de armas de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Reaparecer en el territorio de Catsa">
+    Localiza el marcador amarillo en la ciudad del desierto para encontrar al Alcalde. Registra tu punto de reaparición inmediatamente para establecer tu base de operaciones.
+  </Step>
+  <Step num="2" title="Mejorar armas iniciales">
+    Reúne materiales básicos en las afueras del desierto y visita al Herrero local para fabricar tu primera arma de facción especializada.
+  </Step>
+  <Step num="3" title="Dominar las mecánicas de vuelo">
+    Practica el sistema de vuelo recientemente renovado. Combina el vuelo con los ataques básicos M1 para ejecutar combos aéreos fluidos y sin interrupciones.
+  </Step>
+  <Step num="4" title="Domar a tu primer compañero">
+    Aventúrate en los valles cercanos para localizar bestias de nivel bajo. Usa tu habilidad racial de doma para asegurar un compañero para el farmeo en solitario.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de combate">
+La gran agilidad de los Cait Sith los convierte en candidatos perfectos para builds de doble empuñadura o de arco. Evita las configuraciones de armadura pesada que penalizan tu distancia natural de correr por la pared.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de mapas de facciones">
+
+Comprender cómo se compara el territorio de los Cait Sith con otras regiones en Grand Alfheim es crucial para el comercio, los viajes y la planificación de PvP. La siguiente tabla describe las diferencias geográficas y estructurales entre los principales territorios.
+
+| Territorio | Raza dominante | Tema ambiental | Ventaja principal |
+| --- | --- | --- | --- |
+| Catsa | Cait Sith | Desierto árido | Estructuras verticales altas para correr por la pared |
+| Freelia | Cait Sith / Pooka | Bosque del valle | Abundantes objetivos de doma de bestias |
+| Alne | Neutral / Árbol del Mundo | Ruinas antiguas | Centro neurálgico para mejoras de alto nivel |
+| Ciudad de los Salamandras | Salamandra | Desierto volcánico | Estaciones de herrería de alto nivel |
+
+<Callout type="info" title="Navegación mundial">
+La capital de los Cait Sith, Freelia, limita con el territorio de los Pooka al norte y el territorio de los Sylph al sur, lo que la convierte en un corredor estratégico muy disputado durante las guerras de facciones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión del Cait Sith">
+
+Sigue el desarrollo de tu personaje con esta lista de verificación de hitos esenciales. Completar estos objetivos garantiza que tu personaje esté completamente optimizado para las guerras de gremios y mazmorras del juego tardío.
+
+<Checklist
+  id="cait-sith-milestones"
+  title="Objetivos esenciales de progresión:"
+  items={[
+    "Desbloquear la distancia máxima de 30 metros para correr por la pared",
+    "Domar a un compañero de combate de nivel 2 o superior",
+    "Fabricar un arma de facción especializada en la herrería de Catsa",
+    "Dominar la cadena de combos de ataque aéreo M1",
+    "Alcanzar la capacidad máxima de velocidad de vuelo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puede la raza Cait Sith de Grand Alfheim domar monstruos jefe?",
+    answer: "No, los Cait Sith son incapaces de domar monstruos de tipo dios maligno o jefes de mazmorras principales. La tasa de éxito de doma para estos enemigos de alto nivel está bloqueada en 0%."
+  },
+  {
+    question: "¿Cómo beneficia el sistema de vuelo renovado a los Cait Sith?",
+    answer: "La mini-renovación de 2026 suavizó significativamente las transiciones de vuelo y las cadenas de ataques básicos M1, lo que permite a los jugadores Cait Sith tejer maniobras aéreas en sus rotaciones de combate sin perder impulso."
+  },
+  {
+    question: "¿Dónde se encuentra el Alcalde en el territorio de Catsa?",
+    answer: "El Alcalde se encuentra dentro del edificio central marcado por un prominente marcador de punto de ruta amarillo en la ciudad de Catsa, de temática desértica."
+  },
+  {
+    question: "¿Qué armas funcionan mejor con la raza Cait Sith?",
+    answer: "Debido a su vista mejorada y su alta agilidad, los arcos y las dagas duales ligeras son las opciones más óptimas, lo que permite a los jugadores utilizar sus bonificaciones de estadísticas raciales de manera efectiva."
+  }
+]} />
+
+</Section>

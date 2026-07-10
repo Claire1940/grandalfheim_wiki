@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Acceso Anticipado de Grand Alfheim: Configuración para Principiantes y Ruta de Progresión",
+  description: "Domina la fase de acceso anticipado de Grand Alfheim. Descubre las mejores razas iniciales, clases de armas, rutas de nivelación y estrategias para la mazmorra del Templo de los Comienzos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/06b6d4?text=Early+Access+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Dominar las mecánicas principales de la demo pública del **acceso anticipado de Grand Alfheim**, incluyendo el vuelo, el combate y las mazmorras.
+- **Elección de Raza**: Salamander, Sylph y Undine representan las opciones más fuertes para daño, velocidad y apoyo grupal.
+- **Clase Inicial**: Selecciona Espadachín o Maestro Arquero en el herrero para una experiencia de progresión temprana equilibrada y segura.
+- **Hito Clave**: Alcanza el nivel 10 para desafiar el Templo de los Comienzos y farmear tus primeros conjuntos de armas Épicas y Legendarias.
+- **Enfoque de Juego Tardío**: Agrúpate en el nivel 50+ para conquistar la mazmorra cronometrada Oda al Abismo y obtener equipo Mítico.
+</Callout>
+
+<Section icon={Map} title="Resumen del Acceso Anticipado de Grand Alfheim">
+
+La fase de **acceso anticipado de Grand Alfheim**, que funciona oficialmente como una demo pública previa al lanzamiento desde julio de 2026, introduce a los jugadores en un enorme mundo de fantasía inspirado en Sword Art Online. En este MMORPG de Roblox de mundo abierto, los jugadores exploran extensos territorios raciales, participan en vuelos aéreos de alta velocidad, dominan clases basadas en armas y se enfrentan a desafiantes mazmorras PvE.
+
+Para comenzar tu viaje, revisa los hitos principales de la fase de acceso anticipado. Establecer la configuración de tu personaje desde temprano garantiza que no desperdicies recursos de progresión.
+
+**Puntos Destacados del Video:**
+- **Exhibición Visual**: Explora los entornos de mundo abierto y las mecánicas de vuelo a través de los territorios raciales.
+- **Mecánicas de Combate**: Observa bloqueos, parries y combinaciones de habilidades en tiempo real.
+- **Vista Previa de Mazmorras**: Recorre los caminos y las salas de puzles de la primera mazmorra importante.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Pasando 24 Horas En Grand Alfheim" />
+
+### Hitos de la Fase de Acceso Anticipado
+
+| Fase de Desarrollo | Características Clave Introducidas | Estado Actual |
+| :--- | :--- | :--- |
+| **Fase 2** | Monturas de caballos, vuelo racial, soporte de vuelo móvil, iluminación dinámica | Lanzado |
+| **Fase 3** | Selección de clase en el herrero, interfaz de enfriamiento de habilidades, mejoras en el feedback del parry | Lanzado |
+| **Fase 5** | Expansión de clases de armas, pruebas de equilibrio, ajustes en la velocidad de las armas | Lanzado |
+| **Fase 6** | Renovación del territorio Gnome, sistemas de hambre/cocina, botines avanzados | Lanzado |
+| **Demo Pública** | Evento Summer 2X Drops, progresión en la Sala Blanca, soporte para PC/Móvil/Consola | Activo |
+
+<Callout type="tip" title="Evento de Drops x2">
+Aprovecha el evento de Drops x2 de la demo pública activa para farmear conjuntos de armas raras del Templo de los Comienzos mucho más rápido que las tasas estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Selección de Raza y Lista de Niveles">
+
+Seleccionar tu raza es la primera decisión que tomas en la demo del **acceso anticipado de Grand Alfheim**. Hay nueve razas de hadas distintas, cada una vinculada a un elemento mágico único y una especialidad pasiva. Si bien todas las razas son viables, algunas proporcionan una utilidad significativamente mayor durante las misiones en solitario iniciales y la progresión de mazmorras en el juego tardío.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Mejores Opciones">
+    - **Salamander**: Magia de Fuego. Ideal para builds de combate cuerpo a cuerpo puramente ofensivas.
+    - **Sylph**: Magia de Viento. Excelente velocidad de movimiento y exploración del mundo.
+    - **Undine**: Magia de Agua/Curación. Esencial para el sustento del grupo y la supervivencia en mazmorras.
+  </Card>
+  <Card title="Nivel A: Especialistas Fuertes">
+    - **Cait Sith**: Magia de Invocación. Doma bestias y cuenta con una alta velocidad base.
+    - **Spriggan**: Magia de Ilusión. Utilidad táctica y beneficios de búsqueda de tesoros.
+    - **Pooka**: Magia Musical. Interrumpe a los enemigos y mejora el rendimiento del grupo.
+  </Card>
+  <Card title="Nivel B: Utilidad Focalizada">
+    - **Gnome**: Magia de Tierra. Muy duradero, diseñado para roles de tanque defensivo.
+    - **Imp**: Magia de Maldición. Beneficios de visión nocturna y debuffs de estadísticas enemigas.
+    - **Leprechaun**: Magia de Rayo. Bonificaciones de artesanía y estética de alas mecánicas.
+  </Card>
+</CardGrid>
+
+### Especializaciones de Raza y Magia
+
+| Raza | Magia Asociada | Especialidad Primaria | Estilo de Juego Ideal |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Magia de Fuego | Daño directo en combate | DPS Melé Agresivo |
+| **Sylph** | Magia de Viento | Velocidad de movimiento y reposicionamiento | Kiting de Alta Movilidad |
+| **Undine** | Agua y Curación | Recuperación de salud grupal y sustento | Soporte / Sanador Dedicado |
+| **Cait Sith** | Magia de Invocación | Doma de bestias y exploración | Combate Basado en Mascotas |
+| **Spriggan** | Magia de Ilusión | Engaño táctico y saqueo | Utilidad y Farmeo de Oro |
+| **Pooka** | Magia Musical | Interrupción enemiga y mejoras a aliados | Soporte de Control de Masas |
+| **Gnome** | Magia de Tierra | Alta defensa y resistencia a masas | Tanque de Primera Línea |
+| **Imp** | Magia de Maldición | Debuffs y visión nocturna | DPS de Efectos de Estado |
+| **Leprechaun** | Magia de Rayo | Herrería y creación de equipo | Especialista en Artesanía |
+
+<Callout type="warning" title="La Selección de Raza es Permanente">
+Las razas no se pueden cambiar fácilmente una vez confirmadas. Si deseas experimentar un árbol de magia racial diferente, deberás crear un nuevo personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases de Armas y Builds">
+
+En Grand Alfheim, tu rol de combate está determinado por tu arma equipada en lugar de una elección de clase bloqueada. Puedes seleccionar tu clase de arma inicial en la forja o el herrero. Si decides cambiar tu estilo de lucha más adelante, simplemente regresa a un herrero para equipar un tipo de arma diferente sin perder tu progresión de nivel general.
+
+### Perfiles de Combate de Clase
+
+| Clase | Tipo de Arma | Estadística Principal | Estilo de Combate | Recomendado Para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espadachín** | Espada | FUERZA | Combos equilibrados a corta distancia | Principiantes y Juego Solo |
+| **Maestro Arquero** | Arco y Munición | DESTREZA | Kiting de largo alcance y disparos cargados | DPS PvE Seguro |
+| **Pugilista** | Guanteletes | FUERZA | Ataques de puño rápidos y continuos | Combate Melé Rápido |
+| **Asesino** | Dagas | DEST/FUER | Estocadas rápidas y presión por veneno | PvP y Daño de Ráfaga |
+| **Hoja Titán** | Espadón | FUERZA | Barridos de área lentos y pesados | DPS de Área Grupal |
+| **Égida** | Gran Escudo | FUERZA | Bloqueo, desvío y tanqueo | Tanques de Mazmorra |
+| **Duelista** | Estoque | DESTREZA | Estocadas rápidas y contraataques precisos | Duelistas PvP Móviles |
+
+<Callout type="info" title="Asignación del Árbol de Habilidades">
+Enfoca tus puntos de habilidad iniciales en unas pocas habilidades activas muy utilizadas en tu árbol de armas en lugar de repartir los puntos en muchas ramas. Desarrolla tu árbol de magia racial junto con tus habilidades de armas para integrar hechizos elementales en tus combos cuerpo a cuerpo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión Paso a Paso para Principiantes">
+
+Para subir de nivel de manera eficiente durante la fase de **acceso anticipado de Grand Alfheim**, sigue este camino de progresión estructurado. Esta ruta te guía desde la creación del personaje hasta completar tu primera mazmorra importante.
+
+<Steps>
+  <Step num="1" title="Creación y Configuración del Personaje">
+    Elige una raza que se adapte a tu estilo de juego preferido (por ejemplo, Salamander para DPS, Undine para Soporte). Personaliza tu apariencia, completa el breve tutorial inicial para aprender los movimientos básicos y abre tu menú principal con la **tecla M** para inspeccionar tu hoja de personaje.
+  </Step>
+  <Step num="2" title="Selecciona tu Clase Inicial">
+    Localiza al herrero o forja más cercano. Elige tu clase de arma inicial. Recomendamos encarecidamente comenzar con el **Espadachín** o el **Maestro Arquero** para aprender las animaciones de ataque de los enemigos de forma segura. Equipa el arma inicial gratuita proporcionada por el herrero.
+  </Step>
+  <Step num="3" title="Completa Misiones Principales y Secundarias">
+    Sigue la línea de misiones principales a través de tu territorio inicial. Recoge misiones secundarias de los NPCs en el camino para maximizar tus ganancias de experiencia y oro. Derrota enemigos cercanos a tu nivel; luchar contra monstruos de nivel muy superior ralentiza tu velocidad de progresión.
+  </Step>
+  <Step num="4" title="Domina el Vuelo y las Monturas">
+    Presiona la **tecla V** para activar tus alas raciales. Practica el vuelo, ya que la navegación vertical es esencial para llegar a áreas de misiones de mayor nivel. Para viajar por tierra a través de territorios grandes y planos, presiona la **tecla H** para invocar tu montura equipada.
+  </Step>
+  <Step num="5" title="Conquista el Templo de los Comienzos">
+    Una vez que alcances el nivel 10, dirígete al Templo de los Comienzos (accesible desde los territorios Salamander, Undine y Gnome). Elige la ruta de parkour de la izquierda para evitar monstruos menores, o la ruta de combate de la derecha para obtener experiencia extra. Resuelve el puzle del cubo para enfrentarte al jefe final, el **Dragón de Hueso**, y farmear equipo Épico y Legendario.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Preparación para la Mazmorra">
+Abastécete siempre de objetos curativos antes de entrar al Templo de los Comienzos. Si tienes dificultades con las secciones de parkour o combate, forma un grupo con otros jugadores en el área para compartir el aggro del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mazmorras, Jefes y Tablas de Botín">
+
+La progresión final en Grand Alfheim gira en torno a completar mazmorras instanciadas y derrotar jefes mundiales. Cada encuentro importante ofrece conjuntos de armadura exclusivos y armas poderosas que aumentan el poder de combate de tu personaje.
+
+### Encuentros con Jefes Principales y Botines
+
+| Encuentro | Nivel Recomendado | Ubicación / Detalles de Entrada | Recompensas de Botín Notables |
+| :--- | :--- | :--- | :--- |
+| **Treant (Minijefe)** | Nivel 10+ | Dentro del Templo de los Comienzos | Garras de Sabueso Gruñón, Conjunto Soberano Verdante |
+| **Dragón de Hueso (Jefe)** | Nivel 10+ | Arena Final, Templo de los Comienzos | Filo de la Noche, Réquiem de Obsidiana, Conjunto de Placas del Caballero Azur |
+| **Sátiro (Jefe Mundial)** | Nivel 20+ | Territorio Salamander | Hacha de Abordaje de Hierro, Conjunto de Regalía de la Corona de Sangre (+820 HP) |
+| **Oda al Abismo** | Nivel 50+ | Territorio Gnome (Entrada Cronometrada) | Filo de Runa del Vacío, Arco Segador Nocturno, Pacto Abismal |
+
+<Callout type="warning" title="Ventana de Entrada a Oda al Abismo">
+La entrada encadenada a la mazmorra de nivel 50, Oda al Abismo, solo se abre dos veces al día a las **12:00 AM y 12:00 PM hora del Este** durante una estricta ventana de entrada de 10 minutos. Asegúrate de que tu grupo esté reunido y esperando afuera antes de que se abra la puerta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos del Acceso Anticipado">
+
+Usa esta lista para seguir los logros de tu personaje y asegurarte de estar completamente preparado para el contenido grupal de alto nivel en la versión actual.
+
+<Checklist
+  id="early-access-goals"
+  title="Hitos de Grand Alfheim:"
+  items={[
+    "Completa el tutorial inicial y elige una clase de arma en la forja",
+    "Alcanza el nivel 10 y desbloquea tu primer hechizo de magia racial",
+    "Completa el Templo de los Comienzos y obtén un conjunto completo de Placas del Caballero Azur",
+    "Derrota al jefe mundial Sátiro en el territorio Salamander para obtener el conjunto de Regalía de la Corona de Sangre",
+    "Alcanza el nivel 50 y coordina un grupo para la incursión en la mazmorra Oda al Abismo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo accedo a la demo pública del acceso anticipado de Grand Alfheim?",
+    answer: "Puedes jugar la demo pública directamente en la plataforma oficial de Roblox. La experiencia es compatible con PC, dispositivos móviles y consolas con diseños de HUD táctiles y de controlador totalmente integrados."
+  },
+  {
+    question: "¿Puedo cambiar mi clase después de elegir una en el herrero?",
+    answer: "Sí. Las clases están vinculadas directamente a tu arma equipada. Puedes regresar a cualquier forja o herrero en cualquier momento para cambiar de arma y probar un nuevo estilo de combate sin reiniciar el nivel de tu personaje."
+  },
+  {
+    question: "¿Cuál es la mejor raza para subir de nivel en solitario en Grand Alfheim?",
+    answer: "Sylph es muy recomendada para jugadores en solitario debido a su magia de viento y su velocidad de movimiento superior, lo que hace que las misiones y los viajes sean mucho más rápidos. Salamander también es excelente si prefieres el combate cuerpo a cuerpo de alto daño."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de las torres en la mazmorra Oda al Abismo?",
+    answer: "Durante la fase de salud baja del jefe final, se activarán cuatro torres alrededor de la arena. Tu grupo debe dividirse y destruir las cuatro torres rápidamente para evitar que el jefe regenere salud y elimine a tu equipo."
+  }
+]} />
+
+</Section>
