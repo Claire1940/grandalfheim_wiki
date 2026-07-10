@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Flame, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Salamander de Grand Alfheim: Guía de Build 2026 y Clasificación de Raza",
+  description: "Domina la raza Salamander de Grand Alfheim con nuestra guía sobre magia de fuego, las mejores clases de combate, farmeo del jefe Sátiro y builds ofensivas de nivel S.",
+  category: "Races",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Salamander+Race+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "salamander, grand alfheim, guía, build, magia de fuego, sátiro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Salamander de Grand Alfheim** es una raza ofensiva de nivel S especializada en **Magia de Fuego** y combate cuerpo a cuerpo de alta presión.
+- **Estadística Principal**: Enfócate en **STR (Fuerza)** para maximizar el impacto de las armas pesadas y las rotaciones de habilidades agresivas.
+- **Mejores Clases**: Las clases **Titanblade**, **Berserker** y **Pugilist** son las que mejor sinergia tienen con la identidad orientada al daño del Salamander.
+- **Ubicación Clave**: El territorio Salamander alberga al minijefe **Sátiro**, una fuente vital para obtener armaduras que aumentan la salud en el juego temprano.
+- **Consejo de Progresión**: Usa la entrada Salamander al **Templo de los Comienzos** en el nivel 10 para farmear el conjunto de Placa de Caballero Azur.
+</Callout>
+
+<Section icon={Sparkles} title="Identidad del Salamander de Grand Alfheim">
+
+Elegir la raza **Salamander de Grand Alfheim** es la opción preferida para los jugadores que priorizan el daño bruto y el dominio de la línea del frente. En el meta actual de 2026, los Salamanders están clasificados como una raza de nivel S debido a su presión directa en combate y la versatilidad de la Magia de Fuego tanto en escenarios PvE como PvP. Distinguidos visualmente por sus vibrantes alas rojas y su estética temática de fuego, representan la más agresiva de las nueve razas de hadas en Grand Alfheim.
+
+**Puntos Destacados del Video:**
+- Descripción general del territorio inicial Salamander y mecánica de vuelo.
+- Demostración de combos de Magia de Fuego combinados con cadenas de armas cuerpo a cuerpo.
+- Rutas de misiones iniciales específicamente para nuevos jugadores Salamander.
+- Muestra visual del diseño único de alas del Salamander y su velocidad de vuelo.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Pasando 24 Horas en Grand Alfheim" />
+
+La identidad racial del Salamander se construye en torno al concepto de "La Hoja de Fuego". A diferencia del Undine centrado en el apoyo o el Sylph centrado en la movilidad, el Salamander prospera en el calor de la batalla. Su magia asociada permite el daño por quemadura en área de efecto (AoE), lo que los hace excepcionalmente eficientes para limpiar grupos de enemigos durante las fases iniciales de nivelación.
+
+<Callout type="tip" title="Visión de Combate">
+Cuando juegues como Salamander, no juegues a la defensiva. Tu pasiva racial y tus árboles de magia están diseñados para recompensar la agresión continua. Usa tu Magia de Fuego para debilitar a los objetivos antes de cerrar la distancia con un rematador cuerpo a cuerpo pesado.
+</Callout>
+
+| Atributo | Calificación | Descripción |
+|-----------|--------|-------------|
+| **Poder Ofensivo** | ★★★★★ | El mayor potencial de daño base entre todas las razas. |
+| **Utilidad Mágica** | ★★★★☆ | Fuertes efectos de AoE y daño en el tiempo (DoT). |
+| **Supervivencia** | ★★★☆☆ | Depende de grandes reservas de salud en lugar de hechizos defensivos. |
+| **Movilidad** | ★★★☆☆ | Velocidad de vuelo estándar con costes de estamina promedio. |
+| **Valor de Grupo** | ★★★★☆ | Infligidor de daño principal y presión en la línea frontal. |
+
+</Section>
+
+<Section icon={Flame} title="Magia de Fuego y Sinergia de Habilidades">
+
+El núcleo de la experiencia del **Salamander de Grand Alfheim** es el dominio de la Magia de Fuego. Este árbol de magia no es solo para ataques a distancia; está diseñado para entrelazarse con los combos de armas de tu clase. En la demo pública de 2026, los jugadores han descubierto que los efectos de "Ignición" pueden acortar significativamente la duración de las peleas contra jefes al proporcionar un daño constante mientras el jugador gestiona la estamina o se reposiciona.
+
+| Habilidad Mágica | Req. Nivel | Descripción del Efecto | Rol en Combate |
+|-------------|-----------|--------------------|-------------|
+| **Bola de Fuego** | 1 | Proyectil básico a distancia con pequeño daño por salpicadura. | Atraer enemigos / Pokeo a distancia |
+| **Estallido de Llama** | 12 | Explosión circular de AoE centrada en el jugador. | Control de masas / Farmeo de grupos |
+| **Ignición** | 20 | Encanta el arma equipada con fuego durante 30 segundos. | Aumento de DPS cuerpo a cuerpo sostenido |
+| **Carrera Ardiente** | 35 | Una embestida hacia adelante que deja un rastro de fuego. | Acortador de distancia / Movilidad |
+| **Infierno** | 50 | Tormenta de fuego masiva en AoE con alto coste de maná. | Daño de ráfaga para jefes finales |
+
+Los Salamanders deben enfocarse en desarrollar su árbol de magia junto con el árbol de su clase. Por ejemplo, usar Estallido de Llama después de un parry exitoso puede castigar a múltiples enemigos cercanos mientras están aturdidos. Esta sinergia es lo que convierte al Salamander en el rey de la ruta de monstruos del "Templo de los Comienzos", donde la densidad de enemigos es alta.
+
+<Callout type="warning" title="Gestión de Estamina">
+La Magia de Fuego consume una cantidad significativa de maná, pero los ataques cuerpo a cuerpo agresivos consumen estamina. Equilibra tu build para asegurar que no agotes ambos recursos simultáneamente, lo que te dejaría incapaz de esquivar o bloquear.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Builds de Clase para Salamanders">
+
+Para maximizar el potencial de un **Salamander de Grand Alfheim**, debes elegir una clase que complemente la alta Fuerza (STR) y el posicionamiento agresivo. Aunque técnicamente cualquier raza puede jugar cualquier clase, las siguientes tres opciones se consideran las elecciones del "Meta" para los main Salamander en 2026.
+
+<CardGrid cols={3}>
+  <Card title="El Titanblade">
+    - **Estadística Principal**: STR
+    - **Arma**: Espadón
+    - **Estilo**: Golpes lentos y pesados que se benefician del poder bruto del Salamander.
+    - **Sinergia**: Usa Ignición para añadir daño por quemadura a los ataques lentos de alto impacto.
+  </Card>
+  <Card title="El Berserker">
+    - **Estadística Principal**: STR / DEX
+    - **Arma**: Cuerpo a cuerpo pesado
+    - **Estilo**: Juego de alto riesgo y alta recompensa centrado en la presión sostenida.
+    - **Sinergia**: Los potenciadores de fuego raciales ayudan a acabar con los enemigos antes de que puedan contraatacar.
+  </Card>
+  <Card title="El Pugilist">
+    - **Estadística Principal**: STR
+    - **Arma**: Guanteletes
+    - **Estilo**: Combos rápidos a corta distancia con distancia cero del objetivo.
+    - **Sinergia**: Estallido de Llama es perfecto para despejar espacio durante los combos de puños.
+  </Card>
+</CardGrid>
+
+Para aquellos que buscan un enfoque más equilibrado, la clase **Espadachín** ofrece un punto medio confiable. Permite ventanas de parry más rápidas y un movimiento más flexible, lo cual puede ser útil si encuentras que las animaciones del Titanblade son demasiado lentas para ciertas fases de jefes.
+
+<Callout type="success" title="Consejo Pro de Build">
+Si tienes problemas con la supervivencia, equipa el **Conjunto de Regalía de Corona de Sangre**. Proporciona un bono masivo de **+820 HP**, lo que permite a un Salamander permanecer en el fragor de la batalla contra un jefe por mucho más tiempo sin necesidad de retirarse y curarse.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Territorio Salamander y Ruta de Nivelación">
+
+Progresar como un **Salamander de Grand Alfheim** implica utilizar los recursos únicos de tu territorio natal y los encuentros con jefes. La región Salamander no es solo una zona de inicio; es un centro para equipo esencial de mitad de juego y la entrada principal a la primera mazmorra importante del juego.
+
+<Steps>
+  <Step num="1" title="La Forja y Primeras Misiones">
+    Comienza en la capital Salamander. Visita inmediatamente al Herrero para seleccionar tu clase inicial (se recomienda Titanblade o Espadachín). Completa todas las misiones locales de entrega y caza para alcanzar el nivel 5.
+  </Step>
+  <Step num="2" title="Farmeo del Jefe Sátiro">
+    Una vez que alcances el nivel 8, localiza al minijefe **Sátiro** en las tierras salvajes Salamander. Este jefe es la fuente principal del **Conjunto de Regalía de Corona de Sangre**. Farmea este jefe hasta tener el conjunto completo para un aumento importante de HP.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos">
+    Al nivel 10, dirígete a la entrada Salamander del **Templo de los Comienzos**. Elige la "Ruta de Monstruos" para maximizar tu potencial de AoE de Magia de Fuego y farmear la espada **Filo de la Noche** o la armadura **Placa de Caballero Azur**.
+  </Step>
+  <Step num="4" title="Expansión a Otras Tierras">
+    Después de derrotar al Dragón de Hueso en el nivel 15-20, usa tus alas para volar hacia los territorios Gnome o Undine. Continúa tu línea de misiones principal mientras mejoras tu Magia de Fuego al nivel de "Ignición".
+  </Step>
+</Steps>
+
+El jefe Sátiro es particularmente importante porque suelta el **Hacha de Abordaje de Hierro**, una poderosa arma de STR para el juego temprano que puede llevar a un Salamander a través de los primeros 15 niveles con facilidad.
+
+| Jefe | Ubicación | Nivel Recomendado | Botines Clave |
+|------|----------|-------------------|-----------|
+| **Sátiro** | Tierras Salvajes Salamander | 8-12 | Conjunto Corona de Sangre, Hacha de Abordaje de Hierro |
+| **Treant** | Templo (Interior) | 12-15 | Conjunto Soberano Verdante |
+| **Dragón de Hueso** | Templo (Final) | 15+ | Filo de la Noche, Réquiem de Obsidiana |
+
+<Callout type="info" title="Navegación por el Territorio">
+El territorio Salamander tiene una gran verticalidad. Vigila siempre tu barra de estamina mientras vuelas (tecla V). Si te quedas sin estamina sobre lava o acantilados altos, recibirás un daño significativo por caída o ambiental.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y Preparación para el Endgame">
+
+A medida que te acercas al nivel 50 y te preparas para **Oda al Abismo**, tu equipo debe pasar de equipo básico de "Hierro" a objetos de nivel Mítico. Para un **Salamander de Grand Alfheim**, tu objetivo es maximizar tus estadísticas de "Daño de Fuego" y "Fuerza" a través de conjuntos de equipo especializados.
+
+<Checklist
+  id="salamander-milestones"
+  title="Lista de Verificación de Progresión Salamander:"
+  items={[
+    "Obtener el Conjunto de Regalía de Corona de Sangre del jefe Sátiro",
+    "Alcanzar el nivel 20 en el árbol de habilidades de Magia de Fuego",
+    "Completar el Templo de los Comienzos en solitario usando una clase basada en STR",
+    "Adquirir el Réquiem de Obsidiana (Legendario) para DPS de mitad de juego",
+    "Unirse a un grupo de nivel 50+ para la mazmorra Oda al Abismo"
+  ]}
+/>
+
+En el endgame, se espera que los Salamanders sean los "Rompe-escudos" principales. Muchos jefes de alto nivel tienen barras defensivas que son vulnerables a ataques de STR de alto impacto y daño por quemadura persistente. Al mantener tu potenciador de Ignición y cronometrar tus habilidades pesadas de clase, puedes proporcionar la presión necesaria para abrir a un jefe a una ráfaga de todo el grupo.
+
+| Objeto de Endgame | Fuente | Tipo | Beneficio para Salamander |
+|--------------|--------|------|------------------------|
+| **Filo de Runa del Vacío** | Oda al Abismo | Espada | Escalamiento masivo de STR y sinergia oscuro/fuego. |
+| **Quijada Sombría** | Oda al Abismo | Cuerpo a cuerpo pesado | El mejor en su clase para builds de Berserker. |
+| **Pacto Abisal** | Oda al Abismo | Armadura | Alta resistencia y potenciadores de daño. |
+
+<Callout type="tip" title="Consejo Final">
+No olvides aprovechar el **evento de Doble Botín de Verano 2026** si está activo. Es el mejor momento para farmear al Sátiro por el conjunto Corona de Sangre, ya que las tasas de aparición de componentes de rareza Mítica aumentan significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es la raza Salamander buena para jugadores en solitario?",
+    answer: "Sí. Debido a su alta producción de daño y su Magia de Fuego en AoE, los Salamanders pueden completar misiones y farmear enemigos mucho más rápido que las razas orientadas al apoyo, lo que los hace excelentes para la progresión en solitario."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para nivelar un Salamander del 1 al 15?",
+    answer: "Comienza en la capital Salamander, farmea los campos locales hasta el nivel 8, luego muévete al área del jefe Sátiro. Al nivel 10, el Templo de los Comienzos se convierte en tu lugar principal de nivelación."
+  },
+  {
+    question: "¿Puede un Salamander usar Magia de Curación?",
+    answer: "Aunque técnicamente puedes aprender hechizos compartidos básicos, los Salamanders no tienen la afinidad racial por la curación que poseen los Undines. Es mejor confiar en pociones y grandes reservas de salud."
+  },
+  {
+    question: "¿Cuál es la mejor estadística secundaria para un Salamander?",
+    answer: "Después de STR, invierte en Estamina o Salud. Debido a que el combate del Salamander es agresivo e implica ataques con armas pesadas, tener una gran reserva de estamina es vital para mantener la presión."
+  }
+]} />
+
+</Section>

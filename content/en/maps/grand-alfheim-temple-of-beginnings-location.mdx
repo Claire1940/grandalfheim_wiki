@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim Temple of Beginnings Location: Entrance & Boss Guide",
+  description: "Find the Grand Alfheim Temple of Beginnings location with our guide. Explore entrance points, boss mechanics, and the complete loot table for 2026.",
+  category: "Maps",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Temple+of+Beginnings+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand Alfheim Temple of Beginnings Location**: Accessible via portals in the **Salamander**, **Undine**, and **Gnome** territories for players level 10 and above.
+- **Dungeon Routes**: Choose the **Left Path** for parkour-heavy navigation or the **Right Path** for monster-focused combat training.
+- **Core Puzzle**: Players must locate and place cubes on matching **Angel and Demon altars** to unlock the final boss portal.
+- **Final Boss**: The **Bone Dragon** requires high mobility and stamina management to avoid its linear area-of-effect (AoE) attacks.
+- **Top Rewards**: Farm the **Night's Edge** (Epic) and **Obsidian Requiem** (Legendary) swords to boost mid-game progression.
+</Callout>
+
+<Section icon={Map} title="Finding the Grand Alfheim Temple of Beginnings Location">
+
+The **grand alfheim temple of beginnings location** serves as the primary gateway for new players transitioning from early-game quests to serious dungeon crawling. Unlike later endgame content, this temple is intentionally accessible from multiple racial territories to ensure all players can meet for group play regardless of their starting race. In the 2026 public demo, the temple remains the most efficient way to bridge the gap between level 10 and level 20.
+
+**Video Highlights:**
+- Visual walkthrough of the portal entrances in Salamander and Undine.
+- Comparison of the Combat vs. Parkour routes.
+- Demonstration of the Cube Puzzle mechanics.
+- Bone Dragon attack patterns and safe zones.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Grand Alfheim: Temple of Beginnings Walkthrough" />
+
+Finding the entrance requires navigating to the designated portal zones within the three major territories. While the temple interior is the same, the journey to the portal varies significantly based on your current region.
+
+| Territory | Portal Location | Recommended Level | Terrain Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Volcanic Ridge North | 10+ | Moderate (Lava hazards) |
+| **Undine** | Crystal Lake East | 10+ | Easy (Water flight) |
+| **Gnome** | Cavern Depths West | 10+ | Hard (Complex tunnels) |
+
+<Callout type="tip" title="Pro Tip">
+If you are struggling to find the portal in the Gnome territory, use your race's flight ability (V key) to gain a vertical perspective of the cavern floor. The portal emits a distinct blue glow that is visible even in low-light environments.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dungeon Navigation: Choosing Your Path">
+
+Once you enter the **grand alfheim temple of beginnings location**, you are presented with a choice that dictates your experience for the next 15–20 minutes. The dungeon is split into two distinct wings that converge at the central puzzle chamber.
+
+<CardGrid cols={2}>
+  <Card title="The Parkour Route (Left)">
+    - **Focus**: Agility and timing.
+    - **Enemies**: Minimal combat encounters.
+    - **Risk**: Falling into pits resets your position.
+    - **Best For**: Mobile classes like Sylph or Cait Sith.
+  </Card>
+  <Card title="The Monster Route (Right)">
+    - **Focus**: Combat endurance and skill rotations.
+    - **Enemies**: Scorpions, Dinosaurs, and Plant monsters.
+    - **Risk**: Being overwhelmed by enemy groups.
+    - **Best For**: Tanky classes like Aegis or Titanblade.
+  </Card>
+</CardGrid>
+
+Regardless of the path chosen, you will eventually reach the altar rooms. These rooms serve as a gatekeeper mechanic, preventing players from simply rushing to the boss without engaging with the dungeon's environment.
+
+<Steps>
+  <Step num="1" title="Clear the Initial Wing">
+    Navigate through your chosen path (Parkour or Combat) until you reach the central hub. Collect any minor chests found in hidden corners for extra currency.
+  </Step>
+  <Step num="2" title="Locate the Puzzle Cubes">
+    Find the two glowing cubes hidden within the side chambers. One cube represents the "Angel" and the other the "Demon."
+  </Step>
+  <Step num="3" title="Match the Altars">
+    Carry the cubes to the matching altars. The Angel cube must go to the white pedestal, and the Demon cube to the black pedestal.
+  </Step>
+  <Step num="4" title="Enter the Boss Portal">
+    Once both cubes are placed, the barrier to the final arena will dissolve, allowing access to the Bone Dragon.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Puzzle Mechanic Info">
+In group play, one player can carry a cube while others provide cover. Carrying a cube prevents you from using most combat skills, so ensure the path is clear of Scorpions before picking it up.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Strategy: Defeating the Bone Dragon">
+
+The final encounter at the **grand alfheim temple of beginnings location** is the Bone Dragon. This boss is designed to teach players about telegraphs and stamina management. It does not have the complex multi-phase mechanics of endgame bosses like those in Ode to the Abyss, but it can easily one-shot a level 10 player who ignores its animations.
+
+| Attack Name | Visual Telegraph | Effect | Counter-Strategy |
+| :--- | :--- | :--- | :--- |
+| **Bone Breath** | Dragon head tilts back | Linear AoE damage | Dash (Q) to the side immediately |
+| **Tail Sweep** | Dragon pivots its body | 360-degree knockback | Jump or Block (F) if timing is right |
+| **Ground Slam** | Front legs lift high | High impact stun | Back away or use invincibility frames |
+| **Summon Minions** | Dragon roars upward | Spawns small skeletons | Use area-of-effect (AoE) class skills |
+
+Before engaging, ensure your equipment is repaired at a blacksmith. The Treant miniboss, which appears earlier in the dungeon, acts as a "gear check." If you struggle to defeat the Treant, you likely need to upgrade your starter weapon to an Iron or Bone variant.
+
+<Callout type="warning" title="Important Warning">
+Do not exhaust all your stamina on a single M1 combo. The Bone Dragon often counters immediately after its breath attack. If you are out of stamina, you will be unable to dash away from the follow-up tail sweep.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Loot Table and Equipment Farming">
+
+Farming the **grand alfheim temple of beginnings location** is essential for players looking to optimize their builds before moving into level 20+ territories. The drop rates for Legendary items are low (approximately 1-3%), but the Epic-tier gear is relatively common.
+
+| Item Name | Type | Rarity | Notable Stats |
+| :--- | :--- | :--- | :--- |
+| **Night's Edge** | Sword | Epic | High STR scaling, shadow damage |
+| **Obsidian Requiem** | Sword | Legendary | Increased critical hit rate |
+| **Azure Knightplate** | Armor Set | Rare | +120 HP total set bonus |
+| **Sacrificial Daggers** | Daggers | Epic | Bleed status effect on crit |
+| **Azure Reaver** | Greatsword | Epic | High impact, slow swing speed |
+| **Snarl Hound Claws** | Gauntlets | Rare | Fast attack speed, low range |
+
+<Checklist
+  id="temple-farming"
+  title="Temple Completion Goals:"
+  items={[
+    "Obtain a full set of Azure Knightplate armor",
+    "Reach Level 15 through repeated clears",
+    "Secure at least one Epic-tier weapon for your class",
+    "Master the parry timing for the Bone Dragon's sweep",
+    "Unlock the 'Temple Delver' achievement"
+  ]}
+/>
+
+<Callout type="success" title="Farming Tip">
+If you are specifically looking for armor, focus on the Treant miniboss. It has a higher drop rate for the **Verdant Sovereign** set, which provides excellent defensive stats for early-game tanks.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recommended Preparation and Builds">
+
+Entering the **grand alfheim temple of beginnings location** without a plan often leads to unnecessary deaths. Since this is a level 10-19 zone, your build doesn't need to be perfect, but it should be focused on a specific combat role.
+
+<CardGrid cols={3}>
+  <Card title="The Solo Swordsman">
+    - **Weapon**: Iron Sword or Night's Edge.
+    - **Focus**: Balanced STR and DEX.
+    - **Strategy**: Use M1 combos followed by a parry.
+  </Card>
+  <Card title="The Ranged Bowmaster">
+    - **Weapon**: Wooden Bow or upgraded variant.
+    - **Focus**: Pure DEX.
+    - **Strategy**: Kite enemies and use charged shots.
+  </Card>
+  <Card title="The Defensive Aegis">
+    - **Weapon**: Greatshield and Hammer.
+    - **Focus**: STR and Durability.
+    - **Strategy**: Block for the team and draw aggro.
+  </Card>
+</CardGrid>
+
+For more detailed class breakdowns, check our [Grand Alfheim Classes and Builds Guide](/classes-and-builds) to see how to allocate your skill points effectively. Remember that you can return to any blacksmith to swap your class if your current playstyle isn't working for the Bone Dragon fight.
+
+<Callout type="tip" title="Magic Synergy">
+Don't forget your racial magic! Even at level 10, Undine players can provide crucial healing during the dragon's minion phase, while Salamander players can add fire damage to their weapon swings for faster clears.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the minimum level for the Grand Alfheim Temple of Beginnings location?",
+    answer: "While you can technically enter earlier, the recommended level is 10. Enemies inside scale in difficulty, and the Bone Dragon will likely one-shot players below level 10."
+  },
+  {
+    question: "Can I solo the Temple of Beginnings?",
+    answer: "Yes, the dungeon is soloable, especially if you take the Parkour route to avoid unnecessary mob fights. However, the Bone Dragon is much easier to manage with a group of 2-3 players."
+  },
+  {
+    question: "How do I reset the dungeon to farm loot again?",
+    answer: "After defeating the Bone Dragon and collecting the chest, you must exit the temple and wait for the instance to reset. This usually takes about 5 minutes, or you can join a different server to bypass the timer."
+  },
+  {
+    question: "Which race has the easiest time reaching the temple?",
+    answer: "The Undine race typically has the easiest path because their portal is located in a relatively flat, open area near Crystal Lake, whereas Salamander and Gnome players must navigate hazardous terrain."
+  }
+]} />
+
+</Section>

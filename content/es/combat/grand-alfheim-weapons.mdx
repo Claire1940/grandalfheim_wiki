@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Armas de Grand Alfheim: Guía 2026 de Mejor Equipo y Farmeo",
+  description: "Domina el sistema de armas de Grand Alfheim con nuestra guía de 2026. Explora equipo basado en clases, botines de mazmorras y armas Míticas para builds de endgame.",
+  category: "Combat",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Weapons+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las armas de Grand Alfheim** están estrictamente vinculadas a clases de combate específicas; debes seleccionar una clase en la forja para usar su categoría de arma correspondiente.
+- **El equipo inicial** se obtiene a través del Herrero, proporcionando una base para las misiones iniciales y la progresión de nivel 1-10.
+- **Las mejoras de mitad de juego** como Night's Edge y Obsidian Requiem caen en la mazmorra del Templo de los Comienzos (Nivel 10-15+).
+- **El equipo Mítico de endgame** es exclusivo de la mazmorra Oda al Abismo, que tiene una estricta ventana de entrada de 10 minutos a las 12:00 AM/PM ET.
+- **Los conjuntos de armadura** se centran en aumentos de HP, siendo el Bloodcrown Regalia el que proporciona un masivo +820 HP para la supervivencia de alto nivel.
+</Callout>
+
+<Section icon={Swords} title="Clases de Armas y Fundamentos del Equipo Inicial">
+
+En la demo pública de 2026 de Grand Alfheim, tu efectividad en combate se define por la sinergia entre tu raza, clase y las **armas de Grand Alfheim** que empuñas. A diferencia de los RPG tradicionales donde cualquier personaje puede recoger una espada, esta experiencia requiere que te comprometas con una clase en la forja o con el herrero. Esta selección te otorga un arma inicial y desbloquea un árbol de habilidades específico que dicta tu rol tanto en mazmorras PvE como en encuentros PvP.
+
+**Puntos Destacados del Video:**
+- Recorrido detallado de la selección de armas iniciales en la forja.
+- Comparación de velocidades de ataque entre las clases Espadachín y Duelista.
+- Demostración de la mecánica de vuelo con la tecla V utilizada para llegar a las zonas de misiones iniciales.
+- Consejos sobre la gestión de estamina durante las combinaciones básicas de cuerpo a cuerpo M1.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Guía de Progresión y Armas de Grand Alfheim" />
+
+Elegir tu primera arma es la decisión más crítica para un nuevo jugador. El equipo inicial proporciona las estadísticas necesarias para sobrevivir a la fase tutorial inicial de nivel 1-5 y a las misiones de mundo abierto posteriores en territorios como Salamander u Undine.
+
+<CardGrid cols={3}>
+  <Card title="Espadachín (Espada)">
+    - **Alcance Equilibrado**: Excelente para principiantes que aprenden los tiempos de parry.
+    - **Escalado de STR**: Se centra en un daño físico constante y confiable.
+    - **Ideal para Solitarios**: La opción más versátil para las misiones iniciales.
+  </Card>
+  <Card title="Maestro Arquero (Arco)">
+    - **Presión a Distancia**: Mantén la distancia con los peligrosos jefes de territorio.
+    - **Escalado de DEX**: Recompensa la precisión y el tiempo de los disparos cargados.
+    - **Potencial de Kiting**: Ideal para jugadores que prefieren combates seguros.
+  </Card>
+  <Card title="Asesino (Dagas)">
+    - **Alta Velocidad**: Puñaladas rápidas con ventanas de recuperación cortas.
+    - **Híbrido DEX/STR**: Se beneficia de la movilidad y las habilidades de veneno.
+    - **Daño de Ráfaga**: Más adecuado para PvP y eliminación rápida de enemigos.
+  </Card>
+</CardGrid>
+
+| Nombre del Arma | Requisito de Clase | Rareza | Fuente Base | Escalado Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Iron Sword** | Espadachín | Común | Herrero | Fuerza (STR) |
+| **Wooden Bow** | Maestro Arquero | Común | Herrero | Destreza (DEX) |
+| **Bone Daggers** | Asesino | Común | Herrero | DEX / STR |
+| **Iron Gauntlets** | Pugilista | Común | Herrero | Fuerza (STR) |
+| **Duelist Rapier** | Duelista | Común | Herrero | Destreza (DEX) |
+| **Dragon Slayer** | Titanblade | Común | Herrero | Fuerza (STR) |
+
+<Callout type="success" title="Consejo Inicial">
+Si descubres que tu arma actual no se adapta a tu estilo de juego, regresa con cualquier Herrero. Puedes cambiar de clase para probar diferentes tipos de armas sin necesidad de reiniciar toda la progresión de tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Botines de Mazmorra: El Templo de los Comienzos">
+
+Una vez que alcanzas el Nivel 10, el enfoque de tu búsqueda de **armas de Grand Alfheim** se traslada al Templo de los Comienzos. Este es el primer hito importante donde el equipo común del Herrero es reemplazado por variantes Épicas y Legendarias. La mazmorra presenta un sistema único de caminos ramificados: la ruta izquierda se centra en el parkour, mientras que la ruta derecha es intensa en combate. Independientemente del camino, debes resolver acertijos de cubos para enfrentarte al Dragón de Hueso y reclamar tus recompensas.
+
+Las armas que se encuentran aquí son mejoras significativas, a menudo con un mayor daño base y brillos estéticos únicos. Por ejemplo, la **Night's Edge** es la mejora definitiva para los Espadachines que entran en la mitad del juego, mientras que la **Azure Reaver** ofrece un alcance superior para aquellos que se enfrentan a los jefes de territorio.
+
+| Objeto | Tipo | Rareza | Req. de Nivel | Estadísticas/Efectos Notables |
+| :--- | :--- | :--- | :--- | :--- |
+| **Night's Edge** | Espada | Épico | 10+ | Alto daño base para Nivel 10 |
+| **Obsidian Requiem** | Espada | Legendario | 15+ | Escalado de primer nivel para mid-game |
+| **Azure Reaver** | Espadón | Raro | 10+ | Arco de balanceo mejorado |
+| **Oath Keeper** | Espada | Raro | 10+ | Estadísticas defensivas equilibradas |
+| **Sacrificial Daggers**| Dagas | Raro | 10+ | Mayor potencial de crítico |
+
+<Callout type="tip" title="Estrategia de Farmeo">
+El jefe final Dragón de Hueso tiene una tabla de botín diversa. Se recomienda encarecidamente farmear esta mazmorra hasta tener al menos un conjunto completo Raro o Épico antes de intentar explorar las zonas más peligrosas de alto nivel de Gnome o Salamander.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Excelencia de Endgame: Oda al Abismo">
+
+Para los jugadores que han alcanzado el Nivel 50, la cima de las **armas de Grand Alfheim** se encuentra dentro de Oda al Abismo. Esta mazmorra de endgame está ubicada en el territorio Gnome y opera con un horario de servidor estricto. La dificultad es significativamente mayor que en encuentros anteriores, requiriendo un grupo coordinado de 4-8 jugadores para manejar las mecánicas de múltiples fases del jefe, incluida la crítica "Fase de Torres" donde cuatro estructuras deben ser destruidas simultáneamente.
+
+Las armas Míticas que se encuentran aquí representan el techo de poder actual en el meta de 2026. Armas como la **Voidrune Edge** y el **Nightreaver Bow** proporcionan una salida de daño inigualable, esencial tanto para el PvP competitivo como para el farmeo rápido de jefes.
+
+| Arma Mítica | Clase | Fuente | Rol de Combate |
+| :--- | :--- | :--- | :--- |
+| **Voidrune Edge** | Espadachín | Oda al Abismo | Equilibrio definitivo PvE/PvP |
+| **Nightreaver Bow** | Maestro Arquero | Oda al Abismo | Control extremo del campo de batalla a distancia |
+| **Voidfang Gauntlets**| Pugilista | Oda al Abismo | Presión inigualable a corta distancia |
+| **Riftshard Daggers** | Asesino | Oda al Abismo | Máximo estallido y movilidad |
+| **Abyssfang Lance** | Centinela | Oda al Abismo | Espaciado y ataques constantes |
+| **Runeforge Hammer** | Skull Crusher | Oda al Abismo | Impacto pesado e interrupción |
+
+<Callout type="warning" title="Ventana de Entrada">
+La entrada a Oda al Abismo solo se abre a las 12:00 AM y 12:00 PM hora del Este. La ventana para entrar dura solo 10 minutos. Asegúrate de que tu equipo esté reparado y abastecido con objetos curativos antes de que se abra la puerta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Armas y Sinergia de Armaduras">
+
+Adquirir armas poderosas de **Grand Alfheim** es solo la mitad de la batalla; también debes equipar conjuntos de armadura que complementen tu rol de combate. La armadura en Grand Alfheim se divide en Máscaras, Partes Superiores y Partes Inferiores, centrándose principalmente en aumentar tu Salud total (HP). La supervivencia es clave en la Demo de Verano de 2026, ya que las mecánicas de los jefes pueden eliminar fácilmente a los jugadores con reservas de salud base.
+
+<Steps>
+  <Step num="1" title="Selección de Clase Inicial">
+    Visita al Herrero en el Nivel 1 y selecciona tu clase. Obtén tu primera arma Común y comienza la línea de misiones principal para llegar al Nivel 10.
+  </Step>
+  <Step num="2" title="Entrada a la Mazmorra">
+    Entra en el Templo de los Comienzos. Concéntrate en obtener el **Conjunto Azure Knightplate** para un aumento temprano de +120 HP mientras farmeas tu primera arma Épica.
+  </Step>
+  <Step num="3" title="Farmeo de Territorio">
+    Muévete al territorio de Salamander y desafía al minijefe Sátiro. Esta es la mejor manera de obtener el **Conjunto Bloodcrown Regalia**, que ofrece un masivo +820 HP.
+  </Step>
+  <Step num="4" title="Optimización de Endgame">
+    Una vez alcanzado el Nivel 50, participa en Oda al Abismo. Aquí es donde reemplazas tu equipo Legendario de mid-game por armas Míticas y conjuntos de armadura Abisales.
+  </Step>
+</Steps>
+
+| Conjunto de Armadura | Bono de HP Total | Rareza | Fuente Principal |
+| :--- | :--- | :--- | :--- |
+| **Azure Knightplate** | +120 HP | Raro | Templo de los Comienzos |
+| **Verdant Sovereign** | +250 HP | Épico | Minijefe Treant |
+| **Crimson Dragon** | +400 HP | Épico | Dragón de Hueso |
+| **Bloodcrown Regalia** | +820 HP | Mítico | Sátiro (Salamander) |
+
+<Checklist
+  id="weapon-prep"
+  title="Lista de Verificación de Preparación para el Combate:"
+  items={[
+    "La clase coincide con tu categoría de arma equipada",
+    "El arma está reparada en un Herrero",
+    "El árbol de habilidades mágicas se desarrolla junto con las habilidades de armas",
+    "El conjunto de armadura proporciona suficiente HP para la zona actual",
+    "Los objetos de recuperación de estamina están en tu ranura rápida"
+  ]}
+/>
+
+<Callout type="info" title="Nota del Sistema">
+El daño de las armas escala principalmente con tu estadística de clase (STR o DEX). Sin embargo, no descuides el árbol de Magia de tu Raza. Combinar combos de armas con magia elemental es la forma más eficiente de eliminar enemigos de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo las mejores armas de Grand Alfheim para principiantes?",
+    answer: "Los principiantes deben comenzar eligiendo una clase con el Herrero para obtener un arma inicial gratuita. A partir de ahí, el mejor camino es llegar al Nivel 10 y farmear el Templo de los Comienzos para obtener botines de nivel Épico como Night's Edge."
+  },
+  {
+    question: "¿Puedo usar una espada si elegí la clase Maestro Arquero?",
+    answer: "No. Las armas están estrictamente bloqueadas a sus respectivas clases. Si quieres usar una espada, debes visitar a un Herrero y cambiar tu clase a Espadachín o Titanblade."
+  },
+  {
+    question: "¿Dónde caen las armas Míticas?",
+    answer: "Actualmente, las armas Míticas más poderosas, como la Voidrune Edge, caen en la mazmorra de Nivel 50 'Oda al Abismo' ubicada en el territorio Gnome."
+  },
+  {
+    question: "¿Cuál es la mejor armadura para combinar con mis armas?",
+    answer: "Para el juego temprano, el Azure Knightplate es genial. Para el juego medio a tardío, deberías farmear al Sátiro en Salamander para obtener el Bloodcrown Regalia, ya que proporciona un enorme aumento de +820 HP."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Mantente siempre atento a los anuncios oficiales de Discord. Durante eventos especiales como la Demo de Verano de 2026, las tasas de caída de armas Legendarias y Míticas suelen duplicarse, lo que lo convierte en el momento perfecto para farmear equipo de endgame.
+</Callout>
+
+</Section>

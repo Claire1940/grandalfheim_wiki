@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim PvP: Guía de Combate de Élite y Clasificación de Builds",
+  description: "Domina el PvP de Grand Alfheim con nuestra guía completa de combate. Descubre las mejores clases, pasivas raciales, combos esenciales y configuraciones de equipo de alto nivel.",
+  category: "Combat",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim pvp, combate, guía, clases, builds, razas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **PvP de Grand Alfheim** requiere un profundo conocimiento de las mecánicas de clase, el alcance de las armas y el espaciado.
+- Las **razas superiores** como Sylph y Salamander dominan la arena debido a su movilidad y pasivas ofensivas.
+- Las **mecánicas defensivas** como el parry (parada) y las fintas son obligatorias para sobrevivir en enfrentamientos de alto nivel.
+- El **equipo de juego tardío** de Ode to the Abyss proporciona los umbrales de estadísticas necesarios para el juego competitivo.
+- La **ejecución de combos** depende en gran medida de la cancelación de animaciones de ataque mediante desplazamientos y el uso de habilidades.
+</Callout>
+
+<Section icon={Swords} title="Clasificación del Meta PvP de Grand Alfheim">
+
+La arena competitiva en Grand Alfheim exige una combinación precisa de selección de clase, sinergia racial y reflejos rápidos. Para tener éxito en el **PvP de Grand Alfheim**, debes elegir un estilo de combate que te permita controlar el ritmo del enfrentamiento mientras explotas las animaciones de recuperación del enemigo. 
+
+Las clases en Grand Alfheim se seleccionan en la forja o con el herrero, y dictan tu arma principal y árbol de habilidades. A continuación se presenta la lista definitiva de niveles de clase para el combate PvP, clasificando cada arquetipo por su movilidad, potencial de ráfaga (burst) y utilidad defensiva.
+
+| Clase | Estadística Principal | Estilo de Combate | Nivel PvP |
+|---|---|---|---|
+| **Duelista** | DEX | Estocadas rápidas, juego de pies veloz, combos precisos de múltiples golpes | **S-Tier** |
+| **Asesino** | DEX / STR | Puñaladas rápidas, ráfaga de alta movilidad, presión por veneno | **S-Tier** |
+| **Espadachín** | STR | Cadenas equilibradas de corto alcance, alcance confiable | **A-Tier** |
+| **Hoja de Titán** | STR | Golpes de impacto pesados y lentos con un alcance masivo | **A-Tier** |
+| **Pugilista** | STR | Combos de puños continuos a corta distancia, presión rápida | **B-Tier** |
+| **Maestro del Arco** | DEX | Kiting a distancia, disparos cargados, control de espaciado | **B-Tier** |
+| **Égida** | STR | Bloqueo pesado con escudo, absorción de daño, baja movilidad | **C-Tier** |
+
+<Callout type="tip" title="Flexibilidad de Clase">
+Puedes regresar con cualquier herrero para cambiar tu clase y probar un estilo de arma diferente sin perder el progreso general de tu personaje. Usa esto para contrarrestar el meta evolutivo del PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergias Raciales para el Juego Competitivo">
+
+Tu elección de raza de hada afecta directamente tu rendimiento en el **PvP de Grand Alfheim** al proporcionar bonificaciones pasivas únicas, características de vuelo y magia elemental. Seleccionar una raza que complemente la estadística principal de tu clase y tu rol de combate es esencial para maximizar tu potencial en la arena.
+
+<CardGrid cols={3}>
+  <Card title="Sylph (Magia de Viento)">
+    - **Máxima movilidad** en combate aéreo y terrestre
+    - Excelente para el espaciado y el reposicionamiento rápido
+    - Ideal para Duelistas y Asesinos
+  </Card>
+  <Card title="Salamander (Magia de Fuego)">
+    - **Alto enfoque ofensivo** con pasivas de daño bruto
+    - Aplica una fuerte presión directa durante los combos
+    - Mejor para Hojas de Titán y Espadachines
+  </Card>
+  <Card title="Undine (Agua/Curación)">
+    - **Estilo de juego defensivo** orientado al aguante
+    - Sobrevive a los oponentes en duelos lentos y prolongados
+    - Ideal para builds defensivas o de soporte híbrido
+  </Card>
+</CardGrid>
+
+Para ayudarte a optimizar tu build, la siguiente tabla muestra las parejas raciales ideales para las clases de PvP con mejor rendimiento:
+
+| Clase | Raza Recomendada | Sinergia Clave | Enfoque PvP |
+|---|---|---|---|
+| **Duelista** | Sylph | Velocidad de ataque extrema y espaciado rápido | Estocadas de alta velocidad |
+| **Asesino** | Sylph / Imp | Utilidad de sigilo, debuffs de maldición, reposicionamiento rápido | Ráfaga y huida |
+| **Hoja de Titán** | Salamander | Escalado de daño masivo en golpes pesados | Potencial de un solo golpe |
+| **Espadachín** | Undine / Gnome | Gran reserva de salud, autocuración, presión constante | Duelo equilibrado |
+
+<Callout type="warning" title="Selección de Raza">
+Las razas no se pueden cambiar tan fácilmente como las clases. Considera cuidadosamente tu estilo de juego PvP preferido antes de finalizar la raza de tu personaje durante la creación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de Combate Principales y Ejecución de Combos">
+
+Tener éxito en el **PvP de Grand Alfheim** requiere dominar los intrincados sistemas de control defensivo y ofensivo del juego. Presionar botones al azar te llevará rápidamente a ser parado (parried) y castigado. Debes aprender a leer las animaciones de tu oponente y gestionar tu barra de resistencia (stamina) de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Domina el Parry (Tecla F)">
+    No te limites a mantener el bloqueo. Toca la tecla F justo antes de que un golpe entrante aterrice para activar un parry, aturdiendo a tu oponente y abriéndolo a un combo completo.
+  </Step>
+  <Step num="2" title="Utiliza Fintas (M2 / Clic Derecho)">
+    Cancela tus animaciones de ataque M1 a mitad del movimiento usando M2. Esto provoca el bloqueo o parry de tu oponente, dejándolo vulnerable a un golpe crítico.
+  </Step>
+  <Step num="3" title="Ejecuta Ataques con Desplazamiento (Q + M1)">
+    Presiona Q para desplazarte y luego presiona inmediatamente M1 para ejecutar un ataque rápido con desplazamiento. Esta es la herramienta principal para cerrar distancias o atrapar a los oponentes desprevenidos.
+  </Step>
+  <Step num="4" title="Incorpora Ataques Aéreos">
+    Salta y ataca para alterar el tiempo de tus golpes. Los ataques aéreos te ayudan a evitar los bloqueos de escudo y a atrapar a oponentes que se preparan para parries a nivel del suelo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestión de Resistencia">
+Desplazarse, bloquear y ejecutar ataques críticos pesados (tecla R) agotan tu resistencia. Si tu resistencia llega a cero, entrarás en un estado de fatiga, quedándote completamente indefenso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor Equipo PvP y Prioridades de Estadísticas">
+
+Tu equipo determina tu reserva de salud y tu producción de daño en los combates competitivos. Si bien el equipo inicial del herrero es suficiente para el entrenamiento temprano, debes farmear mazmorras y jefes de alto nivel para adquirir equipo de PvP competitivo.
+
+Para la armadura, enfócate en maximizar tu HP plano. Cuanta más salud tengas, más errores podrás permitirte cometer durante un duelo.
+
+| Pieza de Equipo | Fuente | Estadísticas Clave | Rol en PvP |
+|---|---|---|---|
+| **Voidrune Edge** (Espada) | Ode to the Abyss | Alto escalado de STR, daño oscuro | Arma de Espadachín de juego tardío |
+| **Riftshard Daggers** | Ode to the Abyss | Alto escalado de DEX, velocidad de ataque rápida | Arma definitiva de Asesino |
+| **Bloodcrown Regalia Set** | Satyr (Jefe Salamander) | +820 HP Máx (Set completo) | Armadura de supervivencia PvP de primer nivel |
+| **Azure Knightplate Set** | Temple of Beginnings | +120 HP Máx (Set completo) | Armadura PvP de nivel de entrada accesible |
+
+<Callout type="success" title="Farmeo de Juego Tardío">
+Participa en la incursión (raid) de Ode to the Abyss (abierta diariamente a las 12:00 AM y 12:00 PM EST en el territorio Gnome) para asegurar armas de nivel Mítico que cuentan con un alcance y perfiles de daño superiores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión PvP">
+
+Usa esta lista de verificación estructurada para preparar a tu personaje para combates de arena de alto nivel y torneos competitivos.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de Verificación de Preparación PvP:"
+  items={[
+    "Alcanzar el nivel 50 para desbloquear el máximo de puntos de habilidad",
+    "Adquirir un arma Mítica de Ode to the Abyss",
+    "Obtener el conjunto Bloodcrown Regalia para el máximo de HP",
+    "Dominar el tiempo del parry contra todos los tipos principales de armas",
+    "Configurar atajos de teclado cómodos para la ejecución rápida de habilidades activas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo contrarresto a los jugadores Égida que usan escudo en el PvP de Grand Alfheim?",
+    answer: "No ataques su escudo directamente. Usa fintas (M2) para provocar su bloqueo, salta sobre ellos para realizar ataques aéreos o usa ataques críticos pesados (R) para romper su guardia."
+  },
+  {
+    question: "¿Cuál es la mejor clase general para PvP en solitario?",
+    answer: "El Duelista es actualmente la clase de PvP en solitario más fuerte debido a su alta velocidad de ataque, excelentes opciones de espaciado y combos rápidos de estocadas que son difíciles de desviar."
+  },
+  {
+    question: "¿Puedo usar magia durante el combate PvP?",
+    answer: "Sí. Se recomienda encarecidamente integrar la magia racial (como Viento o Fuego) en tus combos de armas para extender las ventanas de aturdimiento y aplicar presión."
+  },
+  {
+    question: "¿Cómo escapo de un combo infinito de un oponente?",
+    answer: "Guarda tu desplazamiento (Q) para escapar de las cadenas de combos. Si te derriban, espera a los frames de invencibilidad al levantarte antes de contraatacar de inmediato."
+  }
+]} />
+
+</Section>

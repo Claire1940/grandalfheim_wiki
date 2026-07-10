@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mazmorra en solitario de Grand Alfheim: Ruta de farmeo paso a paso",
+  description: "Domina la mazmorra en solitario de Grand Alfheim con nuestra ruta de farmeo paso a paso. Aprende las mejores clases, configuraciones de equipo y tácticas contra jefes para el Templo de los Comienzos.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Dungeon+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim, mazmorra en solitario, temple of beginnings, ruta de farmeo, guía de juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Completar el Templo de los Comienzos en solitario para farmear armas épicas y legendarias de alto nivel.
+- **Requisito de nivel**: Se recomienda encarecidamente alcanzar el Nivel 12 o superior antes de intentar incursiones en solitario.
+- **Mejor ruta**: Elige la ruta de parkour de la izquierda para evitar enemigos menores innecesarios y conservar salud.
+- **Mecánica clave**: El parry perfecto es obligatorio para sobrevivir a los encuentros con jefes en solitario sin un sanador dedicado.
+- **Mejor clase**: Aegis y Espadachín ofrecen la mezcla más equilibrada de defensa activa y daño constante.
+</Callout>
+
+<Section icon={Map} title="Mazmorra en solitario de Grand Alfheim: Requisitos de entrada y preparación">
+
+Conquistar la **mazmorra en solitario de Grand Alfheim** es la prueba definitiva de habilidad, sinergia de build y ejecución mecánica para cualquier jugador. Mientras que las incursiones en grupo ofrecen seguridad y responsabilidad compartida, completar el Templo de los Comienzos en solitario te permite quedarte con todo el botín y avanzar a tu propio ritmo. Antes de cruzar los antiguos portales de piedra, una preparación adecuada es esencial para evitar derrotas rápidas e intentos desperdiciados.
+
+El Templo de los Comienzos sirve como la mazmorra principal para la progresión del juego temprano y medio. Las entradas están ubicadas físicamente en múltiples territorios raciales, incluidas las zonas de Salamander, Undine y Gnome. Aunque el juego permite la entrada al Nivel 10, los jugadores en solitario deberían esperar idealmente hasta el Nivel 12 o 15 para asegurar que su salud base y su daño sean suficientes para manejar la amenaza escalada.
+
+**Puntos destacados del video:**
+- **Ubicaciones de entrada a la mazmorra**: Descubre los caminos más rápidos al Templo de los Comienzos desde las zonas iniciales de Gnome y Undine.
+- **Tutorial de salto de parkour**: Guía visual sobre cómo utilizar los puzles de salto del lado izquierdo para evitar los primeros grupos de monstruos.
+- **Mecánicas del Dragón de Hueso en solitario**: Desglose paso a paso de las zonas de posicionamiento seguro durante los ataques de aliento del dragón.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Guía de la mazmorra de Grand Alfheim" />
+
+| Métrica de la mazmorra | Detalle | Recomendación para solitario |
+| :--- | :--- | :--- |
+| **Nivel mínimo** | Nivel 10 | Nivel 12 a 15 para un farmeo seguro |
+| **Portales** | Salamander, Undine, Gnome | El portal de Gnome ofrece el camino de aproximación más seguro |
+| **Peligros principales** | Escorpiones, Dinosaurios, Treant | Salta los escorpiones por completo usando la ruta de parkour |
+| **Evento de botín** | Doble Botín (Activo) | Prioriza el farmeo durante eventos activos del servidor |
+| **Tiempo promedio** | 12 a 15 minutos | Intenta bajar de 10 minutos usando los saltos de parkour |
+
+<Callout type="tip" title="Consejo Profesional">
+Asegúrate siempre de que tu arma esté completamente reparada en un herrero local antes de entrar. Un arma rota a mitad de la incursión reducirá drásticamente tu escalado de daño, haciendo que la pelea final contra el jefe sea casi imposible de completar en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores clases para solitario y configuraciones de builds">
+
+Seleccionar la clase de combate adecuada es la decisión más importante para una incursión exitosa en solitario. Debido a que no tendrás un sanador Undine para restaurar tu salud ni un tanque Aegis para atraer la atención del enemigo, la build elegida debe poseer autosuficiencia, utilidad defensiva y combos de daño confiables.
+
+La forja te permite cambiar de clase fácilmente, lo que significa que puedes adaptar tu estrategia si te encuentras con un obstáculo. Para jugar en solitario, las clases que dependen de una defensa pesada o de contraataques rápidos por parry rinden significativamente mejor que las builds de "cañón de cristal".
+
+<CardGrid cols={3}>
+  <Card title="Aegis (Tier S Solitario)">
+    - **Alta defensa**: Presenta la mejor resistencia de bloqueo del juego.
+    - **Mecánicas de contraataque**: Convierte bloqueos exitosos en daño de alto impacto.
+    - **Alta supervivencia**: Extremadamente permisivo si fallas los tiempos de parry.
+  </Card>
+  <Card title="Espadachín (Tier A Solitario)">
+    - **Combos equilibrados**: Ofrece cadenas de ataques cuerpo a cuerpo fluidas y predecibles.
+    - **Movilidad**: Los tiempos de recuperación rápidos permiten esquivas veloces.
+    - **Build versátil**: Escala excepcionalmente bien con Fuerza y armadura básica.
+  </Card>
+  <Card title="Maestro arquero (Tier B Solitario)">
+    - **Kiting a distancia**: Mantiene la distancia frente a jefes cuerpo a cuerpo peligrosos.
+    - **Presión cargada**: Inflige un daño masivo a un solo objetivo desde la seguridad.
+    - **Intensivo en resistencia**: Requiere un movimiento preciso para evitar ser acorralado.
+  </Card>
+</CardGrid>
+
+| Nombre de la clase | Atributo principal | Estilo de juego solitario | Calificación |
+| :--- | :--- | :--- | :--- |
+| **Aegis** | Fuerza | Contraatacante defensivo | 5 / 5 |
+| **Espadachín** | Fuerza | Ofensiva y defensa equilibrada | 4 / 5 |
+| **Titanblade** | Fuerza | Gran aturdimiento y alto riesgo | 3 / 5 |
+| **Maestro arquero** | Destreza | Kiting y espaciado a distancia | 3 / 5 |
+| **Asesino** | Destreza / Fuerza | Gran ráfaga pero defensa frágil | 2 / 5 |
+
+<Callout type="success" title="Asignación de atributos recomendada">
+Para clases físicas cuerpo a cuerpo como el Espadachín y Aegis, invierte al menos el 70% de tus puntos de progresión en Fuerza (STR) para maximizar el escalado del arma. Asigna el 30% restante a nodos que aumenten la resistencia para asegurar que puedas bloquear y esquivar continuamente durante peleas prolongadas contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido paso a paso de la ruta en solitario">
+
+Navegar por el Templo de los Comienzos solo requiere un enfoque deliberado. Correr a ciegas por las salas resultará en ser rodeado por mobs agresivos, lo que llevará a una derrota rápida. Sigue esta secuencia de ruta optimizada para limpiar la mazmorra de manera eficiente.
+
+<Steps>
+  <Step num="1" title="La decisión de la entrada">
+    Al entrar en el vestíbulo de la mazmorra, te enfrentarás a una elección entre la ruta de parkour de la izquierda y la ruta de combate de la derecha. Para incursiones en solitario, toma la ruta de parkour de la izquierda. Usa tus alas raciales o saltos precisos para navegar por los pilares de piedra flotantes. Esto evita tres grupos enteros de escorpiones y dinosaurios, ahorrando salud y tiempo.
+  </Step>
+  <Step num="2" title="La cámara del minijefe">
+    Después de cruzar el abismo de parkour, entrarás en un patio de piedra donde reside el minijefe Treant. Si tu nivel es inferior a 12, no te enfrentes al Treant directamente. Pégate a la pared izquierda para pasar fuera de su radio de detección. Si decides luchar, mantén el encuentro en el centro de la arena para evitar quedarte atrapado en la geometría de las raíces circundantes.
+  </Step>
+  <Step num="3" title="El puzle de los cubos del altar">
+    Para desbloquear el portal del jefe final, debes resolver el puzle de los altares de ángel y demonio. Localiza los dos cubos de piedra brillantes escondidos en los pasillos laterales. Recoge cada cubo y colócalos en sus altares correspondientes. Ten cuidado con los enemigos planta que aparecen para vigilar los pasillos; atráelos uno por uno en lugar de luchar contra todo el grupo a la vez.
+  </Step>
+  <Step num="4" title="La transición del portal">
+    Una vez que ambos cubos estén colocados correctamente, el portal central se activará con un brillo cian intenso. Antes de cruzarlo, siéntate o usa consumibles de curación para restaurar tu salud y resistencia al 100%. Verifica que todos los enfriamientos de tus habilidades activas se hayan restablecido por completo.
+  </Step>
+</Steps>
+
+| Sección de la mazmorra | Enemigo objetivo | Nivel de peligro | Plan de acción en solitario |
+| :--- | :--- | :--- | :--- |
+| **Cruce del abismo** | Pilares flotantes | Bajo | Usa alas raciales (tecla V) para planear seguro |
+| **Patio** | Minijefe Treant | Alto | Bordea la pared izquierda o haz parry a los golpes |
+| **Pasillos laterales** | Centinelas planta | Medio | Atráelos individualmente con ataques a distancia |
+| **Sala del altar** | Guardianes de cubos | Medio | Limpia a los guardianes antes de colocar los cubos |
+
+<Callout type="warning" title="Advertencia de gestión de resistencia">
+Esquivar (tecla Q) consume una parte significativa de tu barra de resistencia. Nunca vacíes tu barra de resistencia por completo mientras luchas contra mobs normales en los pasillos, ya que quedarás incapaz de bloquear o hacer parry si una patrulla inesperada te ataca por la espalda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas del jefe y tácticas de combate en solitario">
+
+El encuentro final contra el Dragón de Hueso es donde fallan la mayoría de los intentos en solitario. Sin compañeros para distraer al jefe, serás el objetivo de cada cadena de ataques. Sobrevivir a este encuentro requiere memorizar las señales visuales del jefe y ejecutar respuestas defensivas perfectas.
+
+El Dragón de Hueso utiliza tres patrones de ataque principales. El primero es un aliento de fuego en cono frontal que inflige daño continuo en el tiempo. El segundo es un fuerte coletazo que cubre un arco amplio de 180 grados detrás del jefe. El tercero es un golpe contra el suelo que libera una onda de choque circular por todo el suelo de la arena.
+
+| Nombre del ataque | Señal visual | Nivel de peligro | Estrategia de contraataque |
+| :--- | :--- | :--- | :--- |
+| **Aliento de dragón** | Llamas azules en la garganta | Extremo | Esquiva inmediatamente hacia el lado del cuello |
+| **Coletazo** | El jefe gira su torso hacia atrás | Alto | Mantén el bloqueo (tecla F) o haz parry al golpe |
+| **Golpe al suelo** | El jefe se levanta sobre sus patas traseras | Medio | Salta sobre el anillo de la onda de choque |
+| **Combo de mordiscos** | La cabeza se lanza rápido hacia adelante | Alto | Ejecuta parries consecutivos para aturdir |
+
+```
+[Posicionamiento en la Arena del Dragón de Hueso]
+       
+       ( Cabeza / Zona de Aliento )  <-- FRENTE PELIGROSO
+              [ Jefe ]
+    ( Izq. )  /      \  ( Der. ) <-- ZONAS MÁS SEGURAS PARA ATACAR
+             [  Cola  ]
+                 |
+       ( Zona de Coletazo )    <-- TRASERA PELIGROSA (Bloqueo/Parry)
+```
+
+Para derrotar al dragón en solitario, posiciónate siempre cerca de sus garras delanteras en lugar de directamente frente a su boca o detrás de su cola. Este posicionamiento te da tiempo suficiente para reaccionar tanto al ataque de aliento como al coletazo. Cuando el dragón se levante para el golpe al suelo, no intentes huir; en su lugar, sincroniza tu salto para estar en el aire cuando la onda de choque pase por debajo de ti.
+
+<Callout type="tip" title="Maestría en la ventana de parry">
+No mantengas presionado el botón de bloqueo indefinidamente. Bloquear reduce tu tasa de regeneración de resistencia. En su lugar, toca el botón de bloqueo (tecla F) exactamente medio segundo antes de que un ataque impacte para activar un parry perfecto. Esto anula todo el daño entrante y aturde temporalmente al jefe, creando una ventana segura para tus combos de armas pesadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tablas de botín y objetivos de progresión en solitario">
+
+Derrotar al Dragón de Hueso te recompensa con cofres de alto nivel que contienen algunos de los equipos más fuertes del juego temprano. Farmear esta mazmorra en solitario es muy lucrativo porque no tienes que compartir ni tirar dados por el botín con otros jugadores.
+
+El conjunto de armadura principal a buscar es el Set de Placas de Caballero Azur, que proporciona un aumento masivo de +120 HP cuando se equipan todas las piezas. Para mejoras de armas, busca el Réquiem de Obsidiana, una espada legendaria que escala excepcionalmente bien con clases basadas en Fuerza.
+
+<Checklist
+  id="solo-dungeon-goals"
+  title="Lista de verificación de farmeo en solitario:"
+  items={[
+    "Obtener el set completo de 3 piezas de Caballero Azur para un bono de +120 HP",
+    "Adquirir un arma épica específica de clase (como Filo de la Noche)",
+    "Completar con éxito una incursión en solitario en menos de 10 minutos",
+    "Dominar el tiempo de parry para el golpe al suelo del minijefe Treant",
+    "Alcanzar el Nivel 20 usando las recompensas de experiencia de la mazmorra"
+  ]}
+/>
+
+| Nombre del objeto | Tipo de objeto | Rareza | Tasa de caída | Perfil de atributos clave |
+| :--- | :--- | :--- | :--- | :--- |
+| **Filo de la Noche** | Espada | Épico | 8.5% | Daño físico alto, velocidad de ataque rápida |
+| **Réquiem de Obsidiana** | Espada | Legendario | 2.0% | Escala máxima de fuerza, bono de crítico |
+| **Placas de Caballero Azur** | Set de Armadura | Raro | 15.0% | Proporciona +120 HP de salud máxima |
+| **Garras de Sabueso Gruñón** | Guanteletes | Épico | 5.0% | Alta velocidad de ataque, combos cortos |
+| **Set de Dragón Carmesí** | Set de Armadura | Legendario | 1.5% | Alta resistencia al fuego, escalado de salud |
+
+<Callout type="success" title="Optimización de la tasa de obtención">
+Aprovecha el evento activo de Doble Botín del servidor para duplicar tus posibilidades de obtener el legendario Réquiem de Obsidiana y el Set de Dragón Carmesí. Combinar incursiones en solitario con ventanas de eventos activos es la forma más rápida de equipar completamente a tu personaje antes de pasar a territorios de mayor nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo completar la mazmorra de Grand Alfheim en solitario siendo un principiante de Nivel 10?",
+    answer: "Aunque el juego técnicamente permite la entrada al Nivel 10, intentar completarla solo a este nivel es extremadamente difícil debido a la poca salud y las armas iniciales básicas. Se recomienda encarecidamente alcanzar el Nivel 12 o 15 y mejorar tu equipo inicial con un herrero primero."
+  },
+  {
+    question: "¿Cuál es la ruta más rápida para limpiar el Templo de los Comienzos en solitario?",
+    answer: "La ruta más rápida es tomar el camino de parkour del lado izquierdo. Esto te permite planear sobre el abismo usando tus alas raciales, evitando por completo múltiples grupos de escorpiones y dinosaurios, lo que te ahorra minutos de combate y conserva tu salud."
+  },
+  {
+    question: "¿Cuál es la mejor raza para completar mazmorras en solitario?",
+    answer: "Undine es muy efectiva debido a su magia de curación inherente, que proporciona un excelente mantenimiento entre combates. Sin embargo, Sylph también es una opción de primer nivel porque su magia de viento y velocidad de movimiento facilitan enormemente los saltos de parkour."
+  },
+  {
+    question: "¿Qué debo hacer si se me agota la resistencia durante la pelea final contra el jefe?",
+    answer: "Si tu resistencia se agota, deja de atacar inmediatamente y retírate. Camina hacia atrás alejándote del jefe manteniendo la cámara fija en él. No esquives ni ruedes, ya que caminar permite que tu barra de resistencia se regenere a su velocidad máxima."
+  }
+]} />
+
+<Callout type="info" title="Comunidad y actualizaciones">
+Mantente atento al grupo oficial de Grand Alfheim en Roblox y al servidor de Discord para mantenimientos programados, parches de equilibrio y próximos lanzamientos de mazmorras. Las actualizaciones de desarrollo suelen ajustar los árboles de habilidades de las clases, lo que puede alterar tus estrategias de farmeo en solitario.
+</Callout>
+
+</Section>

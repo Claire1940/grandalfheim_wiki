@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim Starter Guide: Progression & Best Class Setup",
+  description: "Master the Grand Alfheim starter guide. Learn character creation, combat mechanics, class selection, leveling routes, and how to clear your first dungeon.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/18525a/fff?text=Grand+Alfheim+Starter+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Guide**: Use this grand alfheim starter guide to establish a perfect character build.
+- **Starting Choice**: Select a race that aligns with your preferred magical or defensive playstyle.
+- **Combat Core**: Prioritize blocking and parrying over mindless attack spam to survive early encounters.
+- **First Milestone**: Aim to reach level 10 to unlock your first major cooperative dungeon experience.
+</Callout>
+
+<Section icon={Map} title="Character Creation and Choosing Your Race">
+
+Starting your journey in Grand Alfheim requires selecting one of nine distinct fairy races. Each race possesses a unique magical affinity and specialty that shapes your combat style, exploration capabilities, and team utility.
+
+| Race | Associated Magic | Specialty Focus | Recommended Playstyle |
+|---|---|---|---|
+| **Salamander** | Fire Magic | High Offensive Power | Aggressive Melee DPS |
+| **Sylph** | Wind Magic | High Speed & Mobility | Skirmishing & Spacing |
+| **Undine** | Water & Healing | Group Support & Sustain | Dedicated Healers |
+| **Cait Sith** | Summoning Magic | Beast Taming & Speed | Summoners & Explorers |
+| **Spriggan** | Illusion Magic | Utility & Treasure Finding | Tactical Utility |
+| **Pooka** | Music Magic | Ally Buffs & Disruption | Crowd Control & Support |
+| **Gnome** | Earth Magic | Durability & Defense | Frontline Tanks |
+| **Imp** | Curse Magic | Debuffs & Night Vision | Status Effect Mages |
+| **Leprechaun** | Lightning Magic | Crafting & Blacksmithing | Equipment Enthusiasts |
+
+<Callout type="tip" title="Race Selection Tip">
+While Salamander, Sylph, and Undine offer the most straightforward advantages for solo players, choose a race whose aesthetic and magical theme match your long-term goals.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mastering the Starter Classes">
+
+Classes in Grand Alfheim are tied to specific weapons and are selected by visiting the forge or a blacksmith. You can easily switch your class by returning to a blacksmith and swapping your weapon, allowing you to test different roles without losing overall character progression.
+
+<CardGrid cols={3}>
+  <Card title="Swordsman (Sword)">
+    - **Primary Stat**: STR
+    - **Style**: Balanced close-range combos
+    - **Pros**: Easy to learn, highly reliable
+  </Card>
+  <Card title="Bowmaster (Bow)">
+    - **Primary Stat**: DEX
+    - **Style**: Ranged kiting and charged shots
+    - **Pros**: Exceptionally safe PvE farming
+  </Card>
+  <Card title="Titanblade (Greatsword)">
+    - **Primary Stat**: STR
+    - **Style**: Slow, heavy, wide-sweeping hits
+    - **Pros**: Massive crowd-clearing damage
+  </Card>
+</CardGrid>
+
+| Class | Weapon Type | Main Stat | Combat Role |
+|---|---|---|---|
+| **Swordsman** | Sword | STR | Balanced Solo DPS |
+| **Bowmaster** | Bow | DEX | Ranged Kite & DPS |
+| **Pugilist** | Gauntlets | STR | Rapid Melee Combos |
+| **Assassin** | Daggers | DEX/STR | High Burst & Poison |
+| **Duelist** | Rapier | DEX | Fast Thrusts & Spacing |
+| **Aegis** | Greatshield | STR | Frontline Tanking |
+
+<Callout type="warning" title="Class Weapon Requirement">
+Always ensure you have the correct starter weapon equipped to use your class-specific skills. Starter weapons can be obtained directly from the blacksmith.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Starter Progression Route">
+
+To level up efficiently and prepare your character for difficult endgame content, follow this structured roadmap from your very first login.
+
+<Steps>
+  <Step num="1" title="Complete the Tutorial">
+    Learn basic controls including movement (WASD), basic attacks (M1), blocking (F), dashing (Q), and flight (V). Familiarize yourself with the main menu (M) to manage your inventory and skill trees.
+  </Step>
+  <Step num="2" title="Select Your Starter Weapon">
+    Visit the starting blacksmith to pick up your initial class weapon. We recommend Swordsman or Bowmaster for an easy early leveling experience.
+  </Step>
+  <Step num="3" title="Follow Main & Side Quests">
+    Complete quests in your starting territory to quickly reach level 10. Avoid fighting high-level monsters early on; stick to enemies close to your current level.
+  </Step>
+  <Step num="4" title="Upgrade Your Skill Trees">
+    Invest your earned points into a few highly reliable class and magic skills. Do not spread your points too thin across too many different branches.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progression Milestone">
+Reaching level 10 allows you to enter the Temple of Beginnings, which serves as your primary source for early-game Epic and Legendary gear.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dungeons, Bosses, and Loot Tables">
+
+Defeating bosses is the primary method for acquiring powerful armor sets and weapons. The table below details the early-to-mid-game encounters you will face.
+
+| Encounter | Recommended Level | Location | Key Drops |
+|---|---|---|---|
+| **Treant (Miniboss)** | Level 10+ | Temple of Beginnings | Snarl Hound Claws, Verdant Sovereign Armor |
+| **Bone Dragon (Boss)** | Level 10+ | Temple of Beginnings | Night's Edge, Obsidian Requiem, Azure Knightplate |
+| **Satyr (Miniboss)** | Level 20+ | Salamander Territory | Iron Boarding Axe, Bloodcrown Regalia Set |
+
+<Callout type="info" title="Dungeon Strategy">
+When running the Temple of Beginnings, you can choose the left parkour route to skip unnecessary trash mobs, or the right combat route to gain extra experience.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Combat Controls Quick Reference">
+
+Navigating combat successfully requires understanding your keybinds and defensive options.
+
+| Action | PC Input | Mobile Input | Combat Usage |
+|---|---|---|---|
+| **Basic Attack** | M1 / Left Click | Touch HUD Button | Standard combo string |
+| **Feint Attack** | M2 / Right Click | Touch HUD Button | Cancel attacks to bait blocks |
+| **Block / Parry** | F | Touch HUD Button | Hold to block; tap to parry |
+| **Dash** | Q | Touch HUD Button | Dodge attacks or close distance |
+| **Fly** | V | Touch HUD Button | Toggle wings for aerial travel |
+
+<Callout type="warning" title="Stamina Management">
+Do not deplete your entire stamina bar on offensive moves. Always save enough stamina to perform a dash (Q) or a block (F) when an enemy counters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beginner Goals Checklist">
+
+Use this checklist to track your early progress and ensure your character is built correctly before moving to advanced zones.
+
+<Checklist
+  id="grand-alfheim-goals"
+  title="Starter Milestones:"
+  items={[
+    "Complete the basic tutorial and master flight controls",
+    "Acquire your first starter weapon from the blacksmith",
+    "Reach Level 10 by completing main and regional side quests",
+    "Equip a full Azure Knightplate Set from the Temple of Beginnings",
+    "Unlock at least three active skills in your class skill tree"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I find the ultimate grand alfheim starter guide tips for class resetting?",
+    answer: "You can change your class at any time without resetting your character. Simply visit a blacksmith in any major town, select a different weapon class, and equip the corresponding weapon."
+  },
+  {
+    question: "How do I unlock flight in Grand Alfheim?",
+    answer: "Flight is a core racial feature. Press 'V' on PC or tap the flight button on mobile to activate your wings. Note that flight may be restricted inside certain dungeons."
+  },
+  {
+    question: "What is the best starter race for solo players?",
+    answer: "Salamander is highly recommended for solo players due to its high raw damage output. Sylph is also excellent for its superior speed and evasion capabilities."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de cocina de Grand Alfheim: Mejoras de supervivencia y recetas",
+  description: "Domina la guía de cocina de Grand Alfheim. Aprende a gestionar el hambre, encontrar ingredientes y cocinar platos de alto nivel para obtener aumentos masivos de estadísticas en Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cooking+And+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: La actualización de la Fase 6 introdujo los sistemas de hambre y cocina en el ciclo de progresión principal.
+- **Mejoras de supervivencia**: Comer platos cocinados mantiene tu regeneración de resistencia y otorga poderosos aumentos de estadísticas de combate.
+- **Ubicación clave**: El territorio de los gnomos cuenta con un mapa renovado con abundantes estaciones de cocina e ingredientes crudos.
+- **Mejor estrategia**: Cocina siempre la carne y las verduras crudas en lugar de comerlas crudas para evitar efectos negativos.
+- **Mejor opción**: Las comidas de alto nivel que mejoran las estadísticas son una preparación esencial antes de entrar al Ode to the Abyss de nivel 50.
+</Callout>
+
+<Section icon={Map} title="Introducción a la cocina y supervivencia en Grand Alfheim">
+
+La actualización de la Fase 6 transformó el mundo abierto de Grand Alfheim al introducir mecánicas de supervivencia cruciales: el hambre y la cocina. Los jugadores ya no pueden depender únicamente del equipamiento de su clase y de los árboles de habilidades mágicas para sobrevivir a los enfrentamientos difíciles. Gestionar tu medidor de hambre ahora es tan importante como mejorar tus armas. 
+
+Cuando tu personaje tiene hambre, la regeneración general de resistencia disminuye significativamente, lo que dificulta esquivar, bloquear o realizar combos continuos de armas. La cocina transforma los ingredientes crudos recolectados en la naturaleza o soltados por monstruos en comidas nutritivas que restauran tu barra de hambre y otorgan mejoras temporales de estadísticas.
+
+| Métrica de supervivencia | Impacto de la mejora | Impacto del perjuicio | Mejor método de recuperación |
+| :--- | :--- | :--- | :--- |
+| **Medidor de hambre** | Regeneración de resistencia mejorada, estadísticas adicionales | Resistencia reducida, movimiento más lento | Comer comidas cocinadas de nivel |
+| **Barra de resistencia** | Ejecución de combos más rápida, vuelo continuo | Incapacidad para esquivar o bloquear | Mantener el hambre por encima del 50% |
+
+<Callout type="warning" title="Advertencia de hambre">
+No dejes que tu barra de hambre llegue a cero. Un medidor de hambre completamente agotado reduce lentamente tu salud y te impide usar habilidades de clase de alta resistencia, dejándote muy vulnerable durante las batallas contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo recolectar ingredientes para cocinar">
+
+Antes de comenzar a preparar platos, debes recolectar ingredientes crudos de los diversos territorios raciales. Los ingredientes se dividen en tres categorías principales: plantas recolectadas, botines de monstruos y productos básicos de cocina comprados. 
+
+El territorio de los gnomos es la zona principal para recolectar verduras y hongos debido a la importante renovación de su mapa en la Fase 6. Para obtener carnes de alta calidad, cazar bestias salvajes y monstruos en las zonas iniciales y en los territorios de mitad del juego es el camino más confiable.
+
+<CardGrid cols={3}>
+  <Card title="Recolección silvestre">
+    - **Hongos**: Se encuentran cerca de árboles húmedos en el territorio de los gnomos.
+    - **Hierbas silvestres**: Abundantes en los senderos de hierba en el territorio de los sílfides.
+    - **Bayas**: Recolectadas de los arbustos en las zonas iniciales.
+  </Card>
+  <Card title="Caza de monstruos">
+    - **Aves crudas**: Soltadas por monstruos alados en áreas elevadas.
+    - **Carne de bestia cruda**: Soltada por lobos y jabalíes.
+    - **Partes raras de monstruos**: Recolectadas de minijefes de territorio.
+  </Card>
+  <Card title="Comerciantes del pueblo">
+    - **Aceite de cocina**: Comprado en tiendas básicas del pueblo.
+    - **Sal y especias**: Esenciales para recetas de alto nivel.
+    - **Agua fresca**: Ingrediente barato para sopas y guisos.
+  </Card>
+</CardGrid>
+
+| Ingrediente | Fuente principal | Ubicación común | Rareza |
+| :--- | :--- | :--- | :--- |
+| **Hongos silvestres** | Recolección | Bosques del territorio de los gnomos | Común |
+| **Carne de bestia cruda** | Botín de lobos | Alrededores de Salamandra y Ondina | Común |
+| **Especias raras** | Compra a comerciantes | Plazas de las ciudades principales | Poco común |
+| **Aves gruesas** | Botín de monstruos pájaro | Picos montañosos del territorio de los sílfides | Poco común |
+| **Miel dorada** | Recolección de colmenas | Árboles del territorio de los gnomos | Raro |
+
+<Callout type="tip" title="Consejo de cultivo">
+Equipa tu montura cuando recolectes ingredientes en mapas grandes. Usar un caballo te permite viajar rápidamente entre los nodos de recursos en los territorios de los gnomos y los sílfides sin consumir tu resistencia personal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ubicaciones de las estaciones de cocina y pasos de elaboración">
+
+Cocinar no se puede hacer sobre la marcha; debes ubicar una estación de cocina designada o una fogata. Estas estaciones se encuentran típicamente en las ciudades raciales principales, puestos avanzados seguros y cerca de las entradas de las mazmorras. Los pasos para preparar una comida son sencillos pero requieren precisión para evitar desperdiciar ingredientes valiosos.
+
+<Steps>
+  <Step num="1" title="Ubica una estación de cocina">
+    Viaja a una ciudad principal o encuentra una fogata en el territorio de los gnomos, salamandras u ondinas. Acércate a la olla y presiona la tecla de interacción para abrir la interfaz de cocina.
+  </Step>
+  <Step num="2" title="Selecciona tu receta">
+    Explora tus recetas desbloqueadas en el menú de cocina. Asegúrate de tener todas las carnes crudas, verduras y condimentos necesarios en tu inventario.
+  </Step>
+  <Step num="3" title="Combina los ingredientes">
+    Coloca la proporción correcta de ingredientes en las ranuras de cocina. Mezclar elementos incorrectos dará como resultado un plato arruinado que proporciona una restauración mínima del hambre.
+  </Step>
+  <Step num="4" title="Ejecuta la acción de cocinar">
+    Confirma la acción para comenzar a cocinar. Una vez completado, la comida cocinada se agregará directamente a tu inventario, lista para el consumo o el comercio.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Preparación para mazmorras">
+Cocina siempre un lote de comidas de alto nivel antes de ingresar al Temple of Beginnings o al Ode to the Abyss. Comer una comida justo antes del portal del jefe asegura que tus mejoras duren durante todo el enfrentamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recetas esenciales y mejoras de estadísticas">
+
+Diferentes comidas proporcionan diferentes niveles de restauración del hambre y mejoras de estadísticas. Si bien las carnes asadas básicas están bien para la exploración general, se requieren platos avanzados para enfrentarse a los jefes del juego final. A continuación se presenta una recopilación de las recetas más efectivas descubiertas en la versión actual de la Fase 6.
+
+| Plato cocinado | Ingredientes requeridos | Hambre restaurada | Efectos de mejora adicionales |
+| :--- | :--- | :--- | :--- |
+| **Brocheta asada** | 2x Carne cruda, 1x Sal | 35% de hambre | +5% de daño físico (10 min) |
+| **Guiso de hongos** | 3x Hongos, 1x Agua | 50% de hambre | +10% de defensa mágica (15 min) |
+| **Aves con hierbas** | 2x Aves, 1x Hierba silvestre | 60% de hambre | +8% de vel. de regen. de resistencia (15 min) |
+| **Banquete del cazador** | 3x Carne cruda, 1x Miel, 1x Especia | 85% de hambre | +150 PS máx., +10% de ataque (20 min) |
+| **Tarta de bayas dulces** | 4x Bayas, 1x Miel, 1x Harina | 40% de hambre | +15% de velocidad de vuelo (10 min) |
+
+<Callout type="info" title="Regla de acumulación de mejoras">
+Solo puedes tener una mejora de comida activa a la vez. Comer una nueva comida sobrescribirá tu mejora de comida activa actual, así que elige tus platos con cuidado según tu actividad actual.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de supervivencia para aventureros">
+
+Para asegurarte de nunca encontrarte muriendo de hambre en medio de una mazmorra o en una batalla PvP de alto riesgo, sigue esta práctica lista de verificación antes de salir de las zonas seguras.
+
+<Checklist
+  id="cooking-survival-checklist"
+  title="Lista de verificación de cocina previa a la aventura:"
+  items={[
+    "Verifica que tu barra de hambre esté por encima del 80% antes de salir de la ciudad",
+    "Mantén al menos 5 brochetas asadas o guisos en tu inventario de acceso rápido",
+    "Recolecta hierbas silvestres y hongos cada vez que pases por ellos en el territorio de los gnomos",
+    "Compra sal y especias baratas al por mayor a los comerciantes de la ciudad",
+    "Adapta las mejoras de tus comidas cocinadas a tu clase (por ejemplo, Banquete del cazador para Titanblades)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor lugar para cultivar ingredientes de cocina en Grand Alfheim?",
+    answer: "El territorio de los gnomos es la mejor zona absoluta para recolectar hongos silvestres, hierbas y miel debido a sus densos bosques y la reciente renovación del mapa en la Fase 6."
+  },
+  {
+    question: "¿Las mejoras de comida se acumulan con la magia racial y las habilidades de clase?",
+    answer: "Sí. Las mejoras de comida cocinada se acumulan perfectamente con tus rasgos pasivos de magia racial y las mejoras activas de clase, lo que te permite maximizar tu potencial de combate."
+  },
+  {
+    question: "¿Puedo comer ingredientes crudos si me estoy muriendo de hambre en una mazmorra?",
+    answer: "Puedes, pero comer carne cruda o hongos crudos restaura muy poco hambre y tiene una alta probabilidad de darte un perjuicio menor de veneno o lentitud."
+  },
+  {
+    question: "¿Cuánto duran las mejoras de estadísticas de las comidas cocinadas?",
+    answer: "La mayoría de las comidas cocinadas básicas proporcionan mejoras que duran entre 10 y 15 minutos, mientras que los platos avanzados como el Banquete del cazador duran hasta 20 minutos."
+  }
+]} />
+
+</Section>

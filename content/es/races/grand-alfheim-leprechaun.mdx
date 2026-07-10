@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "grand alfheim leprechaun: Guía de Build de Magia de Rayo y Artesanía",
+  description: "Domina la raza leprechaun de grand alfheim con nuestra guía de build. Descubre la magia de rayo, los rasgos de alas mecánicas y configuraciones de equipo optimizadas.",
+  category: "Races",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Leprechaun+Build+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de grand alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Identidad Principal**: El **leprechaun de grand alfheim** es una raza altamente especializada centrada en la Magia de Rayo, la utilidad en artesanía y la estética de alas mecánicas.
+- **Prioridad de Estadísticas**: Prioriza la Destreza (DEX) y la Fuerza (STR) para complementar armas cuerpo a cuerpo rápidas o configuraciones a distancia.
+- **Mejor Combinación de Armas**: Los Estoques (Duelista) y las Dagas (Asesino) funcionan excepcionalmente bien con los activadores de estado de rayo de alta frecuencia.
+- **Utilidad Clave**: Excelente para jugadores que disfrutan de la personalización de equipo, la artesanía y los estilos de combate rápidos de múltiples golpes.
+</Callout>
+
+<Section icon={Sparkles} title="La Identidad Racial del leprechaun de grand alfheim">
+
+El **leprechaun de grand alfheim** destaca como una de las nueve razas de hadas únicas en el juego. Conocidos por sus distintos diseños de alas mecánicas y su profunda conexión con la herrería y la artesanía, los Leprechauns son la opción ideal para los jugadores que desean dominar la progresión centrada en el equipo. En combate, utilizan magia basada en el rayo para interrumpir a los enemigos y acelerar su ejecución ofensiva.
+
+Mientras que otras razas se centran en la destrucción elemental pura o rasgos puramente defensivos, el Leprechaun ofrece una mezcla equilibrada de velocidad de combate y utilidad. Esto los hace altamente versátiles, encajando cómodamente en varias clases de alto nivel.
+
+| Rasgo Racial | Impacto en Combate | Beneficio de Estilo de Juego |
+|---|---|---|
+| **Magia de Rayo** | Aturdimiento/interrupción de alta frecuencia | Fuerte control de masas y extensión de combos |
+| **Identidad de Artesanía** | Tema de herrería mejorado | Muy adecuado para la progresión impulsada por el equipo |
+| **Alas Mecánicas** | Estética de vuelo única | Alta distinción visual durante el viaje aéreo |
+
+<Callout type="tip" title="Consejo de Sinergia">
+Debido a que la Magia de Rayo depende de golpes rápidos y sucesivos para maximizar la presión elemental, combinar esta raza con armas de ataque rápido como el Estoque o las Dagas produce los mejores resultados en combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Combinaciones de Clase y Builds de Armas">
+
+Elegir la clase adecuada es fundamental para desbloquear todo el potencial de tu personaje **leprechaun de grand alfheim**. Dado que las clases se seleccionan en la forja o herrería, puedes pivotar fácilmente si deseas probar un estilo de arma diferente. A continuación se presenta una comparación de las mejores combinaciones de clases para esta raza.
+
+<CardGrid cols={3}>
+  <Card title="Duelista (Estoque)">
+    - **Estadística Principal**: DEX
+    - **Estilo de Combate**: Estocadas rápidas y contraataques precisos.
+    - **Sinergia**: La magia de rayo añade hitstun a tus combinaciones de ritmo rápido.
+  </Card>
+  <Card title="Asesino (Dagas)">
+    - **Estadística Principal**: DEX / STR
+    - **Estilo de Combate**: Daño de ráfaga de alta movilidad y presión de veneno.
+    - **Sinergia**: Las cadenas de ataque rápido aplican rápidamente estados elementales.
+  </Card>
+  <Card title="Maestro Arquero (Arco)">
+    - **Estadística Principal**: DEX
+    - **Estilo de Combate**: Kiting a distancia y disparos cargados de precisión.
+    - **Sinergia**: Mantiene a los enemigos a distancia mientras la magia de rayo interrumpe su avance.
+  </Card>
+</CardGrid>
+
+Para ayudarte a elegir, aquí tienes un desglose detallado de cómo escalan los diferentes arquetipos de armas con las fortalezas naturales del Leprechaun:
+
+| Clase de Arma | Estadística Primaria | Velocidad de Ataque | Potencial de Aturdimiento | Build Recomendada |
+|---|---|---|---|---|
+| **Estoque** | DEX | Rápida | Alto | Build de Velocidad de Duelista |
+| **Dagas** | DEX/STR | Muy Rápida | Medio | Build de Estado de Asesino |
+| **Arco** | DEX | Media | Alto | Build a Distancia de Maestro Arquero |
+| **Espada** | STR | Media | Medio | Build de Espadachín Equilibrado |
+
+<Callout type="warning" title="Restricción de Clase">
+Evita armas lentas y pesadas como el Martillo de Guerra (Skull Crusher) o la Espada Mandoble (Titanblade), a menos que planees construir puramente para daño físico bruto. Estas armas lentas no activan los efectos de estado basados en el rayo con la frecuencia suficiente para maximizar tus ventajas pasivas raciales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión Paso a Paso del Leprechaun">
+
+Para construir un Leprechaun listo para el endgame, debes seguir una ruta eficiente de subida de nivel y farmeo de equipo. Esta ruta paso a paso te guía desde la creación del personaje hasta los encuentros PvE más difíciles del juego.
+
+<Steps>
+  <Step num="1" title="Creación de Personaje y Configuración Inicial">
+    Selecciona la raza Leprechaun durante la creación del personaje para asegurar tus alas mecánicas y tu afinidad con la Magia de Rayo. Completa el tutorial básico de movimiento y vuelo, luego visita al herrero inicial para equipar el Estoque de Duelista o las Dagas de Hueso.
+  </Step>
+  <Step num="2" title="Misiones Iniciales y Nivelación (1-9)">
+    Completa las líneas de misiones principales en el territorio inicial para reunir experiencia temprana y moneda. Invierte tus primeros puntos de habilidad en el árbol de habilidades de tu arma principal, desbloqueando extensiones de combo básicas y tu primer hechizo activo de rayo.
+  </Step>
+  <Step num="3" title="Farmeo en el Templo de los Comienzos (10-19)">
+    Dirígete al Templo de los Comienzos. Realiza la ruta de parkour de la izquierda para velocidad o la ruta de combate de la derecha para experiencia extra. Derrota al jefe final Dragón de Hueso para farmear el **Set de Placas de Caballero Azur** (+120 HP) o mejoras de armas de alto nivel como la espada épica **Night's Edge**.
+  </Step>
+  <Step num="4" title="Jefes de Territorio y Equipo de Mitad de Juego (20-49)">
+    Explora territorios raciales avanzados y farmea al mini-jefe Sátiro de mundo abierto en la región de Salamander para asegurar el **Set Bloodcrown Regalia** (+820 HP). Refina tus árboles de habilidades, equilibrando tu maestría de armas con la utilidad de Magia de Rayo de alto nivel.
+  </Step>
+  <Step num="5" title="Mazmorras de Fin de Juego y Botín Mítico (50+)">
+    Forma un grupo coordinado y entra en **Ode to the Abyss** durante su ventana de apertura programada de 10 minutos (12:00 AM/PM EST). Derrota el encuentro final para farmear armas míticas como la **Voidrune Edge** o el **Arco Nightreaver** para completar tu build.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Objetivo de Progresión">
+Tu hito final al nivel 50+ es combinar un set completo de Bloodcrown Regalia con un arma mítica del Abismo, dándote la mezcla perfecta de alta supervivencia y daño rápido imbuido en rayo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Build Leprechaun">
+
+Usa esta lista para seguir el progreso de tu build a medida que subes de nivel y optimizas tu equipo.
+
+<Checklist
+  id="leprechaun-milestones"
+  title="Hitos de la Build Leprechaun:"
+  items={[
+    "Desbloquear hechizos iniciales de magia de rayo en el árbol de habilidades",
+    "Alcanzar el nivel 10 y obtener una mejora de arma del Templo de los Comienzos",
+    "Equipar un set completo de Placas de Caballero Azur para supervivencia temprana en mazmorras",
+    "Derrotar al mini-jefe Sátiro para adquirir el Set Bloodcrown Regalia",
+    "Alcanzar el nivel 50 y desbloquear todas las habilidades activas de rayo de alto nivel",
+    "Completar Ode to the Abyss y equipar un arma mítica"
+  ]}
+/>
+
+<Callout type="info" title="Verificación de la Build">
+Una vez que puedas derrotar consistentemente a los jefes de territorio en solitario sin quedarte sin estamina o pociones de salud, tu build de mitad de juego estará oficialmente completa y lista para las incursiones de fin de juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué hace que el leprechaun de grand alfheim sea único en comparación con otras razas?",
+    answer: "El Leprechaun se distingue por su afinidad con la Magia de Rayo, su diseño único de alas mecánicas y una fuerte conexión de trasfondo con la herrería y la artesanía de equipo."
+  },
+  {
+    question: "¿Dónde puedo cambiar mi clase si quiero pasar de Duelista a Asesino?",
+    answer: "Puedes cambiar tu clase en cualquier momento visitando a un herrero o forja. Cambiar de clase te permite probar diferentes estilos de lucha sin perder el progreso de nivel general de tu personaje."
+  },
+  {
+    question: "¿Qué set de armadura es mejor para una build de Leprechaun de mitad de juego?",
+    answer: "El Set Bloodcrown Regalia es altamente recomendado. Se obtiene del mini-jefe Sátiro en el territorio Salamander y proporciona un aumento masivo de +820 HP, incrementando significativamente tu supervivencia."
+  },
+  {
+    question: "¿Cómo entro en la mazmorra de fin de juego, Ode to the Abyss?",
+    answer: "La entrada encadenada se encuentra en el territorio Gnome. Se abre diariamente a las 12:00 AM y 12:00 PM hora del Este durante una breve ventana de entrada de 10 minutos, y requiere un nivel recomendado de 50+."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,306 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "grand-alfheim-codes",
+        "file": "grand-alfheim-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "grand-alfheim-black-indicator",
+        "file": "grand-alfheim-black-indicator"
+      },
+      {
+        "slug": "grand-alfheim-premium-armor",
+        "file": "grand-alfheim-premium-armor"
+      },
+      {
+        "slug": "grand-alfheim-pvp",
+        "file": "grand-alfheim-pvp"
+      },
+      {
+        "slug": "grand-alfheim-skill-tree",
+        "file": "grand-alfheim-skill-tree"
+      },
+      {
+        "slug": "grand-alfheim-weapons",
+        "file": "grand-alfheim-weapons"
+      }
+    ],
+    "dungeons": [
+      {
+        "slug": "grand-alfheim-dungeon-guide",
+        "file": "grand-alfheim-dungeon-guide"
+      },
+      {
+        "slug": "grand-alfheim-first-dungeon-puzzle",
+        "file": "grand-alfheim-first-dungeon-puzzle"
+      },
+      {
+        "slug": "grand-alfheim-skeletal-dragon",
+        "file": "grand-alfheim-skeletal-dragon"
+      },
+      {
+        "slug": "grand-alfheim-solo-dungeon",
+        "file": "grand-alfheim-solo-dungeon"
+      },
+      {
+        "slug": "grand-alfheim-starter-dungeon",
+        "file": "grand-alfheim-starter-dungeon"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "grand-alfheim-beginner-guide",
+        "file": "grand-alfheim-beginner-guide"
+      },
+      {
+        "slug": "grand-alfheim-cooking-guide",
+        "file": "grand-alfheim-cooking-guide"
+      },
+      {
+        "slug": "grand-alfheim-how-to-play",
+        "file": "grand-alfheim-how-to-play"
+      },
+      {
+        "slug": "grand-alfheim-progression-guide",
+        "file": "grand-alfheim-progression-guide"
+      },
+      {
+        "slug": "grand-alfheim-starter-guide",
+        "file": "grand-alfheim-starter-guide"
+      },
+      {
+        "slug": "grand-alfheim-tutorial",
+        "file": "grand-alfheim-tutorial"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "grand-alfheim-fisherman-bubba-location",
+        "file": "grand-alfheim-fisherman-bubba-location"
+      },
+      {
+        "slug": "grand-alfheim-hunting-board-location",
+        "file": "grand-alfheim-hunting-board-location"
+      },
+      {
+        "slug": "grand-alfheim-maps",
+        "file": "grand-alfheim-maps"
+      },
+      {
+        "slug": "grand-alfheim-merchant-locations",
+        "file": "grand-alfheim-merchant-locations"
+      },
+      {
+        "slug": "grand-alfheim-mine-location",
+        "file": "grand-alfheim-mine-location"
+      },
+      {
+        "slug": "grand-alfheim-ode-to-the-abyss-location",
+        "file": "grand-alfheim-ode-to-the-abyss-location"
+      },
+      {
+        "slug": "grand-alfheim-satyr-location",
+        "file": "grand-alfheim-satyr-location"
+      },
+      {
+        "slug": "grand-alfheim-temple-of-beginnings-location",
+        "file": "grand-alfheim-temple-of-beginnings-location"
+      }
+    ],
+    "races": [
+      {
+        "slug": "grand-alfheim-gnome",
+        "file": "grand-alfheim-gnome"
+      },
+      {
+        "slug": "grand-alfheim-leprechaun",
+        "file": "grand-alfheim-leprechaun"
+      },
+      {
+        "slug": "grand-alfheim-race-guide",
+        "file": "grand-alfheim-race-guide"
+      },
+      {
+        "slug": "grand-alfheim-salamander",
+        "file": "grand-alfheim-salamander"
+      },
+      {
+        "slug": "grand-alfheim-spriggan",
+        "file": "grand-alfheim-spriggan"
+      },
+      {
+        "slug": "grand-alfheim-undine",
+        "file": "grand-alfheim-undine"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "grand-alfheim-phase-6",
+        "file": "grand-alfheim-phase-6"
+      },
+      {
+        "slug": "grand-alfheim-trailer",
+        "file": "grand-alfheim-trailer"
+      },
+      {
+        "slug": "grand-alfheim-update",
+        "file": "grand-alfheim-update"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "grand-alfheim-codes",
+        "file": "grand-alfheim-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "grand-alfheim-black-indicator",
+        "file": "grand-alfheim-black-indicator"
+      },
+      {
+        "slug": "grand-alfheim-premium-armor",
+        "file": "grand-alfheim-premium-armor"
+      },
+      {
+        "slug": "grand-alfheim-pvp",
+        "file": "grand-alfheim-pvp"
+      },
+      {
+        "slug": "grand-alfheim-skill-tree",
+        "file": "grand-alfheim-skill-tree"
+      },
+      {
+        "slug": "grand-alfheim-weapons",
+        "file": "grand-alfheim-weapons"
+      }
+    ],
+    "dungeons": [
+      {
+        "slug": "grand-alfheim-dungeon-guide",
+        "file": "grand-alfheim-dungeon-guide"
+      },
+      {
+        "slug": "grand-alfheim-first-dungeon-puzzle",
+        "file": "grand-alfheim-first-dungeon-puzzle"
+      },
+      {
+        "slug": "grand-alfheim-skeletal-dragon",
+        "file": "grand-alfheim-skeletal-dragon"
+      },
+      {
+        "slug": "grand-alfheim-solo-dungeon",
+        "file": "grand-alfheim-solo-dungeon"
+      },
+      {
+        "slug": "grand-alfheim-starter-dungeon",
+        "file": "grand-alfheim-starter-dungeon"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "grand-alfheim-beginner-guide",
+        "file": "grand-alfheim-beginner-guide"
+      },
+      {
+        "slug": "grand-alfheim-cooking-guide",
+        "file": "grand-alfheim-cooking-guide"
+      },
+      {
+        "slug": "grand-alfheim-how-to-play",
+        "file": "grand-alfheim-how-to-play"
+      },
+      {
+        "slug": "grand-alfheim-progression-guide",
+        "file": "grand-alfheim-progression-guide"
+      },
+      {
+        "slug": "grand-alfheim-starter-guide",
+        "file": "grand-alfheim-starter-guide"
+      },
+      {
+        "slug": "grand-alfheim-tutorial",
+        "file": "grand-alfheim-tutorial"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "grand-alfheim-fisherman-bubba-location",
+        "file": "grand-alfheim-fisherman-bubba-location"
+      },
+      {
+        "slug": "grand-alfheim-hunting-board-location",
+        "file": "grand-alfheim-hunting-board-location"
+      },
+      {
+        "slug": "grand-alfheim-maps",
+        "file": "grand-alfheim-maps"
+      },
+      {
+        "slug": "grand-alfheim-merchant-locations",
+        "file": "grand-alfheim-merchant-locations"
+      },
+      {
+        "slug": "grand-alfheim-mine-location",
+        "file": "grand-alfheim-mine-location"
+      },
+      {
+        "slug": "grand-alfheim-ode-to-the-abyss-location",
+        "file": "grand-alfheim-ode-to-the-abyss-location"
+      },
+      {
+        "slug": "grand-alfheim-satyr-location",
+        "file": "grand-alfheim-satyr-location"
+      },
+      {
+        "slug": "grand-alfheim-temple-of-beginnings-location",
+        "file": "grand-alfheim-temple-of-beginnings-location"
+      }
+    ],
+    "races": [
+      {
+        "slug": "grand-alfheim-gnome",
+        "file": "grand-alfheim-gnome"
+      },
+      {
+        "slug": "grand-alfheim-leprechaun",
+        "file": "grand-alfheim-leprechaun"
+      },
+      {
+        "slug": "grand-alfheim-race-guide",
+        "file": "grand-alfheim-race-guide"
+      },
+      {
+        "slug": "grand-alfheim-salamander",
+        "file": "grand-alfheim-salamander"
+      },
+      {
+        "slug": "grand-alfheim-spriggan",
+        "file": "grand-alfheim-spriggan"
+      },
+      {
+        "slug": "grand-alfheim-undine",
+        "file": "grand-alfheim-undine"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "grand-alfheim-phase-6",
+        "file": "grand-alfheim-phase-6"
+      },
+      {
+        "slug": "grand-alfheim-trailer",
+        "file": "grand-alfheim-trailer"
+      },
+      {
+        "slug": "grand-alfheim-update",
+        "file": "grand-alfheim-update"
+      }
+    ]
+  }
+}

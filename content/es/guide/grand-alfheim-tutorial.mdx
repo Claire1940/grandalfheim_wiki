@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tutorial de Grand Alfheim: Guía de progresión paso a paso para principiantes",
+  description: "Domina el tutorial de Grand Alfheim con esta guía de progresión paso a paso. Aprende sobre las clases iniciales, mecánicas de combate, vuelo y la primera mazmorra.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1bc5d8/fff?text=Beginner+Progression+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "Grand Alfheim, tutorial, guía para principiantes, clases, combate, vuelo, mazmorra"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Tutorial principal**: Completa la zona de inicio para desbloquear el vuelo en el mundo abierto y las clases iniciales.
+- **Núcleo del combate**: Domina la mecánica de parry (tecla F) desde el principio para sobrevivir a los duros enfrentamientos contra jefes.
+- **Selección de armas**: Visita al herrero para elegir entre 11 disciplinas de armas distintas.
+- **Primera mazmorra**: Prepárate para el Templo de los Comienzos a nivel 10 para farmear equipamiento épico.
+- **Preparación para el endgame**: Se requiere juego en grupo coordinado para la Oda al Abismo de nivel 50.
+</Callout>
+
+<Section icon={Map} title="Tutorial de Grand Alfheim: Creación de personaje y aspectos básicos">
+
+Entrar en los cielos místicos de este MMORPG de fantasía inspirado en Sword Art Online requiere una sólida comprensión de sus mecánicas fundamentales. Al iniciar el juego por primera vez, tu viaje comienza con la creación de personaje, donde elegirás entre nueve razas de hadas distintas. Cada raza cuenta con diseños estéticos únicos, magia elemental asociada y especialidades raciales que darán forma a tu estilo de juego a largo plazo.
+
+**Puntos destacados del video:**
+- **Selección de raza**: Resumen de las nueve razas de hadas y sus tipos de magia elemental.
+- **Conceptos básicos de movimiento**: Cómo utilizar el esprint, esquivar rodando y los combos básicos de ataque M1.
+- **Mecánicas de vuelo**: Activación de tus alas con la tecla V para la exploración vertical.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim" />
+
+Tras personalizar tu apariencia, entrarás en la zona de tutorial instanciada. Este área está diseñada para enseñarte el movimiento, la supervivencia defensiva y las cadenas de combate básicas. No pases de prisa por esta sección; dominar estos controles desde el principio evitará derrotas frecuentes en el mundo abierto.
+
+| Acción de Control | Entrada en PC | Entrada en Móvil | Aplicación en Combate |
+| :--- | :--- | :--- | :--- |
+| **Moverse** | W, A, S, D | Joystick Virtual | Navegar por ciudades, mazmorras y arenas de combate |
+| **Ataque cuerpo a cuerpo** | M1 / Clic Izquierdo | Botón HUD Táctil | Combo de ataque estándar con el arma |
+| **Finta** | M2 / Clic Derecho | Botón HUD Táctil | Cancela un ataque para engañar las opciones defensivas enemigas |
+| **Bloquear / Parry** | F | Botón HUD Táctil | Mantener para bloquear / Pulsar antes del impacto para hacer parry |
+| **Esprintar** | Q | Botón HUD Táctil | Reposicionarse, esquivar golpes pesados o iniciar ataques en carrera |
+| **Volar** | V | Botón HUD Táctil | Activa las alas raciales para viajar por el aire y explorar |
+
+<Callout type="tip" title="Consejo Pro de Vuelo">
+El vuelo es una mecánica de progresión fundamental. Practica siempre el vuelo con la **tecla V** desde el principio, ya que muchas cadenas de misiones y ubicaciones de tesoros secretos requieren un desplazamiento vertical a través de plataformas a gran altura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elegir tu clase inicial y build">
+
+En Grand Alfheim, las clases están vinculadas directamente a la categoría de arma que tengas equipada, en lugar de bloquearse en la creación de personaje. Para seleccionar o cambiar tu clase, debes visitar la forja o a un NPC herrero local. Elegir una clase te otorga su arma inicial correspondiente, lo que te permite probar su velocidad de combate, alcance y árbol de habilidades sin perder tu progresión general.
+
+<CardGrid cols={3}>
+  <Card title="Espadachín">
+    - **Arma**: Espada
+    - **Estadística principal**: FUER (STR)
+    - **Estilo**: Combos equilibrados a corta distancia con un alcance confiable.
+  </Card>
+  <Card title="Maestro del arco">
+    - **Arma**: Arco y munición
+    - **Estadística principal**: DES (DEX)
+    - **Estilo**: Distanciamiento a rango, disparos cargados y juego seguro a distancia.
+  </Card>
+  <Card title="Asesino">
+    - **Arma**: Dagas
+    - **Estadística principal**: DES/FUER (DEX/STR)
+    - **Estilo**: Estocadas rápidas, alta movilidad y presión por veneno.
+  </Card>
+</CardGrid>
+
+Para los jugadores que prefieren armas más pesadas y de gran impacto o roles defensivos, el herrero ofrece varias opciones avanzadas que alteran el ritmo de tu combate.
+
+| Nombre de Clase | Categoría de Arma | Estadística Principal | Rol de Combate y Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Espada de titán** | Espadón | FUER | Ataques pesados más lentos y de gran daño con amplio alcance |
+| **Égida** | Escudo torre | FUER | Tanque de primera línea, bloqueo y absorción de daño |
+| **Púgil** | Guanteletes | FUER | Combos rápidos de puños a corta distancia y alta presión |
+| **Duelista** | Rapera | DES | Estocadas de precisión, juego de pies rápido y contraataques |
+| **Maestro de la creciente**| Guadaña | FUER | Ataques de barrido amplio para controlar grupos de enemigos |
+
+<Callout type="warning" title="Advertencia de Estamina">
+Las armas más pesadas como la Espada de titán y el Triturador de cráneos consumen enormes cantidades de estamina por golpe. No agotes tu barra de estamina por completo durante un combo ofensivo, o no podrás esquivar ni bloquear los contraataques entrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión y leveo paso a paso">
+
+Para subir de nivel de manera eficiente, debes combinar las misiones de la historia principal, las misiones secundarias locales y el farmeo específico en mazmorras. Seguir una ruta estructurada garantiza que siempre estés equipado adecuadamente para los desafíos que se avecinan.
+
+<Steps>
+  <Step num="1" title="Tutorial y misiones iniciales (Niv. 1-5)">
+    Completa la zona del tutorial por completo, elige tu clase inicial en la forja y equipa tu arma de inicio. Concéntrate en las misiones principales inmediatamente fuera de la ciudad de inicio para obtener los primeros niveles y dinero.
+  </Step>
+  <Step num="2" title="Entrenamiento en mundo abierto y magia (Niv. 5-9)">
+    Sigue las cadenas de misiones a través del territorio inicial de tu raza. Invierte tus primeros puntos de habilidad en una rotación de clase pequeña y confiable, y comienza a desarrollar tu árbol de magia racial para mezclar ataques físicos y mágicos.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos (Niv. 10-19)">
+    Viaja al Templo de los Comienzos. Completa la mazmorra repetidamente para reemplazar tu equipamiento común de herrero con conjuntos raros y épicos como la Armadura de placas de caballero azur.
+  </Step>
+  <Step num="4" title="Exploración de territorio y jefes (Niv. 20-49)">
+    Explora los territorios raciales vecinos, completa misiones secundarias avanzadas y farmea minijefes del mundo abierto como el Sátiro para obtener conjuntos de armadura de alto nivel y botín de armas.
+  </Step>
+  <Step num="5" title="Endgame: Oda al Abismo (Niv. 50+)">
+    Forma un grupo coordinado de 4 a 8 jugadores y entra en la Oda al Abismo. Domina la batalla de múltiples fases contra el jefe para obtener armas y armaduras míticas de nivel máximo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Hito de Progresión">
+Prioriza siempre las misiones específicas de clase tan pronto como estén disponibles. Estas misiones otorgan enormes cantidades de experiencia y a menudo desbloquean habilidades activas esenciales en el árbol de tu arma.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guías de mazmorras: Del Templo de los Comienzos a la Oda al Abismo">
+
+Las mazmorras son la fuente principal de equipamiento de alto nivel en Grand Alfheim. Estas instancias combinan puzles de entorno, peligrosos grupos de enemigos y encuentros con jefes de múltiples fases que pondrán a prueba la coordinación de tu equipo.
+
+| Nombre de Mazmorra | Req. de Nivel | Mecánicas Clave | Botín Destacado |
+| :--- | :--- | :--- | :--- |
+| **Templo de los Comienzos** | Nivel 10+ | Rutas de parkour o combate, puzles de cubos de ángeles/demonios, jefe Dragón de Hueso | Conjunto de caballero azur, Filo de la noche, Réquiem de obsidiana, Conjunto de dragón carmesí |
+| **Oda al Abismo** | Nivel 50+ | Descenso en ascensor, jefe Valdrayn, fase de activación de 4 torres con salud baja | Filo de runa abisal, Arco segador nocturno, Guanteletes de colmillo abisal, Pacto abisal |
+
+### Estrategias de Mazmorra
+
+Al realizar el **Templo de los Comienzos**, los grupos pueden dividirse para resolver los puzles de cubos más rápido. Es necesario colocar los cubos en los altares correspondientes de ángeles y demonios para abrir el portal hacia el Dragón de Hueso. Durante la batalla final, asegúrate de que tu grupo se disperse para que los ataques de aliento del dragón no eliminen a todo el equipo a la vez.
+
+Para la **Oda al Abismo**, la coordinación es obligatoria. Cuando la salud del jefe caiga por debajo de cierto umbral, se activarán cuatro torres alrededor de la arena. Tu equipo debe asignar jugadores específicos para destruir estas torres rápidamente, o de lo contrario el jefe regenerará su salud y acabará con todo el grupo.
+
+<Callout type="success" title="Evento de Botín Adicional">
+Mantente atento a los eventos oficiales de la comunidad. Los desarrolladores suelen organizar eventos de doble botín (2X Drops) durante las actualizaciones importantes, lo que los convierte en el momento perfecto para farmear el Templo de los Comienzos o la Oda al Abismo en busca de equipamiento mítico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación y objetivos para principiantes">
+
+Usa esta lista de verificación para seguir tu progreso a medida que completas el tutorial de Grand Alfheim y te aventuras en el resto del mundo.
+
+<Checklist
+  id="beginner-progression"
+  title="Tus primeros 20 niveles:"
+  items={[
+    "Completa el tutorial instanciado y desbloquea tu primera arma de clase",
+    "Alcanza el nivel 10 completando las misiones de la historia principal en tu territorio de inicio",
+    "Desbloquea y equipa tu primer hechizo de magia racial",
+    "Supera el Templo de los Comienzos y obtén un conjunto completo de caballero azur",
+    "Alcanza el nivel 20 y derrota al minijefe Sátiro del mundo abierto en el territorio de los Salamander"
+  ]}
+/>
+
+<Callout type="warning" title="Sin reinicios de cuenta">
+Las elecciones de clase son flexibles ya que puedes cambiar de arma con un herrero, pero tu raza inicial no se puede cambiar fácilmente. Elige una raza cuyo estilo de magia (como Undine para curación o Sylph para velocidad de viento) se adapte a tu rol preferido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes de Grand Alfheim">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambio mi clase en Grand Alfheim?",
+    answer: "Puedes cambiar tu clase en cualquier momento visitando a un NPC herrero en las ciudades principales. Cambiar tu categoría de arma equipada desbloquea el árbol de habilidades correspondiente sin reiniciar tu nivel."
+  },
+  {
+    question: "¿Dónde está la entrada al Templo de los Comienzos?",
+    answer: "Las entradas a esta mazmorra inicial se encuentran distribuidas por los territorios de los Salamander, Undine y Gnome. Se recomienda para jugadores de nivel 10 en adelante."
+  },
+  {
+    question: "¿Cómo funciona el sistema de vuelo?",
+    answer: "Puedes activar tus alas raciales presionando la tecla V en PC o tocando el icono de vuelo en el HUD en dispositivos móviles. El vuelo te permite atravesar terrenos verticales y explorar plataformas a gran altura."
+  },
+  {
+    question: "¿Qué es la Oda al Abismo y cuándo se abre?",
+    answer: "La Oda al Abismo es una mazmorra de endgame de nivel 50 ubicada en el territorio de los Gnome. Su entrada encadenada se abre dos veces al día a las 12:00 AM y a las 12:00 PM (hora del este) durante un intervalo de entrada de 10 minutos."
+  }
+]} />
+
+</Section>

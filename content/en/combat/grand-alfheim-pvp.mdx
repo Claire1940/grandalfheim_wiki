@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim PvP: Elite Combat Guide & Build Rankings",
+  description: "Master Grand Alfheim PvP with our comprehensive combat guide. Discover the best classes, racial passives, essential combos, and high-tier gear setups.",
+  category: "Combat",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand alfheim pvp** requires a deep understanding of class mechanics, weapon reach, and spacing.
+- **Top races** like Sylph and Salamander dominate the arena due to mobility and offensive passives.
+- **Defensive mechanics** like parrying and feints are mandatory to survive high-tier matchups.
+- **Endgame gear** from Ode to the Abyss provides the stat thresholds needed for competitive play.
+- **Combo execution** relies heavily on canceling attack animations using dashes and skill inputs.
+</Callout>
+
+<Section icon={Swords} title="Grand Alfheim PvP Meta Rankings">
+
+The competitive arena in Grand Alfheim demands a precise combination of class selection, racial synergy, and fast reflexes. To succeed in **grand alfheim pvp**, you must choose a combat style that allows you to control the pace of engagement while exploiting enemy recovery animations. 
+
+Classes in Grand Alfheim are selected at the forge or blacksmith, and they dictate your primary weapon and skill tree. Below is the definitive class tier list for PvP combat, ranking each archetype by its mobility, burst potential, and defensive utility.
+
+| Class | Primary Stat | Combat Style | PvP Tier |
+|---|---|---|---|
+| **Duelist** | DEX | Fast thrusts, rapid footwork, precise multi-hit combos | **S-Tier** |
+| **Assassin** | DEX / STR | Fast stabbing, high-mobility burst, poison pressure | **S-Tier** |
+| **Swordsman** | STR | Balanced close-range strings, dependable reach | **A-Tier** |
+| **Titanblade** | STR | Heavy, slow impact swings with massive reach | **A-Tier** |
+| **Pugilist** | STR | Continuous close-range fist combos, fast pressure | **B-Tier** |
+| **Bowmaster** | DEX | Ranged kiting, charged shots, spacing control | **B-Tier** |
+| **Aegis** | STR | Heavy shield blocking, damage absorption, low mobility | **C-Tier** |
+
+<Callout type="tip" title="Class Flexibility">
+You can return to any blacksmith to change your class and test a different weapon style without losing your overall character progression. Use this to counter the evolving PvP meta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Racial Synergies for Competitive Play">
+
+Your choice of fairy race directly impacts your performance in **grand alfheim pvp** by providing unique passive bonuses, flight characteristics, and elemental magic. Selecting a race that complements your class's primary stat and combat role is essential for maximizing your arena potential.
+
+<CardGrid cols={3}>
+  <Card title="Sylph (Wind Magic)">
+    - **Highest mobility** in aerial and ground combat
+    - Excellent for spacing and quick repositioning
+    - Ideal for Duelists and Assassins
+  </Card>
+  <Card title="Salamander (Fire Magic)">
+    - **High offensive focus** with raw damage passives
+    - Applies heavy direct pressure during combos
+    - Best for Titanblades and Swordsmen
+  </Card>
+  <Card title="Undine (Water/Healing)">
+    - **Sustain-oriented** defensive playstyle
+    - Outlasts opponents in slow, drawn-out duels
+    - Great for defensive or hybrid support builds
+  </Card>
+</CardGrid>
+
+To help you optimize your build, the table below showcases the ideal racial pairings for the top-performing PvP classes:
+
+| Class | Recommended Race | Key Synergy | PvP Focus |
+|---|---|---|---|
+| **Duelist** | Sylph | Extreme attack speed and rapid spacing | High-speed thrusts |
+| **Assassin** | Sylph / Imp | Stealth utility, curse debuffs, fast repositioning | Burst and run |
+| **Titanblade** | Salamander | Massive damage scaling on heavy swings | One-shot potential |
+| **Swordsman** | Undine / Gnome | High health pool, self-healing, steady pressure | Balanced dueling |
+
+<Callout type="warning" title="Racial Selection">
+Races cannot be swapped as easily as classes. Carefully consider your preferred PvP playstyle before finalizing your character's race during creation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Combat Mechanics & Combo Execution">
+
+Succeeding in **grand alfheim pvp** requires mastering the game's intricate defensive and offensive control systems. Button-mashing will quickly lead to being parried and punished. You must learn to read your opponent's animations and manage your stamina bar efficiently.
+
+<Steps>
+  <Step num="1" title="Master the Parry (F Key)">
+    Do not simply hold block. Tap the F key right before an incoming strike lands to trigger a parry, stunning your opponent and opening them up for a full combo.
+  </Step>
+  <Step num="2" title="Utilize Feints (M2 / Right Click)">
+    Cancel your M1 attack animations mid-swing using M2. This baits out your opponent's block or parry, leaving them vulnerable to a critical strike.
+  </Step>
+  <Step num="3" title="Execute Dash Attacks (Q + M1)">
+    Press Q to dash, then immediately press M1 to execute a rapid dash attack. This is the premier tool for closing distance or catching opponents off-guard.
+  </Step>
+  <Step num="4" title="Incorporate Air Attacks">
+    Jump and swing to alter your attack timing. Air attacks help you bypass shield blocks and catch opponents who are preparing for ground-level parries.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Stamina Management">
+Dashing, blocking, and executing heavy critical attacks (R key) deplete your stamina. If your stamina hits zero, you will enter a fatigued state, leaving you completely defenseless.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best PvP Gear & Stat Priorities">
+
+Your equipment determines your health pool and damage output in competitive matches. While starter gear from the blacksmith is sufficient for early training, you must farm high-level dungeons and bosses to acquire competitive PvP gear.
+
+For armor, focus on maximizing your flat HP. The more health you have, the more mistakes you can afford to make during a duel.
+
+| Equipment Piece | Source | Key Stats | PvP Role |
+|---|---|---|---|
+| **Voidrune Edge** (Sword) | Ode to the Abyss | High STR scaling, dark damage | Endgame Swordsman weapon |
+| **Riftshard Daggers** | Ode to the Abyss | High DEX scaling, fast attack speed | Ultimate Assassin weapon |
+| **Bloodcrown Regalia Set** | Satyr (Salamander Boss) | +820 Max HP (Complete Set) | Premier PvP survivability armor |
+| **Azure Knightplate Set** | Temple of Beginnings | +120 Max HP (Complete Set) | Accessible entry-level PvP armor |
+
+<Callout type="success" title="Endgame Farming">
+Participate in the Ode to the Abyss raid (open daily at 12:00 AM and 12:00 PM EST in Gnome territory) to secure Mythical-tier weapons that feature superior reach and damage profiles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PvP Progression Checklist">
+
+Use this structured checklist to prepare your character for high-level arena matches and competitive tournaments.
+
+<Checklist
+  id="pvp-readiness"
+  title="PvP Readiness Checklist:"
+  items={[
+    "Reach Level 50 to unlock maximum skill points",
+    "Acquire a Mythical weapon from Ode to the Abyss",
+    "Obtain the Bloodcrown Regalia Set for maximum HP",
+    "Master the parry timing against all major weapon types",
+    "Configure comfortable keybinds for fast active skill execution"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I counter shield-using Aegis players in grand alfheim pvp?",
+    answer: "Do not attack their shield directly. Use feints (M2) to bait their block, jump over them for air attacks, or use heavy critical attacks (R) to break their guard."
+  },
+  {
+    question: "What is the best overall class for solo PvP?",
+    answer: "The Duelist is currently the strongest solo PvP class due to its high attack speed, excellent spacing options, and rapid thrusting combos that are difficult to parry."
+  },
+  {
+    question: "Can I use magic during PvP combat?",
+    answer: "Yes. Integrating racial magic (like Wind or Fire) into your weapon combos is highly recommended to extend your stun windows and apply pressure."
+  },
+  {
+    question: "How do I escape an opponent's infinite combo?",
+    answer: "Save your dash (Q) to escape combo strings. If you are knocked down, wait for the wake-up invincibility frames before immediately counter-attacking."
+  }
+]} />
+
+</Section>

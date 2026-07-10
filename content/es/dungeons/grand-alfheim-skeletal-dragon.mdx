@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragón Esquelético de Grand Alfheim: Guía del Jefe y Botines",
+  description: "Domina la batalla contra el dragón esquelético (Dragón de Hueso) de Grand Alfheim en el Templo de los Comienzos. Aprende patrones de ataque, tablas de botín y estrategias en solitario.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skeletal+Dragon+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Grand Alfheim",
+  keywords: "grand alfheim, dragón esquelético, dragón de hueso, templo de los comienzos, jefe, guía, botín"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Dragón Esquelético de Grand Alfheim**: También conocido como el Dragón de Hueso, es el jefe final de la mazmorra del **Templo de los Comienzos**.
+- **Requisitos de Entrada**: Los jugadores deben tener al menos **Nivel 10** y contar con equipo inicial mejorado.
+- **Mecánica Clave**: Evita la línea directa de ataque del jefe y esquiva con un deslizamiento cuando realice animaciones de grandes golpes contra el suelo.
+- **Mejor Botín**: Los drops de alto valor incluyen la espada **Filo de la Noche** (Night's Edge) y el conjunto de armadura **Placa de Caballero Azul** (Azure Knightplate).
+- **Estrategia**: Concéntrate en la gestión del aguante para asegurarte de tener suficiente energía para bloquear o esquivar los coletazos del dragón.
+</Callout>
+
+<Section icon={Map} title="Templo de los Comienzos: Encontrando al Dragón Esquelético">
+
+El **dragón esquelético de grand alfheim**, comúnmente llamado por la comunidad como el Dragón de Hueso, sirve como el principal guardián para la progresión a mitad del juego. Ubicado en el corazón del **Templo de los Comienzos**, este encuentro pone a prueba la comprensión del jugador sobre el posicionamiento, la gestión del aguante y las rotaciones de habilidades específicas de cada clase. Se puede acceder a la mazmorra desde múltiples territorios de razas, incluyendo las regiones de Salamandra, Ondina y Gnomo, lo que la convierte en un punto central para los jugadores de acceso anticipado que buscan mejorar su equipo.
+
+**Puntos Destacados del Video:**
+- **Entrada a la Mazmorra**: Muestra el camino a través del Templo de los Comienzos comenzando en el Nivel 10.
+- **Rompecabezas de Cubos**: Demuestra cómo colocar los cubos en los altares de ángeles y demonios para desbloquear el portal del jefe.
+- **Combate del Jefe**: Desglose visual del rango de ataque del Dragón Esquelético y sus zonas seguras.
+- **Revelación de Botín**: Una muestra de las recompensas que se pueden obtener tras derrotar al jefe final.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Grand Alfheim Gameplay and Dungeon Guide" />
+
+Antes de poder enfrentarte al dragón esquelético, debes superar los desafíos preliminares de la mazmorra. A los jugadores se les presentan dos caminos distintos: la ruta de parkour de la izquierda, que favorece a las razas de alta movilidad como los Sylph, y la ruta de combate de la derecha, que es ideal para aquellos que buscan farmear experiencia de Escorpiones y Dinosaurios. Independientemente del camino elegido, debes completar los rompecabezas de cubos para abrir la arena final.
+
+| Aspecto de la Mazmorra | Detalle |
+| :--- | :--- |
+| **Ubicación** | Templo de los Comienzos (Mapa Central) |
+| **Nivel Recomendado** | 10 a 15 |
+| **Prerrequisito** | Completar la Sala del Rompecabezas de Cubos |
+| **Tamaño del Grupo** | 1 a 4 Jugadores |
+| **Tiempo Promedio** | 15 a 20 Minutos |
+
+<Callout type="tip" title="Consejo Pro">
+Si juegas como Sylph o Cait Sith, usa la ruta de parkour para saltarte los encuentros innecesarios con monstruos y llegar a la arena del jefe con la salud y los recursos al máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación: Estadísticas y Requisitos de Clase">
+
+Enfrentarse al **dragón esquelético de grand alfheim** sin la preparación adecuada a menudo resulta en una rápida derrota. Dado que el jefe inflige un daño físico significativo, la distribución de estadísticas de tu personaje y la elección de clase son críticas. Aunque técnicamente todas las clases pueden derrotar al dragón en solitario, ciertas builds tienen una ventaja clara durante las diferentes fases del combate.
+
+<CardGrid cols={3}>
+  <Card title="Tanque (Aegis/Gnomo)">
+    - **Alta Durabilidad**: Concéntrate en el Gran Escudo para absorber los fuertes coletazos.
+    - **Build de Aguante**: Prioriza la Fuerza (STR) y la recuperación de aguante para un bloqueo constante.
+    - **Rol**: Mantener la atención del dragón mientras los jugadores de DPS atacan desde los flancos.
+  </Card>
+  <Card title="DPS (Titanblade/Salamandra)">
+    - **Alto Impacto**: Usa el Espadón para infligir gran daño durante las ventanas de recuperación del jefe.
+    - **Daño de Ráfaga**: Sincroniza tus ataques críticos (R) después de que el jefe termine un golpe contra el suelo.
+    - **Rol**: Distribuidor principal de daño responsable de romper las barras de salud del jefe.
+  </Card>
+  <Card title="Soporte (Ondina/Pooka)">
+    - **Magia de Curación**: Proporciona sustento con magia de Agua para los tanques de primera línea.
+    - **Buffs**: Usa magia de Música para aumentar la velocidad de movimiento y la defensa del grupo.
+    - **Rol**: Mantener al equipo sano y controlar a los enemigos adicionales (adds).
+  </Card>
+</CardGrid>
+
+Antes de entrar a la arena, asegúrate de que tus armas estén reparadas en un herrero y que tu árbol de habilidades esté enfocado en daño a un solo objetivo. Distribuir los puntos en demasiadas habilidades de área de efecto (AoE) reducirá tu eficiencia contra el dragón.
+
+| Tipo de Clase | Estadística Clave | Arma Recomendada | Rol de Combate |
+| :--- | :--- | :--- | :--- |
+| **Espadachín** | STR | Filo de la Noche | Cuerpo a Cuerpo Balanceado |
+| **Maestro del Arco** | DEX | Arco de Madera/Hierro | Presión a Distancia |
+| **Titanblade** | STR | Cazadragones | Atacante Pesado |
+| **Aegis** | STR | Gran Escudo | Tanque Defensivo |
+| **Asesino** | DEX | Dagas de Hueso | Castigos Rápidos |
+
+<Callout type="warning" title="Importante">
+No entres a la arena con menos del 50% de durabilidad en tu arma principal. El Dragón Esquelético tiene una gran cantidad de vida, y un arma rota reducirá significativamente tu daño a mitad del combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate: Derrotar al Dragón Esquelético">
+
+La pelea contra el **dragón esquelético de grand alfheim** se divide en dos fases principales. En la primera fase, el dragón permanece en el suelo, utilizando su enorme cola y garras para mantener a los jugadores a raya. En la segunda fase, se vuelve más agresivo, incorporando golpes que sacuden el suelo y velocidades de rotación más rápidas. El éxito requiere un enfoque rítmico para atacar y defender.
+
+<Steps>
+  <Step num="1" title="Posicionamiento y Agro Inicial">
+    Entra en la arena y permite que el tanque o el jugador con la mayor defensa reciba el primer golpe. Posiciónate al costado del dragón, cerca de sus patas traseras. Esta área es generalmente más segura frente a los ataques de mordisco frontales y fuera de la línea de visión directa de sus ataques de aliento.
+  </Step>
+  <Step num="2" title="Gestionar el Coletazo">
+    El dragón utiliza con frecuencia un coletazo de 180 grados. Observa las caderas del jefe; cuando se desplazan, indica que se aproxima un coletazo. Usa el bloqueo (F) o el deslizamiento (Q) para evitar el golpe. Si eres una clase móvil, deslizarte a través de la cola suele ser más efectivo que bloquear.
+  </Step>
+  <Step num="3" title="Castigar los Golpes contra el Suelo">
+    Cuando el dragón se levanta sobre sus patas traseras, se está preparando para un golpe contra el suelo. Deslízate inmediatamente hacia atrás. Una vez que pase la onda de choque, vuelve a acercarte para realizar un combo pesado o un ataque crítico (R). Esta es la mayor oportunidad en la rotación del jefe.
+  </Step>
+  <Step num="4" title="Transiciones de la Fase 2">
+    Al llegar al 50% de salud, el jefe rugirá y sus ojos brillarán con más intensidad. Ahora encadenará ataques con mayor frecuencia. Mantén la paciencia y no te comprometas demasiado con secuencias largas de ataque. Usa combos cortos de M1 y mantén al menos el 25% de tu aguante reservado para esquives de emergencia.
+  </Step>
+</Steps>
+
+Para los jugadores en solitario, la clave es el "kiting" (atacar a distancia). Usa la clase Maestro del Arco o habilidades mágicas para desgastar la salud del jefe mientras mantienes la distancia. Si debes usar combate cuerpo a cuerpo, la táctica de "golpear y correr" es obligatoria. Asesta dos o tres golpes y luego deslízate lejos para observar el siguiente movimiento.
+
+| Nombre del Ataque | Indicación Visual | Acción Recomendada |
+| :--- | :--- | :--- |
+| **Mordisco de Hueso** | La cabeza se retrae ligeramente | Deslizarse a un lado / Parada |
+| **Coletazo** | Las caderas rotan hacia afuera | Bloquear o Saltar-Deslizarse |
+| **Gran Golpe** | El jefe se para sobre sus patas traseras | Deslizarse hacia atrás inmediatamente |
+| **Rugido** | El jefe baja la cabeza | Sin daño, pero prepara su siguiente movimiento |
+
+<Callout type="tip" title="Consejo Pro">
+Usa el "Ataque Aéreo" (Salto + M1) para mantenerte por encima de las ondas de choque de los golpes contra el suelo si tu deslizamiento está en enfriamiento. Esto requiere una sincronización precisa, pero puede salvarte de un golpe letal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín: Drops de Armas y Armaduras">
+
+Derrotar al **dragón esquelético de grand alfheim** recompensa a los jugadores con algunos de los mejores equipos disponibles para el inicio y mitad del juego. El botín se distribuye a través de cofres que aparecen en el centro de la arena después de que el jefe se disipa. Mientras que los drops comunes están garantizados, los objetos Legendarios y Épicos tienen tasas de obtención más bajas, requiriendo a menudo múltiples intentos para conseguirlos.
+
+| Nombre del Objeto | Rareza | Tipo | Perfil de Estadísticas |
+| :--- | :--- | :--- | :--- |
+| **Filo de la Noche** | Épico | Espada | Alto Escalamiento de STR |
+| **Placa de Caballero Azul** | Raro | Set de Armadura | +120 HP (Set Completo) |
+| **Réquiem de Obsidiana** | Legendario | Espada | Potencia para Mitad del Juego |
+| **Dagas de Sacrificio** | Épico | Dagas | Acumulación Rápida de Sangrado |
+| **Segador Azul** | Raro | Hacha de Batalla | Alto Impacto |
+
+El **Set de Placa de Caballero Azul** es particularmente valioso para los nuevos jugadores porque proporciona un aumento significativo a la salud total, lo cual es esencial para sobrevivir en los territorios posteriores, como los jefes del mundo abierto de Salamandra. El **Filo de la Noche** es la mejora ideal para cualquier clase de Espadachín, ofreciendo un aumento sustancial de daño sobre la Espada de Hierro básica que se encuentra en el herrero.
+
+<CardGrid cols={2}>
+  <Card title="Mejor Arma: Filo de la Noche">
+    - **Tasa de Drop**: ~15%
+    - **Ideal Para**: Clases Espadachín y Duelista.
+    - **Beneficio**: Velocidad de ataque más rápida y mejor alcance que las armas iniciales.
+  </Card>
+  <Card title="Mejor Armadura: Placa de Caballero Azul">
+    - **Tasa de Drop**: ~25% (por pieza)
+    - **Ideal Para**: Todas las clases que necesiten más supervivencia.
+    - **Beneficio**: El bono de conjunto proporciona un enorme colchón de salud para las peleas contra jefes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Éxito">
+Durante eventos especiales, como el evento Demo de Verano 2026, las tasas de drop para objetos Legendarios como el **Réquiem de Obsidiana** pueden duplicarse. Revisa el Discord oficial para enterarte de los eventos de Doble Drop activos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación para Completar la Mazmorra">
+
+Para maximizar tu eficiencia al farmear al **dragón esquelético de grand alfheim**, sigue esta lista de verificación en cada intento. Asegurarte de tener los suministros y objetivos correctos evitará la pérdida de tiempo y recursos.
+
+<Checklist
+  id="dragon-farming"
+  title="Objetivos de Farmeo del Dragón Esquelético:"
+  items={[
+    "Alcanzar el Nivel 10 y mejorar el arma inicial a +3",
+    "Llevar al menos 5 Pociones de Curación de Alto Grado",
+    "Completar el rompecabezas de cubos en menos de 5 minutos",
+    "Derrotar al Dragón de Hueso sin usar revivir",
+    "Obtener al menos dos piezas del set Placa de Caballero Azul",
+    "Recolectar Garras de Sabueso Gruñón del minijefe"
+  ]}
+/>
+
+Farmear a este jefe es la forma más confiable de prepararse para la mazmorra de endgame de Nivel 50, **Oda al Abismo**. Las habilidades mecánicas que aprendes aquí (paradas, gestión de aguante y posicionamiento) son la base para todo el contenido PvE de alto nivel en Grand Alfheim.
+
+<Callout type="info" title="Nota Final">
+Recuerda que el Templo de los Comienzos es una mazmorra compartida. Puedes encontrarte con otros grupos cerca de la entrada. Cooperar con otros jugadores puede hacer que completar la mazmorra sea significativamente más rápido, especialmente si tu equipo actual está por debajo del nivel recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué nivel debería tener para derrotar al dragón esquelético de grand alfheim en solitario?",
+    answer: "Se recomienda tener al menos Nivel 15 si planeas derrotar al jefe en solitario cómodamente. Aunque el Nivel 10 es el requisito de entrada, hacerlo en solitario a ese nivel requiere paradas perfectas y objetos de curación de alta calidad."
+  },
+  {
+    question: "¿Dónde se encuentra exactamente el Templo de los Comienzos?",
+    answer: "El templo está ubicado en el territorio neutral central. Puedes encontrar entradas en las tierras de las razas Salamandra, Ondina y Gnomo. Busca grandes estructuras de piedra con runas azules brillantes."
+  },
+  {
+    question: "¿El Dragón Esquelético suelta equipo Mítico?",
+    answer: "No, el Dragón Esquelético (Dragón de Hueso) suelta principalmente equipo Raro, Épico y Legendario. El equipamiento Mítico como el Filo de Runa del Vacío está reservado para la mazmorra de Nivel 50, Oda al Abismo."
+  },
+  {
+    question: "¿Cómo restablezco la mazmorra para farmear al jefe de nuevo?",
+    answer: "Después de recoger tu botín, sal de la mazmorra a través del portal detrás de la arena del jefe. Puedes volver a entrar inmediatamente, aunque algunos servidores pueden tener un breve tiempo de enfriamiento de 5 minutos para que el jefe vuelva a aparecer."
+  }
+]} />
+
+</Section>

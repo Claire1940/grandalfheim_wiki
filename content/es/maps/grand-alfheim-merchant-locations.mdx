@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ubicaciones de Mercaderes en Grand Alfheim: Guía Completa de Tiendas y NPCs",
+  description: "Localiza a cada mercader, herrero y vendedor de tiendas de especialidades en Grand Alfheim. Aprende dónde comprar armas iniciales, mejorar armaduras y encontrar objetos raros.",
+  category: "Maps",
+  image: "https://placehold.co/800x400/121e2d/fff?text=Merchant+Locations+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicaciones de Mercaderes en Grand Alfheim**: Los puntos de encuentro esenciales se encuentran dentro de los territorios de las razas principales: Salamander, Sylph, Undine y Gnome.
+- **Servicios de Herrería**: Los herreros son los mercaderes más importantes, ya que proporcionan las armas iniciales que desbloquean la clase de combate que elijas.
+- **Cambio de Clase**: Puedes regresar con cualquier mercader herrero para cambiar tu clase de combate sin perder el progreso general de tu personaje.
+- **Mejoras de Equipo**: Los conjuntos de armadura para el juego temprano, como la Azure Knightplate, deben obtenerse en mazmorras, pero las armas básicas requieren el oro de los mercaderes.
+</Callout>
+
+<Section icon={Map} title="Resumen de Ubicaciones de Mercaderes en Grand Alfheim">
+
+Navegar por los vastos territorios de mundo abierto de este MMORPG de fantasía en Roblox requiere comprender claramente dónde comprar, vender y mejorar tu equipo. Los mercaderes están distribuidos estratégicamente en las zonas raciales principales para ayudar a los jugadores a prepararse para los grandes desafíos PvE, como el Templo de los Comienzos (Temple of Beginnings) y la mazmorra de juego tardío Oda al Abismo (Ode to the Abyss).
+
+Ya sea que necesites comprar un arma inicial para desbloquear un nuevo estilo de combate o buscar vendedores específicos en las ciudades, conocer las coordenadas exactas y los centros regionales te ahorrará un valioso tiempo de viaje.
+
+| Territorio | Tipos de Mercaderes Principales | Servicios Clave Ofrecidos |
+| :--- | :--- | :--- |
+| **Gnome** | Herrero, Vendedor General | Selección de clase, Armas iniciales, Equipo básico |
+| **Salamander** | Herrero, Vendedor de Consumibles | Armas pesadas, Suministros de combate, Cambio de clase |
+| **Sylph** | Herrero, Vendedor de Equipo de Velocidad | Armas rápidas, Objetos de movilidad, Configuración de clase |
+| **Undine** | Herrero, Vendedor de Magia y Curación | Equipo de apoyo, Consumibles, Selección de clase |
+
+<Callout type="tip" title="Consejo para Desbloquear Clases">
+Cada arma de clase inicial cuesta una pequeña cantidad de oro en los herreros regionales. Mantén siempre algo de dinero extra a mano para que puedas cambiar de clase fácilmente al probar nuevas configuraciones de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mercaderes Herreros y Selección de Clase">
+
+Los herreros son los NPCs más importantes entre todas las **ubicaciones de mercaderes en Grand Alfheim**. En lugar de elegir una clase permanente durante la creación de personaje, tu rol de combate se determina por completo según el arma que tengas equipada. Los herreros venden estas armas iniciales y te permiten cambiar de clase libremente.
+
+<CardGrid cols={3}>
+  <Card title="Clases de Fuerza">
+    - **Swordsman**: Usa la clásica Espada de Hierro (Iron Sword)
+    - **Titanblade**: Usa la pesada Mata Dragones (Dragon Slayer)
+    - **Skull Crusher**: Usa el martillo contundente (Warhammer)
+  </Card>
+  <Card title="Clases de Destreza">
+    - **Duelist**: Usa el rápido Florete (Rapier)
+    - **Bowmaster**: Usa el Arco de Madera (Wooden Bow)
+    - **Assassin**: Usa las Dagas de Hueso (Bone Daggers)
+  </Card>
+  <Card title="Defensa y Utilidad">
+    - **Aegis**: Usa el Gran Escudo defensivo (Greatshield)
+    - **Pugilist**: Usa Guanteletes de Hierro (Iron Gauntlets) para combos
+    - **Berserker**: Usa armas cuerpo a cuerpo pesadas
+  </Card>
+</CardGrid>
+
+Utiliza la siguiente tabla de datos para localizar el arma inicial específica que se adapte a tu estilo de juego deseado:
+
+| Arma Inicial | Clase Requerida | Precio del Mercader | Atributo de Escala Principal |
+| :--- | :--- | :--- | :--- |
+| **Iron Sword** | Swordsman | 100 de Oro | Fuerza (STR) |
+| **Wooden Bow** | Bowmaster | 100 de Oro | Destreza (DEX) |
+| **Bone Daggers** | Assassin | 100 de Oro | Destreza/Fuerza |
+| **Iron Gauntlets** | Pugilist | 100 de Oro | Fuerza (STR) |
+| **Duelist Rapier** | Duelist | 100 de Oro | Destreza (DEX) |
+| **Dragon Slayer** | Titanblade | 100 de Oro | Fuerza (STR) |
+
+<Callout type="warning" title="Advertencia de Gestión de Estamina">
+Las armas pesadas compradas a los herreros, como la Dragon Slayer, requieren una excelente gestión de la estamina. No agotes tu barra de estamina con ataques básicos, o no podrás bloquear ni esquivar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Comprar y Cambiar de Clase">
+
+Si deseas pasar de ser un luchador cuerpo a cuerpo a corta distancia a un atacante físico a distancia, sigue este sencillo procedimiento en la ubicación de cualquier herrero principal.
+
+<Steps>
+  <Step num="1" title="Localiza a un Herrero">
+    Viaja a una de las ciudades capitales raciales principales (Gnome, Salamander, Sylph o Undine) y busca el icono de yunque en tu mapa.
+  </Step>
+  <Step num="2" title="Compra el Arma de Clase">
+    Interactúa con el NPC Herrero y examina su inventario. Compra el arma inicial para la clase que desees.
+  </Step>
+  <Step num="3" title="Equipa el Arma">
+    Abre el menú de tu personaje (tecla M en PC), ve a tu inventario y equipa el arma recién comprada para cambiar tu clase activa.
+  </Step>
+  <Step num="4" title="Asigna Puntos de Habilidad">
+    Abre el árbol de habilidades de tu clase e invierte puntos en las habilidades recién desbloqueadas para completar tu transición de combate.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota sobre el Progreso">
+Cambiar tu clase no restablece el nivel de tu personaje ni el nivel de magia racial. Simplemente cambia tus habilidades de arma activas, lo que te permite mantener el progreso de exploración que tanto esfuerzo te costó conseguir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mercaderes de Especialidades Regionales y Consumibles">
+
+Además de los herreros, los mercaderes regionales venden comida, pociones y objetos de utilidad. Con la introducción de los sistemas de hambre y cocina en la Fase 6, se recomienda encarecidamente visitar a los vendedores de comida antes de emprender largas incursiones en las mazmorras.
+
+| Ubicación del Mercader | Objetos de Especialidad | Ideal Para |
+| :--- | :--- | :--- |
+| **Capital Gnome** | Objetos temáticos de tierra, piezas de armadura pesada | Diseños defensivos que se preparan para Oda al Abismo |
+| **Campamento Salamander** | Consumibles para aumentar el ataque, resistencia al fuego | Diseños ofensivos y caza del jefe Satyr en el mundo abierto |
+| **Puesto Avanzado Sylph** | Pociones de estamina, comida para aumentar la velocidad | Clases de alta movilidad como Duelist y Assassin |
+| **Aldea Undine** | Pociones de salud, objetos de regeneración de maná | Jugadores de apoyo y diseños enfocados en la magia |
+
+<Callout type="success" title="Consejo de Preparación">
+Abastécete siempre de pociones de salud y estamina con los mercaderes de Undine y Sylph antes de entrar al Templo de los Comienzos. Estos consumibles pueden mantenerte con vida durante la batalla final contra el jefe Dragón de Hueso (Bone Dragon).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Equipo de Mercader frente a Objetivos de Botín de Mazmorra">
+
+Aunque los mercaderes proporcionan la base necesaria para tu estilo de juego, el equipo más fuerte en Grand Alfheim debe obtenerse derrotando a los jefes. Utiliza la siguiente lista de verificación para seguir tu progreso desde el equipo de nivel de mercader hasta los botines míticos del final del juego.
+
+<Checklist
+  id="merchant-to-endgame"
+  title="Hitos de Progresión de Equipo:"
+  items={[
+    "Compra un arma inicial con cualquier mercader herrero regional",
+    "Alcanza el nivel 10 e ingresa a la mazmorra del Templo de los Comienzos",
+    "Derrota repetidamente al minijefe Treant para obtener el conjunto de armadura soberana de la vegetación (Verdant Sovereign Armor Set)",
+    "Derrota al Dragón de Hueso para conseguir un Obsidian Requiem o un Night's Edge",
+    "Alcanza el nivel 50 y desafía la incursión de la Oda al Abismo durante los horarios programados",
+    "Obtén armas míticas de juego tardío como la Voidrune Edge o el Nightreaver Bow"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor ubicación de mercaderes en Grand Alfheim para principiantes?",
+    answer: "Los herreros del pueblo inicial en los territorios de Gnome y Undine son las mejores ubicaciones para principiantes. Ofrecen armas iniciales asequibles y equipo básico para ayudarte a superar los primeros niveles."
+  },
+  {
+    question: "¿Puedo vender mi botín no deseado de las mazmorras a los mercaderes?",
+    answer: "Sí, puedes vender armas adicionales, conjuntos de armaduras y materiales a los mercaderes generales en cualquier ciudad importante para ganar oro para consumibles y cambios de clase."
+  },
+  {
+    question: "¿Los mercaderes venden armas o armaduras de grado Mítico?",
+    answer: "No. Los mercaderes solo venden equipo inicial y de grado común. El equipo de nivel superior, como los objetos Épicos, Legendarios y Míticos, debe obtenerse como botín de jefes y mazmorras."
+  },
+  {
+    question: "¿Cambiar mi clase con un herrero restablece mi nivel?",
+    answer: "No. El nivel de tu personaje, tus estadísticas raciales y tus árboles de habilidades mágicas permanecen completamente intactos cuando compras y equipas un tipo de arma diferente con un herrero."
+  }
+]} />
+
+</Section>

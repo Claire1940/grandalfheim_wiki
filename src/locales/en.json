@@ -10,7 +10,15 @@
       "twitterDescription": "Explore Grand Alfheim codes, races, classes, maps, quests, weapons, bosses, builds, and beginner tips for the Roblox fantasy MMORPG."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "races": "Races",
+    "combat": "Combat",
+    "dungeons": "Dungeons",
+    "maps": "Maps",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -919,125 +927,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Grand Alfheim Codes",
+      "description": "Latest working codes for free gems, stat chips, and trait rerolls. Updated daily with verified codes and a step-by-step redemption guide.",
+      "metaTitle": "Grand Alfheim Codes - Free Gems & Trait Rerolls",
+      "metaDescription": "Get free gems, stat chips, and trait rerolls with active Grand Alfheim codes. Updated daily with verified working codes and redemption steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are free redeemable rewards released by the Grand Alfheim developers through the official Discord and X channels. They grant gems, stat chips, trait rerolls, and other bonuses that speed up early progression.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Progression Boost",
+        "step1Description": "Claim gems and stat chips to level up and gear up without extra grinding",
+        "step2Title": "Stay Current",
+        "step2Description": "New codes drop alongside updates, events, and testing phases",
+        "step3Title": "Redeem Before Expiry",
+        "step3Description": "Codes expire over time, so check back daily and redeem them quickly"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "Grand Alfheim Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced builds. Master combat, flight, races, and classes.",
-      "metaTitle": "Grand Alfheim Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Grand Alfheim guides covering beginner tips, races, classes, leveling, weapons, bosses, and dungeons for the Roblox fantasy MMORPG.",
+      "description": "Complete gameplay guides from first login to advanced progression. Learn controls, flight, cooking, and the fastest leveling routes across Alfheim.",
+      "metaTitle": "Grand Alfheim Guides - Beginner to Advanced Progression",
+      "metaDescription": "Complete Grand Alfheim guides covering beginner basics, controls, flight, cooking, leveling, and progression for the Roblox fantasy MMORPG.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, races, classes, leveling, and combat strategies. Learn everything from first steps to advanced dungeon tactics.",
+      "whatIsDescription": "Step-by-step walkthroughs covering account creation, basic controls, movement, flight, cooking, questing, and efficient leveling routes across the world of Alfheim.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand races, classes, and combat to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven leveling routes and gear upgrades to progress efficiently",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for dungeons, bosses, and PvP"
+        "step1Title": "Start Strong",
+        "step1Description": "Learn account setup, controls, and your first quests without trial and error",
+        "step2Title": "Master Core Mechanics",
+        "step2Description": "Understand flight, combat, cooking, and exploration systems unique to Grand Alfheim",
+        "step3Title": "Level Efficiently",
+        "step3Description": "Follow proven progression routes to reach endgame dungeons and races faster"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Grand Alfheim Classes",
-      "description": "Master every combat class with weapon types, stat priorities, skill trees, and PvE or PvP build recommendations.",
-      "metaTitle": "Grand Alfheim Classes - Weapons, Stats & Builds",
-      "metaDescription": "Master Grand Alfheim classes. Learn weapon types, main stats, skill trees, and PvE or PvP build strategies for every combat role.",
-      "categoryLabel": "CLASSES & BUILDS",
-      "whatIs": "What are Classes?",
-      "whatIsDescription": "Classes are selected at the forge or blacksmith, each with its own weapon category and skill tree. Switch classes freely without creating a new character.",
-      "why": "Why pick the right class?",
+    "races": {
+      "title": "Grand Alfheim Races",
+      "description": "Every playable race explained — Salamander, Undine, Gnome, Spriggan, and Leprechaun. Compare magic, wings, strengths, and best use cases.",
+      "metaTitle": "Grand Alfheim Races - All Playable Races & Best Picks",
+      "metaDescription": "Compare every Grand Alfheim race including Salamander, Undine, Gnome, Spriggan, and Leprechaun. Learn their magic, wings, strengths, and best roles.",
+      "categoryLabel": "RACES",
+      "whatIs": "What are Races?",
+      "whatIsDescription": "Races define your character's elemental magic, flight wings, passive abilities, and home territory in Alfheim. Each race suits a different playstyle, from aggressive damage to support and utility.",
+      "why": "Why pick the right race?",
       "whySteps": {
         "step1Title": "Match Your Playstyle",
-        "step1Description": "Choose a weapon type that fits melee, ranged, or defensive combat",
-        "step2Title": "Optimize Stats",
-        "step2Description": "Focus on the right main stat and skill tree for your role",
-        "step3Title": "Build for PvE or PvP",
-        "step3Description": "Tailor your build for dungeons, boss fights, or competitive play"
+        "step1Description": "Choose a race whose magic and wings fit melee, ranged, support, or exploration",
+        "step2Title": "Leverage Race Strengths",
+        "step2Description": "Use elemental magic and passive abilities to gain an edge in PvE and PvP",
+        "step3Title": "Plan Your Build",
+        "step3Description": "Pair your race with the right class and gear for optimal performance"
       },
       "featured": "Featured & Essential",
-      "all": "All Class Guides"
+      "all": "All Race Guides"
     },
-    "items": {
-      "title": "Grand Alfheim Weapons and Armor",
-      "description": "Detailed equipment guides covering swords, bows, daggers, armor sets, rarities, stats, and drop sources.",
-      "metaTitle": "Grand Alfheim Weapons & Armor - Stats and Drop Sources",
-      "metaDescription": "Complete equipment database for Grand Alfheim including swords, bows, armor sets, rarities, level requirements, and drop sources.",
-      "categoryLabel": "WEAPONS & ARMOR",
-      "whatIs": "What is Equipment?",
-      "whatIsDescription": "Comprehensive guides for weapons and armor sets. Learn rarities, level requirements, stats, drop sources, and which class each item suits.",
-      "why": "Why check equipment guides?",
+    "combat": {
+      "title": "Grand Alfheim Combat and Weapons",
+      "description": "Master weapons, premium armor, the skill tree, PvP, and combat indicators. Build the strongest fighter in Alfheim with the right loadout.",
+      "metaTitle": "Grand Alfheim Combat - Weapons, Armor, Skill Tree & PvP",
+      "metaDescription": "Master Grand Alfheim combat with weapon types, premium armor, skill tree builds, PvP tactics, and attack indicators for every encounter.",
+      "categoryLabel": "COMBAT & GEAR",
+      "whatIs": "What is Combat?",
+      "whatIsDescription": "Combat covers weapon types, armor sets, the skill tree, PvP encounters, and attack indicators like the black indicator. Build the right loadout to survive dungeons, bosses, and other players.",
+      "why": "Why study combat?",
       "whySteps": {
-        "step1Title": "Find Upgrades",
-        "step1Description": "Locate the best weapons and armor for your level and class",
-        "step2Title": "Optimize Gear",
-        "step2Description": "Choose equipment that matches your combat style and build",
-        "step3Title": "Farm Efficiently",
-        "step3Description": "Target the right dungeons and bosses for the gear you need"
+        "step1Title": "Choose the Right Weapon",
+        "step1Description": "Match weapon types and stats to your class and combat role",
+        "step2Title": "Optimize Your Skill Tree",
+        "step2Description": "Spend skill points on the nodes that amplify your build",
+        "step3Title": "Win in PvP",
+        "step3Description": "Read attack indicators and gear up to outplay other players"
       },
       "featured": "Featured & Essential",
-      "all": "All Equipment"
+      "all": "All Combat Guides"
     },
-    "biomes": {
-      "title": "Grand Alfheim World Map",
-      "description": "Explore race territories, towns, dungeons, NPCs, shops, teleport points, and instance entrances across Alfheim.",
-      "metaTitle": "Grand Alfheim World Map - Territories & Locations",
-      "metaDescription": "Explore the Grand Alfheim world map including race territories, towns, dungeons, shops, teleport points, and instance entrances.",
-      "categoryLabel": "WORLD MAP",
-      "whatIs": "What is the World Map?",
-      "whatIsDescription": "Guides to the nine race territories, towns, dungeons, NPCs, shops, and teleport points. Learn what to expect and how to prepare for each region.",
-      "why": "Why explore the map?",
+    "dungeons": {
+      "title": "Grand Alfheim Dungeons",
+      "description": "Complete dungeon walkthroughs — starter dungeon, first dungeon puzzle, solo runs, and the Skeletal Dragon boss fight with full mechanics.",
+      "metaTitle": "Grand Alfheim Dungeons - Walkthroughs, Puzzles & Bosses",
+      "metaDescription": "Clear every Grand Alfheim dungeon with walkthroughs for the starter dungeon, first dungeon puzzle, solo runs, and the Skeletal Dragon boss.",
+      "categoryLabel": "DUNGEONS",
+      "whatIs": "What are Dungeons?",
+      "whatIsDescription": "Dungeons are instanced combat challenges filled with puzzles, minibosses, and loot. Each dungeon has entry requirements, unique mechanics, and valuable rewards including weapons, armor, and crafting materials.",
+      "why": "Why run dungeons?",
+      "whySteps": {
+        "step1Title": "Solve the Puzzles",
+        "step1Description": "Learn the mechanics of dungeon puzzles like the first dungeon puzzle",
+        "step2Title": "Defeat the Bosses",
+        "step2Description": "Master attack patterns and party setup for bosses like the Skeletal Dragon",
+        "step3Title": "Earn the Loot",
+        "step3Description": "Target specific dungeons for the weapons, armor, and materials you need"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Dungeon Guides"
+    },
+    "maps": {
+      "title": "Grand Alfheim Maps and Locations",
+      "description": "Find every key location — Temple of Beginnings, Satyr, merchants, Fisherman Bubba, hunting board, Ode to the Abyss, and the mine.",
+      "metaTitle": "Grand Alfheim Maps - All Locations & Points of Interest",
+      "metaDescription": "Locate every Grand Alfheim point of interest including the Temple of Beginnings, Satyr, merchants, Fisherman Bubba, hunting board, and the mine.",
+      "categoryLabel": "MAPS & LOCATIONS",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Map guides pinpoint key locations across Alfheim: dungeons, NPCs, merchants, quest hubs, and points of interest like the Temple of Beginnings, Satyr, Fisherman Bubba, hunting board, Ode to the Abyss, and the mine.",
+      "why": "Why use the maps?",
       "whySteps": {
         "step1Title": "Find Key Locations",
-        "step1Description": "Locate dungeons, bosses, shops, and quest hubs across territories",
-        "step2Title": "Plan Your Route",
-        "step2Description": "Travel efficiently between race territories using flight and mounts",
-        "step3Title": "Prepare for Each Region",
-        "step3Description": "Bring the right gear and level for each territory's challenges"
+        "step1Description": "Locate dungeons, NPCs, merchants, and quest hubs without wandering",
+        "step2Title": "Plan Efficient Routes",
+        "step2Description": "Travel between territories using flight and known landmarks",
+        "step3Title": "Complete Location Quests",
+        "step3Description": "Reach NPCs like Fisherman Bubba and the Satyr to unlock rewards"
       },
       "featured": "Featured & Essential",
       "all": "All Map Guides"
     },
-    "building": {
-      "title": "Grand Alfheim Bosses",
-      "description": "Boss encounter guides with locations, entry requirements, attack patterns, preparation, and full loot tables.",
-      "metaTitle": "Grand Alfheim Bosses - Mechanics and Loot Tables",
-      "metaDescription": "Master Grand Alfheim bosses and dungeons. Learn entry requirements, attack patterns, party setup, preparation, and complete loot tables.",
-      "categoryLabel": "BOSSES & DUNGEONS",
-      "whatIs": "What are Bosses?",
-      "whatIsDescription": "Guides to every dungeon and boss encounter, including the Temple of Beginnings, Ode to the Abyss, and open-world minibosses with their mechanics and rewards.",
-      "why": "Why study bosses?",
+    "updates": {
+      "title": "Grand Alfheim Updates",
+      "description": "Track every development phase, update, and trailer. Stay current on new systems, events, and the road to full release.",
+      "metaTitle": "Grand Alfheim Updates - Phases, Patch Notes & Trailers",
+      "metaDescription": "Follow Grand Alfheim development phases including Phase 6, the latest updates, patch notes, events, and official trailers.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Updates cover development phases, patch notes, balance changes, new systems, events, and official trailers as Grand Alfheim progresses through Early Access toward full release.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Learn Mechanics",
-        "step1Description": "Understand attack patterns, parry windows, and phase changes",
-        "step2Title": "Prepare Your Party",
-        "step2Description": "Bring the right level, gear, healing items, and group composition",
-        "step3Title": "Farm Loot",
-        "step3Description": "Target specific bosses for the weapons and armor you need"
+        "step1Title": "Track Development Phases",
+        "step1Description": "See what each phase like Phase 6 adds to the game",
+        "step2Title": "Catch New Content",
+        "step2Description": "Learn about new races, dungeons, systems, and balance changes as they arrive",
+        "step3Title": "Watch the Trailers",
+        "step3Description": "Preview upcoming features and content through official trailers"
       },
       "featured": "Featured & Essential",
-      "all": "All Boss Guides"
-    },
-    "support": {
-      "title": "Grand Alfheim Codes and Updates",
-      "description": "Redeem codes for free rewards and track the latest testing phases, events, and release announcements.",
-      "metaTitle": "Grand Alfheim Codes & Updates - Redeem Rewards",
-      "metaDescription": "Get the latest Grand Alfheim codes, redemption steps, testing phase updates, events, and release announcements.",
-      "categoryLabel": "CODES & UPDATES",
-      "whatIs": "What are Codes and Updates?",
-      "whatIsDescription": "Find active redeem codes, redemption steps, and track development phases, public demo access, events, and official announcements.",
-      "why": "Why check codes and updates?",
-      "whySteps": {
-        "step1Title": "Redeem Free Rewards",
-        "step1Description": "Use active codes before they expire for free bonuses",
-        "step2Title": "Track Development",
-        "step2Description": "Follow testing phases, new systems, and balance changes",
-        "step3Title": "Join Events",
-        "step3Description": "Participate in demo events like the summer 2X Drops bonus"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Codes and Updates"
+      "all": "All Update Guides"
     }
   }
 }

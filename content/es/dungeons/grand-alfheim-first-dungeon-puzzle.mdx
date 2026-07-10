@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Primer puzzle de la mazmorra de Grand Alfheim: Guía paso a paso del templo",
+  description: "Domina el primer puzzle de la mazmorra de Grand Alfheim. Aprende las mecánicas de los cubos del Templo de los Comienzos, las rutas de combate y cómo derrotar al Dragón de Hueso.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1bc8d3/fff?text=Dungeon+Puzzle+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Primer puzzle de la mazmorra de Grand Alfheim**: Resuelve los puzzles de cubos y altares del Templo de los Comienzos para desbloquear la arena del jefe Dragón de Hueso.
+- **Ubicación de la mazmorra**: Accesible a través de portales en los territorios de Salamandra, Ondina y Gnomo.
+- **Requisito de entrada**: Nivel recomendado del personaje 10+ con equipo mejorado en la herrería.
+- **Opciones de ruta**: Elige la ruta de parkour de la izquierda para mayor velocidad o la ruta de combate de la derecha para obtener experiencia.
+- **Recompensas clave**: Conjunto de armadura de Placas de Caballero Azul (Azure Knightplate), espada Filo de la Noche (Night's Edge) y espada Réquiem de Obsidiana (Obsidian Requiem).
+</Callout>
+
+<Section icon={Map} title="Entrada a la mazmorra y preparación">
+
+Entrar a tu primera gran actividad cooperativa en Grand Alfheim requiere una preparación adecuada. El Templo de los Comienzos sirve como la mazmorra inicial del juego, poniendo a prueba tanto tus capacidades de combate como tus habilidades para resolver puzzles. Los portales a esta mazmorra se encuentran en tres de los principales territorios raciales: Salamandra, Ondina y Gnomo.
+
+Antes de entrar, debes asegurarte de que tu personaje esté preparado para sobrevivir a los desafíos que se avecinan. El nivel 10 es el punto de entrada recomendado. Intentar la mazmorra por debajo de este nivel resultará en severas penalizaciones de daño y derrotas frecuentes.
+
+| Requisito | Estado recomendado | Origen / Ubicación |
+|---|---|---|
+| **Nivel de personaje** | Nivel 10+ | Misiones iniciales y farmeo en mundo abierto |
+| **Clase de arma** | Arma de herrería mejorada | Forja / PNJ Herrero |
+| **Conjunto de armadura** | Equipo común adecuado para el nivel | Artesanía de herrería |
+| **Consumibles** | Pociones de salud / Comida | Vendedores de la ciudad / Sistema de cocina |
+
+<Callout type="warning" title="Gestión de energía (Stamina)">
+No entres a la mazmorra con el equipo inicial básico. Mejorar tu arma en la herrería garantiza que puedas eliminar a los enemigos menores antes de que abrumen a tu grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elegir la ruta de la mazmorra">
+
+Al entrar al Templo de los Comienzos, tu grupo se enfrentará a la elección entre dos caminos distintos. Ambas rutas conducen a las cámaras de puzzles centrales, pero requieren conjuntos de habilidades completamente diferentes para completarse.
+
+### La ruta izquierda: Desafíos de parkour
+El camino de la izquierda está diseñado para jugadores que prefieren las mecánicas de movimiento sobre el combate puro. Esta ruta presenta desafíos de plataformas verticales que ponen a prueba tu sincronización, saltos y control de vuelo. Seleccionar este camino te permite esquivar varios grupos grandes de enemigos, lo que la convierte en la ruta más rápida para jugadores experimentados.
+
+### La ruta derecha: Pruebas de combate
+El camino de la derecha es una exploración de mazmorra tradicional llena de monstruos hostiles. Te enfrentarás a oleadas de escorpiones, dinosaurios y enemigos agresivos de tipo planta. Esta ruta es muy recomendada para jugadores nuevos porque proporciona una valiosa experiencia de combate, progresión en las habilidades de clase y materiales adicionales.
+
+| Ruta | Desafío principal | Densidad de enemigos | Ideal para |
+|---|---|---|---|
+| **Camino izquierdo** | Plataformas verticales / Parkour | Muy baja | Partidas rápidas, jugadores experimentados |
+| **Camino derecho** | Limpieza de oleadas / Control de energía | Alta | Subir de nivel, práctica de clase, botín |
+
+<Callout type="tip" title="Juego en solo vs en grupo">
+Aunque la ruta de parkour de la izquierda se puede completar en solitario, la ruta de combate de la derecha es mucho más segura con un grupo coordinado que contenga un tanque Aegis o un sanador Ondina.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resolver el puzzle de los cubos">
+
+El obstáculo principal del Templo de los Comienzos es el **primer puzzle de la mazmorra de Grand Alfheim**. Para abrir el portal que conduce al jefe final, tu grupo debe localizar y colocar cubos de piedra pesados en sus altares correspondientes.
+
+Este puzzle requiere coordinación, ya que llevar un cubo limita tu movimiento y te impide atacar.
+
+<Steps>
+  <Step num="1" title="Localizar los cubos">
+    Busca en las cámaras centrales del templo para encontrar los cubos de piedra brillantes. Hay dos tipos distintos: Cubos de Ángel y Cubos de Demonio.
+  </Step>
+  <Step num="2" title="Eliminar a los enemigos cercanos">
+    Antes de recoger un cubo, elimina a todos los guardianes del templo cercanos. Llevar un cubo desactiva tus armas, dejándote completamente indefenso.
+  </Step>
+  <Step num="3" title="Hacer coincidir los cubos con los altares">
+    Lleva el Cubo de Ángel al Altar de Ángel blanco, y transporta el Cubo de Demonio al Altar de Demonio oscuro. Dejar caer un cubo en el lugar equivocado restablecerá su ubicación.
+  </Step>
+  <Step num="4" title="Activar el portal">
+    Una vez que ambos cubos estén colocados correctamente en sus respectivos altares, la barrera central se disolverá, revelando el portal hacia el Dragón de Hueso.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Puzzle completado">
+Si un cubo tiene un error o se cae fuera de los límites durante el transporte, sal de la sala del puzzle durante 30 segundos para forzar a los cubos a reaparecer en sus puntos de inicio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Derrotar a los jefes y tabla de botín">
+
+El Templo de los Comienzos presenta dos encuentros principales con jefes: el minijefe Treant y el Dragón de Hueso final. Derrotar a estos jefes es el método principal para obtener equipo de alto nivel para la mitad del juego.
+
+### Minijefe Treant
+El Treant utiliza ataques de barrido lentos, pesados y de corto alcance. La clave de esta lucha es sincronizar tus bloqueos y paradas (parries). No agotes tu barra de energía en combos ofensivos; guarda siempre suficiente energía para realizar una esquiva rodando o un bloqueo cuando el Treant levante los brazos.
+
+### Jefe final Dragón de Hueso
+El Dragón de Hueso lucha dentro de una gran arena circular. Utiliza devastadores ataques de aliento en área de efecto (AoE) y coletazos. Los jugadores deben dispersarse por la arena para evitar que el jefe apunte a todo el grupo con un solo aliento. Ataca al jefe durante sus largas animaciones de recuperación después de que aterrice.
+
+| Jefe | Ataques notables | Estrategia clave | Botines destacados |
+|---|---|---|---|
+| **Treant** | Barrido de corto alcance, golpe contra el suelo | Parar golpes pesados, aprovechar la recuperación | Garras de Sabueso Gruñidor, Armadura Verdante |
+| **Dragón de Hueso** | Aliento de fuego, coletazo, picado aéreo | Dispersarse, esquivar círculos de AoE | Filo de la Noche, Réquiem de Obsidiana |
+
+<CardGrid cols={3}>
+  <Card title="Night's Edge">
+    - **Rareza**: Épica
+    - **Clase**: Espadachín
+    - **Especialidad**: Alta velocidad de corte
+  </Card>
+  <Card title="Obsidian Requiem">
+    - **Rareza**: Legendaria
+    - **Clase**: Espadachín
+    - **Especialidad**: Alto daño físico
+  </Card>
+  <Card title="Azure Knightplate">
+    - **Rareza**: Rara
+    - **Clase**: Todas las clases
+    - **Especialidad**: Bonificación de conjunto de +120 PS
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Bloqueo de botín">
+Los cofres de la mazmorra se pueden farmear repetidamente. No hay un temporizador de bloqueo semanal, lo que convierte al Templo de los Comienzos en el lugar perfecto para completar tus conjuntos de equipo de nivel 15.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hitos de la mazmorra">
+
+Usa esta lista de verificación para asegurarte de haber completado por completo todos los hitos de progresión asociados con la primera mazmorra antes de avanzar a territorios de mayor nivel.
+
+<Checklist
+  id="temple-milestones"
+  title="Objetivos del Templo de los Comienzos:"
+  items={[
+    "Resolver con éxito el primer puzzle de la mazmorra de Grand Alfheim",
+    "Derrotar al minijefe Treant sin morir",
+    "Vencer al Dragón de Hueso en grupo",
+    "Obtener un conjunto completo de la armadura Azure Knightplate",
+    "Equipar una mejora de arma de mazmorra de nivel 10+"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde está la entrada a la primera mazmorra en Grand Alfheim?",
+    answer: "Las entradas se encuentran dentro de los territorios iniciales de Salamandra, Ondina y Gnomo. Busca grandes estructuras de templos de piedra con portales brillantes."
+  },
+  {
+    question: "¿Cómo se resuelve el primer puzzle de la mazmorra de Grand Alfheim?",
+    answer: "Debes encontrar los cubos de Ángel y Demonio en las salas de puzzles y colocarlos en sus altares correspondientes. Elimina a todos los enemigos antes de transportar los cubos."
+  },
+  {
+    question: "¿Cuál es la mejor ruta a seguir dentro del Templo de los Comienzos?",
+    answer: "La ruta izquierda es la mejor si eres bueno en el parkour y quieres saltarte los combates. La ruta derecha es mejor si quieres farmear puntos de experiencia y practicar el combate."
+  },
+  {
+    question: "¿Puedo derrotar al jefe Dragón de Hueso en solitario?",
+    answer: "Está muy desaconsejado en el nivel 10. El Dragón de Hueso tiene grandes ataques AoE que son difíciles de manejar solo. Es mejor enfrentarlo con un grupo de 2 a 4 jugadores."
+  }
+]} />
+
+</Section>

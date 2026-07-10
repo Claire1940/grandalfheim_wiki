@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim Maps: Complete Territory & Dungeon Guide",
+  description: "Explore the full Grand Alfheim maps. Master leveling routes, territory locations, dungeons, and boss spawns in this Roblox MMORPG guide.",
+  category: "Maps",
+  image: "https://placehold.co/800x400/1bc5d8/fff?text=Grand+Alfheim+Maps+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand alfheim maps**: Large-scale regional maps featuring distinct racial territories, towns, and dungeons.
+- **Key mechanic**: Flight systems (activated with V) and ground mounts (summoned with H) are essential for navigating vertical terrain.
+- **First dungeon**: The Temple of Beginnings is located at the intersection of Salamander, Undine, and Gnome territories.
+- **Endgame zone**: Ode to the Abyss is a level 50+ dungeon situated deep within Gnome territory.
+- **Farming strategy**: Target regional bosses like Satyr in Salamander territory for high-value early-game armor sets.
+</Callout>
+
+<Section icon={Map} title="Grand Alfheim Maps Overview">
+
+Navigating the expansive world of Roblox Grand Alfheim requires a clear understanding of its regional layouts, race spawns, and travel mechanics. The **grand alfheim maps** are divided into distinct racial territories, each housing unique NPCs, blacksmiths, questlines, and dangerous bosses. Traveling between these zones is made easier by mastering the game's dual-movement systems: ground mounts and racial flight.
+
+<CardGrid cols={3}>
+  <Card title="Salamander Territory">
+    - **Environment**: Volcanic, high-temperature zone
+    - **Associated Magic**: Fire Magic
+    - **Key Boss**: Satyr (drops Bloodcrown Regalia)
+  </Card>
+  <Card title="Sylph Territory">
+    - **Environment**: Windy plains and lush forests
+    - **Associated Magic**: Wind Magic
+    - **Key Feature**: High verticality, ideal for flight
+  </Card>
+  <Card title="Gnome Territory">
+    - **Environment**: Subterranean caverns and rocky terrain
+    - **Associated Magic**: Earth Magic
+    - **Key Dungeon**: Ode to the Abyss (Level 50+)
+  </Card>
+</CardGrid>
+
+To travel efficiently across these massive environments, players must utilize the dedicated control inputs designed for exploration.
+
+| Action | Input (PC) | Input (Mobile) | Usage |
+| :--- | :--- | :--- | :--- |
+| **Move** | W, A, S, D | Virtual Joystick | Standard navigation |
+| **Spawn Mount** | H | Touch HUD Button | Fast ground travel |
+| **Fly** | V | Touch HUD Button | Activate racial wings |
+
+<Callout type="tip" title="Exploration Tip">
+Always unlock the local teleport points or speak with town NPCs immediately upon entering a new territory to mark your progress on the map.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Territory Locations and Leveling Route">
+
+Progressing through the **grand alfheim maps** requires a structured leveling route. Moving into high-level zones too early will result in rapid defeats, while staying in starter areas slows down your character's progression.
+
+| Level Range | Stage & Territory | Core Map Objectives | Recommended Content |
+| :--- | :--- | :--- | :--- |
+| **Level 1-5** | Starter Tutorial Area | Complete basic training | Learn combat, select starter class |
+| **Level 5-9** | Main Race Territories | Follow starter questlines | Farm local mobs, unlock class skills |
+| **Level 10-19** | Temple of Beginnings | Clear the first major dungeon | Defeat Bone Dragon, farm Epic gear |
+| **Level 20-29** | Territory Exploration | Hunt regional minibosses | Battle Satyr, upgrade armor sets |
+| **Level 30-49** | Advanced Zones | Complete high-level quests | Refine class builds, group up |
+| **Level 50+** | Ode to the Abyss | Conquer the endgame dungeon | Defeat Valdrayn, farm Mythical items |
+
+<Callout type="warning" title="Level Warning">
+Do not attempt to enter Gnome territory's endgame areas before reaching level 50, as the environmental hazards and enemies can easily defeat unprepared players.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dungeons and Boss Spawn Points">
+
+Dungeons and bosses are marked at specific coordinates on the **grand alfheim maps**. Knowing their entry requirements and drop tables ensures you do not waste time traveling to locked encounters.
+
+| Encounter | Territory Location | Recommended Level | Key Mechanics | Notable Drops |
+| :--- | :--- | :--- | :--- | :--- |
+| **Treant** | Temple of Beginnings | Level 10+ | Heavy close-range swings, parry-focused | Verdant Sovereign Set |
+| **Bone Dragon** | Temple of Beginnings | Level 10+ | Arena-wide attacks, dodge-focused | Night's Edge, Obsidian Requiem |
+| **Satyr** | Salamander Territory | Level 20+ | Fast melee combos, block-focused | Bloodcrown Regalia Set |
+| **Valdrayn** | Ode to the Abyss (Gnome) | Level 50+ | Four-tower shield phase, high damage | Voidrune Edge, Nightreaver Bow |
+
+<Steps>
+  <Step num="1" title="Locate the Temple Entrance">
+    Travel to the border regions where Salamander, Undine, and Gnome territories meet to find the Temple of Beginnings portal.
+  </Step>
+  <Step num="2" title="Choose Your Dungeon Path">
+    Inside the temple, select the left parkour route to skip trash mobs, or the right combat route to gain additional experience.
+  </Step>
+  <Step num="3" title="Solve the Altar Puzzles">
+    Collect the glowing cubes scattered in the side chambers and place them on the matching angel and demon altars to unlock the boss arena.
+  </Step>
+  <Step num="4" title="Defeat the Bone Dragon">
+    Position your party around the dragon to split its attention, dodge its breath attacks, and secure high-tier dungeon chests.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Co-op Recommendation">
+Dungeons like Ode to the Abyss require a coordinated group of 4 to 8 players. Ensure your team assigns specific members to destroy the four activated towers during Valdrayn's low-health phase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Map Completion Checklist">
+
+Keep track of your exploration progress across the world map. Completing these milestones ensures your character is fully prepared for endgame content.
+
+<Checklist
+  id="map-completion"
+  title="Map Milestone Checklist:"
+  items={[
+    "Unlock all town teleport waypoints in Salamander, Sylph, and Gnome territories.",
+    "Locate and speak to the blacksmiths in each major settlement to unlock class weapon upgrades.",
+    "Successfully navigate the parkour route in the Temple of Beginnings.",
+    "Find the hidden Satyr spawn point in the volcanic regions of Salamander.",
+    "Locate the chained entrance to Ode to the Abyss in Gnome territory and note its opening times."
+  ]}
+/>
+
+<Callout type="info" title="Time-Locked Content">
+The entrance to Ode to the Abyss in Gnome territory only opens at 12:00 AM and 12:00 PM Eastern Time for a brief 10-minute entry window.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I find the complete grand alfheim maps?",
+    answer: "The grand alfheim maps are divided into regional zones including Salamander, Sylph, and Gnome territories. You can navigate them using coordinates, town landmarks, and main road waypoints."
+  },
+  {
+    question: "How do I unlock fast travel between different map regions?",
+    answer: "You must visit each major town or settlement on foot or by flight and interact with the local waypoint NPCs to register them for future teleportation."
+  },
+  {
+    question: "What is the best way to travel across vertical map areas?",
+    answer: "Using racial flight (activated by pressing V on PC or tapping the wing icon on mobile) allows you to bypass steep cliffs and reach high-altitude quest objectives easily."
+  },
+  {
+    question: "Where is the level 50 endgame dungeon located on the map?",
+    answer: "Ode to the Abyss is located deep within Gnome territory. Its chained entrance opens twice a day at 12:00 AM and 12:00 PM Eastern Time."
+  }
+]} />
+
+</Section>

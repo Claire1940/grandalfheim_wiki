@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indicador Negro de Grand Alfheim: Guía de Interfaz de Combate y Tiempos de Parada",
+  description: "Domina el indicador negro y la interfaz de combate de Grand Alfheim. Aprende tiempos de parada, builds de clases y rutas de nivelación en esta guía de Roblox MMORPG de 2026.",
+  category: "Combat",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Black+Indicator+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim, combate, guía, roblox, indicador negro, tiempos de parada"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Indicador negro de Grand Alfheim**: Un indicio visual crucial para cronometrar paradas perfectas e identificar ataques enemigos imbloqueables.
+- **Retroalimentación de Combate**: Utiliza la interfaz actualizada de la Fase 3 para rastrear enfriamientos de habilidades y agotamiento de estamina durante peleas intensas contra jefes.
+- **Parada Perfecta**: Presiona **F** exactamente cuando el indicador parpadee para aturdir a los enemigos y abrir una ventana de contraataque.
+- **Flexibilidad de Clase**: Visita a cualquier Herrero para cambiar de clase de arma sin restablecer el nivel base o la raza de tu personaje.
+- **Preparación para el End-game**: Alcanza el nivel 50 antes de intentar la mazmorra Oda al Abismo durante sus ventanas específicas de entrada de 10 minutos.
+</Callout>
+
+<Section icon={Activity} title="Entendiendo la Interfaz de Combate y los Indicadores">
+
+Grand Alfheim presenta un sistema de combate sofisticado donde la retroalimentación visual es la diferencia entre la victoria y un derribo. La interfaz de usuario ha sido significativamente refinada en las actualizaciones de 2026 para proporcionar datos más claros sobre salud, estamina y disponibilidad de habilidades. Los jugadores deben monitorear sus indicadores de barra de habilidades constantemente, ya que comprometerse con un ataque pesado mientras una habilidad defensiva está en enfriamiento a menudo lleva a un castigo inmediato por parte de enemigos o jefes de alto nivel.
+
+**Puntos Destacados del Video:**
+- **Desglose de la Interfaz**: Descripción general de las barras de salud, estamina y maná.
+- **Seguimiento de Habilidades**: Cómo leer los iconos de enfriamiento durante las cadenas de combate activas.
+- **Maestría de Movimiento**: Uso de vuelo y desplazamientos para manipular el posicionamiento de la IA enemiga.
+- **Vista Previa de la Mazmorra**: Un vistazo a las señales visuales utilizadas en el Templo de los Comienzos.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Pasando 24 Horas En Grand Alfheim" />
+
+<Callout type="tip" title="Optimización de la Interfaz">
+En PC, puedes usar la tecla **M** para abrir el menú principal y revisar las estadísticas de tu equipo actual. Asegúrate de que los ajustes de "Combat Feedback" estén habilitados para ver claramente los números de daño flotantes y los iconos de efectos de estado durante las incursiones grupales.
+</Callout>
+
+| Elemento de la Interfaz | Función | Importancia |
+| :--- | :--- | :--- |
+| **Barra de Salud** | Rastrea los HP restantes; crítico para la supervivencia | Alta |
+| **Barra de Estamina** | Limita desplazamientos, bloqueos y ataques pesados | Muy Alta |
+| **Iconos de Habilidad** | Muestra enfriamientos activos para habilidades de clase | Media |
+| **Medidor de Magia** | Muestra el maná disponible para hechizos raciales | Media |
+| **Retícula de Objetivo** | Indica qué enemigo está bloqueado actualmente | Alta |
+
+</Section>
+
+<Section icon={Swords} title="Dominando el Indicador Negro de Grand Alfheim">
+
+El **indicador negro de grand alfheim** sirve como un sistema de advertencia de alto riesgo durante el combate. Cuando un enemigo de élite o un jefe prepara un movimiento devastador de "Impacto Pesado" o "Ruptura de Guardia", aparece una señal visual oscura distintiva alrededor del personaje o del punto de impacto. Entender este indicador es el sello distintivo de un jugador avanzado, ya que dicta si debes intentar una parada, un desplazamiento o una retirada total.
+
+En la actualización de la Fase 3, los desarrolladores mejoraron los tiempos de parada y la retroalimentación de combate para que estas ventanas sean más intuitivas. Un indicador negro típicamente significa un ataque que no puede ser bloqueado de forma tradicional; debes realizar una "Parada Perfecta" cronometrando exactamente la presión de tu tecla **F** o usar la tecla **Q** para desplazarte fuera de la zona de impacto por completo.
+
+<Callout type="warning" title="Gestión de Estamina">
+Intentar bloquear un ataque de indicador negro sin suficiente estamina resultará en una Ruptura de Guardia, dejándote aturdido durante varios segundos. Mantén siempre al menos el 25% de tu barra de estamina reservada para desplazamientos de emergencia.
+</Callout>
+
+### Estrategias de Parada vs. Esquiva
+
+| Mecánica | Entrada | Resultado | Mejor Uso Contra |
+| :--- | :--- | :--- | :--- |
+| **Parada Perfecta** | F (Cronometrada) | Aturde al enemigo, reinicia combo | Ataques cuerpo a cuerpo rápidos |
+| **Bloqueo Estándar** | F (Mantener) | Reduce el daño entrante | Proyectiles de múltiples impactos |
+| **Desplazamiento/Rodar** | Q | Invulnerabilidad total (i-frames) | Ataques masivos de área (AOE) |
+| **Finta** | M2 | Cancela la animación actual | Provocar paradas en PvP |
+
+</Section>
+
+<Section icon={Target} title="Selección de Clase y Sinergias de Build">
+
+Grand Alfheim utiliza un sistema de clases basado en armas. En lugar de estar bloqueado en un solo rol, los jugadores seleccionan su clase visitando una forja o herrero y equipando un tipo de arma específico. Cada clase viene con un árbol de habilidades dedicado que debe desarrollarse junto con tu magia racial.
+
+<CardGrid cols={3}>
+  <Card title="Espadachín">
+    - **Arma**: Espada
+    - **Estadística Principal**: STR
+    - **Estilo**: Combos equilibrados de corto alcance y alcance confiable.
+  </Card>
+  <Card title="Maestro del Arco">
+    - **Arma**: Arco
+    - **Estadística Principal**: DEX
+    - **Estilo**: Presión a distancia, precisión y控制 de distancia.
+  </Card>
+  <Card title="Égida">
+    - **Arma**: Gran Escudo
+    - **Estadística Principal**: STR
+    - **Estilo**: Tanque defensivo, bloqueo y protección de aliados.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Cambio de Clase">
+Puedes cambiar tu clase en cualquier momento regresando a un Herrero. Esto te permite probar diferentes estilos de lucha, como el veloz **Asesino** o el contundente **Hoja de Titán**, sin necesidad de crear un nuevo personaje.
+</Callout>
+
+### Tabla Comparativa Completa de Clases
+
+| Clase | Tipo de Arma | Estadística Principal | Rol en Combate | Dificultad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espadachín** | Espada | STR | Primera Línea Equilibrada | Principiante |
+| **Duelista** | Rapera | DEX | Precisión/Velocidad | Intermedio |
+| **Asesino** | Dagas | DEX/STR | Ráfaga/Veneno | Avanzado |
+| **Pugilista** | Guanteletes | STR | Combos Continuos | Intermedio |
+| **Hoja de Titán** | Espadón | STR | Daño Masivo en Área | Intermedio |
+| **Maestro del Arco** | Arco | DEX | Soporte a Larga Distancia | Principiante |
+| **Maestro de la Media Luna** | Guadaña | STR | Control de Área | Avanzado |
+| **Triturador de Cráneos** | Martillo de Guerra | STR | Interrupción/Impacto | Intermedio |
+| **Berserker** | Melee Pesado | STR | Ofensiva de Alto Riesgo | Avanzado |
+
+</Section>
+
+<Section icon={Map} title="Progresión Paso a Paso y Ruta de Nivelación">
+
+Para manejar eficazmente los desafíos de Grand Alfheim, los jugadores deben seguir un camino de nivelación estructurado. Esto asegura que tengas el equipo y los puntos de habilidad necesarios antes de encontrarte con el **indicador negro de grand alfheim** en mazmorras de alto nivel.
+
+<Steps>
+  <Step num="1" title="Tutorial y Configuración de Clase">
+    Completa el tutorial completo para aprender el movimiento básico, el vuelo (V) y el bloqueo (F). Visita la forja inmediatamente después para seleccionar tu arma inicial y clase.
+  </Step>
+  <Step num="2" title="Misiones Iniciales (Nivel 1-9)">
+    Sigue la línea de misiones principal a través del territorio inicial de tu raza. Enfócate en completar misiones secundarias y misiones específicas de clase para desbloquear tus primeras tres habilidades activas.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos (Nivel 10-19)">
+    Ingresa a la primera mazmorra importante. Elige la ruta de parkour para velocidad o la ruta de monstruos para XP. Derrota al Dragón de Hueso para farmear tu primer conjunto de equipo de nivel Épico.
+  </Step>
+  <Step num="4" title="Expansión de Territorio (Nivel 20-49)">
+    Viaja a otros territorios raciales (Salamandra, Ondina, Gnomo). Lucha contra minibosses de mundo abierto como el Sátiro para obtener el conjunto de armadura Regalía de la Corona de Sangre (+820 HP).
+  </Step>
+  <Step num="5" title="Fin del Juego: Oda al Abismo (Nivel 50+)">
+    Forma un grupo de 4 a 8 jugadores. Entra al Abismo durante las ventanas de las 12:00 AM/PM ET. Domina la mecánica de destrucción de torres para derrotar a Valdrayn y obtener botín Mítico.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Farmeo">
+El Templo de los Comienzos es el mejor lugar para farmear armas Legendarias de nivel 15 como el **Réquiem de Obsidiana**. Repetir esta mazmorra temprano hará que el progreso del nivel 20 al 30 sea mucho más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipo Esencial y Fuentes de Botín">
+
+El equipo en Grand Alfheim se categoriza por rareza: Común, Raro, Épico, Legendario y Mítico. Mientras que las armas están restringidas por clase, los conjuntos de armadura pueden ser usados por cualquier build para proporcionar aumentos masivos de salud.
+
+### Caídas de Armas Clave
+
+| Nombre del Arma | Rareza | Nivel | Fuente | Ideal Para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espada de Hierro** | Común | 1+ | Herrero | Principiantes |
+| **Filo de la Noche** | Épico | 10+ | Templo de los Comienzos | Espada de mitad de juego |
+| **Réquiem de Obsidiana** | Legendario | 15+ | Templo de los Comienzos | Espadachín Élite |
+| **Filo de Runa del Vacío** | Mítico | 50+ | Oda al Abismo | DPS de fin de juego |
+| **Arco Segador Nocturno** | Mítico | 50+ | Oda al Abismo | Rango de fin de juego |
+
+### Comparación de Conjuntos de Armadura
+
+| Conjunto de Armadura | Rareza | Bono de HP | Fuente Principal |
+| :--- | :--- | :--- | :--- |
+| **Placa de Caballero Azur** | Raro | +120 HP | Templo de los Comienzos |
+| **Soberano Verdante** | Épico | +350 HP | Miniboss Treant |
+| **Regalía de la Corona de Sangre** | Mítico | +820 HP | Sátiro (Salamandra) |
+| **Pacto Abismal** | Mítico | +1200 HP | Oda al Abismo |
+
+<Callout type="warning" title="Durabilidad del Equipo">
+Repara siempre tu equipo con un Herrero antes de entrar a una mazmorra. Usar un arma con durabilidad cero reduce significativamente tu daño y puede causar que falles las ventanas de parada en el indicador negro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Final y Preguntas Frecuentes">
+
+Antes de dirigirte a los territorios más peligrosos de Alfheim, asegúrate de que tu personaje esté completamente preparado para encuentros tanto PvE como PvP.
+
+<Checklist
+  id="combat-ready"
+  title="Lista de Verificación de Preparación para el Combate:"
+  items={[
+    "Equipa un arma que coincida con tu estadística principal (STR o DEX)",
+    "Desbloquea al menos una habilidad de movimiento para esquivar indicadores negros",
+    "Lleva un mínimo de 10 objetos de curación para las incursiones en mazmorras",
+    "Únete al Discord oficial para las últimas noticias sobre eventos de Doble Botín",
+    "Practica los tiempos de parada contra los enemigos iniciales en la zona del tutorial"
+  ]}
+/>
+
+<Callout type="info" title="Último Consejo Pro">
+La actividad "Cuarto Blanco" es una excelente manera de ganar recompensas de participación por acceso anticipado. Mantente atento a la cuenta oficial de Grand Alfheim en X (anteriormente Twitter) para códigos de entrada de tiempo limitado y anuncios de eventos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué significa realmente el indicador negro de grand alfheim?",
+    answer: "Es una advertencia visual para un ataque imbloqueable o pesado. Debes realizar una 'Parada Perfecta' con un tiempo preciso o desplazarte para evitar un daño masivo y la ruptura de tu guardia."
+  },
+  {
+    question: "¿Puedo cambiar mi raza si no me gusta mi magia?",
+    answer: "La selección de raza es actualmente permanente para cada ranura de personaje. Debes elegir cuidadosamente entre razas ofensivas como Salamandra o razas centradas en el soporte como Ondina."
+  },
+  {
+    question: "¿Cómo entro en la mazmorra Oda al Abismo?",
+    answer: "La entrada se encuentra en el territorio de los Gnomos. Solo abre a las 12:00 AM y 12:00 PM, hora del este, durante una breve ventana de 10 minutos. Se recomienda para jugadores de nivel 50+."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para farmear armadura que aumente la vida?",
+    answer: "El miniboss Sátiro en el territorio de las Salamandras suelta el conjunto Regalía de la Corona de Sangre, que proporciona un aumento masivo de +820 HP, lo que lo hace esencial para la supervivencia en el juego medio y avanzado."
+  }
+]} />
+
+</Section>

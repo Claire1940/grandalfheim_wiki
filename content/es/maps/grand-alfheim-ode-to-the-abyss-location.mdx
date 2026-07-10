@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ubicación de Oda al Abismo en Grand Alfheim: Guía de Raid y Recompensas",
+  description: "Encuentra la ubicación de Oda al Abismo en Grand Alfheim en el territorio Gnomo. Conoce los horarios de entrada, fases del jefe, mecánicas de torres y recompensas míticas de nivel 50.",
+  category: "Maps",
+  image: "https://placehold.co/800x400/1bc5eb/fff?text=Ode+to+the+Abyss+Location",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "Grand Alfheim, Oda al Abismo, ubicación, raid, guía, botín mítico, Valdrayn"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación Principal**: Se encuentra detrás de las enormes puertas encadenadas en el montañoso **Territorio Gnomo**.
+- **Horario de Puertas**: Abre dos veces al día a las **12:00 AM y 12:00 PM EST** con una ventana de entrada estricta de 10 minutos.
+- **Requisito de Nivel**: Recomendado para grupos coordinados de jugadores de **Nivel 50+**.
+- **Mecánica Clave**: Debes destruir **cuatro torres activas** durante la fase de salud baja del jefe para detener su regeneración de vida.
+- **Botín Destacado**: Suelta armas míticas exclusivas de endgame como **Voidrune Edge** y **Nightreaver Bow**.
+</Callout>
+
+<Section icon={Map} title="Encontrando la Ubicación de Oda al Abismo en Grand Alfheim">
+
+La **ubicación de Oda al Abismo en Grand Alfheim** es el destino definitivo para los jugadores de nivel máximo que buscan equipo de nivel Mítico. Esta mazmorra de alto nivel se encuentra en lo profundo de las escarpadas montañas del **Territorio Gnomo**. Los jugadores deben navegar por el terreno rocoso para encontrar una entrada masiva e imponente sellada con pesadas cadenas de hierro. 
+
+Debido a que el mundo abierto de Grand Alfheim depende en gran medida de la exploración vertical, se recomienda encarecidamente utilizar las mecánicas de vuelo de tu raza o una montura terrestre rápida para llegar a las puertas rápidamente.
+
+| Característica de Ubicación | Resumen de Detalles |
+|---|---|
+| **Territorio** | Territorio Gnomo |
+| **Punto de Referencia Visual** | Arco de piedra gigante atado por enormes cadenas de hierro |
+| **Método de Acceso** | Elevador de la mazmorra que baja a Valdrayn |
+| **Rango de Nivel** | Nivel 50+ (Endgame) |
+
+<Callout type="warning" title="Ventana de Entrada Estricta">
+Las puertas al Abismo no permanecen abiertas permanentemente. Solo puedes entrar durante una breve **ventana de 10 minutos** que ocurre dos veces al día. Planifica la formación de tu grupo con antelación para no perder la apertura de la puerta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Horario de la Mazmorra y Requisitos de Entrada">
+
+Antes de reunir a tu grupo, debes entender los horarios del servidor. Las puertas de la mazmorra funcionan con un temporizador global del servidor. Si llegas tarde, tendrás que esperar al siguiente ciclo. 
+
+| Configuración de Plataforma / Servidor | Franja Horaria (EST) | Duración de Ventana de Entrada | Recomendación de Grupo |
+|---|---|---|---|
+| **Ciclo de la Mañana** | 12:00 AM EST | 10 Minutos | 4 a 8 Jugadores |
+| **Ciclo de la Tarde** | 12:00 PM EST | 10 Minutos | 4 a 8 Jugadores |
+
+Una vez que la puerta se abre, los jugadores deben interactuar con el mecanismo de entrada para subir al elevador de la mazmorra. Este elevador desciende a las profundidades subterráneas hacia el dominio de Valdrayn, el jefe final del Abismo.
+
+<CardGrid cols={3}>
+  <Card title="Nivel Requerido: 50+">
+    Los enemigos en el interior infligen un daño masivo. Entrar por debajo del nivel 50 hace que la supervivencia sea muy poco probable.
+  </Card>
+  <Card title="Tamaño del Grupo: 4-8">
+    No intentes esta raid en solitario. Se recomienda encarecidamente roles de grupo coordinados (DPS, Tanque, Soporte).
+  </Card>
+  <Card title="Verificación de Equipo">
+    Asegúrate de que todos los jugadores tengan armas mejoradas y conjuntos de armadura con HP alto como el Bloodcrown Regalia.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Coordinar Roles">
+Ten al menos un jugador Undine en tu grupo. Su magia de agua y curación proporciona un sustento crucial durante las fases de daño de área (AoE) sostenido de la pelea contra el jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía de Raid Paso a Paso para Valdrayn">
+
+Derrotar a Valdrayn requiere una coordinación estricta. La pelea se divide en fases distintas de supervivencia y ataque total. A continuación se presenta la estrategia paso a paso para completar el encuentro con éxito.
+
+<Steps>
+  <Step num="1" title="Bajar la Salud del Jefe">
+    Enfréntate a Valdrayn en el centro de la arena. Los tanques (clase Aegis) deben mantener el aggro mientras las clases de DPS (Titanblade, Assassin, Bowmaster) atacan desde atrás para evitar los barridos frontales directos.
+  </Step>
+  <Step num="2" title="Prepararse para la Fase de Torres">
+    Cuando Valdrayn alcance un nivel bajo de salud, se protegerá con un escudo y activará **cuatro torres** alrededor de la arena. Comenzará a regenerar salud rápidamente hasta que las cuatro torres sean destruidas.
+  </Step>
+  <Step num="3" title="Dividirse y Destruir las Torres">
+    Divide inmediatamente a tu grupo en parejas preasignadas o jugadores individuales para atacar cada una de las cuatro torres. Guarda tus habilidades de alto daño y largo tiempo de reutilización específicamente para esta fase para romperlas rápido.
+  </Step>
+  <Step num="4" title="Ejecutar el Ataque Final">
+    Una vez que las torres se rompan, el escudo de Valdrayn caerá, dejándolo temporalmente vulnerable. Agrúpense de nuevo y desaten todos los ataques restantes para terminar con el jefe antes de que pueda reiniciar el ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Asignación de Torres">
+Asigna tus clases con mayor ráfaga de daño a un solo objetivo, como el Assassin o Duelist, a las torres más lejanas. Usa tus desplazamientos de movilidad (tecla Q en PC) para cerrar la distancia al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín Mítico de Endgame">
+
+Completar la mazmorra Oda al Abismo recompensa a los jugadores con las armas Míticas de nivel 50+ más fuertes en Grand Alfheim. Estas armas cuentan con perfiles de estadísticas únicos escalados para clases de combate específicas.
+
+| Botín Mítico | Tipo de Arma | Clase Compatible | Perfil de Estadísticas y Rol de Combate |
+|---|---|---|---|
+| **Voidrune Edge** | Espada | Espadachín | Escalamiento de alto nivel, óptimo para builds de espada PvE/PvP de endgame |
+| **Nightreaver Bow** | Arco | Arquero | Máximo daño a distancia y control del campo de batalla |
+| **Voidfang Gauntlets** | Guanteletes | Pugilista | Velocidad de combo rápida a corta distancia con alto escalamiento de impacto |
+| **Riftshard Daggers** | Daggers | Asesino | Velocidad de apuñalamiento rápida, ideal para builds de ráfaga de alta movilidad |
+| **Graveward Bulwark** | Gran Escudo | Aegis | Gran escalamiento defensivo para tanquear jefes de endgame |
+
+<Callout type="info" title="Tasas de Obtención">
+Las armas míticas son botines raros. Prepárate para realizar la mazmorra varias veces durante las ventanas diarias programadas para completar tu build de endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparación para el Endgame">
+
+Antes de dirigirte al Territorio Gnomo, asegúrate de que tu personaje esté completamente preparado para contribuir al grupo de raid.
+
+<Checklist
+  id="abyss-prep"
+  title="Requisitos Pre-Raid:"
+  items={[
+    "Alcanzar el nivel 50 de personaje o superior",
+    "Equipar un conjunto completo de Bloodcrown Regalia (+820 HP)",
+    "Mejorar el arma de tu clase a su nivel máximo",
+    "Abastecerse de consumibles de curación de alto grado",
+    "Unirse a un canal de voz coordinado o grupo de chat"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes sobre Oda al Abismo">
+
+<FAQ items={[
+  {
+    question: "¿Dónde está la ubicación de Oda al Abismo en Grand Alfheim?",
+    answer: "La mazmorra se encuentra detrás de una enorme puerta de piedra encadenada oculta en las regiones montañosas del Territorio Gnomo."
+  },
+  {
+    question: "¿A qué hora abre la mazmorra Oda al Abismo?",
+    answer: "Las puertas abren dos veces al día a las 12:00 AM y a las 12:00 PM Eastern Standard Time (EST) por una breve ventana de entrada de 10 minutos."
+  },
+  {
+    question: "¿Cuál es la mecánica más importante en la pelea contra el jefe Valdrayn?",
+    answer: "La fase de torres. Cuando el jefe alcanza poca salud, debes dividir rápidamente a tu grupo para destruir cuatro torres activas alrededor de la arena, o el jefe regenerará su salud."
+  },
+  {
+    question: "¿Puedo completar la mazmorra solo?",
+    answer: "Es muy poco recomendable. El jefe tiene enormes cantidades de salud y mecánicas que requieren que varios jugadores las manejen simultáneamente. Se recomienda un grupo de 4 a 8 jugadores."
+  }
+]} />
+
+</Section>

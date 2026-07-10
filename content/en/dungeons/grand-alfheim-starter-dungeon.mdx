@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "grand alfheim starter dungeon: Temple of Beginnings Walkthrough",
+  description: "Master the grand alfheim starter dungeon with our guide on the Temple of Beginnings, including boss mechanics, puzzle solutions, and loot tables.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Starter+Dungeon+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: The **grand alfheim starter dungeon**, known as the Temple of Beginnings, is the first major milestone for level 10+ players.
+- **Entry Points**: Accessible from the Salamander, Undine, and Gnome territories via specific portal entrances.
+- **Route Choice**: Players can choose between a **Parkour Route** (high mobility) or a **Combat Route** (resource farming).
+- **Core Puzzle**: Progress requires solving the **Cube Room** by placing colored cubes on corresponding angel and demon altars.
+- **Boss Strategy**: The Bone Dragon rewards players who master **blocking and stamina management** over mindless aggression.
+</Callout>
+
+<Section icon={Map} title="Entering the grand alfheim starter dungeon">
+
+The **grand alfheim starter dungeon**, officially titled the Temple of Beginnings, serves as the gateway to mid-game progression. Located at the intersection of several racial territories, this dungeon challenges players to apply the mechanics learned during the initial tutorial—specifically flight, parrying, and skill rotations. Successfully clearing this instance is required to obtain your first set of Rare and Epic equipment, which is essential for surviving the tougher open-world bosses found in the Salamander and Gnome regions.
+
+**Video Highlights:**
+- Visual walkthrough of the entrance locations in the Salamander and Undine regions.
+- Comparison of the monster density in the combat route versus the parkour path.
+- Step-by-step solution for the final cube puzzle before the boss room.
+- Combat demonstration against the Bone Dragon's flame breath and tail sweep.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Grand Alfheim Dungeon Guide" />
+
+| Requirement | Detail | Notes |
+|-------------|--------|-------|
+| **Minimum Level** | Level 10 | Recommended level 12 for solo players |
+| **Locations** | Salamander / Undine / Gnome | Look for the large stone temple structures |
+| **Party Size** | 1 - 4 Players | Difficulty scales slightly with group size |
+| **Key Item** | None | Entry is free for all players above level 10 |
+| **Estimated Time** | 15 - 20 Minutes | Depends on the chosen route and puzzle speed |
+
+<Callout type="success" title="Entry Tip">
+While the dungeon is accessible at level 10, entering with a **Swordsman or Aegis** class provides higher survivability for first-timers due to their superior blocking capabilities against the Temple's elite mobs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pre-Dungeon Preparation & Loadouts">
+
+Before stepping into the **grand alfheim starter dungeon**, you must ensure your equipment and skills are optimized. The Temple of Beginnings features high-density mob groups that can easily overwhelm a player who hasn't invested in their class skill tree. Specifically, ensure you have at least two active combat skills unlocked and a reliable method of health regeneration, as the dungeon does not provide natural healing checkpoints.
+
+<Checklist
+  id="dungeon-prep"
+  title="Essential Preparation Checklist:"
+  items={[
+    "Reach Level 10 and equip a Blacksmith-tier weapon",
+    "Unlock at least one mobility skill (Dash or Flight boost)",
+    "Stock up on HP recovery items from the local town merchant",
+    "Repair all equipment to 100% durability to avoid mid-run breakage",
+    "Allocate all available Skill Points into your primary weapon tree"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Offensive Build">
+    - **Classes**: Titanblade, Assassin, Duelist
+    - **Focus**: Burst damage to clear the Combat Route quickly
+    - **Risk**: Low health; requires precise dodging
+  </Card>
+  <Card title="Defensive Build">
+    - **Classes**: Aegis, Swordsman, Gnome (Race)
+    - **Focus**: Sustained blocking and crowd control
+    - **Risk**: Slower clear times but very safe solo
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Stamina Management">
+Every action in the dungeon—including sprinting, jumping, and blocking—consumes stamina. If you exhaust your stamina bar while fighting the Bone Dragon, you will be unable to block his critical attacks, leading to an immediate knockdown.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dungeon Routes: Parkour vs. Combat">
+
+The **grand alfheim starter dungeon** features a branching path system early in the instance. Players must choose between the Left Route (Parkour) and the Right Route (Combat). Both paths eventually lead to the same Cube Room, but the resources and risks differ significantly.
+
+| Path | Primary Challenge | Rewards | Recommended For |
+|------|-------------------|---------|-----------------|
+| **Left (Parkour)** | Vertical movement / Precision jumps | Fast completion / Low HP loss | Sylph and Cait Sith races |
+| **Right (Combat)** | High-density mob groups | XP farming / Material drops | Strength builds and groups |
+
+### The Combat Route
+If you choose the right path, you will face waves of Scorpions, Dinosaurs, and Plant-based enemies. These mobs are excellent for leveling up your class mastery. The Scorpions have a predictable sting attack that can be parried to trigger a counter-window.
+
+### The Parkour Route
+The left path utilizes the **grand alfheim** flight and jumping mechanics. You will need to navigate floating platforms and moving obstacles. Falling doesn't result in instant death but will reset you to the start of the section, wasting valuable time.
+
+<Callout type="tip" title="Hybrid Strategy">
+In a group of four, send two players through the combat route for XP and two through the parkour route to reach the puzzle room faster. Once the puzzle is solved, the portal opens for everyone.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solving the Cube Puzzle Mechanics">
+
+The final barrier before the boss of the **grand alfheim starter dungeon** is the Cube Room. This room contains several altars and colored cubes scattered throughout the chamber. You cannot brute-force this section; it requires environmental awareness.
+
+<Steps>
+  <Step num="1" title="Locate the Cubes">
+    Search the corners of the room for the glowing cubes. There are typically two types: Angelic (Light) and Demonic (Dark).
+  </Step>
+  <Step num="2" title="Identify the Altars">
+    Look at the statues at the far end of the room. The Angel statues require the Light cubes, while the Demon statues require the Dark cubes.
+  </Step>
+  <Step num="3" title="Placement and Activation">
+    Carry the cubes to the matching altars. Once all cubes are placed, a central pedestal will rise, allowing you to interact with it and open the Bone Dragon's lair.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Puzzle Reset">
+If you drop a cube into a pit or an unreachable area, it will respawn at its original location after 10 seconds. Do not panic if you miss a jump while carrying a puzzle piece.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Strategy: Treant & Bone Dragon">
+
+The **grand alfheim starter dungeon** features two major encounters. The Treant acts as a mid-point guardian, while the Bone Dragon serves as the final test of your progression.
+
+### Mid-Boss: The Treant
+The Treant is a slow-moving tank. His primary attacks are ground slams and root entanglements. 
+- **Strategy**: Stay behind him. His turn speed is slow, allowing Assassin and Duelist classes to landing backstab criticals consistently.
+
+### Final Boss: The Bone Dragon
+The Bone Dragon is the true challenge of the Temple of Beginnings. He utilizes a mix of physical sweeps and elemental breath attacks.
+
+| Attack Name | Description | Counter-Action |
+|-------------|-------------|----------------|
+| **Flame Breath** | A wide-angle frontal cone of fire | Dash behind the Dragon or use V-Flight to hover above |
+| **Tail Sweep** | A 360-degree physical strike | Double-jump or hold Block (F) to mitigate damage |
+| **Bone Spike** | Projectiles shot from the wings | Side-step continuously; do not stand still |
+| **Roar** | An AOE stun that drains stamina | Keep distance when the Dragon rears its head back |
+
+<Callout type="warning" title="Critical Health Phase">
+When the Bone Dragon reaches 25% HP, it will begin using its Flame Breath more frequently. During this phase, prioritize survival over damage. Wait for the animation to end before committing to a long combo string.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rewards and Loot Farming">
+
+Completing the **grand alfheim starter dungeon** is the most efficient way to gear up for level 20+ content. The loot is divided into individual drops and a final dungeon chest that rewards higher-tier equipment based on your performance and luck.
+
+<CardGrid cols={3}>
+  <Card title="Azure Knightplate">
+    - **Type**: Armor Set
+    - **Stat**: +120 Max HP
+    - **Best For**: Frontline Tanks
+  </Card>
+  <Card title="Night's Edge">
+    - **Type**: Epic Sword
+    - **Stat**: High STR scaling
+    - **Best For**: Swordsman Class
+  </Card>
+  <Card title="Obsidian Requiem">
+    - **Type**: Legendary Sword
+    - **Stat**: Critical Hit bonus
+    - **Best For**: Endgame prep
+  </Card>
+</CardGrid>
+
+| Item Name | Type | Rarity | Drop Source |
+|-----------|------|--------|-------------|
+| **Azure Knightplate** | Armor | Rare | Bone Dragon |
+| **Night's Edge** | Weapon | Epic | Final Chest |
+| **Sacrificial Daggers** | Weapon | Rare | Treant |
+| **Snarl Hound Claws** | Weapon | Rare | Combat Route Mobs |
+| **Obsidian Requiem** | Weapon | Legendary | Bone Dragon (Low %) |
+
+<Callout type="success" title="Farming Tip">
+The **grand alfheim** summer event often doubles the drop rates for the Temple of Beginnings. If you are hunting for the Legendary Obsidian Requiem, wait for these event windows to maximize your efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best class for the grand alfheim starter dungeon?",
+    answer: "For beginners, the Swordsman or Aegis classes are best due to their high defense. However, the Sylph race with an Assassin class can clear the dungeon the fastest by using the Parkour Route."
+  },
+  {
+    question: "Can I solo the Temple of Beginnings?",
+    answer: "Yes, but it is recommended to be at least level 12-15. Ensure you bring plenty of healing potions and have mastered the parry mechanic for the Bone Dragon fight."
+  },
+  {
+    question: "How do I reset the dungeon to farm it again?",
+    answer: "Simply leave the instance and wait approximately 2 minutes for the room to reset, or join a different server to bypass the cooldown immediately."
+  },
+  {
+    question: "Where are the entrances to the starter dungeon located?",
+    answer: "The main entrances are found in the Salamander, Undine, and Gnome territories. They are marked by large, ancient stone temple structures on the map."
+  }
+]} />
+
+</Section>

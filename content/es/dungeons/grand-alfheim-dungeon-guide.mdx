@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de mazmorras de Grand Alfheim: Recorrido de 2026 y tablas de botín",
+  description: "Domina cada mazmorra de Grand Alfheim con nuestra guía de 2026. Aprende las mecánicas de jefes como el Dragón de Hueso y Valdrayn, soluciones de acertijos y drops de botín mítico.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dungeon+Master+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de mazmorras de Grand Alfheim**: Concéntrate en el **Templo de los Comienzos** (Nivel 10+) y la **Oda al Abismo** (Nivel 50+).
+- **Mecánica clave**: Las mazmorras combinan **rutas de combate**, **desafíos de parkour** y **acertijos basados en cubos** antes de que se abran los portales de los jefes.
+- **Mejor estrategia**: Usa un grupo equilibrado con un **Undine** para la curación y una clase **Aegis** para tanquear las fases de alto daño de los jefes.
+- **Consejo crítico**: Gestiona siempre la **estamina**; agotarla durante la ventana de recuperación de un jefe te impedirá esquivar su próximo ataque pesado.
+- **La mejor opción**: Farmear el **Dragón de Hueso** al principio es esencial para obtener equipo **Épico** y **Legendario** como el **Filo de la Noche**.
+</Callout>
+
+<Section icon={Map} title="Guía de mazmorras de Grand Alfheim: Resumen y preparación">
+
+Navegar por los peligrosos paisajes de este MMORPG de Roblox requiere algo más que equipo de alto nivel; exige una comprensión profunda de los principios de la **guía de mazmorras de Grand Alfheim**. Las mazmorras en Grand Alfheim sirven como el bucle de progresión principal, cerrando la brecha entre las misiones iniciales y el dominio del juego tardío. Ya sea que ingreses al Templo de los Comienzos o a las terroríficas profundidades del Abismo, tu preparación determina tu supervivencia.
+
+Antes de entrar a cualquier instancia, asegúrate de que la build de tu personaje se alinee con tu rol. El juego cuenta con nueve razas de hadas distintas, cada una con afinidades mágicas únicas que brillan en escenarios de mazmorras específicos. Por ejemplo, los **Salamanders** proporcionan el daño por segundo (DPS) bruto necesario para acabar con los grupos de monstruos, mientras que los **Sylphs** usan magia de viento para navegar por las secciones de parkour con facilidad.
+
+**Puntos destacados del video:**
+- **Entrada a la mazmorra**: Localización de los portales ocultos en los territorios de Salamander, Undine y Gnome.
+- **Flujo de combate**: Gestión del aggro de los monstruos y uso eficaz de las habilidades de clase.
+- **Revelación del jefe**: Un primer vistazo al Dragón de Hueso y sus devastadores ataques de área de efecto.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Grand Alfheim Dungeons Bosses and Loot Guide" />
+
+<Callout type="tip" title="Preparación para principiantes">
+Antes de entrar a tu primera mazmorra, visita al **Herrero** para asegurarte de que tu arma inicial tenga la máxima durabilidad. Incluso una Espada de Hierro común puede ayudarte a superar las primeras salas si dominas el tiempo de desvío (parry).
+</Callout>
+
+| Nombre de la Mazmorra | Nivel Recomendado | Ubicación del Territorio | Jefe Principal |
+| :--- | :--- | :--- | :--- |
+| **Templo de los Comienzos** | 10 - 25 | Salamander/Undine/Gnome | Dragón de Hueso |
+| **Oda al Abismo** | 50+ | Gnome (Entrada Encadenada) | Valdrayn |
+| **Arboleda del Sátiro** | 20+ | Salamander (Mundo Abierto) | Sátiro |
+
+</Section>
+
+<Section icon={Swords} title="El Templo de los Comienzos: Recorrido paso a paso">
+
+El **Templo de los Comienzos** es el primer gran obstáculo para todo aventurero. Accesible a partir del nivel 10, esta mazmorra introduce las mecánicas principales que enfrentarás a lo largo de tu viaje. La entrada no está fija en un solo lugar; puedes encontrar portales dentro de los territorios **Salamander**, **Undine** y **Gnome**, lo que la hace accesible independientemente de la zona de inicio de la raza elegida.
+
+Al entrar, los jugadores se enfrentan a una elección que define su experiencia en la mazmorra: la **Ruta de Parkour** o la **Ruta de Combate**.
+
+<Steps>
+  <Step num="1" title="Elige tu camino">
+    El camino de la izquierda se centra en el **Parkour**. Requiere saltos precisos y gestión del vuelo para evitar los peligros ambientales. El camino de la derecha es la **Ruta de Monstruos**, llena de Escorpiones, Dinosaurios y Treants. Los grupos que buscan experiencia deben tomar la derecha, mientras que los speedrunners prefieren la izquierda.
+  </Step>
+  <Step num="2" title="El acertijo de los cubos">
+    Independientemente de la ruta, ambos caminos convergen en las **Salas de Acertijos**. Debes localizar cubos brillantes y colocarlos en los **altares de Ángel y Demonio** correspondientes. El portal del jefe permanecerá sellado hasta que todos los cubos estén colocados correctamente.
+  </Step>
+  <Step num="3" title="Minijefe: El Treant">
+    Antes de la arena final, te encontrarás con el **Treant**. Este jefe utiliza ataques cuerpo a cuerpo pesados y lentos. La clave aquí es la **gestión de la estamina**. No spamees ataques M1; en su lugar, espera a que el Treant ataque, desvía el golpe (parry) y luego desata tus habilidades de clase.
+  </Step>
+  <Step num="4" title="Jefe final: Dragón de Hueso">
+    El Dragón de Hueso es una amenaza de alta movilidad. Mantente fuera de su línea de fuego directa. Cuando se prepare para su ataque de aliento, deslízate hacia un lado (Q) y continúa con un **Ataque de Deslizamiento** (Q+M1). Repite este ciclo hasta que el dragón sea derribado.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peligros ambientales">
+In la Ruta de Parkour, caer al vacío no solo restablece tu posición; drena una parte significativa de tu salud. Si las alas de tu raza están en tiempo de recarga, espera a que se recarguen antes de intentar saltos largos.
+</Callout>
+
+| Objeto de Botín | Rareza | Tipo | Enfoque de Estadísticas |
+| :--- | :--- | :--- | :--- |
+| **Filo de la Noche** | Épico | Espada | Fuerza / Daño Oscuro |
+| **Placa de Caballero Azul** | Raro | Conjunto de Armadura | +120 HP (Conjunto Completo) |
+| **Réquiem de Obsidiana** | Legendario | Espada | Alto Impacto / Ráfaga |
+| **Garras de Sabueso Gruñidor** | Raro | Guanteletes | Velocidad de Ataque Rápida |
+
+</Section>
+
+<Section icon={Target} title="Excelencia en el juego tardío: Guía de la Oda al Abismo">
+
+Para aquellos que han alcanzado el límite de nivel 50, la **Oda al Abismo** representa la cúspide del contenido actual. Esta mazmorra es única porque funciona con un horario estricto. La entrada encadenada en el **territorio Gnome** solo se abre a las **12:00 AM y 12:00 PM, hora del Este**. Una vez que se abre la ventana, tienes exactamente 10 minutos para entrar antes de que se cierre por otras 12 horas.
+
+El Abismo no es solo una prueba de fuerza, sino una prueba de coordinación. Descenderás en un enorme ascensor para llegar a **Valdrayn**, el protector final de la mazmorra.
+
+<CardGrid cols={3}>
+  <Card title="La mecánica de las torres">
+    Durante la fase de salud baja de Valdrayn, se activarán **cuatro torres** alrededor de la arena. El jefe se vuelve invulnerable durante este tiempo. El grupo debe dividirse para destruir las cuatro torres simultáneamente para romper el escudo.
+  </Card>
+  <Card title="Asignación de roles">
+    Asigna a tus jugadores **Aegis** para alejar el aggro de Valdrayn de las torres. Los **Bowmasters** y **Mages** deben centrarse en la destrucción de torres a larga distancia, mientras que los **Assassins** se encargan de cualquier enemigo adicional que aparezca.
+  </Card>
+  <Card title="Recompensas míticas">
+    Completar el Abismo es la única forma de obtener **equipo Mítico de nivel 50**. Estos objetos, como el **Filo de Runa del Vacío**, ofrecen las estadísticas base más altas y habilidades pasivas únicas en el juego.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia para el Abismo">
+Asigna a un jugador a la ubicación de cada torre antes de que comience la pelea. Comunicarse por voz o chat rápido es esencial, ya que no destruir las torres rápidamente resulta en una mecánica de eliminación de todo el grupo por parte del jefe.
+</Callout>
+
+| Objeto Mítico | Requisito de Clase | Nivel | Característica Clave |
+| :--- | :--- | :--- | :--- |
+| **Filo de Runa del Vacío** | Espadachín | 50+ | Escala de Daño del Vacío |
+| **Arco del Saqueador Nocturno** | Bowmaster | 50+ | Pasiva de Disparo Múltiple |
+| **Baluarte de la Tumba** | Aegis | 50+ | Reflejo de Daño |
+| **Dagas de Fragmento de Grieta** | Asesino | 50+ | Ataque de Teletransportación |
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de jefes y tácticas de combate">
+
+Dominar la **guía de mazmorras de Grand Alfheim** requiere algo más que saber a dónde ir; debes dominar el sistema de combate. Grand Alfheim utiliza un motor de combate de acción dinámico donde el tiempo lo es todo.
+
+**Controles de combate básicos para mazmorras:**
+- **M1 (Clic Izquierdo)**: Combo básico. No termines la cadena completa si el jefe está a mitad de una animación.
+- **F (Bloquear/Desviar)**: El botón más importante. Un desvío perfecto (parry) aturde a los minijefes como el Sátiro.
+- **Q (Deslizamiento)**: Úsalo para escapar de los círculos de área de efecto (AOE).
+- **R (Ataque Crítico)**: Úsalo solo cuando el jefe esté en un estado de "recuperación" después de fallar un golpe pesado.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de verificación de preparación para jefes de mazmorra:"
+  items={[
+    "Equipo reparado en el Herrero",
+    "Pociones de vida colocadas en la barra de acceso rápido",
+    "Puntos de habilidad de clase completamente asignados",
+    "Árbol de magia de raza nivelado para utilidad",
+    "Roles de grupo asignados (Tanque/DPS/Curador)"
+  ]}
+/>
+
+<Callout type="info" title="Jefes de mundo abierto">
+No ignores a los jefes del mundo abierto como el **Sátiro** en el territorio de Salamander. Aunque no está en una mazmorra formal, suelta el **Conjunto de Regalías de la Corona de Sangre**, que proporciona un aumento masivo de **+820 HP**, esencial para sobrevivir en el Abismo.
+</Callout>
+
+| Nombre del Jefe | Ubicación | Mecánica Clave | Mejor Contramedida |
+| :--- | :--- | :--- | :--- |
+| **Treant** | Templo | Cuerpo a Cuerpo Pesado | Desviar y Castigar |
+| **Dragón de Hueso** | Templo | Aliento Aéreo | Deslizamiento Lateral (Q) |
+| **Sátiro** | Salamander | Estocadas Rápidas | Bloqueo con Escudo (F) |
+| **Valdrayn** | Abismo | Escudo de Torres | Dividir el Enfoque del Grupo |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre las mazmorras de Grand Alfheim">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor nivel para comenzar la ruta de la guía de mazmorras de Grand Alfheim?",
+    answer: "Deberías comenzar con el Templo de los Comienzos en el Nivel 10. Aunque puedes ingresar antes, es probable que te falte la estamina y la salud para sobrevivir a la fase final del Dragón de Hueso."
+  },
+  {
+    question: "¿Cómo resuelvo el acertijo de los cubos en el Templo de los Comienzos?",
+    answer: "Localiza los cubos brillantes escondidos en las salas laterales. Llévalos a la cámara central y colócalos en los altares marcados con íconos de Ángel y Demonio. Una vez colocados todos, se abrirá la puerta del jefe."
+  },
+  {
+    question: "¿Cuándo se abre la mazmorra Oda al Abismo?",
+    answer: "La entrada se abre dos veces al día a las 12:00 AM y a las 12:00 PM, hora del Este. La ventana de entrada solo dura 10 minutos, así que asegúrate de que tu grupo esté reunido en la entrada del territorio Gnome con anticipación."
+  },
+  {
+    question: "¿Puedo completar las mazmorras de Grand Alfheim en solitario?",
+    answer: "El Templo de los Comienzos se puede completar en solitario con una buena build (como Espadachín o Paladín). Sin embargo, la Oda al Abismo está diseñada para grupos de 4 a 8 jugadores debido a la mecánica de las torres simultáneas."
+  }
+]} />
+
+<Callout type="tip" title="Consejo profesional final">
+Si tienes problemas con el daño de los jefes, comprueba tu **Afinidad de Raza**. Usar magia de fuego contra enemigos de tipo planta como el Treant proporciona un bono de daño oculto que puede acelerar significativamente tus tiempos de finalización.
+</Callout>
+
+</Section>

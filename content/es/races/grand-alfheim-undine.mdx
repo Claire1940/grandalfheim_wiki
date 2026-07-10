@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim Undine: Guía de Raza 2026 y Build de Soporte",
+  description: "Domina la raza Undine de Grand Alfheim con nuestra guía sobre Magia de Agua, habilidades de curación, sinergias de clase de nivel S y estrategias de soporte para el endgame.",
+  category: "Races",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Undine+Race+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim, undine, guía de raza, magia de agua, soporte, build"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Grand alfheim undine** está clasificada como una **raza de nivel S** debido a sus excepcionales capacidades de curación y soporte de grupo.
+- La **Magia de Agua** es la afinidad elemental central de esta raza, proporcionando tanto presión ofensiva como un sustento vital.
+- Las **Mejores Sinergias de Clase** incluyen el Aegis para tanquear o el Bowmaster para estilos de juego de soporte a distancia seguros.
+- La **Utilidad de Endgame** no tiene rival en mazmorras como Ode to the Abyss, donde los curanderos Undine son esenciales para la supervivencia.
+- La **Prioridad de Estadísticas** debe centrarse en Inteligencia para el escalado mágico y Estamina para esquivar durante las intensas batallas contra jefes.
+</Callout>
+
+<Section icon={Sparkles} title="La Identidad de los Undine en Grand Alfheim">
+
+La raza **grand alfheim undine** se erige como un pilar de la comunidad, ofreciendo una combinación única de estética mística y utilidad indispensable. En el vasto mundo abierto de Grand Alfheim, elegir tu raza es la decisión más crítica que tomas al crear tu personaje. Mientras que razas como los Salamander se centran en la agresión pura, los Undine representan el flujo de la batalla, proporcionando el sustento necesario para que cualquier grupo conquiste los desafíos más difíciles del juego.
+
+**Puntos Destacados del Video:**
+- Descripción general de las razas de hadas y sus alas únicas.
+- Demostración de mecánicas básicas de combate y vuelo.
+- Un vistazo a los territorios iniciales y zonas de misiones.
+- Información sobre las características y eventos de la demo pública de 2026.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim" />
+
+La identidad de los Undine está profundamente arraigada en su asociación con la Magia de Agua y Curación. Esto los convierte en la opción principal para los jugadores que disfrutan de los roles de "clérigo" o "soporte". Sin embargo, no confundas su naturaleza de apoyo con debilidad; un Undine bien construido puede defenderse en PvP al sobrevivir a sus oponentes mediante una regeneración de salud superior y un posicionamiento táctico.
+
+<Callout type="success" title="Especialidad de Raza">
+La raza Undine presenta una identidad orientada a la curación que proporciona un sustento mejorado durante encuentros prolongados. Esto los convierte en la raza de soporte de grupo más valiosa en el meta actual de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Afinidad Mágica">
+
+El combate en Grand Alfheim es un sistema sofisticado de bloqueos, parries y rotaciones de habilidades. Para un jugador de **grand alfheim undine**, dominar el tiempo de la Magia de Agua es esencial. A diferencia de la magia de fuego, que se centra en el daño a lo largo del tiempo, la magia de agua a menudo implica ralentizar a los enemigos o restaurar la salud de los aliados. Esto requiere un alto nivel de conciencia del campo de batalla, ya que debes seguir tanto los movimientos del enemigo como las barras de salud de tus compañeros de equipo.
+
+| Característica | Undine (Agua) | Salamander (Fuego) | Sylph (Viento) |
+| :--- | :--- | :--- | :--- |
+| **Rol Principal** | Soporte / Curación | Melee Agresivo | Movilidad / Espaciado |
+| **Tipo de Magia** | Agua y Restauración | Fuego y Combustión | Viento y Celeridad |
+| **Clasificación** | Nivel S | Nivel S | Nivel S |
+| **Mejor Utilidad** | Sustento de Grupo | Alta Presión de DPS | Velocidad de Exploración |
+| **Estilo de Combate** | Defensivo / Táctico | Directo / Ofensivo | Rápido / Reposicionamiento |
+
+Al participar en PvE, el Undine debe centrarse en mantener una distancia segura mientras usa habilidades para interrumpir los patrones enemigos. En el Templo de los Comienzos, por ejemplo, un Undine puede mitigar gran parte del daño ambiental y la presión de los enemigos menores que, de otro modo, agotarían los recursos del grupo.
+
+<Callout type="tip" title="Estrategia Pro">
+Usa tu vuelo (tecla V) para sobrevolar el campo de batalla. Desde esta posición ventajosa, puedes apuntar fácilmente a tus aliados con hechizos de curación mientras te mantienes fuera del alcance de los enemigos cuerpo a cuerpo terrestres como el Sátiro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Sinergias de Clase para Undine">
+
+Aunque técnicamente cada raza puede usar cualquier clase, el **grand alfheim undine** destaca cuando se combina con clases que se benefician de una alta supervivencia o aquellas que pueden proteger al Undine mientras lanza hechizos. Los herreros en los territorios principales ofrecen varias armas iniciales para definir tu rol de combate.
+
+<CardGrid cols={3}>
+  <Card title="Aegis (Gran Escudo)">
+    - **Tanque Definitivo**
+    - Combina la curación Undine con bloqueos pesados
+    - Esencial para la gestión del aggro de los jefes
+  </Card>
+  <Card title="Bowmaster (Arco)">
+    - **Soporte a Distancia**
+    - Posicionamiento seguro para curar y hacer daño
+    - Alto escalado de DEX para golpes críticos
+  </Card>
+  <Card title="Swordsman (Espada)">
+    - **Build Equilibrada**
+    - Alcance confiable y combos directos
+    - Excelente para misiones en solitario como Undine
+  </Card>
+</CardGrid>
+
+Elegir la clase Aegis convierte al Undine en un médico de primera línea inmortal. Al usar el Gran Escudo para bloquear golpes pesados y la Magia de Agua para restaurar la salud, te conviertes en el ancla definitiva para tu equipo. Alternativamente, el Bowmaster te permite quedarte en el borde de la arena, proporcionando fuego de cobertura y curaciones de emergencia sin arriesgarte a una confrontación directa con jefes como el Dragón de Hueso.
+
+| Clase | Arma | Estadísticas Principal | Sinergia con Undine |
+| :--- | :--- | :--- | :--- |
+| **Aegis** | Gran Escudo | STR | Alta: El autosustento te hace el tanque perfecto |
+| **Bowmaster** | Arco | DEX | Alta: Distancia segura para lanzar magia de apoyo |
+| **Swordsman** | Espada | STR | Media: Equilibrado para progresión general en solitario |
+| **Duelist** | Rapera | DEX | Media: Alta velocidad pero requiere precisión |
+| **Pugilist** | Guanteletes | STR | Baja: Alto riesgo para una raza orientada al soporte |
+
+<Callout type="info" title="Flexibilidad de Clase">
+Recuerda que puedes volver con un herrero en cualquier momento para cambiar tu clase. Si encuentras que las misiones en solitario son demasiado lentas como Aegis, intenta cambiar a Swordsman o Titanblade para aumentar tu velocidad de limpieza.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de Nivelación y Progresión">
+
+Progresar como un **grand alfheim undine** requiere un equilibrio entre completar las misiones de la historia principal y farmear mazmorras específicas para obtener equipo que complemente tu poder de curación. El viaje del Nivel 1 al 50+ se divide en varias etapas clave, cada una con sus propios desafíos y recompensas.
+
+<Steps>
+  <Step num="1" title="Creación de Personaje y Tutorial">
+    Selecciona la raza Undine y completa el tutorial de movimiento básico. Practica volar con V y desplazarte con Q para entender tus opciones de movilidad desde el principio.
+  </Step>
+  <Step num="2" title="Misiones Iniciales (Nivel 1-10)">
+    Sigue la línea de misiones principal a través del territorio inicial. Visita la forja para recoger tu primera arma de clase. Concéntrate en aprender el tiempo del parry (tecla F) contra enemigos de bajo nivel.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos (Nivel 10-20)">
+    Entra en tu primera mazmorra importante. Como Undine, tu prioridad es mantener al grupo sano durante la pelea contra el Dragón de Hueso. Farmea esta mazmorra para obtener el set Azure Knightplate.
+  </Step>
+  <Step num="4" title="Farmeo de Territorio (Nivel 20-49)">
+    Explora otros territorios de razas y derrota a los jefes de mundo abierto como el Sátiro. Refina tu árbol de habilidades, centrándote tanto en tus habilidades de clase como en tu Magia de Agua racial.
+  </Step>
+  <Step num="5" title="Endgame: Oda al Abismo (Nivel 50+)">
+    Únete a un grupo coordinado para el desafío definitivo. Tu rol aquí es crítico durante la fase de la torre, donde la curación sostenida es la única forma de sobrevivir a los ataques de área (AOE) del jefe.
+  </Step>
+</Steps>
+
+| Rango de Nivel | Etapa | Objetivo Primario | Equipo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **1-10** | Inicial | Nivelación y Clase | Equipo Inicial de Herrero |
+| **10-20** | Mazmorra | Limpiar Templo de los Comienzos | Azure Knightplate / Night's Edge |
+| **20-40** | Mid-Game | Farmeo de Jefes y Exploración | Bloodcrown Regalia / Obsidian Requiem |
+| **40-50** | Avanzado | Optimización de Build | Drops de Territorio de Alta Rareza |
+| **50+** | Endgame | Oda al Abismo | Mythical Voidrune / Nightreaver |
+
+<Callout type="warning" title="Gestión de Estamina">
+Como Undine, tu magia consume una cantidad significativa de estamina. No agotes toda tu barra en hechizos ofensivos; siempre guarda lo suficiente para un desplazamiento (Q) o un bloqueo (F) cuando un jefe te fije como objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando tu Build de Undine">
+
+Para dominar verdaderamente al **grand alfheim undine**, debes mirar más allá de las estadísticas básicas y centrarte en sets de equipo que proporcionen bonificaciones de salud y magia. La actualización de 2026 ha introducido varias piezas de armadura nuevas que son particularmente efectivas para los jugadores de soporte.
+
+**Hitos Esenciales del Undine:**
+<Checklist
+  id="undine-goals"
+  title="Lista de Verificación de Progresión:"
+  items={[
+    "Desbloquear todos los hechizos de Magia de Agua en el árbol de habilidades racial",
+    "Obtener un set completo de Azure Knightplate para supervivencia temprana",
+    "Alcanzar el Nivel 50 y entrar en la mazmorra Ode to the Abyss",
+    "Realizar con éxito un parry a un ataque de jefe importante para activar una ventana de contraataque",
+    "Adquirir un arma de rareza Mítica del farmeo de endgame"
+  ]}
+/>
+
+El set Bloodcrown Regalia es una opción de endgame muy codiciada para los Undines. Proporciona una bonificación masiva de +820 HP cuando se equipa el set completo, lo que te permite sobrevivir a golpes pesados que eliminarían a otros jugadores de un solo impacto. Este set lo suelta el minijefe Sátiro en el territorio Salamander, lo que lo convierte en un objetivo valioso para el farmeo de mitad a final del juego.
+
+<Callout type="info" title="Prioridad de Equipo">
+Prioriza primero la armadura con altas bonificaciones de HP. Como curandero, tu supervivencia es la supervivencia del grupo. Una vez que tengas una reserva de salud cómoda, concéntrate en armas que aumenten tu daño mágico y potencia de curación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes de Grand Alfheim">
+
+<FAQ items={[
+  {
+    question: "¿Es la raza Undine buena para jugadores en solitario?",
+    answer: "Sí. Aunque los Undine están diseñados para el soporte, su alto sustento les permite durar más que los enemigos en el juego en solitario. Combinar la raza con una clase de alto daño como el Titanblade o el Swordsman hace que las misiones en solitario sean muy viables."
+  },
+  {
+    question: "¿Cómo desbloqueo más hechizos de Magia de Agua?",
+    answer: "Desbloqueas hechizos mágicos gastando puntos de habilidad en el árbol de magia racial. Ganas estos puntos subiendo de nivel y completando misiones específicas relacionadas con la clase y la raza en todo el mundo."
+  },
+  {
+    question: "¿Puedo cambiar mi raza a Undine si ya empecé como Salamander?",
+    answer: "Actualmente, la selección de raza es permanente para ese personaje. Para jugar como una raza diferente, normalmente necesitarías crear un nuevo personaje o usar un objeto de cambio de raza si está disponible en la tienda oficial."
+  },
+  {
+    question: "¿Cuál es la mejor arma para un Undine de Grand Alfheim?",
+    answer: "Para soporte puro, el Arco es excelente para un posicionamiento seguro. Para un estilo 'Paladín' de primera línea, el Gran Escudo (clase Aegis) combinado con la curación de Undine se considera de nivel S para la progresión en mazmorras."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+El mundo de Grand Alfheim evoluciona constantemente. Mantente activo en los grupos oficiales de Discord y Roblox para estar al tanto de los últimos cambios de equilibrio en la raza Undine y las mecánicas de la Magia de Agua.
+</Callout>
+
+</Section>

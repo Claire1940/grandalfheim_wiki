@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim Cooking Guide: Survival Buffs & Recipes",
+  description: "Master the Grand Alfheim cooking guide. Learn how to manage hunger, find ingredients, and cook high-tier meals for massive stat boosts in Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cooking+And+Survival+Guide",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: The Phase 6 update introduced hunger and cooking systems to the core progression loop.
+- **Survival Buffs**: Eating cooked meals maintains your stamina regen and grants powerful combat stat boosts.
+- **Key Location**: Gnome territory features a revamped map with abundant cooking stations and raw ingredients.
+- **Best Strategy**: Always cook raw meat and vegetables instead of eating them raw to avoid negative debuffs.
+- **Top Choice**: High-tier stat-boosting meals are essential preparation before entering the level 50 Ode to the Abyss.
+</Callout>
+
+<Section icon={Map} title="Introduction to Grand Alfheim Cooking and Survival">
+
+The Phase 6 update transformed the open world of Grand Alfheim by introducing crucial survival mechanics: hunger and cooking. Players can no longer rely solely on their class gear and magic skill trees to survive tough encounters. Managing your hunger meter is now just as important as upgrading your weapons. 
+
+When your character goes hungry, your overall stamina regeneration drops significantly, making it difficult to dodge, block, or execute continuous weapon combos. Cooking transforms raw ingredients harvested from the wild or dropped by monsters into nutritious meals that restore your hunger bar and grant temporary stat boosts.
+
+| Survival Metric | Buff Impact | Debuff Impact | Best Recovery Method |
+| :--- | :--- | :--- | :--- |
+| **Hunger Meter** | Enhanced stamina regen, bonus stats | Reduced stamina, slower movement | Eat cooked tier meals |
+| **Stamina Bar** | Faster combo execution, continuous flight | Inability to dodge or block | Keep hunger above 50% |
+
+<Callout type="warning" title="Hunger Warning">
+Do not let your hunger bar drop to zero. A completely depleted hunger meter slowly drains your health and locks you out of using high-stamina class skills, leaving you highly vulnerable during boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Gather Cooking Ingredients">
+
+Before you can start preparing dishes, you must gather raw ingredients from across the various racial territories. Ingredients are split into three main categories: harvested plants, monster drops, and purchased cooking staples. 
+
+Gnome territory is the premier zone for gathering vegetables and mushrooms due to its major map revamp in Phase 6. For high-quality meats, hunting wild beasts and monsters in the starter zones and mid-game territories is the most reliable path.
+
+<CardGrid cols={3}>
+  <Card title="Wild Harvesting">
+    - **Mushrooms**: Found near damp trees in Gnome territory.
+    - **Wild Herbs**: Plentiful along grassy paths in Sylph territory.
+    - **Berries**: Harvested from bushes in starter areas.
+  </Card>
+  <Card title="Monster Hunting">
+    - **Raw Poultry**: Dropped by winged monsters in high areas.
+    - **Raw Beast Meat**: Dropped by wolves and boars.
+    - **Rare Monster Parts**: Harvested from territory minibosses.
+  </Card>
+  <Card title="Town Merchants">
+    - **Cooking Oil**: Purchased at basic town shops.
+    - **Salt & Spices**: Essential for high-tier recipes.
+    - **Fresh Water**: Cheap ingredient for soups and stews.
+  </Card>
+</CardGrid>
+
+| Ingredient | Primary Source | Common Location | Rarity |
+| :--- | :--- | :--- | :--- |
+| **Wild Mushrooms** | Harvesting | Gnome Territory forests | Common |
+| **Raw Beast Meat** | Wolf drops | Salamander & Undine outskirts | Common |
+| **Rare Spices** | Merchant purchase | Major town plazas | Uncommon |
+| **Thick Poultry** | Bird monster drops | Sylph mountain peaks | Uncommon |
+| **Golden Honey** | Beehive harvesting | Gnome Territory trees | Rare |
+
+<Callout type="tip" title="Farming Tip">
+Equip your mount when farming ingredients across large maps. Using a horse allows you to quickly travel between resource nodes in Gnome and Sylph territories without consuming your personal stamina.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cooking Station Locations & Crafting Steps">
+
+Cooking cannot be done on the fly; you must locate a designated cooking station or campfire. These stations are typically found in major racial towns, safe outposts, and near dungeon entrances. The steps to prepare a meal are straightforward but require precision to avoid wasting valuable ingredients.
+
+<Steps>
+  <Step num="1" title="Locate a Cooking Station">
+    Travel to a major town or find a campfire in Gnome, Salamander, or Undine territory. Approach the cooking pot and press the interaction key to open the cooking interface.
+  </Step>
+  <Step num="2" title="Select Your Recipe">
+    Browse your unlocked recipes in the cooking menu. Ensure you have all the required raw meats, vegetables, and seasoning agents in your inventory.
+  </Step>
+  <Step num="3" title="Combine the Ingredients">
+    Place the correct ratio of ingredients into the cooking slots. Mixing incorrect items will result in a ruined dish that provides minimal hunger restoration.
+  </Step>
+  <Step num="4" title="Execute the Cook Action">
+    Confirm the action to begin cooking. Once complete, the cooked meal will be added directly to your inventory, ready for consumption or trading.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dungeon Preparation">
+Always cook a batch of high-tier meals before entering the Temple of Beginnings or Ode to the Abyss. Eating a meal right before the boss portal ensures your buffs last throughout the entire encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Recipes & Stat Buffs">
+
+Different meals provide different tiers of hunger restoration and stat enhancements. While basic roasted meats are fine for general exploration, advanced dishes are required to tackle endgame bosses. Below is a compilation of the most effective recipes discovered in the current Phase 6 build.
+
+| Cooked Dish | Required Ingredients | Hunger Restored | Bonus Buff Effects |
+| :--- | :--- | :--- | :--- |
+| **Roasted Skewer** | 2x Raw Meat, 1x Salt | 35% Hunger | +5% Physical Damage (10 mins) |
+| **Mushroom Stew** | 3x Mushrooms, 1x Water | 50% Hunger | +10% Magic Defense (15 mins) |
+| **Herbal Poultry** | 2x Poultry, 1x Wild Herb | 60% Hunger | +8% Stamina Regen Speed (15 mins) |
+| **Hunter's Feast** | 3x Raw Meat, 1x Honey, 1x Spice | 85% Hunger | +150 Max HP, +10% Attack (20 mins) |
+| **Sweet Berry Tart** | 4x Berries, 1x Honey, 1x Flour | 40% Hunger | +15% Flight Speed (10 mins) |
+
+<Callout type="info" title="Buff Stacking Rule">
+You can only have one active food buff at a time. Eating a new meal will overwrite your current active food buff, so choose your dishes carefully based on your current activity.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist for Adventurers">
+
+To ensure you never find yourself starving in the middle of a dungeon or a high-stakes PvP battle, follow this handy preparation checklist before leaving safe zones.
+
+<Checklist
+  id="cooking-survival-checklist"
+  title="Pre-Adventure Cooking Checklist:"
+  items={[
+    "Check that your hunger bar is filled above 80% before leaving town",
+    "Keep at least 5 roasted skewers or stews in your quick-access inventory",
+    "Gather wild herbs and mushrooms whenever you pass them in Gnome territory",
+    "Purchase cheap salt and spices from town merchants in bulk",
+    "Match your cooked meal buffs to your class (e.g., Hunter's Feast for Titanblades)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where is the best place to farm cooking ingredients in Grand Alfheim?",
+    answer: "Gnome territory is the absolute best zone for harvesting wild mushrooms, herbs, and honey due to its dense forests and recent Phase 6 map revamp."
+  },
+  {
+    question: "Do food buffs stack with racial magic and class skills?",
+    answer: "Yes. Cooked food buffs stack perfectly with your passive racial magic traits and active class buffs, allowing you to maximize your combat potential."
+  },
+  {
+    question: "Can I eat raw ingredients if I am starving in a dungeon?",
+    answer: "You can, but eating raw meat or raw mushrooms restores very little hunger and has a high chance of giving you a minor poison or slow debuff."
+  },
+  {
+    question: "How long do the stat buffs from cooked meals last?",
+    answer: "Most basic cooked meals provide buffs that last between 10 to 15 minutes, while advanced dishes like the Hunter's Feast last up to 20 minutes."
+  }
+]} />
+
+</Section>

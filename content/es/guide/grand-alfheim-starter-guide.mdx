@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de inicio de Grand Alfheim: Progresión y mejor configuración de clase",
+  description: "Domina la guía de inicio de Grand Alfheim. Aprende sobre creación de personajes, mecánicas de combate, selección de clases, rutas de nivelación y cómo superar tu primera mazmorra.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/18525a/fff?text=Grand+Alfheim+Starter+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía principal**: Utiliza esta guía de inicio de Grand Alfheim para establecer una build de personaje perfecta.
+- **Elección inicial**: Selecciona una raza que se alinee con tu estilo de juego mágico o defensivo preferido.
+- **Núcleo del combate**: Prioriza bloquear y hacer parry en lugar de spamear ataques sin pensar para sobrevivir a los primeros encuentros.
+- **Primer hito**: Intenta alcanzar el nivel 10 para desbloquear tu primera gran experiencia de mazmorra cooperativa.
+</Callout>
+
+<Section icon={Map} title="Creación de personajes y elección de tu raza">
+
+Comenzar tu viaje en Grand Alfheim requiere seleccionar una de las nueve razas de hadas distintas. Cada raza posee una afinidad mágica y una especialidad únicas que definen tu estilo de combate, tus capacidades de exploración y la utilidad para tu equipo.
+
+| Raza | Magia asociada | Enfoque de especialidad | Estilo de juego recomendado |
+|---|---|---|---|
+| **Salamander** | Magia de fuego | Alto poder ofensivo | DPS cuerpo a cuerpo agresivo |
+| **Sylph** | Magia de viento | Alta velocidad y movilidad | Escaramuzas y espaciado |
+| **Undine** | Magia de agua y curación | Soporte de grupo y sustento | Curadores dedicados |
+| **Cait Sith** | Magia de invocación | Domesticación de bestias y velocidad | Invocadores y exploradores |
+| **Spriggan** | Magia de ilusión | Utilidad y búsqueda de tesoros | Utilidad táctica |
+| **Pooka** | Magia de música | Mejoras de aliados e interrupción | Control de masas y soporte |
+| **Gnome** | Magia de tierra | Durabilidad y defensa | Tanques de primera línea |
+| **Imp** | Magia de maldición | Debilitamientos y visión nocturna | Magos de estados alterados |
+| **Leprechaun** | Magia de rayo | Artesanía y herrería | Entusiastas del equipamiento |
+
+<Callout type="tip" title="Consejo de selección de raza">
+Aunque Salamander, Sylph y Undine ofrecen las ventajas más directas para jugadores en solitario, elige una raza cuya estética y temática mágica coincidan con tus objetivos a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando las clases iniciales">
+
+Las clases en Grand Alfheim están vinculadas a armas específicas y se seleccionan visitando la forja o a un herrero. Puedes cambiar fácilmente de clase regresando con un herrero y cambiando tu arma, lo que te permite probar diferentes roles sin perder el progreso general de tu personaje.
+
+<CardGrid cols={3}>
+  <Card title="Espadachín (Espada)">
+    - **Estadística principal**: STR
+    - **Estilo**: Combos equilibrados a corta distancia
+    - **Pros**: Fácil de aprender, muy confiable
+  </Card>
+  <Card title="Maestro del arco (Arco)">
+    - **Estadística principal**: DEX
+    - **Estilo**: Kiting a distancia y disparos cargados
+    - **Pros**: Farmeo PvE excepcionalmente seguro
+  </Card>
+  <Card title="Hoja titánica (Espadón)">
+    - **Estadística principal**: STR
+    - **Estilo**: Golpes lentos, pesados y de amplio alcance
+    - **Pros**: Daño masivo de limpieza de áreas
+  </Card>
+</CardGrid>
+
+| Clase | Tipo de arma | Estadística principal | Rol de combate |
+|---|---|---|---|
+| **Espadachín** | Espada | STR | DPS equilibrado en solitario |
+| **Maestro del arco** | Arco | DEX | Kiting a distancia y DPS |
+| **Pugilista** | Guanteletes | STR | Combos rápidos cuerpo a cuerpo |
+| **Asesino** | Dagas | DEX/STR | Gran ráfaga de daño y veneno |
+| **Duelista** | Estoque | DEX | Estocadas rápidas y espaciado |
+| **Aegis** | Gran escudo | STR | Tanque de primera línea |
+
+<Callout type="warning" title="Requisito de arma de clase">
+Asegúrate siempre de tener equipada la arma inicial correcta para usar las habilidades específicas de tu clase. Las armas iniciales se pueden obtener directamente del herrero.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión inicial paso a paso">
+
+Para subir de nivel de manera eficiente y preparar a tu personaje para el contenido difícil del juego avanzado, sigue esta guía estructurada desde tu primer inicio de sesión.
+
+<Steps>
+  <Step num="1" title="Completa el tutorial">
+    Aprende los controles básicos, incluyendo el movimiento (WASD), ataques básicos (M1), bloqueo (F), esquivar (Q) y vuelo (V). Familiarízate con el menú principal (M) para gestionar tu inventario y árboles de habilidades.
+  </Step>
+  <Step num="2" title="Selecciona tu arma inicial">
+    Visita al herrero inicial para recoger tu arma de clase inicial. Recomendamos Espadachín o Maestro del arco para una experiencia de nivelación temprana sencilla.
+  </Step>
+  <Step num="3" title="Sigue las misiones principales y secundarias">
+    Completa misiones en tu territorio inicial para alcanzar rápidamente el nivel 10. Evita luchar contra monstruos de alto nivel al principio; limítate a enemigos cercanos a tu nivel actual.
+  </Step>
+  <Step num="4" title="Mejora tus árboles de habilidades">
+    Invierte los puntos obtenidos en unas pocas habilidades de clase y magia de alta confiabilidad. No distribuyas tus puntos en demasiadas ramas diferentes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito de progresión">
+Alcanzar el nivel 10 te permite ingresar al Templo de los Comienzos, que sirve como tu fuente principal de equipamiento Épico y Legendario en el juego temprano.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mazmorras, jefes y tablas de botín">
+
+Derrotar jefes es el método principal para adquirir poderosos conjuntos de armadura y armas. La siguiente tabla detalla los encuentros del juego temprano y medio que enfrentarás.
+
+| Encuentro | Nivel recomendado | Ubicación | Botín clave |
+|---|---|---|---|
+| **Treant (Minijefe)** | Nivel 10+ | Templo de los Comienzos | Garras de sabueso gruñón, Armadura del soberano verdoso |
+| **Dragón de hueso (Jefe)** | Nivel 10+ | Templo de los Comienzos | Filo de la noche, Réquiem de obsidiana, Placa de caballero azur |
+| **Sátiro (Minijefe)** | Nivel 20+ | Territorio Salamander | Hacha de abordaje de hierro, Conjunto de gala de corona de sangre |
+
+<Callout type="info" title="Estrategia de mazmorra">
+Al recorrer el Templo de los Comienzos, puedes elegir la ruta de parkour de la izquierda para omitir enemigos innecesarios, o la ruta de combate de la derecha para ganar experiencia adicional.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Referencia rápida de controles de combate">
+
+Navegar con éxito en el combate requiere comprender tus atajos de teclado y opciones defensivas.
+
+| Acción | Entrada en PC | Entrada en móvil | Uso en combate |
+|---|---|---|---|
+| **Ataque básico** | M1 / Clic izquierdo | Botón táctil del HUD | Cadena de combo estándar |
+| **Ataque de finta** | M2 / Clic derecho | Botón táctil del HUD | Cancela ataques para provocar bloqueos |
+| **Bloquear / Parry** | F | Botón táctil del HUD | Mantén presionado para bloquear; toca para hacer parry |
+| **Esquivar** | Q | Botón táctil del HUD | Esquiva ataques o reduce la distancia |
+| **Volar** | V | Botón táctil del HUD | Activa/desactiva las alas para viajar por el aire |
+
+<Callout type="warning" title="Gestión de resistencia">
+No agotes toda tu barra de resistencia en movimientos ofensivos. Guarda siempre suficiente resistencia para realizar un esquive (Q) o un bloqueo (F) cuando el enemigo contraataque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de objetivos para principiantes">
+
+Utiliza esta lista de verificación para seguir tu progreso inicial y asegurarte de que tu personaje esté configurado correctamente antes de pasar a zonas avanzadas.
+
+<Checklist
+  id="grand-alfheim-goals"
+  title="Hitos de inicio:"
+  items={[
+    "Completa el tutorial básico y domina los controles de vuelo",
+    "Adquiere tu primera arma inicial con el herrero",
+    "Alcanza el nivel 10 completando misiones principales y secundarias regionales",
+    "Equípate con un conjunto completo de placa de caballero azur del Templo de los Comienzos",
+    "Desbloquea al menos tres habilidades activas en el árbol de habilidades de tu clase"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar los mejores consejos de la guía de inicio de Grand Alfheim para restablecer clases?",
+    answer: "Puedes cambiar tu clase en cualquier momento sin restablecer tu personaje. Simplemente visita a un herrero en cualquier ciudad importante, selecciona una clase de arma diferente y equipa el arma correspondiente."
+  },
+  {
+    question: "¿Cómo desbloqueo el vuelo en Grand Alfheim?",
+    answer: "El vuelo es una característica racial principal. Presiona 'V' en PC o toca el botón de vuelo en el móvil para activar tus alas. Ten en cuenta que el vuelo puede estar restringido dentro de ciertas mazmorras."
+  },
+  {
+    question: "¿Cuál es la mejor raza inicial para jugadores en solitario?",
+    answer: "Salamander es muy recomendable para jugadores en solitario debido a su alto daño puro. Sylph también es excelente por su velocidad superior y capacidades de evasión."
+  }
+]} />
+
+</Section>

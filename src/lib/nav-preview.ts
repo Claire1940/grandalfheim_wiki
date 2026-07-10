@@ -10,7 +10,7 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 		const type = item.path.slice(1)
 		const items = await getAllContent(type, locale)
 		// 导航栏内按「最早更新」升序（优先 lastModified，回退 date），
-		// 与首页/列表页「最近更新」降序相反
+		// 与首页/列表页「最近更新」降序相反；同时间用 slug 做确定性 tiebreaker
 		const sorted = items.slice().sort((a, b) => {
 			const getTime = (i: (typeof items)[number]) => {
 				const fm = i.frontmatter
@@ -19,7 +19,10 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 				if (fm.date) return new Date(fm.date).getTime()
 				return 0
 			}
-			return getTime(a) - getTime(b)
+			const ta = getTime(a)
+			const tb = getTime(b)
+			if (ta !== tb) return ta - tb
+			return a.slug.localeCompare(b.slug)
 		})
 		data[type] = sorted.map((i) => ({
 			slug: i.slug,

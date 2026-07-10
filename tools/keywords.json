@@ -1,46 +1,72 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "Codes",
       "keywords": [
-        "lucid blocks guide"
+        "grand alfheim codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "Guide",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "grand alfheim starter guide",
+        "grand alfheim beginner guide",
+        "grand alfheim progression guide",
+        "grand alfheim tutorial",
+        "grand alfheim how to play",
+        "grand alfheim cooking guide"
       ]
     },
     {
-      "category": "Items",
+      "category": "Races",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "grand alfheim salamander",
+        "grand alfheim undine",
+        "grand alfheim gnome",
+        "grand alfheim spriggan",
+        "grand alfheim leprechaun",
+        "grand alfheim race guide"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "Combat",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "grand alfheim weapons",
+        "grand alfheim premium armor",
+        "grand alfheim skill tree",
+        "grand alfheim pvp",
+        "grand alfheim black indicator"
       ]
     },
     {
-      "category": "Building",
+      "category": "Dungeons",
       "keywords": [
-        "lucid blocks qualia"
+        "grand alfheim dungeon guide",
+        "grand alfheim starter dungeon",
+        "grand alfheim first dungeon puzzle",
+        "grand alfheim solo dungeon",
+        "grand alfheim skeletal dragon"
       ]
     },
     {
-      "category": "Support",
+      "category": "Maps",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "grand alfheim maps",
+        "grand alfheim temple of beginnings location",
+        "grand alfheim satyr location",
+        "grand alfheim merchant locations",
+        "grand alfheim fisherman bubba location",
+        "grand alfheim hunting board location",
+        "grand alfheim ode to the abyss location",
+        "grand alfheim mine location"
+      ]
+    },
+    {
+      "category": "Updates",
+      "keywords": [
+        "grand alfheim phase 6",
+        "grand alfheim update",
+        "grand alfheim trailer"
       ]
     }
   ]

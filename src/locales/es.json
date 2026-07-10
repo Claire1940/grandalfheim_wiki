@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "races": "Razas",
+    "combat": "Combate",
+    "dungeons": "Mazmorras",
+    "maps": "Mapas",
+    "updates": "Novedades"
+  }
+}

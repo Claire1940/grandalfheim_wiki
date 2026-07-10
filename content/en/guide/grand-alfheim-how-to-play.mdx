@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, ZapOff } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim How to Play: 2026 Beginner Setup & Progression",
+  description: "Master Grand Alfheim with our 2026 how to play guide. Learn about races, classes, combat controls, and the best leveling routes for new players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+How+to+Play",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand Alfheim how to play**: Start by choosing a race and completing the tutorial to master the core flight and combat mechanics.
+- **Race Choice**: Pick **Salamander** for damage, **Sylph** for speed, or **Undine** for healing and group support.
+- **Combat Mastery**: Focus on **timing your parries** (F key) and using **feints** (M2) to break enemy defenses.
+- **Progression Route**: Complete main quests until level 10, then farm the **Temple of Beginnings** for early Epic gear.
+- **Endgame Prep**: Reach level 50 to participate in the **Ode to the Abyss** dungeon during its specific entry windows.
+</Callout>
+
+<Section icon={Map} title="Getting Started in Grand Alfheim">
+
+Grand Alfheim is a sprawling Roblox MMORPG that emphasizes exploration, racial identity, and a deep, skill-based combat system. Unlike traditional clicker-style games, this experience requires precise movement and an understanding of verticality through its signature flight system. To begin your journey, you must navigate the character creation screen and the initial tutorial area, which serves as the foundation for everything you will do in the open world.
+
+**Video Highlights:**
+- **Character Creation**: Overview of the nine fairy races and their initial magic types.
+- **Tutorial Walkthrough**: Learning basic movement, M1 combos, and the stamina system.
+- **First Questline**: How to find the starter NPCs and earn your first weapon.
+- **Flight Mechanics**: Tips for using the 'V' key to navigate high-altitude territories.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim - Gameplay Overview" />
+
+<Callout type="success" title="Official Launch Tip">
+As of the July 2026 public demo, new players should take advantage of the **2X Drops event** to quickly secure a full set of starter armor. Always check the official Discord for active event announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Choosing Your Race: Tier List and Traits">
+
+In **Grand Alfheim how to play** strategies, your race is the most permanent decision you will make. Each of the nine fairy races comes with a unique associated magic and a specialized identity that dictates your role in both PvE and PvP combat. While all races are viable, some provide significantly more utility for solo progression or high-level dungeon clearing.
+
+| Race | Magic Type | Specialty | Combat Role |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Fire Magic | Offensive Power | Melee DPS / Aggressive |
+| **Sylph** | Wind Magic | Movement Speed | Mobility / Spacing |
+| **Undine** | Water/Healing | Team Sustain | Support / Healer |
+| **Spriggan** | Illusion | Treasure Hunting | Utility / Tactical |
+| **Cait Sith** | Summoning | Beast Taming | Exploration / Speed |
+| **Gnome** | Earth Magic | Durability | Frontline Tank |
+| **Leprechaun** | Lightning | Blacksmithing | Crafting / Technical |
+| **Pooka** | Music Magic | Buffs/Debuffs | Group Support |
+| **Imp** | Curse Magic | Night Vision | Status Effects |
+
+<CardGrid cols={3}>
+  <Card title="Salamander (S-Tier)">
+    - **High damage output**
+    - Fire magic provides consistent pressure
+    - Ideal for players who enjoy aggressive melee builds
+  </Card>
+  <Card title="Sylph (S-Tier)">
+    - **Superior flight speed**
+    - Wind magic allows for excellent repositioning
+    - Best for players who value mobility and kiting
+  </Card>
+  <Card title="Undine (S-Tier)">
+    - **Unmatched healing**
+    - Essential for high-level dungeon groups
+    - Provides the best survivability for solo players
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Race Selection Strategy">
+If you are playing solo, **Undine** is highly recommended due to its self-healing capabilities. For those focused on PvP, **Sylph** and **Salamander** currently dominate the meta thanks to their speed and raw damage.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Classes and Starter Weapons">
+
+Once you enter the world, you must visit a blacksmith to select your starting combat class. Unlike your race, your class is determined by the weapon you choose to wield. Each class features a dedicated skill tree and requires specific stat investments, primarily in Strength (STR) or Dexterity (DEX).
+
+| Class | Primary Weapon | Main Stat | Playstyle |
+| :--- | :--- | :--- | :--- |
+| **Swordsman** | Sword | STR | Balanced / Beginner-friendly |
+| **Bowmaster** | Bow | DEX | Ranged / Distance Control |
+| **Assassin** | Daggers | DEX/STR | Fast Bursts / Poison |
+| **Pugilist** | Gauntlets | STR | Continuous Melee Pressure |
+| **Titanblade** | Greatsword | STR | Heavy Hits / Wide Area |
+| **Aegis** | Greatshield | STR | Defensive / Tanking |
+| **Duelist** | Rapier | DEX | Precision / Fast Thrusts |
+
+<Checklist
+  id="starter-essentials"
+  title="New Player Checklist:"
+  items={[
+    "Visit the Blacksmith in the starting town to pick a weapon",
+    "Equip your starter class weapon in the inventory menu (M)",
+    "Assign your first skill point into the basic weapon combo",
+    "Practice parrying against low-level Boars or Scorpions",
+    "Ensure you have enough food to maintain your hunger bar"
+  ]}
+/>
+
+<Callout type="info" title="Class Flexibility">
+You can change your class at any time by returning to a Blacksmith and equipping a different weapon type. This allows you to test various fighting styles without losing your character's overall level progression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering the Controls">
+
+Effective combat in Grand Alfheim relies on more than just spamming the M1 button. The game utilizes a "stamina-based" combat system where blocking, dashing, and using skills all consume resources. Learning the timing of a parry can turn a difficult boss fight into a manageable encounter.
+
+| Action | PC Keybind | Mobile/Console | Usage Tip |
+| :--- | :--- | :--- | :--- |
+| **Basic Attack** | M1 (Left Click) | Attack Button | Stop the string early to avoid counters |
+| **Feint** | M2 (Right Click) | Feint Button | Use to bait an enemy's block or parry |
+| **Block / Parry** | F | Shield Icon | Press 'F' just before impact to parry |
+| **Dash** | Q | Dash Button | Use to avoid heavy area-of-effect (AoE) |
+| **Flight** | V | Wing Icon | Double jump or press V to glide/fly |
+| **Critical** | R | Skill Button | Only use when an enemy is recovering |
+| **Mount** | H | Horse Icon | Faster ground travel between towns |
+
+<Steps>
+  <Step num="1" title="Practice the M1-M1-M1-M2 Combo">
+    Start a standard attack string but end it with a feint to confuse opponents in PvP or break the guard of humanoid NPCs.
+  </Step>
+  <Step num="2" title="Perfect the Parry">
+    Don't hold block indefinitely; your guard will break. Watch the enemy's animation and tap 'F' at the last second to stun them.
+  </Step>
+  <Step num="3" title="Stamina Management">
+    Always keep at least 20% of your stamina bar full. If you hit 0%, you will be unable to dash or parry, leaving you vulnerable to a critical hit.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Input Lag">
+If you are playing on high-ping servers, you may need to parry slightly earlier than the animation suggests. Adjust your timing based on the visual feedback of your hits.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Leveling and Progression Route">
+
+The most efficient way to level up is to combine main story quests with localized farming. While side quests offer gold and minor items, the main questline unlocks essential areas and progression milestones like the ability to enter dungeons.
+
+| Level Range | Location | Main Objective | Recommended Gear |
+| :--- | :--- | :--- | :--- |
+| **1 - 10** | Starter Territory | Complete Tutorial & Main Quests | Starter Blacksmith Set |
+| **10 - 20** | Temple of Beginnings | Farm Bone Dragon for Upgrades | Azure Knightplate Set |
+| **20 - 40** | Race Territories | Territory Bosses & Side Quests | Bloodcrown Regalia |
+| **40 - 50** | Advanced Zones | Refine Build & Skill Trees | Legendary Dungeon Drops |
+| **50+** | Ode to the Abyss | Endgame Raiding / Mythic Farming | Mythical Voidrune Set |
+
+<Callout type="tip" title="Farming Efficiency">
+When farming mobs for experience, group them together and use area-of-effect (AoE) skills like the Titanblade's swing or Magic bursts. This significantly increases your experience-per-hour compared to fighting enemies one by one.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dungeons and Boss Mechanics">
+
+Dungeons are the primary source of high-tier equipment in Grand Alfheim. The first major challenge is the **Temple of Beginnings**, which introduces puzzles and multi-phase boss fights.
+
+**Key Dungeon: Temple of Beginnings**
+- **Entry**: Level 10+ recommended.
+- **Routes**: Choose the **Left Path** for parkour (faster) or the **Right Path** for combat (more XP).
+- **Puzzle**: You must place cubes on the matching altars to open the boss portal.
+- **Boss (Bone Dragon)**: Avoid standing directly in front of the dragon. When it prepares its breath attack, dash to the sides and punish its recovery.
+
+<FAQ items={[
+  {
+    question: "How do I get better weapons in Grand Alfheim?",
+    answer: "Initial weapons are bought at the Blacksmith. For better gear, you must clear the Temple of Beginnings (Level 10+) or the Ode to the Abyss (Level 50+) to find Epic and Mythical drops."
+  },
+  {
+    question: "What is the best way to travel between islands?",
+    answer: "Flying is the most effective method. Press 'V' to activate your wings. Note that flight consumes stamina unless you have specific racial passives or flight assistance items."
+  },
+  {
+    question: "Can I reset my stat points?",
+    answer: "Stat resets are typically available through specific NPCs or by using in-game currency/codes. It is best to plan your build (STR vs DEX) early to avoid wasting resources."
+  },
+  {
+    question: "What time does Ode to the Abyss open?",
+    answer: "The dungeon opens twice daily at 12:00 AM and 12:00 PM Eastern Time. The entry window only lasts for 10 minutes, so be at the Gnome territory entrance early."
+  }
+]} />
+
+<Callout type="info" title="Final Advice">
+Always play with a group when attempting dungeons for the first time. The synergy between a **Gnome tank**, an **Undine healer**, and **Salamander DPS** makes the hardest bosses significantly easier to manage.
+</Callout>
+
+</Section>

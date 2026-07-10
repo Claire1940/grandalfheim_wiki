@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicación del Templo de los Comienzos de Grand Alfheim: Guía de Entrada y Jefes",
+  description: "Encuentra la ubicación del Templo de los Comienzos de Grand Alfheim con nuestra guía. Explora puntos de entrada, mecánicas de jefes y la tabla completa de botín para 2026.",
+  category: "Maps",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Temple+of+Beginnings+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "Grand Alfheim, Templo de los Comienzos, ubicación, guía de jefe, Dragón de Hueso, botín"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación del Templo de los Comienzos de Grand Alfheim**: Accesible a través de portales en los territorios de **Salamandra**, **Undine** y **Gnomo** para jugadores de nivel 10 o superior.
+- **Rutas de la Mazmorra**: Elige la **Ruta Izquierda** para una navegación centrada en el parkour o la **Ruta Derecha** para un entrenamiento de combate enfocado en monstruos.
+- **Puzle Principal**: Los jugadores deben localizar y colocar cubos en los **altares de Ángel y Demonio** correspondientes para desbloquear el portal del jefe final.
+- **Jefe Final**: El **Dragón de Hueso** requiere una alta movilidad y gestión de la estamina para evitar sus ataques lineales de área de efecto (AoE).
+- **Mejores Recompensas**: Farmea las espadas **Filo de la Noche** (Épica) y **Réquiem de Obsidiana** (Legendaria) para potenciar tu progresión a mitad del juego.
+</Callout>
+
+<Section icon={Map} title="Encontrar la ubicación del Templo de los Comienzos de Grand Alfheim">
+
+La **ubicación del templo de los comienzos de grand alfheim** sirve como la puerta de entrada principal para los nuevos jugadores que pasan de las misiones iniciales a las incursiones serias en mazmorras. A diferencia del contenido de juego final posterior, este templo es intencionalmente accesible desde múltiples territorios raciales para asegurar que todos los jugadores puedan reunirse para jugar en grupo, independientemente de su raza inicial. En la demo pública de 2026, el templo sigue siendo la forma más eficiente de cerrar la brecha entre el nivel 10 y el nivel 20.
+
+**Puntos destacados del video:**
+- Recorrido visual de las entradas de los portales en Salamandra y Undine.
+- Comparación de las rutas de Combate vs. Parkour.
+- Demostración de las mecánicas del Puzle de Cubos.
+- Patrones de ataque del Dragón de Hueso y zonas seguras.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Grand Alfheim: Recorrido del Templo de los Comienzos" />
+
+Encontrar la entrada requiere navegar hacia las zonas de portales designadas dentro de los tres territorios principales. Aunque el interior del templo es el mismo, el viaje hacia el portal varía significativamente según tu región actual.
+
+| Territorio | Ubicación del Portal | Nivel Recomendado | Dificultad del Terreno |
+| :--- | :--- | :--- | :--- |
+| **Salamandra** | Cresta Volcánica Norte | 10+ | Moderada (Peligros de lava) |
+| **Undine** | Lago de Cristal Este | 10+ | Fácil (Vuelo acuático) |
+| **Gnomo** | Profundidades de la Caverna Oeste | 10+ | Difícil (Túneles complejos) |
+
+<Callout type="tip" title="Consejo Profesional">
+Si tienes dificultades para encontrar el portal en el territorio Gnomo, usa la habilidad de vuelo de tu raza (tecla V) para obtener una perspectiva vertical del suelo de la caverna. El portal emite un brillo azul distintivo que es visible incluso en entornos con poca luz.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegación de la Mazmorra: Eligiendo tu Camino">
+
+Una vez que entras en la **ubicación del templo de los comienzos de grand alfheim**, se te presenta una elección que dictará tu experiencia durante los próximos 15–20 minutos. La mazmorra está dividida en dos alas distintas que convergen en la cámara central del puzle.
+
+<CardGrid cols={2}>
+  <Card title="La Ruta de Parkour (Izquierda)">
+    - **Enfoque**: Agilidad y sincronización.
+    - **Enemigos**: Encuentros de combate mínimos.
+    - **Riesgo**: Caer en pozos reinicia tu posición.
+    - **Ideal para**: Clases móviles como Sylph o Cait Sith.
+  </Card>
+  <Card title="La Ruta de Monstruos (Derecha)">
+    - **Enfoque**: Resistencia en combate y rotaciones de habilidades.
+    - **Enemigos**: Escorpiones, Dinosaurios y Monstruos planta.
+    - **Riesgo**: Ser abrumado por grupos de enemigos.
+    - **Ideal para**: Clases resistentes como Aegis o Titanblade.
+  </Card>
+</CardGrid>
+
+Independientemente del camino elegido, eventualmente llegarás a las salas de los altares. Estas salas sirven como una mecánica de control, evitando que los jugadores simplemente corran hacia el jefe sin interactuar con el entorno de la mazmorra.
+
+<Steps>
+  <Step num="1" title="Despejar el Ala Inicial">
+    Navega a través de tu camino elegido (Parkour o Combate) hasta llegar al centro neurálgico. Recoge cualquier cofre menor que encuentres en rincones ocultos para obtener moneda extra.
+  </Step>
+  <Step num="2" title="Localizar los Cubos del Puzle">
+    Encuentra los dos cubos brillantes escondidos dentro de las cámaras laterales. Un cubo representa al "Ángel" y el otro al "Demonio".
+  </Step>
+  <Step num="3" title="Emparejar los Altares">
+    Lleva los cubos a los altares correspondientes. El cubo de Ángel debe ir al pedestal blanco, y el cubo de Demonio al pedestal negro.
+  </Step>
+  <Step num="4" title="Entrar al Portal del Jefe">
+    Una vez colocados ambos cubos, la barrera hacia la arena final se disolverá, permitiendo el acceso al Dragón de Hueso.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Información sobre la Mecánica del Puzle">
+En el juego en grupo, un jugador puede llevar un cubo mientras los otros le dan cobertura. Llevar un cubo te impide usar la mayoría de las habilidades de combate, así que asegúrate de que el camino esté libre de Escorpiones antes de recogerlo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia del Jefe: Derrotando al Dragón de Hueso">
+
+El encuentro final en la **ubicación del templo de los comienzos de grand alfheim** es el Dragón de Hueso. Este jefe está diseñado para enseñar a los jugadores sobre las señales visuales (telegraphs) y la gestión de la estamina. No tiene las complejas mecánicas multifase de los jefes de juego final como los de Ode to the Abyss, pero puede derrotar fácilmente de un solo golpe a un jugador de nivel 10 que ignore sus animaciones.
+
+| Nombre del Ataque | Señal Visual | Efecto | Contraestrategia |
+| :--- | :--- | :--- | :--- |
+| **Aliento de Hueso** | La cabeza del dragón se inclina hacia atrás | Daño AoE lineal | Deslízate (Q) hacia un lado inmediatamente |
+| **Barrido de Cola** | El dragón pivota su cuerpo | Empuje de 360 grados | Salta o Bloquea (F) si el tiempo es correcto |
+| **Golpe de Suelo** | Las patas delanteras se elevan alto | Aturdimiento de alto impacto | Retrocede o usa marcos de invencibilidad |
+| **Invocar Secuaces** | El dragón ruge hacia arriba | Aparecen pequeños esqueletos | Usa habilidades de clase de área de efecto (AoE) |
+
+Antes de entablar combate, asegúrate de que tu equipo esté reparado con un herrero. El minijefe Treant, que aparece antes en la mazmorra, actúa como una "comprobación de equipo". Si te cuesta derrotar al Treant, es probable que necesites mejorar tu arma inicial a una variante de Hierro o Hueso.
+
+<Callout type="warning" title="Advertencia Importante">
+No agotes toda tu estamina en un solo combo M1. El Dragón de Hueso a menudo contraataca inmediatamente después de su ataque de aliento. Si no tienes estamina, no podrás deslizarte para escapar del barrido de cola subsiguiente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín y Farmeo de Equipo">
+
+Farmear en la **ubicación del templo de los comienzos de grand alfheim** es esencial para los jugadores que buscan optimizar sus builds antes de avanzar a territorios de nivel 20+. Las tasas de aparición de objetos Legendarios son bajas (aproximadamente 1-3%), pero el equipo de nivel Épico es relativamente común.
+
+| Nombre del Objeto | Tipo | Rareza | Estadísticas Notables |
+| :--- | :--- | :--- | :--- |
+| **Filo de la Noche** | Espada | Épico | Alto escalado de FUE, daño de sombra |
+| **Réquiem de Obsidiana** | Espada | Legendario | Probabilidad de golpe crítico aumentada |
+| **Armadura de Caballero Azur** | Set de Armadura | Raro | +120 HP de bono de set total |
+| **Dagas de Sacrificio** | Dagas | Épico | Efecto de estado de sangrado al crítico |
+| **Segador Azur** | Espadón | Épico | Alto impacto, velocidad de balanceo lenta |
+| **Garras de Sabueso Gruñón** | Guanteletes | Raro | Velocidad de ataque rápida, corto alcance |
+
+<Checklist
+  id="temple-farming"
+  title="Objetivos de Finalización del Templo:"
+  items={[
+    "Obtener un set completo de armadura de Caballero Azur",
+    "Alcanzar el Nivel 15 mediante limpiezas repetidas",
+    "Asegurar al menos una arma de nivel Épico para tu clase",
+    "Dominar el tiempo de parry para el barrido del Dragón de Hueso",
+    "Desbloquear el logro 'Explorador del Templo'"
+  ]}
+/>
+
+<Callout type="success" title="Consejo de Farmeo">
+Si buscas específicamente armadura, enfócate en el minijefe Treant. Tiene una mayor tasa de aparición para el set **Soberano Verdante**, que proporciona excelentes estadísticas defensivas para tanques principiantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preparación y Builds Recomendadas">
+
+Entrar en la **ubicación del templo de los comienzos de grand alfheim** sin un plan a menudo conduce a muertes innecesarias. Dado que esta es una zona de nivel 10-19, tu build no necesita ser perfecta, pero debe estar enfocada en un rol de combate específico.
+
+<CardGrid cols={3}>
+  <Card title="El Espadachín Solitario">
+    - **Arma**: Espada de Hierro o Filo de la Noche.
+    - **Enfoque**: Equilibrio entre FUE y DES.
+    - **Estrategia**: Usa combos M1 seguidos de un parry.
+  </Card>
+  <Card title="El Maestro Arquero a Distancia">
+    - **Arma**: Arco de Madera o variante mejorada.
+    - **Enfoque**: DES pura.
+    - **Estrategia**: Mantén la distancia y usa disparos cargados.
+  </Card>
+  <Card title="La Égida Defensiva">
+    - **Arma**: Gran Escudo y Martillo.
+    - **Enfoque**: FUE y Durabilidad.
+    - **Estrategia**: Bloquea para el equipo y atrae el aggro.
+  </Card>
+</CardGrid>
+
+Para desgloses de clases más detallados, consulta nuestra [Guía de Clases y Builds de Grand Alfheim](/classes-and-builds) para ver cómo asignar tus puntos de habilidad de manera efectiva. Recuerda que puedes volver con cualquier herrero para cambiar tu clase si tu estilo de juego actual no funciona para la pelea contra el Dragón de Hueso.
+
+<Callout type="tip" title="Sinergia Mágica">
+¡No olvides tu magia racial! Incluso a nivel 10, los jugadores Undine pueden proporcionar curación crucial durante la fase de secuaces del dragón, mientras que los jugadores Salamandra pueden añadir daño de fuego a sus ataques de arma para limpiezas más rápidas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel mínimo para la ubicación del Templo de los Comienzos de Grand Alfheim?",
+    answer: "Aunque técnicamente puedes entrar antes, el nivel recomendado es 10. Los enemigos en el interior escalan en dificultad, y es probable que el Dragón de Hueso derrote de un golpe a jugadores por debajo del nivel 10."
+  },
+  {
+    question: "¿Puedo completar el Templo de los Comienzos en solitario?",
+    answer: "Sí, la mazmorra se puede completar en solitario, especialmente si tomas la ruta de Parkour para evitar peleas innecesarias con hordas. Sin embargo, el Dragón de Hueso es mucho más fácil de manejar con un grupo de 2-3 jugadores."
+  },
+  {
+    question: "¿Cómo reinicio la mazmorra para farmear botín de nuevo?",
+    answer: "Después de derrotar al Dragón de Hueso y recoger el cofre, debes salir del templo y esperar a que la instancia se reinicie. Esto suele tardar unos 5 minutos, o puedes unirte a un servidor diferente para saltarte el temporizador."
+  },
+  {
+    question: "¿Qué raza tiene el camino más fácil para llegar al templo?",
+    answer: "La raza Undine suele tener el camino más fácil porque su portal se encuentra en un área relativamente plana y abierta cerca del Lago de Cristal, mientras que los jugadores Salamandra y Gnomo deben navegar por terrenos peligrosos."
+  }
+]} />
+
+</Section>

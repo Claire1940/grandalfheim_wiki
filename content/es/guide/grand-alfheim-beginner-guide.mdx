@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de iniciación para Grand Alfheim: Tutorial de inicio y consejos de expertos para 2026",
+  description: "Domina Grand Alfheim con nuestra guía de razas, clases, controles de combate y rutas de leveo. Comienza hoy tu viaje en este MMORPG de Roblox inspirado en SAO.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Beginner+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de iniciación para Grand Alfheim**: Concéntrate en completar el **tutorial** y seleccionar una **clase inicial** en el herrero de inmediato.
+- **Selección de Raza**: Elige **Salamander** para daño puro, **Sylph** para movilidad o **Undine** para curación de grupo.
+- **Maestría en Combate**: Aprende a hacer **Parada (F)** y **Desplazamiento (Q)** para sobrevivir a los encuentros con jefes del juego temprano como el Dragón de Hueso.
+- **Objetivo de Progresión**: Alcanza el **Nivel 10** para entrar al **Templo de los Comienzos**, el primer gran núcleo de farmeo de equipamiento.
+- **Recurso Clave**: Usa la **tecla V** para volar; la movilidad aérea es esencial para llegar a los NPC de misiones en territorios de gran altitud.
+</Callout>
+
+<Section icon={BookOpen} title="Primeros pasos: Creación de personajes y razas">
+
+Entrar al mundo de Grand Alfheim requiere una sólida comprensión de su sistema de razas. A diferencia de los RPG estándar, tu elección de raza en este mundo inspirado en SAO dicta tu afinidad mágica elemental y tu utilidad pasiva. Hay nueve razas de hadas distintas, cada una de las cuales ofrece una estética única y una ventaja táctica.
+
+**Puntos destacados del video:**
+- **Configuración inicial**: Cómo navegar por el creador de personajes y personalizar la apariencia de tu hada.
+- **Resumen de razas**: Un desglose visual de las mecánicas de vuelo y las alas de cada raza.
+- **Primeros pasos**: Navegar por la ciudad de inicio y encontrar al primer NPC de misión.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim - Beginner Experience" />
+
+Al seleccionar tu raza, considera tu estilo de juego previsto. Aunque todas las razas pueden usar cualquier clase de arma, su sinergia mágica varía significativamente.
+
+| Raza | Tipo de Magia | Especialidad | Mejor Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Fuego | Daño Elevado | **Cuerpo a Cuerpo Agresivo** |
+| **Sylph** | Viento | Movimiento Rápido | **Combate Móvil/Exploración** |
+| **Undine** | Agua/Curación | Soporte de Equipo | **Curadores/Soporte de Tanque** |
+| **Cait Sith** | Invocación | Domar Bestias | **Amantes de Mascotas/Exploradores** |
+| **Spriggan** | Ilusión | Búsqueda de Tesoros | **Utilidad Táctica** |
+| **Gnome** | Tierra | Alta Durabilidad | **Tanques de Primera Línea** |
+| **Imp** | Maldición | Visión Nocturna | **Debilitadores/PvP** |
+| **Pooka** | Música | Mejoras/Debilitaciones | **Bardo/Soporte de Grupo** |
+| **Leprechaun** | Rayo | Herrería | **Enfoque en Artesanía/Equipo** |
+
+<Callout type="tip" title="Consejo de Selección de Raza">
+Para principiantes absolutos, se recomienda encarecidamente **Sylph**. El aumento de la velocidad de movimiento y la magia de viento hacen que navegar por el gran mundo abierto sea mucho menos tedioso durante las primeras etapas de nivelación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y esquemas de control">
+
+Grand Alfheim presenta un sistema de combate basado en la habilidad que recompensa la sincronización por sobre el pulsar botones sin sentido. Ya sea que juegues en PC, móvil o consola, dominar las capas defensivas (bloqueo, parada y desplazamiento) es obligatorio para sobrevivir en las mazmorras.
+
+<CardGrid cols={3}>
+  <Card title="Presión Ofensiva">
+    - **Combos M1**: Cadenas de armas estándar.
+    - **Críticos (R)**: Golpes pesados para romper guardias.
+    - **Amagos (M2)**: Cancela ataques para provocar paradas.
+  </Card>
+  <Card title="Capas Defensivas">
+    - **Bloqueo (F)**: Reduce el daño entrante.
+    - **Parada**: Presiona F en el momento perfecto para aturdir enemigos.
+    - **Desplazamiento (Q)**: Fotogramas de invulnerabilidad para esquivar ataques de área (AOE).
+  </Card>
+  <Card title="Movilidad Aérea">
+    - **Vuelo (V)**: Consume maná para volar.
+    - **Ataque en Desplazamiento**: Realiza Q y luego M1 para recortar distancias.
+    - **Combo Aéreo**: Salta y luego usa M1 para mantener a los objetivos en el aire.
+  </Card>
+</CardGrid>
+
+La siguiente tabla resume los atajos de teclado esenciales para PC que debes memorizar antes de tu primer duelo.
+
+| Acción | Atajo de Teclado | Contexto de Uso |
+| :--- | :--- | :--- |
+| **Ataque Básico** | M1 / Clic Izquierdo | Fuente de daño principal |
+| **Bloquear / Parar** | F | Mantener para bloquear / Pulsar para parar |
+| **Desplazamiento / Esquivar** | Q | Evitar golpes pesados de jefes |
+| **Golpe Crítico** | R | Romper la resistencia del enemigo |
+| **Amago** | M2 / Clic Derecho | Engañar a oponentes en PvP |
+| **Volar** | V | Exploración y verticalidad |
+| **Montura** | H | Viaje terrestre entre ciudades |
+| **Menú** | M | Equipamiento y árbol de habilidades |
+
+<Callout type="warning" title="Gestión de Resistencia">
+Cada acción, incluyendo bloquear y desplazarse, consume resistencia. Si tu resistencia llega a cero, se romperá tu guardia, dejándote vulnerable a un combo completo. ¡Nunca gastes tu cadena M1 hasta quedar vacío!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elegir tu primera clase y arma">
+
+En Grand Alfheim, tu \"Clase\" está ligada al arma que tienes equipada. Puedes cambiar tu clase visitando a un **Herrero** o una **Forja**, lo que permite una gran flexibilidad de construcción. Cada clase tiene un árbol de habilidades dedicado en el que debes invertir puntos para desbloquear habilidades poderosas.
+
+| Clase | Arma | Estadística Principal | Rol de Combate |
+| :--- | :--- | :--- | :--- |
+| **Espadachín** | Espada | STR | **Equilibrado / Polivalente** |
+| **Maestro Arquero** | Arco | DEX | **Francotirador a Distancia** |
+| **Asesino** | Dagas | DEX/STR | **Daño de Ráfaga/Velocidad** |
+| **Espada de Titán** | Espadón | STR | **Daño de Área Pesado** |
+| **Égida** | Escudo Grande | STR | **Tanque Puro** |
+| **Duelista** | Estoque | DEX | **Estocadas Rápidas/PvP** |
+| **Púgil** | Guanteletes | STR | **Combos de Corto Alcance** |
+
+<Callout type="success" title="Mejor Clase Inicial">
+El **Espadachín** es la opción más confiable para una **guía de iniciación para Grand Alfheim**. Ofrece un equilibrio perfecto de alcance, velocidad y daño, lo que facilita aprender los tiempos de parada principales del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Ruta de progresión y nivelación paso a paso">
+
+Para progresar de manera eficiente, debes seguir la línea de misiones principal mientras realizas incursiones en mazmorras para mejorar tu equipo. Evita farmear monstruos de nivel bajo; las misiones otorgan significativamente más experiencia y dinero (Yrd).
+
+<Steps>
+  <Step num="1" title="El Tutorial y la Primera Arma">
+    Completa las indicaciones del tutorial inicial. Dirígete inmediatamente al Herrero de la ciudad más cercana para reclamar tu arma inicial gratuita. Esto definirá tu clase inicial.
+  </Step>
+  <Step num="2" title="Misiones Iniciales (Nivel 1-10)">
+    Sigue los marcadores de la historia principal. Acepta misiones secundarias de los NPC con signos de exclamación. Concéntrate en mejorar tu **Árbol de Habilidades Mágicas** junto con tus habilidades de armas.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos (Nivel 10-20)">
+    Entra a tu primera mazmorra. Puedes elegir la **Ruta de Parkour** (más rápida) o la **Ruta de Combate** (más XP). Derrota al **Dragón de Hueso** para farmear tus primeros conjuntos de equipo Épico y Legendario.
+  </Step>
+  <Step num="4" title="Expansión de Territorio (Nivel 20-50)">
+    Viaja a los territorios de otras razas (Salamander, Gnome, etc.). Derrota a jefes de mundo como el **Sátiro** para obtener conjuntos de armadura con alta vida como las **Regalías de Corona de Sangre**.
+  </Step>
+  <Step num="5" title="Juego Tardío: Oda al Abismo (Nivel 50+)">
+    Únete a un grupo para la incursión de nivel 50. Esta mazmorra solo se abre a horas específicas (12:00 AM/PM ET). El éxito aquí otorga armas **Míticas** como el **Filo de Runa del Vacío**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Experto para Levear">
+Lleva siempre comida en tu inventario. El sistema de hambre afecta tu regeneración de salud; comer alimentos cocinados asegura que no tengas que retirarte del combate constantemente para curarte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mazmorras, jefes y botín esencial">
+
+Las mazmorras son el alma de la progresión en Grand Alfheim. No se trata solo de combatir; muchas requieren resolver **Rompecabezas de Cubos** para desbloquear las arenas de los jefes.
+
+| Encuentro | Nivel Recomendado | Recompensas Clave | Mecánica Notable |
+| :--- | :--- | :--- | :--- |
+| **Treant** | Nivel 10+ | Conjunto de Armadura Verdeante | Golpes pesados que se pueden parar |
+| **Dragón de Hueso** | Nivel 15+ | Filo Nocturno / Conjunto Azur | Aliento de fuego de gran área (AOE) |
+| **Sátiro** | Nivel 25+ | Regalías de Corona de Sangre | Presión rápida cuerpo a cuerpo |
+| **Valdrayn** | Nivel 50+ | Armas Míticas del Vacío | Fase de defensa de cuatro torres |
+
+<Checklist
+  id="dungeon-prep"
+  title="Lista de preparación para mazmorras:"
+  items={[
+    "Repara todo el equipamiento con un Herrero",
+    "Equipa tu conjunto de armadura de mayor rareza para obtener bonificaciones de HP",
+    "Abastécete de pociones de curación o trae a un jugador Undine",
+    "Asigna roles (Tanque, DPS, Soporte) para las incursiones en grupo",
+    "Asegúrate de que tu indicador de vuelo esté lleno para las secciones de parkour"
+  ]}
+/>
+
+<Callout type="warning" title="Horario de Oda al Abismo">
+La mazmorra de juego tardío **Oda al Abismo** tiene una ventana de entrada estricta de 10 minutos. Si te pierdes la hora de inicio de las 12:00, deberás esperar otras 12 horas para volver a intentarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambio mi clase en Grand Alfheim?",
+    answer: "Puedes cambiar tu clase en cualquier momento visitando a un Herrero o una Forja y equipando un tipo de arma diferente. Tus puntos de habilidad para ese árbol de armas específico se guardan por separado."
+  },
+  {
+    question: "¿Cuál es la mejor raza para un principiante?",
+    answer: "Sylph se considera generalmente la mejor para principiantes debido a su movilidad basada en el viento, pero Salamander es excelente si prefieres un enfoque cuerpo a cuerpo de gran daño."
+  },
+  {
+    question: "¿Dónde puedo encontrar el Templo de los Comienzos?",
+    answer: "El Templo de los Comienzos tiene múltiples entradas ubicadas en los territorios de Salamander, Undine y Gnome. Se recomienda para jugadores de nivel 10 en adelante."
+  },
+  {
+    question: "¿Existe una guía de iniciación para Grand Alfheim para jugadores de móviles?",
+    answer: "Sí, la interfaz móvil incluye botones táctiles dedicados para todas las acciones como Desplazamiento, Bloqueo y Habilidades. Las mecánicas principales siguen siendo idénticas a la versión de PC."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim Phase 6: Gnome Revamp & Survival Mechanics Guide",
+  description: "Master the Grand Alfheim Phase 6 update with our guide to the Gnome territory revamp, hunger systems, and advanced dungeon progression strategies.",
+  category: "Updates",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Phase+6+Gnome+Revamp",
+  date: "2026-07-10",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand Alfheim Phase 6** introduces the massive **Gnome territory revamp**, featuring a complete map overhaul and new exploration routes.
+- **Survival Mechanics** are now live, requiring players to manage a **Hunger system** through cooking and food consumption.
+- **Dungeon Expansion** includes higher-level rewards for the Temple of Beginnings and updated mechanics for **Ode to the Abyss**.
+- **New Equipment** tiers have been added, specifically targeting level 50+ players looking for **Mythical** grade gear.
+- **Combat Refinements** have adjusted weapon attack speeds and parry windows to enhance the high-stakes PvP and PvE experience.
+</Callout>
+
+<Section icon={Map} title="Grand Alfheim Phase 6: The Gnome Territory Overhaul">
+
+The arrival of **grand alfheim phase 6** marks one of the most significant milestones in the game's development history. This update focuses heavily on world-building and survival depth, moving beyond simple combat loops into a more immersive MMORPG experience. The centerpiece of this update is the total transformation of the Gnome lands, which now feature vertical cityscapes, hidden underground caverns, and expanded resource nodes that were previously inaccessible.
+
+**Video Highlights:**
+- **Territory Revamp**: A visual tour of the new Gnome architecture and environmental lighting.
+- **Combat Showcase**: Demonstrating the updated parry timing against Phase 6 enemies.
+- **Dungeon Run**: A quick look at the Temple of Beginnings' new parkour shortcuts.
+- **Survival Basics**: How to interact with the new cooking stations found in major towns.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim - Phase 6 Update" />
+
+In addition to the visual changes, the map revamp includes new NPC quest-givers who provide the necessary lore and directions for navigating the expanded biomes. Whether you are a veteran player or just starting your journey, understanding the layout of the new Gnome territory is essential for efficient leveling and resource gathering.
+
+| Update Feature | Description | Priority |
+| :--- | :--- | :--- |
+| **Gnome Map Revamp** | Complete overhaul of terrain, NPCs, and quest locations | **High** |
+| **Hunger System** | New survival bar requiring regular food consumption | **Critical** |
+| **Cooking Stations** | Interactive nodes for crafting stat-boosting meals | **Medium** |
+| **New Loot Tiers** | Introduction of level-specific Mythical equipment | **High** |
+| **Stamina Balance** | Adjusted costs for flight and heavy weapon swings | **Medium** |
+
+<Callout type="warning" title="Exploration Warning">
+The new Gnome territory features high-altitude platforms. Ensure your **Flight (V)** skill is fully bound and your race-specific wings are active before attempting to traverse the central spires.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mastering the Hunger and Cooking Systems">
+
+Survival is no longer just about avoiding enemy blades. With the launch of **grand alfheim phase 6**, players must now maintain their character's physical condition. The Hunger system adds a layer of tactical management; a starving character suffers from reduced stamina regeneration and slower movement speed, making them vulnerable in both PvP and boss encounters.
+
+Cooking has been introduced as the primary counter-mechanic. By gathering ingredients from the open world—such as meat from wild creatures or herbs from the forest floor—players can create meals that provide long-lasting buffs. These buffs range from simple hunger replenishment to advanced stat increases like extra Strength (STR) or Dexterity (DEX).
+
+<Steps>
+  <Step num="1" title="Gather Raw Ingredients">
+    Hunt wildlife in the Salamander or Sylph territories to collect raw meat. Search for glowing plant nodes in the Gnome caves for rare spices and vegetables.
+  </Step>
+  <Step num="2" title="Locate a Cooking Station">
+    Major hubs like the central Gnome plaza or the Undine docks now feature communal cooking fires and advanced kitchen stations.
+  </Step>
+  <Step num="3" title="Select Your Recipe">
+    Open the cooking interface to view available recipes. Higher-tier meals require multiple ingredients but provide significantly better stat bonuses for dungeon runs.
+  </Step>
+  <Step num="4" title="Manage Your Saturation">
+    Consume food before entering a dungeon like **Ode to the Abyss**. A full hunger bar ensures you maintain peak performance during multi-phase boss fights.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Cooking Tip">
+Always keep a stack of "Traveler's Bread" in your inventory. It is cheap to craft and prevents the severe stamina penalties associated with the starving status effect during long flights.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Dungeon Progression and Boss Loot">
+
+The dungeon meta has shifted significantly in **grand alfheim phase 6**. While the Temple of Beginnings remains the entry point for new players, the rewards have been scaled to ensure that level 15-20 players have a clear path toward the endgame. The update also introduced "The White Room," a special activity during the public demo that offers unique participation rewards for early-access supporters.
+
+For those targeting the absolute peak of power, the **Ode to the Abyss** dungeon in Gnome territory is the primary focus. This encounter requires a coordinated group of 4 to 8 players and features a strict entry window at 12:00 AM/PM Eastern Time.
+
+<CardGrid cols={3}>
+  <Card title="Temple of Beginnings">
+    - **Level Requirement**: 10+
+    - **Key Boss**: Bone Dragon
+    - **Top Drop**: Obsidian Requiem
+    - **Strategy**: Master the cube puzzles to skip unnecessary trash mobs.
+  </Card>
+  <Card title="Ode to the Abyss">
+    - **Level Requirement**: 50+
+    - **Key Boss**: Valdrayn
+    - **Top Drop**: Voidrune Edge
+    - **Strategy**: Coordinate tower destruction during the low-health phase.
+  </Card>
+  <Card title="Satyr Miniboss">
+    - **Location**: Salamander
+    - **Key Drop**: Bloodcrown Set
+    - **Type**: Open-world combat
+    - **Strategy**: Block opening pressure and punish recovery frames.
+  </Card>
+</CardGrid>
+
+| Dungeon Reward | Rarity | Level | Primary Stat |
+| :--- | :--- | :--- | :--- |
+| **Voidrune Edge** | Mythical | 50+ | Strength (STR) |
+| **Nightreaver Bow** | Mythical | 50+ | Dexterity (DEX) |
+| **Obsidian Requiem** | Legendary | 15+ | Strength (STR) |
+| **Azure Knightplate** | Rare | 1+ | +120 Health (HP) |
+| **Bloodcrown Regalia** | Mythical | 20+ | +820 Health (HP) |
+
+<Callout type="info" title="Loot Mechanics">
+Phase 6 has introduced a **2X Drops event** for the public demo period. This is the optimal time to farm the Bone Dragon for Legendary chests or the Satyr for the Bloodcrown armor set.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Race and Class Synergy in the Current Meta">
+
+Choosing the right combination of race and class is more critical than ever following the Phase 6 balance adjustments. Each of the nine fairy races offers a unique magic affinity that can either compensate for a class's weakness or amplify its strengths. For instance, the **Sylph's** wind magic and flight speed pair exceptionally well with the **Duelist's** rapid footwork, creating a high-mobility build that is difficult to pin down in PvP.
+
+| Race | Magic Type | Best Class Synergy | Playstyle Role |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Fire | Titanblade / Berserker | Aggressive Melee |
+| **Sylph** | Wind | Duelist / Assassin | High Mobility DPS |
+| **Undine** | Water | Aegis / Sentinel | Support & Sustain |
+| **Gnome** | Earth | Skull Crusher / Aegis | Frontline Tank |
+| **Imp** | Curse | Assassin / Bowmaster | Debuff & Control |
+
+The **Swordsman** remains the most balanced starter class, but Phase 6 has seen a surge in **Titanblade** and **Berserker** players due to the high impact damage required to clear the new Gnome territory mobs quickly. If you prefer ranged combat, the **Bowmaster** provides the safest route for soloing open-world bosses, provided you maintain enough distance and manage your ammunition.
+
+<Callout type="success" title="Meta Recommendation">
+For Phase 6 progression, the **Undine + Aegis** combination is highly sought after for group dungeons. The innate healing magic of the Undine combined with the greatshield's damage absorption makes the Ode to the Abyss significantly easier to manage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Phase 6 Completion Checklist">
+
+To ensure you are fully prepared for the endgame content added in **grand alfheim phase 6**, we have compiled a list of essential milestones. Completing these will grant you the necessary equipment and stats to compete in high-level PvP and survive the deepest layers of the Abyss.
+
+<Checklist
+  id="phase-6-goals"
+  title="Endgame Readiness Checklist:"
+  items={[
+    "Reach Level 50 and unlock all class skill tree branches",
+    "Complete the Gnome territory main questline to unlock the Abyss entrance",
+    "Obtain a full set of Bloodcrown Regalia (+820 HP) for survivability",
+    "Master the parry timing for the Bone Dragon's tail sweep",
+    "Stockpile at least 20 high-tier cooked meals for sustained dungeon farming",
+    "Bind your 'Flight' and 'Dash' keys to comfortable inputs for aerial combat"
+  ]}
+/>
+
+<Callout type="warning" title="Stamina Management">
+Phase 6 increased the stamina cost for consecutive dodges. Do not spam the **Q** key; instead, time your dashes to coincide with the enemy's red flash indicators for maximum efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Grand Alfheim Phase 6 FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I access the new Gnome territory in Phase 6?",
+    answer: "The Gnome territory is accessible via the main world map. Look for the mountainous regions characterized by brown and green terrain. Following the Phase 6 update, the paths have been widened, and new teleport gates have been added near the starting zones."
+  },
+  {
+    question: "What is the best way to handle the new Hunger system?",
+    answer: "The best way is to utilize Cooking Stations found in towns. Collect raw meat from low-level mobs and combine them with herbs found in Gnome caves. This creates meals that fill your hunger bar and provide temporary stat buffs."
+  },
+  {
+    question: "Can I still get the early access rewards in the Public Demo?",
+    answer: "Yes, during the Public Demo period, players can participate in 'The White Room' activity. This provides a route to earn early-access participation rewards and experience the 2X Drops event currently active in Phase 6."
+  },
+  {
+    question: "Which class is strongest for clearing Ode to the Abyss?",
+    answer: "Titanblade and Berserker are currently very strong for their high area-of-effect (AoE) damage, but at least one Aegis (Tank) and one Undine (Healer) are recommended for a successful run of the final dungeon."
+  }
+]} />
+
+<Callout type="tip" title="Final Note">
+Always check the official Grand Alfheim Discord for real-time updates on server maintenance and additional Phase 6 balance patches.
+</Callout>
+
+</Section>

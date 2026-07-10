@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de progresión de Grand Alfheim: Ruta rápida de nivel y equipamiento",
+  description: "Domina la guía de progresión de Grand Alfheim. Aprende las rutas de nivel más rápidas, las mejores clases iniciales, mazmorras y ubicaciones de equipamiento mítico.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/18525a/fff?text=Progression+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Sigue la **guía de progresión de Grand Alfheim** oficial para alcanzar el nivel 50+ y farmear mazmorras de endgame de manera eficiente.
+- **Configuración Inicial**: Elige una raza con alta movilidad como Sylph o una ofensiva como Salamander, y consigue un arma inicial del Herrero.
+- **Clave para Subir de Nivel**: Combina misiones de la historia principal, misiones secundarias específicas de la región y ejecuciones tempranas de mazmorras para maximizar las ganancias de experiencia.
+- **Enfoque de Endgame**: Forma un grupo coordinado para enfrentarte a Oda al Abismo (Ode to the Abyss) para obtener armas Míticas y la armadura Bloodcrown.
+</Callout>
+
+<Section icon={Map} title="Guía de progresión de Grand Alfheim: Fase Inicial">
+
+Entrar al mundo de Grand Alfheim requiere una comprensión sólida de cómo se relacionan la raza, la clase y la exploración temprana. A diferencia de los MMORPG tradicionales, tus elecciones iniciales dictan tu movilidad inicial y tu utilidad en combate. Seleccionar una raza que complemente tu estilo de juego planeado es el primer paso de tu viaje.
+
+**Puntos Destacados del Video:**
+- **Selección de Raza**: Desglose de las mejores pasivas raciales para PvE y PvP.
+- **Consejos del Tutorial**: Mecánicas de movimiento esenciales que incluyen vuelo y esquive.
+- **Forja Inicial**: Cómo reclamar tu primera arma y configurar tu clase.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Spending 24 Hours In Grand Alfheim" />
+
+### Clasificación de Selección de Raza
+Tu raza proporciona una afinidad mágica permanente y una especialidad pasiva. Revisa las mejores opciones a continuación antes de fijar a tu personaje.
+
+| Raza | Magia Asociada | Especialidad Primaria | Mejor Rol |
+| :--- | :--- | :--- | :--- |
+| **Salamander** | Magia de Fuego | Alto enfoque ofensivo, presión de combate directa | DPS Cuerpo a Cuerpo |
+| **Sylph** | Magia de Viento | Movimiento rápido, reposicionamiento vertical alto | DPS Móvil / Explorador |
+| **Undine** | Agua / Curación | Restauración de salud, alto sustento de grupo | Soporte / Tanque |
+| **Cait Sith** | Invocación | Domar bestias, alta velocidad base | Progresión en Solitario |
+
+<Callout type="tip" title="Consejo Pro">
+Si juegas en solitario, se recomienda encarecidamente **Sylph** para la progresión temprana. El control de vuelo y la velocidad adicionales hacen que viajar por territorios grandes sea significativamente más rápido antes de desbloquear monturas premium.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eligiendo tu Clase Inicial">
+
+Las clases en Grand Alfheim están vinculadas directamente a tu arma equipada. Puedes seleccionar tu clase inicial en la forja o visitando a un Herrero local. Volver con un Herrero te permite cambiar tu estilo de arma sin perder el progreso general de tu personaje, lo que te brinda la libertad de probar múltiples roles de combate.
+
+<CardGrid cols={3}>
+  <Card title="Espadachín (STR)">
+    - **Arma**: Espada
+    - **Estilo**: Combos equilibrados de corto alcance
+    - **Pros**: Ideal para principiantes, nivelación constante en solitario
+  </Card>
+  <Card title="Maestro Arquero (DEX)">
+    - **Arma**: Arco y Munición
+    - **Estilo**: Kiting y distanciamiento a distancia
+    - **Pros**: Combates contra jefes seguros, alto DPS a un solo objetivo
+  </Card>
+  <Card title="Hoja de Titán (STR)">
+    - **Arma**: Espadón
+    - **Estilo**: Ataques de área lentos y pesados
+    - **Pros**: Alto impacto, excelente control de masas
+  </Card>
+</CardGrid>
+
+### Comparación de Armas Iniciales
+Usa esta tabla de comparación rápida para elegir un arma inicial que se adapte a tus preferencias de combate.
+
+| Arma | Clase | Escala | Rol de Combate | Fuente |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espada de Hierro** | Espadachín | STR | Secuencias cuerpo a cuerpo equilibradas, recuperación segura | Herrero |
+| **Arco de Madera** | Maestro Arquero | DEX | Presión a distancia, kiting seguro | Herrero |
+| **Dagas de Hueso** | Asesino | DEX/STR | Ráfaga rápida de corto alcance, aplicación de veneno | Herrero |
+| **Guanteletes de Hierro** | Púgil | STR | Combos de puños rápidos, alta presión de fijación | Herrero |
+
+<Callout type="warning" title="Gestión de Estamina">
+Las armas pesadas como el Espadón (Hoja de Titán) consumen grandes cantidades de estamina por golpe. No abuses de tus ataques M1; siempre deja suficiente estamina para ejecutar un esquive (Q) o un bloqueo (F).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Nivel Paso a Paso">
+
+Para llegar al endgame de manera eficiente, debes seguir una ruta de nivel estructurada. Dispersar tus esfuerzos en demasiadas zonas de alto nivel desde el principio ralentizará tu progresión.
+
+<Steps>
+  <Step num="1" title="Tutorial y Configuración de Clase (Nivel 1-5)">
+    Completa el tutorial inicial para dominar el movimiento básico. Aprende a correr, rodar, bloquear y volar (V). Visita la forja de inmediato para seleccionar tu clase inicial y reclamar tu arma inicial gratuita.
+  </Step>
+  <Step num="2" title="Misiones Iniciales (Nivel 5-9)">
+    Sigue la línea de misiones principales a través del territorio de tu raza inicial. Completa las misiones secundarias cercanas para acumular experiencia, dinero y puntos de habilidad. Invierte los primeros puntos de habilidad en las habilidades principales de tu clase.
+  </Step>
+  <Step num="3" title="Templo de los Comienzos (Nivel 10-19)">
+    Viaja al Templo de los Comienzos (Temple of Beginnings). Completa esta mazmorra inicial repetidamente para reemplazar tu equipamiento inicial con drops Épicos y Legendarios. Practica el parry contra el minijefe Treant y esquiva los ataques de área del Dragón de Hueso (Bone Dragon).
+  </Step>
+  <Step num="4" title="Jefes de Territorio (Nivel 20-49)">
+    Expande tu exploración a los territorios de las razas vecinas. Completa misiones regionales de alta recompensa y farmea minijefes del mundo abierto como el Sátiro (Satyr) en el territorio de los Salamander para asegurar mejoras de armadura de juego medio.
+  </Step>
+  <Step num="5" title="Oda al Abismo (Nivel 50+)">
+    Forma un grupo coordinado de 4 a 8 jugadores. Entra en la mazmorra de endgame de nivel 50, Oda al Abismo (Ode to the Abyss), durante su ventana de apertura programada de 10 minutos. Derrota al jefe final para obtener armas Míticas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Horarios de Entrada a las Mazmorras">
+La mazmorra de endgame **Oda al Abismo** se encuentra en el territorio de los Gnomos. Su entrada solo se abre dos veces al día a las **12:00 AM** y **12:00 PM Hora del Este**. Asegúrate de que tu grupo esté reunido en la puerta 5 minutos antes de la apertura.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tablas de Botín de Mazmorras y Jefes">
+
+Las mazmorras y los jefes de mundo abierto son tus fuentes principales de equipamiento de alto nivel. La transición de armas comunes del Herrero a equipamiento Épico, Legendario y Mítico es vital para sobrevivir en territorios de alto nivel.
+
+### Encuentros Principales con Jefes y Drops
+
+| Jefe / Mazmorra | Nivel | Mecánicas Clave | Drops Destacados |
+| :--- | :--- | :--- | :--- |
+| **Treant** | 10+ | Barridos pesados de corto alcance, recuperación lenta | Snarl Hound Claws, Set Verdant Sovereign |
+| **Dragón de Hueso** | 15+ | Ataques de aliento amplios, peligros en toda la arena | Obsidian Requiem, Set Crimson Dragon |
+| **Sátiro** | 20+ | Ataques de carga rápidos, combos físicos | Iron Boarding Axe, Set Bloodcrown Regalia |
+| **Oda al Abismo** | 50+ | Combate de múltiples fases, cuatro torres activas | Voidrune Edge, Nightreaver Bow, Grimjaw |
+
+### Progresión del Set de Armadura
+Los sets de armadura proporcionan aumentos masivos de salud plana. Concéntrate en mejorar tus ranuras de armadura (Máscara, Pecho, Piernas) tan pronto como alcances el nivel requerido.
+
+| Set de Armadura | Rareza | Req. Nivel | Bonificación de HP | Fuente Primaria |
+| :--- | :--- | :--- | :--- | :--- |
+| **Azure Knightplate** | Raro | 1+ | +120 HP (Set Completo) | Templo de los Comienzos |
+| **Bloodcrown Regalia** | Mítico | 20+ | +820 HP (Set Completo) | Sátiro (Territorio Salamander) |
+| **Verdant Sovereign** | Raro | 10+ | +250 HP (Set Completo) | Minijefe Treant |
+
+<Callout type="info" title="Consejo de Botín">
+El Set Bloodcrown Regalia es la mejor mejora de supervivencia para el juego medio. Se recomienda encarecidamente farmear al minijefe Sátiro en el territorio de los Salamander antes de intentar misiones de nivel 30+.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de Combate y Controles">
+
+Grand Alfheim presenta un sistema de combate activo que recompensa el tiempo preciso, los parries y el posicionamiento sobre el simple machaque de botones. Memorizar los atajos de teclado principales es crucial tanto para el farmeo PvE como para los encuentros PvP.
+
+### Atajos de Teclado Oficiales para PC
+
+| Acción | Entrada | Aplicación en Combate |
+| :--- | :--- | :--- |
+| **Ataque Básico** | M1 / Clic Izquierdo | Ejecuta cadenas de ataques estándar con el arma. |
+| **Finta** | M2 / Clic Derecho | Cancela un ataque activo para engañar y provocar bloqueos enemigos. |
+| **Bloqueo / Parry** | F | Mantén presionado para bloquear el daño. Toca justo antes de recibir un golpe para hacer parry. |
+| **Esquive (Dash)** | Q | Reposicionamiento rápido. Sigue con M1 para un Ataque en Esquive. |
+| **Ataque Crítico** | R | Golpe pesado para romper escudos o guardia. |
+| **Vuelo** | V | Activa las alas raciales para la exploración vertical. |
+
+<Checklist
+  id="combat-mastery"
+  title="Lista de Verificación para Dominar el Combate:"
+  items={[
+    "Practica el parry con enemigos menores hasta que sientas natural el timing",
+    "Aprende a cancelar animaciones largas de ataque usando el atajo de Finta (M2)",
+    "Conserva siempre al menos el 25% de tu barra de estamina para esquives de emergencia",
+    "Utiliza Ataques en Esquive (Q + M1) para cerrar la distancia con oponentes a distancia",
+    "Coordina los tiempos de recarga de habilidades con los miembros de tu grupo durante las fases de jefes"
+  ]}
+/>
+
+<Callout type="warning" title="Ruptura de Guardia">
+Mantener tu bloqueo (F) durante demasiado tiempo contra ataques pesados agotará tu medidor de guardia. Si tu guardia se rompe, quedarás temporalmente aturdido y vulnerable a golpes críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambio mi clase en Grand Alfheim?",
+    answer: "Puedes cambiar tu clase en cualquier momento visitando a un NPC Herrero. Cambiar tu arma modificará tu árbol de habilidades activas, lo que te permitirá probar diferentes builds sin perder el nivel de tu personaje."
+  },
+  {
+    question: "¿Dónde se encuentra el Templo de los Comienzos?",
+    answer: "Las entradas al Templo de los Comienzos son accesibles desde los territorios de los Salamander, Undine y Gnomos. Se recomienda para jugadores de nivel 10 en adelante."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de subir de nivel en la guía de progresión de Grand Alfheim?",
+    answer: "La forma más rápida de subir de nivel es completar las misiones de la historia principal hasta el nivel 10, farmear la mazmorra del Templo de los Comienzos hasta el nivel 20 y luego completar las misiones secundarias regionales mientras farmeas al minijefe Sátiro."
+  },
+  {
+    question: "¿Cómo desbloqueo el vuelo en Grand Alfheim?",
+    answer: "El vuelo es una habilidad racial. Puedes activar tus alas presionando la tecla V en PC o usando el botón dedicado de la interfaz de vuelo en dispositivos móviles y consolas."
+  }
+]} />
+
+</Section>

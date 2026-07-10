@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fase 6 de Grand Alfheim: Guía de Renovación de Gnomos y Mecánicas de Supervivencia",
+  description: "Domina la actualización de la Fase 6 de Grand Alfheim con nuestra guía sobre la renovación del territorio Gnomo, los sistemas de hambre y las estrategias avanzadas de progresión en mazmorras.",
+  category: "Updates",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Phase+6+Gnome+Revamp",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "Grand Alfheim, Fase 6, Gnomo, supervivencia, cocina, mazmorras, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La Fase 6 de Grand Alfheim** introduce la masiva **renovación del territorio Gnomo**, que incluye un rediseño completo del mapa y nuevas rutas de exploración.
+- **Las Mecánicas de Supervivencia** ya están activas, requiriendo que los jugadores gestionen un **sistema de Hambre** a través de la cocina y el consumo de alimentos.
+- **La Expansión de Mazmorras** incluye recompensas de mayor nivel para el Templo de los Comienzos y mecánicas actualizadas para **Oda al Abismo**.
+- Se han añadido nuevos niveles de **Equipamiento**, dirigidos específicamente a jugadores de nivel 50+ que buscan equipo de grado **Mítico**.
+- **Los Refinamientos de Combate** han ajustado las velocidades de ataque de las armas y las ventanas de parry para mejorar la experiencia de alto riesgo en PvP y PvE.
+</Callout>
+
+<Section icon={Map} title="Fase 6 de Grand Alfheim: La Renovación del Territorio Gnomo">
+
+La llegada de la **fase 6 de Grand Alfheim** marca uno de los hitos más significativos en la historia del desarrollo del juego. Esta actualización se centra intensamente en la construcción del mundo y la profundidad de la supervivencia, yendo más allá de los simples ciclos de combate hacia una experiencia de MMORPG más inmersiva. La pieza central de esta actualización es la transformación total de las tierras de los Gnomos, que ahora cuentan con paisajes urbanos verticales, cavernas subterráneas ocultas y nodos de recursos expandidos que antes eran inaccesibles.
+
+**Puntos Destacados del Vídeo:**
+- **Renovación del Territorio**: Un recorrido visual por la nueva arquitectura Gnomo y la iluminación ambiental.
+- **Demostración de Combate**: Mostrando los tiempos de parry actualizados contra los enemigos de la Fase 6.
+- **Recorrido por Mazmorras**: Un vistazo rápido a los nuevos atajos de parkour del Templo de los Comienzos.
+- **Conceptos Básicos de Supervivencia**: Cómo interactuar con las nuevas estaciones de cocina que se encuentran en las ciudades principales.
+
+<YouTubeEmbed videoId="7y7wak3hlEY" title="Pasando 24 Horas en Grand Alfheim - Actualización de la Fase 6" />
+
+Además de los cambios visuales, la renovación del mapa incluye nuevos PNJ que otorgan misiones y proporcionan el trasfondo y las direcciones necesarias para navegar por los biomas expandidos. Ya seas un jugador veterano o estés comenzando tu viaje, comprender el diseño del nuevo territorio Gnomo es esencial para subir de nivel y recolectar recursos de manera eficiente.
+
+| Característica de la Actualización | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Renovación del Mapa Gnomo** | Rediseño completo del terreno, PNJ y ubicaciones de misiones | **Alta** |
+| **Sistema de Hambre** | Nueva barra de supervivencia que requiere consumo regular de alimentos | **Crítica** |
+| **Estaciones de Cocina** | Nodos interactivos para elaborar comidas que potencian estadísticas | **Media** |
+| **Nuevos Niveles de Botín** | Introducción de equipo Mítico específico por nivel | **Alta** |
+| **Equilibrio de Estamina** | Costes ajustados para el vuelo y los ataques con armas pesadas | **Media** |
+
+<Callout type="warning" title="Advertencia de Exploración">
+El nuevo territorio Gnomo cuenta con plataformas de gran altitud. Asegúrate de que tu habilidad de **Vuelo (V)** esté completamente asignada y que tus alas específicas de raza estén activas antes de intentar atravesar las agujas centrales.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando los Sistemas de Hambre y Cocina">
+
+La supervivencia ya no se trata solo de esquivar las espadas enemigas. Con el lanzamiento de la **fase 6 de Grand Alfheim**, los jugadores ahora deben mantener la condición física de su personaje. El sistema de Hambre añade una capa de gestión táctica; un personaje hambriento sufre una reducción en la regeneración de estamina y una velocidad de movimiento más lenta, lo que lo hace vulnerable tanto en PvP como en encuentros con jefes.
+
+La cocina se ha introducido como la mecánica principal para contrarrestar esto. Al reunir ingredientes del mundo abierto, como carne de criaturas salvajes o hierbas del suelo del bosque, los jugadores pueden crear comidas que proporcionan beneficios duraderos. Estos beneficios van desde la simple reposición del hambre hasta aumentos avanzados de estadísticas como Fuerza (STR) o Destreza (DEX) adicionales.
+
+<Steps>
+  <Step num="1" title="Reunir Ingredientes Crudos">
+    Caza fauna silvestre en los territorios de Salamandra o Sílfide para recolectar carne cruda. Busca nodos de plantas brillantes en las cuevas Gnomo para obtener especias y vegetales raros.
+  </Step>
+  <Step num="2" title="Localizar una Estación de Cocina">
+    Los centros principales, como la plaza central Gnomo o los muelles de Ondina, ahora cuentan con hogueras comunitarias y estaciones de cocina avanzadas.
+  </Step>
+  <Step num="3" title="Seleccionar tu Receta">
+    Abre la interfaz de cocina para ver las recetas disponibles. Las comidas de nivel superior requieren múltiples ingredientes pero proporcionan bonificaciones de estadísticas significativamente mejores para las incursiones en mazmorras.
+  </Step>
+  <Step num="4" title="Gestionar tu Saturación">
+    Consume alimentos antes de entrar en una mazmorra como **Oda al Abismo**. Una barra de hambre llena asegura que mantengas el máximo rendimiento durante las peleas contra jefes de múltiples fases.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Profesional de Cocina">
+Lleva siempre un montón de "Pan del Viajero" en tu inventario. Es barato de fabricar y evita las graves penalizaciones de estamina asociadas con el estado de hambre durante los vuelos largos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión Avanzada de Mazmorras y Botín de Jefes">
+
+El meta de las mazmorras ha cambiado significativamente en la **fase 6 de Grand Alfheim**. Aunque el Templo de los Comienzos sigue siendo el punto de entrada para los nuevos jugadores, las recompensas se han escalado para asegurar que los jugadores de nivel 15-20 tengan un camino claro hacia el final del juego. La actualización también introdujo "La Sala Blanca", una actividad especial durante la demo pública que ofrece recompensas de participación únicas para los colaboradores del acceso anticipado.
+
+Para aquellos que aspiran a la cima absoluta del poder, la mazmorra **Oda al Abismo** en el territorio Gnomo es el enfoque principal. Este encuentro requiere un grupo coordinado de 4 a 8 jugadores y cuenta con una ventana de entrada estricta a las 12:00 AM/PM hora del Este.
+
+<CardGrid cols={3}>
+  <Card title="Templo de los Comienzos">
+    - **Requisito de Nivel**: 10+
+    - **Jefe Clave**: Dragón de Hueso
+    - **Mejor Botín**: Réquiem de Obsidiana
+    - **Estrategia**: Domina los puzles de cubos para saltar enemigos innecesarios.
+  </Card>
+  <Card title="Oda al Abismo">
+    - **Requisito de Nivel**: 50+
+    - **Jefe Clave**: Valdrayn
+    - **Mejor Botín**: Filo de Runa del Vacío
+    - **Estrategia**: Coordina la destrucción de torres durante la fase de salud baja.
+  </Card>
+  <Card title="Minijefe Sátiro">
+    - **Ubicación**: Salamandra
+    - **Mejor Botín**: Conjunto de Corona de Sangre
+    - **Tipo**: Combate en mundo abierto
+    - **Estrategia**: Bloquea la presión inicial y castiga los marcos de recuperación.
+  </Card>
+</CardGrid>
+
+| Recompensa de Mazmorra | Rareza | Nivel | Estadística Principal |
+| :--- | :--- | :--- | :--- |
+| **Filo de Runa del Vacío** | Mítico | 50+ | Fuerza (STR) |
+| **Arco Segador Nocturno** | Mítico | 50+ | Destreza (DEX) |
+| **Réquiem de Obsidiana** | Legendario | 15+ | Fuerza (STR) |
+| **Placa de Caballero Azur** | Raro | 1+ | +120 Salud (HP) |
+| **Regalía de Corona de Sangre** | Mítico | 20+ | +820 Salud (HP) |
+
+<Callout type="info" title="Mecánicas de Botín">
+La Fase 6 ha introducido un **evento de Doble Botín (2X Drops)** para el período de la demo pública. Este es el momento óptimo para farmear al Dragón de Hueso en busca de cofres Legendarios o al Sátiro para obtener el conjunto de armadura de Corona de Sangre.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sinergia de Raza y Clase en el Meta Actual">
+
+Elegir la combinación correcta de raza y clase es más crítico que nunca tras los ajustes de equilibrio de la Fase 6. Cada una de las nueve razas de hadas ofrece una afinidad mágica única que puede compensar la debilidad de una clase o amplificar sus fortalezas. Por ejemplo, la magia de viento y la velocidad de vuelo de la **Sílfide** combinan excepcionalmente bien con el juego de pies rápido del **Duelista**, creando una build de alta movilidad difícil de fijar en PvP.
+
+| Raza | Tipo de Magia | Mejor Sinergia de Clase | Rol de Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Salamandra** | Fuego | Titanblade / Berserker | Cuerpo a cuerpo agresivo |
+| **Sílfide** | Viento | Duelista / Assassin | DPS de alta movilidad |
+| **Ondina** | Agua | Aegis / Sentinel | Soporte y Sostenibilidad |
+| **Gnomo** | Tierra | Skull Crusher / Aegis | Tanque de primera línea |
+| **Imp** | Maldición | Assassin / Bowmaster | Debilitamiento y Control |
+
+El **Swordsman** sigue siendo la clase inicial más equilibrada, pero la Fase 6 ha visto un aumento de jugadores de **Titanblade** y **Berserker** debido al alto daño de impacto requerido para limpiar rápidamente los nuevos grupos de enemigos del territorio Gnomo. Si prefieres el combate a distancia, el **Bowmaster** ofrece la ruta más segura para derrotar jefes de mundo abierto en solitario, siempre que mantengas suficiente distancia y gestiones tu munición.
+
+<Callout type="success" title="Recomendación del Meta">
+Para la progresión en la Fase 6, la combinación **Ondina + Aegis** es muy solicitada para mazmorras de grupo. La magia curativa innata de la Ondina combinada con la absorción de daño del gran escudo hace que Oda al Abismo sea significativamente más fácil de gestionar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Completado de la Fase 6">
+
+Para asegurar que estás completamente preparado para el contenido de final de juego añadido en la **fase 6 de Grand Alfheim**, hemos recopilado una lista de hitos esenciales. Completar estos te otorgará el equipo y las estadísticas necesarias para competir en PvP de alto nivel y sobrevivir en las capas más profundas del Abismo.
+
+<Checklist
+  id="phase-6-goals"
+  title="Lista de Verificación para el Final del Juego:"
+  items={[
+    "Alcanzar el Nivel 50 y desbloquear todas las ramas del árbol de habilidades de clase",
+    "Completar la línea de misiones principal del territorio Gnomo para desbloquear la entrada al Abismo",
+    "Obtener un conjunto completo de Regalía de Corona de Sangre (+820 HP) para mayor supervivencia",
+    "Dominar el tiempo de parry para el barrido de cola del Dragón de Hueso",
+    "Acumular al menos 20 comidas cocinadas de alto nivel para un farmeo sostenido en mazmorras",
+    "Asignar tus teclas de 'Vuelo' y 'Desplazamiento' a entradas cómodas para el combate aéreo"
+  ]}
+/>
+
+<Callout type="warning" title="Gestión de Estamina">
+La Fase 6 aumentó el coste de estamina para esquives consecutivos. No abuses de la tecla **Q**; en su lugar, sincroniza tus desplazamientos con los indicadores de destello rojo del enemigo para una máxima eficiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre la Fase 6 de Grand Alfheim">
+
+<FAQ items={[
+  {
+    question: "¿Cómo accedo al nuevo territorio Gnomo en la Fase 6?",
+    answer: "El territorio Gnomo es accesible a través del mapa del mundo principal. Busca las regiones montañosas caracterizadas por terrenos marrones y verdes. Tras la actualización de la Fase 6, se han ensanchado los caminos y se han añadido nuevas puertas de teletransporte cerca de las zonas de inicio."
+  },
+  {
+    question: "¿Cuál es la mejor manera de manejar el nuevo sistema de Hambre?",
+    answer: "La mejor manera es utilizar las Estaciones de Cocina que se encuentran en las ciudades. Recolecta carne cruda de enemigos de bajo nivel y combínala con hierbas encontradas en las cuevas Gnomo. Esto crea comidas que llenan tu barra de hambre y proporcionan beneficios temporales de estadísticas."
+  },
+  {
+    question: "¿Todavía puedo obtener las recompensas de acceso anticipado en la Demo Pública?",
+    answer: "Sí, durante el período de la Demo Pública, los jugadores pueden participar en la actividad 'La Sala Blanca'. Esto ofrece una ruta para ganar recompensas de participación de acceso anticipado y experimentar el evento de Doble Botín (2X Drops) actualmente activo en la Fase 6."
+  },
+  {
+    question: "¿Qué clase es la más fuerte para limpiar Oda al Abismo?",
+    answer: "Titanblade y Berserker son actualmente muy fuertes por su alto daño de área (AoE), pero se recomienda al menos un Aegis (Tanque) y una Ondina (Curandera) para completar con éxito la mazmorra final."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final">
+Consulta siempre el Discord oficial de Grand Alfheim para actualizaciones en tiempo real sobre el mantenimiento del servidor y parches de equilibrio adicionales de la Fase 6.
+</Callout>
+
+</Section>

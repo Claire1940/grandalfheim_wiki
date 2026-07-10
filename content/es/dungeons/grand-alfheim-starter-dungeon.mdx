@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mazmorra de inicio de grand alfheim: Guía del Templo de los Comienzos",
+  description: "Domina la mazmorra de inicio de grand alfheim con nuestra guía sobre el Templo de los Comienzos, que incluye mecánicas de jefes, soluciones de puzles y tablas de botín.",
+  category: "Dungeons",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Starter+Dungeon+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de grand alfheim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: La **mazmorra de inicio de grand alfheim**, conocida como el Templo de los Comienzos, es el primer gran hito para jugadores de nivel 10 o superior.
+- **Puntos de Entrada**: Accesible desde los territorios de Salamandra, Ondina y Gnomo a través de portales de entrada específicos.
+- **Elección de Ruta**: Los jugadores pueden elegir entre una **Ruta de Parkour** (alta movilidad) o una **Ruta de Combate** (recolección de recursos).
+- **Puzle Central**: Para progresar es necesario resolver la **Sala de los Cubos** colocando cubos de colores en los altares correspondientes de ángeles y demonios.
+- **Estrategia de Jefe**: El Dragón de Hueso recompensa a los jugadores que dominan el **bloqueo y la gestión de energía** en lugar de la agresión sin sentido.
+</Callout>
+
+<Section icon={Map} title="Entrar a la mazmorra de inicio de grand alfheim">
+
+La **mazmorra de inicio de grand alfheim**, oficialmente llamada el Templo de los Comienzos, sirve como puerta de entrada a la progresión del juego medio. Ubicada en la intersección de varios territorios raciales, esta mazmorra desafía a los jugadores a aplicar las mecánicas aprendidas durante el tutorial inicial, específicamente el vuelo, el desvío de ataques (parry) y las rotaciones de habilidades. Completar con éxito esta instancia es obligatorio para obtener tu primer conjunto de equipamiento Raro y Épico, el cual es esencial para sobrevivir a los jefes de mundo abierto más difíciles que se encuentran en las regiones de Salamandra y Gnomo.
+
+**Puntos Destacados del Vídeo:**
+- Recorrido visual de las ubicaciones de entrada en las regiones de Salamandra y Ondina.
+- Comparación de la densidad de monstruos en la ruta de combate frente a la ruta de parkour.
+- Solución paso a paso para el puzle final de los cubos antes de la sala del jefe.
+- Demostración de combate contra el aliento de fuego y el barrido de cola del Dragón de Hueso.
+
+<YouTubeEmbed videoId="27JQnSLOWcc" title="Grand Alfheim Dungeon Guide" />
+
+| Requisito | Detalle | Notas |
+|-------------|--------|-------|
+| **Nivel Mínimo** | Nivel 10 | Nivel 12 recomendado para jugadores en solitario |
+| **Ubicaciones** | Salamandra / Ondina / Gnomo | Busca las grandes estructuras de templos de piedra |
+| **Tamaño del Grupo** | 1 - 4 Jugadores | La dificultad se escala ligeramente con el tamaño del grupo |
+| **Objeto Clave** | Ninguno | La entrada es gratuita para todos los jugadores por encima del nivel 10 |
+| **Tiempo Estimado** | 15 - 20 Minutos | Depende de la ruta elegida y la velocidad al resolver el puzle |
+
+<Callout type="success" title="Consejo de Entrada">
+Aunque la mazmorra es accesible a nivel 10, entrar con una clase **Espadachín o Aegis** proporciona una mayor supervivencia para los principiantes debido a sus capacidades superiores de bloqueo contra los enemigos de élite del Templo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación previa a la mazmorra y equipamientos">
+
+Antes de adentrarte en la **mazmorra de inicio de grand alfheim**, debes asegurarte de que tu equipamiento y tus habilidades estén optimizados. El Templo de los Comienzos cuenta con grupos de enemigos de alta densidad que pueden abrumar fácilmente a un jugador que no haya invertido en el árbol de habilidades de su clase. Específicamente, asegúrate de tener al menos dos habilidades de combate activas desbloqueadas y un método confiable de regeneración de salud, ya que la mazmorra no proporciona puntos de control de curación natural.
+
+<Checklist
+  id="dungeon-prep"
+  title="Lista de preparación esencial:"
+  items={[
+    "Alcanzar el nivel 10 y equipar un arma de nivel de Herrero",
+    "Desbloquear al menos una habilidad de movilidad (Desplazamiento o Impulso de vuelo)",
+    "Abastecerse de objetos de recuperación de PS del comerciante del pueblo local",
+    "Reparar todo el equipamiento al 100% de durabilidad para evitar roturas a mitad de camino",
+    "Asignar todos los Puntos de Habilidad disponibles en tu árbol de armas principal"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Build Ofensiva">
+    - **Clases**: Filo de Titán, Asesino, Duelista
+    - **Enfoque**: Daño de ráfaga para limpiar la Ruta de Combate rápidamente
+    - **Riesgo**: Salud baja; requiere esquivar con precisión
+  </Card>
+  <Card title="Build Defensiva">
+    - **Clases**: Aegis, Espadachín, Gnomo (Raza)
+    - **Enfoque**: Bloqueo sostenido y control de masas
+    - **Riesgo**: Tiempos de limpieza más lentos pero muy seguro en solitario
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de Energía">
+Cada acción en la mazmorra, incluyendo correr, saltar y bloquear, consume energía (stamina). Si agotas tu barra de energía mientras luchas contra el Dragón de Hueso, no podrás bloquear sus ataques críticos, lo que provocará un derribo inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de la mazmorra: Parkour frente a Combate">
+
+La **mazmorra de inicio de grand alfheim** presenta un sistema de caminos ramificados al principio de la instancia. Los jugadores deben elegir entre la Ruta Izquierda (Parkour) y la Ruta Derecha (Combate). Ambos caminos conducen finalmente a la misma Sala de los Cubos, pero los recursos y los riesgos difieren significativamente.
+
+| Camino | Desafío Principal | Recompensas | Recomendado Para |
+|------|-------------------|---------|-----------------|
+| **Izquierda (Parkour)** | Movimiento vertical / Saltos de precisión | Finalización rápida / Baja pérdida de PS | Razas Sylph y Cait Sith |
+| **Derecha (Combate)** | Grupos de enemigos de alta densidad | Cultivo de EXP / Caída de materiales | Builds de fuerza y grupos |
+
+### La Ruta de Combate
+Si eliges el camino de la derecha, te enfrentarás a oleadas de escorpiones, dinosaurios y enemigos de tipo planta. Estos monstruos son excelentes para subir de nivel el dominio de tu clase. Los escorpiones tienen un ataque de aguijón predecible que se puede desviar para activar una ventana de contraataque.
+
+### La Ruta de Parkour
+El camino de la izquierda utiliza las mecánicas de salto y vuelo de **grand alfheim**. Tendrás que navegar por plataformas flotantes y obstáculos en movimiento. Caer no resulta en una muerte instantánea, pero te devolverá al inicio de la sección, haciéndote perder un tiempo valioso.
+
+<Callout type="tip" title="Estrategia Híbrida">
+En un grupo de cuatro, envía a dos jugadores por la ruta de combate para obtener EXP y a dos por la ruta de parkour para llegar más rápido a la sala del puzle. Una vez resuelto el puzle, el portal se abrirá para todos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resolver las mecánicas del puzle de los cubos">
+
+La barrera final antes del jefe de la **mazmorra de inicio de grand alfheim** es la Sala de los Cubos. Esta sala contiene varios altares y cubos de colores esparcidos por toda la cámara. No puedes superar esta sección por la fuerza; requiere atención al entorno.
+
+<Steps>
+  <Step num="1" title="Localiza los Cubos">
+    Busca en las esquinas de la sala los cubos brillantes. Normalmente hay dos tipos: Angelical (Luz) y Demoniaco (Oscuridad).
+  </Step>
+  <Step num="2" title="Identifica los Altares">
+    Mira las estatuas en el extremo opuesto de la sala. Las estatuas de Ángeles requieren los cubos de Luz, mientras que las estatuas de Demonios requieren los cubos de Oscuridad.
+  </Step>
+  <Step num="3" title="Colocación y Activación">
+    Lleva los cubos a los altares correspondientes. Una vez colocados todos los cubos, se elevará un pedestal central que te permitirá interactuar con él y abrir la guarida del Dragón de Hueso.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Reinicio del Puzle">
+Si dejas caer un cubo a un foso o a una zona inaccesible, volverá a aparecer en su ubicación original después de 10 segundos. No te preocupes si fallas un salto mientras llevas una pieza del puzle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia contra Jefes: Treant y Dragón de Hueso">
+
+La **mazmorra de inicio de grand alfheim** presenta dos encuentros principales. El Treant actúa como guardián intermedio, mientras que el Dragón de Hueso sirve como la prueba final de tu progreso.
+
+### Jefe Medio: El Treant
+El Treant es un tanque de movimiento lento. Sus ataques principales son golpes contra el suelo y enredos de raíces.
+- **Estrategia**: Quédate detrás de él. Su velocidad de giro es lenta, lo que permite a las clases Asesino y Duelista asestar golpes críticos por la espalda de forma constante.
+
+### Jefe Final: El Dragón de Hueso
+El Dragón de Hueso es el verdadero desafío del Templo de los Comienzos. Utiliza una mezcla de barridos físicos y ataques de aliento elemental.
+
+| Nombre del Ataque | Descripción | Acción de Contraataque |
+|-------------|-------------|----------------|
+| **Aliento de Fuego** | Un cono de fuego frontal de ángulo amplio | Desplázate detrás del Dragón o usa el V-Vuelo para flotar por encima |
+| **Barrido de Cola** | Un golpe físico de 360 grados | Salta dos veces o mantén pulsado Bloqueo (F) para mitigar el daño |
+| **Espina de Hueso** | Proyectiles disparados desde las alas | Muévete continuamente hacia los lados; no te quedes quieto |
+| **Rugido** | Un aturdimiento en área que drena la energía | Mantén la distancia cuando el Dragón eche la cabeza hacia atrás |
+
+<Callout type="warning" title="Fase de Salud Crítica">
+Cuando el Dragón de Hueso llegue al 25% de PS, comenzará a usar su Aliento de Fuego con más frecuencia. Durante esta fase, prioriza la supervivencia sobre el daño. Espera a que termine la animación antes de comprometerte con una cadena de combos larga.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Cultivo de Botín">
+
+Completar la **mazmorra de inicio de grand alfheim** es la forma más eficiente de equiparse para el contenido de nivel 20 o superior. El botín se divide en recompensas individuales y un cofre final de la mazmorra que otorga equipamiento de mayor nivel según tu rendimiento y suerte.
+
+<CardGrid cols={3}>
+  <Card title="Placa de Caballero de Azur">
+    - **Tipo**: Conjunto de Armadura
+    - **Atributo**: +120 PS Máx.
+    - **Ideal para**: Tanques de primera línea
+  </Card>
+  <Card title="Filo de la Noche">
+    - **Tipo**: Espada Épica
+    - **Atributo**: Alto escalado de FUE
+    - **Ideal para**: Clase Espadachín
+  </Card>
+  <Card title="Réquiem de Obsidiana">
+    - **Tipo**: Espada Legendaria
+    - **Atributo**: Bonificación de Golpe Crítico
+    - **Ideal para**: Preparación para el endgame
+  </Card>
+</CardGrid>
+
+| Nombre del Objeto | Tipo | Rareza | Fuente de Obtención |
+|-----------|------|--------|-------------|
+| **Placa de Caballero de Azur** | Armadura | Raro | Dragón de Hueso |
+| **Filo de la Noche** | Arma | Épico | Cofre Final |
+| **Dagas de Sacrificio** | Arma | Raro | Treant |
+| **Garras de Sabueso Gruñidor** | Arma | Raro | Enemigos de la Ruta de Combate |
+| **Réquiem de Obsidiana** | Arma | Legendario | Dragón de Hueso (Probabilidad baja) |
+
+<Callout type="success" title="Consejo de Cultivo">
+El evento de verano de **grand alfheim** a menudo duplica las tasas de obtención de botín en el Templo de los Comienzos. Si estás buscando el Réquiem de Obsidiana Legendario, espera a estos periodos de evento para maximizar tu eficiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor clase para la mazmorra de inicio de grand alfheim?",
+    answer: "Para los principiantes, las clases Espadachín o Aegis son las mejores debido a su alta defensa. Sin embargo, la raza Sylph con la clase Asesino puede completar la mazmorra más rápido usando la Ruta de Parkour."
+  },
+  {
+    question: "¿Puedo completar el Templo de los Comienzos en solitario?",
+    answer: "Sí, pero se recomienda tener al menos nivel 12-15. Asegúrate de llevar suficientes pociones de curación y de haber dominado la mecánica de desvío para la pelea del Dragón de Hueso."
+  },
+  {
+    question: "¿Cómo reinicio la mazmorra para volver a cultivarla?",
+    answer: "Simplemente sal de la instancia y espera aproximadamente 2 minutos para que la sala se reinicie, o únete a un servidor diferente para omitir el tiempo de espera de inmediato."
+  },
+  {
+    question: "¿Dónde se encuentran las entradas a la mazmorra de inicio?",
+    answer: "Las entradas principales se encuentran en los territorios de Salamandra, Ondina y Gnomo. Están marcadas en el mapa por grandes estructuras de templos de piedra antiguos."
+  }
+]} />
+
+</Section>
