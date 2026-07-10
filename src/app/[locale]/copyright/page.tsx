@@ -93,6 +93,10 @@ export default function Copyright() {
             <ul>
               <li><strong>Roblox</strong> - Owner of the Roblox platform</li>
               <li><strong>Grand Alfheim Developers</strong> - Creators of the Grand Alfheim game</li>
+              <li><strong>Reki Kawahara (川原礫)</strong> - Author of the Sword Art Online light novel series that inspired Grand Alfheim</li>
+              <li><strong>ASCII Media Works / KADOKAWA</strong> - Publisher of the Sword Art Online light novels</li>
+              <li><strong>A-1 Pictures</strong> - Animation studio for the Sword Art Online anime adaptation</li>
+              <li><strong>Bandai Namco Entertainment</strong> - Game publisher for the Sword Art Online video games</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -107,6 +111,12 @@ export default function Copyright() {
             <p>
               ...are the intellectual property of their respective owners. We use such content under the principles
               of fair use for informational, educational, and non-commercial purposes only.
+            </p>
+            <p>
+              <strong>Grand Alfheim</strong> is a fan-made game inspired by <strong>Sword Art Online (SAO)</strong>.
+              We are not affiliated with, endorsed by, or associated with Reki Kawahara, ASCII Media Works / KADOKAWA,
+              A-1 Pictures, or Bandai Namco Entertainment. Sword Art Online, Alfheim Online, and all related names,
+              characters, and imagery are the trademarks and copyrights of their respective owners.
             </p>
 
             <h2>2. Fair Use Statement</h2>
@@ -155,6 +165,9 @@ export default function Copyright() {
               <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Grand Alfheim</strong> - Trademark of the game developers</li>
               <li><strong>Grand Alfheim Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Sword Art Online (ソードアート・オンライン)</strong> - Trademark and copyright of Reki Kawahara and ASCII Media Works / KADOKAWA</li>
+              <li><strong>Alfheim Online</strong> - Fictional in-universe game setting from Sword Art Online; rights owned by Reki Kawahara and ASCII Media Works / KADOKAWA</li>
+              <li><strong>Sword Art Online anime</strong> - Animated by A-1 Pictures; Sword Art Online games published by Bandai Namco Entertainment</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of

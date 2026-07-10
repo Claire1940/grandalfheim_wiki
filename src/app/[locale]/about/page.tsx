@@ -171,8 +171,7 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, German, Spanish, French,
-                Japanese, Portuguese, Russian, and Turkish.
+                Content available in multiple languages including English and Spanish.
               </p>
             </div>
           </div>
@@ -235,7 +234,7 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Grand Alfheim Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Grand Alfheim or any official entities.
+              endorsed by, or associated with the developers of Grand Alfheim, or with Reki Kawahara, ASCII Media Works / KADOKAWA, A-1 Pictures, or Bandai Namco Entertainment. Grand Alfheim is a fan-made game inspired by Sword Art Online (SAO); Sword Art Online and all related characters, names, and imagery are trademarks and copyrights of their respective owners.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
