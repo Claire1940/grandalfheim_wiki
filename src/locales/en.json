@@ -599,12 +599,12 @@
           "rarity": "Mythical",
           "level": "20+",
           "source": "Satyr in Salamander",
-          "role": "Adds 820 HP from the complete set for tougher PvE encounters."
+          "role": "Adds 820 HP from the complete set for more demanding PvE encounters."
         }
       ]
     },
     "dungeonsBosses": {
-      "title": "Grand Alfheim Dungeons and Bosses",
+      "title": "Grand Alfheim Dungeons, Bosses, and Loot",
       "intro": "Dungeons combine combat routes, puzzles, minibosses, and final encounters. Bring healing items, learn the block and parry system, and use a class that can reliably damage bosses without exhausting its stamina.",
       "encounters": [
         {
