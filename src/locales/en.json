@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Grand Alfheim Wiki - Codes, Races, Classes & Map",
+      "description": "Explore Grand Alfheim codes, races, classes, maps, quests, weapons, bosses, builds, and beginner tips for the Roblox fantasy MMORPG in one guide.",
+      "keywords": "Grand Alfheim, Roblox, codes, races, classes, map, quests, weapons, bosses, builds",
+      "ogTitle": "Grand Alfheim Wiki - Codes, Races, Classes & Map",
+      "ogDescription": "Explore Grand Alfheim codes, races, classes, maps, quests, weapons, bosses, builds, and beginner tips for the Roblox fantasy MMORPG in one guide.",
+      "twitterTitle": "Grand Alfheim Wiki - Codes, Races, Classes & Map",
+      "twitterDescription": "Explore Grand Alfheim codes, races, classes, maps, quests, weapons, bosses, builds, and beginner tips for the Roblox fantasy MMORPG."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Sword Art Online-Inspired Fantasy MMORPG",
+    "title": "Grand Alfheim Wiki",
+    "description": "Explore a large fantasy world, choose your race and class, master flight, complete quests, collect powerful gear, fight bosses, and join PvE or PvP battles.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "838.4K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "28K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "83K+",
+        "label": "Group Members"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Early Access",
+        "label": "Development Stage"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore Grand Alfheim?",
+    "description": "Join the Grand Alfheim community on Discord for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Grand Alfheim Wiki",
+    "description": "Your complete resource hub for Grand Alfheim codes, races, classes, leveling, weapons, bosses, dungeons, and map guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Roblox Group",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Grand Alfheim Wiki. Not affiliated with the developers of Grand Alfheim.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
