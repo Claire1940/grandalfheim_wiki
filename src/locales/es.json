@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Grand Alfheim - Códigos, Razas, Clases y Mapa",
+      "description": "Explora los códigos, razas, clases, mapas, misiones, armas, jefes, builds y consejos para principiantes de Grand Alfheim para el MMORPG de fantasía de Roblox en una sola guía.",
+      "keywords": "Grand Alfheim, Roblox, códigos, razas, clases, mapa, misiones, armas, jefes, builds",
+      "ogTitle": "Wiki de Grand Alfheim - Códigos, Razas, Clases y Mapa",
+      "ogDescription": "Explora los códigos, razas, clases, mapas, misiones, armas, jefes, builds y consejos para principiantes de Grand Alfheim para el MMORPG de fantasía de Roblox en una sola guía.",
+      "twitterTitle": "Wiki de Grand Alfheim - Códigos, Razas, Clases y Mapa",
+      "twitterDescription": "Explora los códigos, razas, clases, mapas, misiones, armas, jefes, builds y consejos para principiantes de Grand Alfheim para el MMORPG de fantasía de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -6,6 +17,1055 @@
     "combat": "Combate",
     "dungeons": "Mazmorras",
     "maps": "Mapas",
-    "updates": "Novedades"
+    "updates": "Actualizaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "MMORPG de fantasía inspirado en Sword Art Online",
+    "title": "Wiki de Grand Alfheim",
+    "description": "Explora un gran mundo de fantasía, elige tu raza y clase, domina el vuelo, completa misiones, consigue equipamiento poderoso, lucha contra jefes y únete a batallas PvE o PvP.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "838.4K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "28K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "83K+",
+        "label": "Miembros del grupo"
+      },
+      "stat4": {
+        "value": "Acceso anticipado",
+        "label": "Etapa de desarrollo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Grand Alfheim",
+    "description": "Explora un gran mundo de fantasía, elige tu raza y clase, domina el vuelo, completa misiones, reúne equipamiento poderoso y lucha contra jefes en este MMORPG para Roblox inspirado en Sword Art Online."
+  },
+  "tools": {
+    "title": "Grand Alfheim",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para explorar Alfheim, elegir tu raza y clase, subir de nivel y conquistar mazmorras",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Grand Alfheim",
+        "description": "Creación de personajes, tutorial, misiones iniciales y primeros pasos",
+        "sectionId": "beginner-guide"
+      },
+      {
+        "icon": "Users",
+        "title": "Razas de Grand Alfheim",
+        "description": "Compara las nueve razas, su magia y sus mejores roles",
+        "sectionId": "race-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "Clases de Grand Alfheim",
+        "description": "Armas, estadísticas y builds de PvE o PvP para cada clase",
+        "sectionId": "classes-and-builds"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Subida de nivel en Grand Alfheim",
+        "description": "La ruta más rápida desde el tutorial hasta el farming de endgame",
+        "sectionId": "leveling-progression"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Armas de Grand Alfheim",
+        "description": "Espadas, arcos, conjuntos de armadura, rarezas y fuentes de obtención",
+        "sectionId": "weapons-and-armor"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Jefes de Grand Alfheim",
+        "description": "Mazmorras, mecánicas de jefes y tablas de botín completas",
+        "sectionId": "dungeons-bosses"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Controles de Grand Alfheim",
+        "description": "Controles de combate para PC, móvil y consola",
+        "sectionId": "controls-and-combat"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Grand Alfheim",
+        "description": "Fases de prueba, nuevos sistemas y acceso a la demo pública",
+        "sectionId": "updates-early-access"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "Guía para principiantes de Grand Alfheim",
+      "intro": "Grand Alfheim combina exploración de mundo abierto, combate con armas basado en clases, magia racial, vuelo, misiones, jefes y mazmorras. Sigue esta ruta para crear tu personaje, aprender a combatir, elegir una clase, completar las misiones iniciales y prepararte para el Temple of Beginnings.",
+      "steps": [
+        {
+          "title": "Crea tu personaje",
+          "goal": "Elige una raza y apariencia que coincidan con tu estilo de fantasía y combate preferido.",
+          "actions": [
+            "Selecciona una de las nueve razas de hadas: Undine, Spriggan, Leprechaun, Imp, Cait Sith, Sylph, Salamander, Pooka o Gnome.",
+            "Revisa la magia y especialidad asociadas a la raza antes de confirmar tu personaje.",
+            "Termina la personalización de apariencia y entra al área del tutorial."
+          ],
+          "result": "Tu personaje está listo para comenzar el tutorial y seleccionar una clase de combate."
+        },
+        {
+          "title": "Completa el Tutorial",
+          "goal": "Aprende las mecánicas de movimiento y defensa utilizadas en todo el juego.",
+          "actions": [
+            "Practica el movimiento con W, A, S y D y usa M1 para ataques básicos con armas.",
+            "Aprende a correr, rodar, bloquear, interactuar con NPCs y activar habilidades equipadas.",
+            "Practica volar con V porque muchas quests y territorios requieren desplazamiento vertical.",
+            "Abre el menú principal con M para revisar equipo, habilidades, quests y progresión del personaje."
+          ],
+          "result": "Puedes moverte con seguridad por el mundo abierto y evitar depender solo de ataques básicos."
+        },
+        {
+          "title": "Elige una Clase Inicial",
+          "goal": "Selecciona un estilo de arma que sea fácil de usar mientras aprendes los patrones de ataque de los enemigos.",
+          "actions": [
+            "Visita la forja o al herrero y elige una clase como Swordsman, Duelist, Assassin, Pugilist, Titanblade o Aegis.",
+            "Usa el arma inicial correspondiente que recibes al seleccionar la clase.",
+            "Prueba la velocidad de ataque, el alcance, el coste de stamina y las habilidades de clase del arma contra enemigos cercanos.",
+            "Regresa con un herrero para cambiar de clase cuando otro estilo de arma se adapte mejor a ti."
+          ],
+          "result": "Tienes un arma de clase y un rol de combate claro para las quests iniciales."
+        },
+        {
+          "title": "Termina las Quests Iniciales",
+          "goal": "Gana niveles iniciales, moneda, equipo y progresión de habilidades.",
+          "actions": [
+            "Prioriza las quests principales porque introducen ubicaciones importantes y sistemas de progresión.",
+            "Completa quests secundarias cercanas mientras viajas entre objetivos principales.",
+            "Acepta quests de clase que mejoren tu comprensión del arma seleccionada.",
+            "Derrota enemigos cercanos a tu nivel en lugar de luchar repetidamente contra monstruos más fuertes."
+          ],
+          "result": "Tu personaje alcanza el rango de nivel inicial requerido para enemigos más fuertes y la primera dungeon."
+        },
+        {
+          "title": "Mejora Habilidades y Equipo",
+          "goal": "Desarrolla suficiente daño y supervivencia para el contenido grupal.",
+          "actions": [
+            "Gasta puntos de clase en un grupo pequeño de habilidades de uso frecuente en lugar de desbloquear todas las ramas de inmediato.",
+            "Desarrolla tu árbol de magia junto con el árbol de clase para que los ataques de arma y magia puedan combinarse.",
+            "Equipa armas y armaduras que cumplan con los requisitos de tu nivel y clase actuales.",
+            "Usa el vuelo para rutas cortas y una montura para un viaje terrestre conveniente a través de grandes territorios."
+          ],
+          "result": "Tienes una rotación de combate funcional y equipo adecuado para tu nivel."
+        },
+        {
+          "title": "Practica el Combate en Dungeons",
+          "goal": "Prepárate para grupos de enemigos, acertijos y mecánicas de bosses.",
+          "actions": [
+            "Practica atraer grupos pequeños de enemigos en lugar de permitir que varios enemigos te rodeen.",
+            "Guarda las habilidades con enfriamiento alto para enemigos peligrosos o aperturas de bosses.",
+            "Aprende cuándo esquivar, bloquear, retirarte y recuperar stamina.",
+            "Únete a otros jugadores cuando tu daño, defensa o conocimiento de la ruta aún sean limitados."
+          ],
+          "result": "Puedes sobrevivir a encuentros más largos sin agotar cada habilidad al inicio."
+        },
+        {
+          "title": "Completa el Temple of Beginnings",
+          "goal": "Completa la primera dungeon principal y empieza a farmear equipamiento más fuerte.",
+          "actions": [
+            "Entra aproximadamente a nivel 10 con equipamiento inicial mejorado.",
+            "Elige la ruta de parkour a la izquierda o la ruta de combate a la derecha que contiene grupos de monstruos.",
+            "Completa los puzles de cubos de la dungeon para abrir la ruta hacia el encuentro final.",
+            "Derrota al Bone Dragon y repite la dungeon para obtener armas de clase, armaduras y otras recompensas."
+          ],
+          "result": "Has completado tu primera dungeon y desbloqueado el bucle principal de farmeo de equipamiento."
+        }
+      ]
+    },
+    "raceTierList": {
+      "title": "Tier List de Razas de Grand Alfheim",
+      "intro": "Este ranking favorece a las razas con especialidades de combate o progresión de utilidad general. Salamander, Sylph y Undine proporcionan las identidades más claras de ofensiva, movilidad y soporte, mientras que las razas restantes son más fuertes cuando se usan para una build o rol de equipo específico.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejores opciones polivalentes",
+          "description": "Identidades fuertes que siguen siendo útiles durante quests, dungeons, combates contra bosses y juego en grupo.",
+          "races": [
+            {
+              "name": "Salamander",
+              "magic": "Magia de Fuego",
+              "strengths": [
+                "Alto enfoque ofensivo",
+                "Presión de combate directa",
+                "Fuerte identidad orientada al daño"
+              ],
+              "bestFor": "Jugadores que buscan una build agresiva de cuerpo a cuerpo o centrada en el daño."
+            },
+            {
+              "name": "Sylph",
+              "magic": "Magia de Viento",
+              "strengths": [
+                "Identidad de movimiento rápido",
+                "Fuerte potencial de reposicionamiento",
+                "Útil para la exploración y el combate móvil"
+              ],
+              "bestFor": "Jugadores que prefieren la velocidad, el espaciado y el movimiento frecuente."
+            },
+            {
+              "name": "Undine",
+              "magic": "Magia de Agua y Curación",
+              "strengths": [
+                "Identidad orientada a la curación",
+                "Valioso soporte de grupo",
+                "Sustento mejorado durante encuentros prolongados"
+              ],
+              "bestFor": "Jugadores de soporte y grupos que progresan a través de contenido PvE difícil."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Opciones especialistas fuertes",
+          "description": "Opciones poderosas para movilidad, utilidad, control de masas o builds de equipo coordinadas.",
+          "races": [
+            {
+              "name": "Cait Sith",
+              "magic": "Magia de Invocación",
+              "strengths": [
+                "Identidad de doma de bestias",
+                "Especialidad de alta velocidad",
+                "Fuerte temática de visión y exploración"
+              ],
+              "bestFor": "Jugadores móviles interesados en compañeros, invocaciones y exploración de mundo abierto."
+            },
+            {
+              "name": "Spriggan",
+              "magic": "Magia de Ilusión",
+              "strengths": [
+                "Utilidad basada en ilusiones",
+                "Especialidad en búsqueda de tesoros",
+                "Identidad útil para táctica y exploración"
+              ],
+              "bestFor": "Jugadores que prefieren la utilidad, el engaño y encontrar recompensas valiosas."
+            },
+            {
+              "name": "Pooka",
+              "magic": "Magia de Música",
+              "strengths": [
+                "Soporte de equipo",
+                "Disrupción de enemigos",
+                "Magia flexible de ataque y soporte"
+              ],
+              "bestFor": "Jugadores de grupo que quieren fortalecer aliados e interferir con enemigos."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Opciones de utilidad enfocadas",
+          "description": "Identidades raciales útiles que funcionan mejor con una build planificada o actividad especializada.",
+          "races": [
+            {
+              "name": "Gnome",
+              "magic": "Magia de Tierra",
+              "strengths": [
+                "Identidad racial grande y duradera",
+                "Temática de combate basada en la tierra",
+                "Ajuste natural para builds pesadas o defensivas"
+              ],
+              "bestFor": "Jugadores que se enfocan en la durabilidad, armas pesadas o combate en primera línea."
+            },
+            {
+              "name": "Imp",
+              "magic": "Magia de Maldición",
+              "strengths": [
+                "Identidad orientada a la noche",
+                "Temática de visión nocturna mejorada",
+                "Especialización basada en debuffs y maldiciones"
+              ],
+              "bestFor": "Jugadores que prefieren efectos de estado, exploración nocturna y magia disruptiva."
+            },
+            {
+              "name": "Leprechaun",
+              "magic": "Magia de Rayo",
+              "strengths": [
+                "Identidad de herrería y creación de objetos",
+                "Diseño de alas mecánicas",
+                "Temática fuerte centrada en el equipamiento"
+              ],
+              "bestFor": "Jugadores interesados en la creación de objetos, el equipamiento y un estilo de hada inspirado en la tecnología."
+            }
+          ]
+        }
+      ]
+    },
+    "classesAndBuilds": {
+      "title": "Clases y Builds de Grand Alfheim",
+      "intro": "Las clases se seleccionan a través de la forja o un herrero y cada clase usa su propia categoría de arma y árbol de habilidades. Al seleccionar una clase se obtiene su arma inicial correspondiente, mientras que volver a un herrero permite a los jugadores probar otro estilo de lucha sin crear un personaje nuevo.",
+      "classes": [
+        {
+          "name": "Swordsman",
+          "weapon": "Espada",
+          "mainStat": "STR",
+          "combatStyle": "Ataques equilibrados a corta distancia con un alcance confiable y combos sencillos.",
+          "buildPriority": "Prioriza el daño de arma y las habilidades principales de clase, luego añade suficiente durabilidad para combates prolongados.",
+          "recommendedFor": "Principiantes, misiones en solitario y progresión equilibrada de PvE."
+        },
+        {
+          "name": "Bowmaster",
+          "weapon": "Arco y munición",
+          "mainStat": "DEX",
+          "combatStyle": "Ataques a distancia que recompensan la precisión, el posicionamiento, los disparos cargados y el control de la distancia.",
+          "buildPriority": "Prioriza DEX, daño a distancia, precisión y habilidades que mejoran los ataques cargados o de múltiples proyectiles.",
+          "recommendedFor": "Daño seguro en PvE, presión a distancia sobre jefes y jugadores que evitan el combate cuerpo a cuerpo."
+        },
+        {
+          "name": "Pugilist",
+          "weapon": "Arma de puño para combate cuerpo a cuerpo",
+          "mainStat": "STR",
+          "combatStyle": "Presión rápida a corta distancia basada en una distancia de ataque corta y combos continuos.",
+          "buildPriority": "Invierte en daño, gestión de resistencia y habilidades que extienden o finalizan combos a corta distancia.",
+          "recommendedFor": "Jugadores agresivos que disfrutan estar directamente al lado del objetivo."
+        },
+        {
+          "name": "Assassin",
+          "weapon": "Dagas",
+          "mainStat": "DEX y STR",
+          "combatStyle": "Ataques rápidos de estocada, daño de ráfaga a corta distancia, movilidad y presión por veneno.",
+          "buildPriority": "Combina DEX y STR con habilidades de movilidad y efectos de daño en el tiempo como el veneno.",
+          "recommendedFor": "Presión en PvP, eliminación rápida de enemigos y builds de alta movilidad."
+        },
+        {
+          "name": "Crescentmaster",
+          "weapon": "Guadaña",
+          "mainStat": "STR",
+          "combatStyle": "Ataques de barrido amplio que utilizan el mango largo y la hoja curva de la guadaña para controlar el espacio.",
+          "buildPriority": "Prioriza STR, alcance de ataque y ataques de área que pueden dañar a múltiples enemigos cercanos.",
+          "recommendedFor": "Grupos de enemigos, control de área y un estilo de juego poco convencional con armas pesadas."
+        },
+        {
+          "name": "Duelist",
+          "weapon": "Estoque",
+          "mainStat": "DEX",
+          "combatStyle": "Ataques rápidos de estocada, habilidades precisas de múltiples golpes y un juego de pies rápido.",
+          "buildPriority": "Prioriza DEX, velocidad de ataque, precisión y habilidades que crean combinaciones rápidas de estocadas.",
+          "recommendedFor": "PvP móvil, daño a un solo objetivo y jugadores que valoran la velocidad sobre los golpes pesados."
+        },
+        {
+          "name": "Titanblade",
+          "weapon": "Espadón",
+          "mainStat": "STR",
+          "combatStyle": "Ataques pesados lentos pero poderosos con un gran impacto, barridos amplios y presión de área.",
+          "buildPriority": "Acumula STR y mejora las habilidades pesadas de clase mientras mantienes suficiente resistencia y defensa para completar las animaciones de ataque.",
+          "recommendedFor": "PvE de alto daño, enemigos agrupados y jugadores que se sienten cómodos con armas más lentas."
+        },
+        {
+          "name": "Aegis",
+          "weapon": "Gran escudo",
+          "mainStat": "STR",
+          "combatStyle": "Combate defensivo en la línea del frente usando un gran escudo para bloquear, desviar, absorber y devolver daño.",
+          "buildPriority": "Prioriza STR, durabilidad, bloqueo y habilidades que protejan a los aliados o controlen la atención del enemigo.",
+          "recommendedFor": "Grupos de dungeon, tankeo de bosses y juego en equipo defensivo."
+        },
+        {
+          "name": "Sentinel",
+          "weapon": "Arma de clase Sentinel",
+          "mainStat": "Stat de daño de clase",
+          "combatStyle": "Ataques controlados enfocados en el espaciado, presión constante y el timing deliberado de habilidades.",
+          "buildPriority": "Desarrolla primero el árbol de habilidades de clase y equilibra el daño de arma con la supervivencia y el stamina.",
+          "recommendedFor": "Jugadores que prefieren un combate medido en lugar de una agresión constante a corta distancia."
+        },
+        {
+          "name": "Skull Crusher",
+          "weapon": "Warhammer",
+          "mainStat": "STR",
+          "combatStyle": "Ataques contundentes pesados diseñados para un gran impacto, interrupción de enemigos y potentes golpes únicos.",
+          "buildPriority": "Prioriza STR, daño de ataque pesado, stamina y durabilidad.",
+          "recommendedFor": "Builds de melee pesado y jugadores que prefieren el impacto sobre la velocidad de ataque."
+        },
+        {
+          "name": "Berserker",
+          "weapon": "Arma de melee pesado",
+          "mainStat": "STR",
+          "combatStyle": "Combate agresivo en primera línea que sacrifica velocidad y seguridad por una presión ofensiva sostenida.",
+          "buildPriority": "Crea una build basada en STR, salida de daño, stamina y suficiente defensa para permanecer en combate cercano.",
+          "recommendedFor": "Jugadores de melee de alto riesgo, farmeo de enemigos y roles de grupo ofensivos."
+        }
+      ]
+    },
+    "levelingProgression": {
+      "title": "Guía de Leveling de Grand Alfheim",
+      "intro": "El progreso eficiente proviene de combinar quests principales, quests secundarias cercanas, desarrollo de clase, habilidades mágicas, farmeo de enemigos y equipamiento de dungeon. Pasa a la siguiente etapa cuando los enemigos normales puedan ser derrotados de manera constante sin consumir todo tu stamina o habilidades de alto cooldown.",
+      "stages": [
+        {
+          "levelRange": "Nivel 1-5",
+          "stage": "Tutorial y Configuración de Clase",
+          "content": [
+            "Completa el tutorial completo",
+            "Elige una clase en la forja",
+            "Equipa el arma de clase inicial",
+            "Practica ataques básicos, rodar, bloquear, habilidades y vuelo"
+          ],
+          "goal": "Comprende tus controles y derrota a los enemigos iniciales cercanos sin ser derribado repetidamente.",
+          "readyWhen": "Puedes completar combates simples mientras preservas el stamina y la salud."
+        },
+        {
+          "levelRange": "Nivel 5-9",
+          "stage": "Quests Iniciales y Entrenamiento en Mundo Abierto",
+          "content": [
+            "Sigue las quests principales a través del territorio inicial",
+            "Completa las quests secundarias y de clase que encuentres en la ruta",
+            "Derrota a grupos de enemigos cercanos para obtener experiencia y drops",
+            "Invierte los primeros puntos en una rotación de clase pequeña y confiable",
+            "Comienza a desarrollar el árbol de habilidades mágicas"
+          ],
+          "goal": "Alcanza aproximadamente el nivel 10 con equipamiento mejorado y varias habilidades de combate utilizables.",
+          "readyWhen": "Los enemigos normales cerca de la primera ruta de dungeon pueden ser derrotados de manera constante."
+        },
+        {
+          "levelRange": "Nivel 10-19",
+          "stage": "Temple of Beginnings",
+          "content": [
+            "Entra en el Temple of Beginnings solo o con un grupo",
+            "Usa la ruta de combate para practicar la lucha o la ruta de parkour para moverte más rápido",
+            "Derrota a escorpiones, dinosaurios, enemigos planta, enemigos árbol y otros monstruos de mazmorra",
+            "Completa los acertijos de cubos",
+            "Derrota al Bone Dragon",
+            "Farmea equipamiento de clase de nivel 10 y nivel 15"
+          ],
+          "goal": "Reemplaza el equipamiento inicial con armas o armaduras de mazmorra y familiarízate con las mecánicas de los jefes.",
+          "readyWhen": "Puedes terminar la ruta de la mazmorra y aportar un daño confiable contra el jefe final."
+        },
+        {
+          "levelRange": "Nivel 20-29",
+          "stage": "Exploración de territorio y farmeo de jefes",
+          "content": [
+            "Continúa las misiones principales y secundarias a través de territorios de razas adicionales",
+            "Lucha contra enemigos del mundo abierto más fuertes y jefes de territorio",
+            "Repite el Temple of Beginnings para conseguir el equipamiento de clase que te falte",
+            "Mejora tanto el árbol de habilidades de clase como el de magia",
+            "Prueba las habilidades mejoradas contra grupos en lugar de enemigos iniciales aislados"
+          ],
+          "goal": "Crea un conjunto de equipamiento completo para el juego temprano y una rotación confiable de armas y magia.",
+          "readyWhen": "Los enemigos iniciales de la mazmorra y los monstruos comunes del territorio ya no ralentizan la progresión."
+        },
+        {
+          "levelRange": "Nivel 30-49",
+          "stage": "Misiones avanzadas y finalización de builds",
+          "content": [
+            "Termina las líneas de misiones restantes en los territorios desbloqueados",
+            "Farmea jefes y encuentros de mazmorra para obtener equipamiento de mayor rareza",
+            "Refina la asignación de habilidades de clase en lugar de distribuir puntos en habilidades no utilizadas",
+            "Practica el combate coordinado con otros jugadores",
+            "Prepara un rol de daño, soporte o primera línea para contenido grupal avanzado"
+          ],
+          "goal": "Llega al nivel 50 con una build enfocada, equipamiento mejorado y experiencia manejando las fases de los jefes.",
+          "readyWhen": "Tu personaje puede sobrevivir a encuentros largos y desempeñar un rol claro dentro de un grupo."
+        },
+        {
+          "levelRange": "Nivel 50+",
+          "stage": "Ode to the Abyss y farmeo del endgame",
+          "content": [
+            "Forma un grupo de aproximadamente cuatro a ocho jugadores preparados",
+            "Entra a Ode to the Abyss durante su horario de apertura programado",
+            "Aprende las múltiples fases de combate del jefe",
+            "Destruye las cuatro torres activadas rápidamente durante la fase de salud baja",
+            "Repite el encuentro para obtener equipamiento de nivel alto y Mythical",
+            "Continúa refinando builds separadas para PvE y PvP"
+          ],
+          "goal": "Farmea equipamiento del endgame y completa los encuentros grupales más fuertes disponibles.",
+          "readyWhen": "Tu grupo puede manejar los cambios de fase del jefe, la mecánica de las torres y los requisitos de daño sostenido."
+        }
+      ]
+    },
+    "weaponsAndArmor": {
+      "title": "Armas y armaduras de Grand Alfheim",
+      "intro": "Las armas de Grand Alfheim están vinculadas a las clases de combate, mientras que la armadura proporciona vida adicional a través de las ranuras de máscara, parte superior y parte inferior. Las armas de herrero apoyan la progresión inicial, el equipamiento de Temple of Beginnings cubre las primeras mejoras importantes y Ode to the Abyss contiene equipamiento Mythical de nivel 50.",
+      "items": [
+        {
+          "item": "Iron Sword",
+          "type": "Espada",
+          "class": "Swordsman",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Arma inicial equilibrada con combos cuerpo a cuerpo sencillos."
+        },
+        {
+          "item": "Wooden Bow",
+          "type": "Arco",
+          "class": "Bowmaster",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Presión a distancia, misiones más seguras y kiting de enemigos."
+        },
+        {
+          "item": "Bone Daggers",
+          "type": "Dagas",
+          "class": "Assassin",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Combos cuerpo a cuerpo rápidos y ventanas de castigo cortas."
+        },
+        {
+          "item": "Iron Gauntlets",
+          "type": "Guanteletes",
+          "class": "Pugilist",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Presión continua y combate a corta distancia."
+        },
+        {
+          "item": "Duelist Rapier",
+          "type": "Rapier",
+          "class": "Duelist",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Estocadas rápidas, espaciado y contraataques."
+        },
+        {
+          "item": "Dragon Slayer",
+          "type": "Espadón",
+          "class": "Titanblade",
+          "rarity": "Común",
+          "level": "1+",
+          "source": "Herrero",
+          "role": "Ataques más lentos con un fuerte impacto y alcance."
+        },
+        {
+          "item": "Night's Edge",
+          "type": "Espada",
+          "class": "Swordsman",
+          "rarity": "Épico",
+          "level": "10+",
+          "source": "Temple of Beginnings",
+          "role": "Mejora para el juego temprano para builds centradas en espadas."
+        },
+        {
+          "item": "Obsidian Requiem",
+          "type": "Espada",
+          "class": "Swordsman",
+          "rarity": "Legendario",
+          "level": "15+",
+          "source": "Temple of Beginnings",
+          "role": "Progresión de espada a mitad del juego antes del equipamiento de nivel 50."
+        },
+        {
+          "item": "Voidrune Edge",
+          "type": "Espada",
+          "class": "Swordsman",
+          "rarity": "Mítico",
+          "level": "50+",
+          "source": "Ode to the Abyss",
+          "role": "Builds de espada de alto nivel para PvE y PvP."
+        },
+        {
+          "item": "Nightreaver Bow",
+          "type": "Arco",
+          "class": "Bowmaster",
+          "rarity": "Mítico",
+          "level": "50+",
+          "source": "Ode to the Abyss",
+          "role": "Daño a distancia de alto nivel y control del campo de batalla."
+        },
+        {
+          "item": "Azure Knightplate Set",
+          "type": "Set de armadura",
+          "class": "Todas las builds",
+          "rarity": "Raro",
+          "level": "1+",
+          "source": "Temple of Beginnings",
+          "role": "Añade 120 HP del set completo para la progresión temprana en mazmorras."
+        },
+        {
+          "item": "Bloodcrown Regalia Set",
+          "type": "Set de armadura",
+          "class": "Todas las builds",
+          "rarity": "Mítico",
+          "level": "20+",
+          "source": "Satyr en Salamander",
+          "role": "Añade 820 HP del conjunto completo para encuentros PvE más exigentes."
+        }
+      ]
+    },
+    "dungeonsBosses": {
+      "title": "Dungeons, Bosses y Loot de Grand Alfheim",
+      "intro": "Las dungeons combinan rutas de combate, puzles, minibosses y encuentros finales. Lleva objetos de curación, aprende el sistema de block y parry, y usa una clase que pueda dañar a los bosses de forma fiable sin agotar su stamina.",
+      "encounters": [
+        {
+          "name": "Temple of Beginnings",
+          "type": "Dungeon inicial",
+          "entry": "Nivel recomendado 10+. Las entradas están disponibles desde los territorios Salamander, Undine y Gnome.",
+          "pattern": "Elige la ruta de parkour de la izquierda o la ruta de monstruos de la derecha. Ambos caminos llevan a salas donde se deben colocar cubos en altares de ángeles y demonios antes de que se abra el portal del boss.",
+          "preparation": "Lleva objetos de curación y practica el parry antes de entrar. La ruta de monstruos ofrece más práctica de combate, mientras que la ruta de parkour evita varios grupos de enemigos.",
+          "rewards": [
+            "Azure Knightplate Set",
+            "Night's Edge",
+            "Sacrificial Daggers",
+            "Snarl Hound Claws",
+            "Oath Keeper",
+            "Azure Reaver",
+            "Obsidian Requiem",
+            "Nightbreaker Set",
+            "Crimson Dragon Set"
+          ]
+        },
+        {
+          "name": "Treant",
+          "type": "Miniboss de Temple of Beginnings",
+          "entry": "Se encuentra dentro de Temple of Beginnings durante el progreso de la dungeon.",
+          "pattern": "Treant usa ataques pesados de corto alcance que recompensan los blocks y parries a tiempo. Evita gastar toda la stamina en ataques antes de su siguiente golpe.",
+          "preparation": "Usa cadenas de ataque cortas, mantén suficiente stamina para defenderte y castiga después de un parry exitoso o cuando termine la animación del boss.",
+          "rewards": [
+            "Snarl Hound Claws",
+            "Verdant Sovereign Armor Set"
+          ]
+        },
+        {
+          "name": "Bone Dragon",
+          "type": "Boss final de Temple of Beginnings",
+          "entry": "Se llega tras completar una ruta de la dungeon y resolver las salas de los cubos.",
+          "pattern": "Pelea dentro de la arena final y mantente fuera de la línea de ataque directo del boss hasta que termine una animación. Haz dash para alejarte de los ataques grandes en lugar de alargar un combo cuerpo a cuerpo.",
+          "preparation": "Entra con el equipo reparado, suministros de curación y un loadout de skills completo. Los grupos deben dispersarse por la arena para que el boss no presione a todos los jugadores a la vez.",
+          "rewards": [
+            "Drops de armas de Temple of Beginnings",
+            "Sets de armadura de Temple",
+            "Cofres de dungeon épicos y legendarios"
+          ]
+        },
+        {
+          "name": "Ode to the Abyss",
+          "type": "Dungeon de nivel 50",
+          "entry": "La entrada encadenada se encuentra en el territorio Gnome. Se abre a las 12:00 AM y 12:00 PM hora del Este durante una ventana de entrada de 10 minutos.",
+          "pattern": "Usa el elevador de la dungeon para llegar a Valdrayn. Durante la fase de salud baja, se activan cuatro torres que deben ser destruidas antes de volver a dañar al boss.",
+          "preparation": "Nivel recomendado 50+ con un grupo coordinado. Asigna jugadores a torres separadas, guarda las skills de alto daño para la fase de las torres y reserva recursos de curación para la sección final.",
+          "rewards": [
+            "Voidrune Edge",
+            "Nightreaver Bow",
+            "Voidfang Gauntlets",
+            "Riftshard Daggers",
+            "Grim Requiem",
+            "Voidpiercer",
+            "Abyssal Covenant",
+            "Graveward Bulwark",
+            "Abyssfang Lance",
+            "Runeforge Warhammer",
+            "Grimjaw"
+          ]
+        },
+        {
+          "name": "Satyr",
+          "type": "Miniboss de mundo abierto Salamander",
+          "entry": "Se encuentra dentro del territorio Salamander.",
+          "pattern": "Satyr lucha a corta distancia con ataques cuerpo a cuerpo comprometidos. Bloquea la presión inicial, aléjate con un dash de los ataques pesados y ataca durante las animaciones de recuperación.",
+          "preparation": "Usa un arma con una velocidad de ataque cómoda y evita combos largos mientras el jefe esté listo para contraatacar.",
+          "rewards": [
+            "Iron Boarding Axe",
+            "Bloodcrown Regalia Set"
+          ]
+        }
+      ]
+    },
+    "controlsAndCombat": {
+      "title": "Controles y combate de Grand Alfheim",
+      "intro": "Grand Alfheim es compatible con PC, móviles y consolas. PC tiene entradas fijas de teclado y ratón, mientras que los móviles y las consolas muestran indicadores táctiles o de mando correspondientes a través de la interfaz del juego. Usa fintas, parries, ataques críticos y ataques de movimiento para crear aperturas más seguras.",
+      "controls": [
+        {
+          "platform": "PC",
+          "action": "Moverse",
+          "input": "W, A, S, D",
+          "usage": "Camina por ciudades, mazmorras y arenas de combate."
+        },
+        {
+          "platform": "PC",
+          "action": "Ataque cuerpo a cuerpo básico",
+          "input": "M1 / Clic izquierdo",
+          "usage": "Realiza el combo de arma estándar. Detén la secuencia antes de tiempo cuando un enemigo se esté preparando para contraatacar."
+        },
+        {
+          "platform": "PC",
+          "action": "Finta",
+          "input": "M2 / Clic derecho",
+          "usage": "Cancela o disfraza un ataque para provocar el bloqueo, parry o esquiva de un oponente."
+        },
+        {
+          "platform": "PC",
+          "action": "Bloqueo y Parry",
+          "input": "F",
+          "usage": "Mantén presionado para bloquear. Presiona poco antes de un golpe entrante para realizar un parry y crear una ventana de contraataque."
+        },
+        {
+          "platform": "PC",
+          "action": "Dash",
+          "input": "Q",
+          "usage": "Crea distancia, evita ataques pesados o comienza un ataque de dash siguiendo el dash con M1."
+        },
+        {
+          "platform": "PC",
+          "action": "Ataque crítico",
+          "input": "R",
+          "usage": "Usa el ataque crítico del arma cuando el enemigo se esté recuperando, esté aturdido o tenga poca resistencia defensiva."
+        },
+        {
+          "platform": "PC",
+          "action": "Ataque aéreo",
+          "input": "Salta, luego M1",
+          "usage": "Ataca mientras estás en el aire para cambiar el ritmo y mantener la presión tras un salto."
+        },
+        {
+          "platform": "PC",
+          "action": "Ataque con dash",
+          "input": "Q, luego M1",
+          "usage": "Recorta distancia con un ataque inmediato después de realizar un dash."
+        },
+        {
+          "platform": "PC",
+          "action": "Invocar montura",
+          "input": "H",
+          "usage": "Invoca la montura equipada cuando estés fuera de zonas de combate restringidas."
+        },
+        {
+          "platform": "PC",
+          "action": "Volar",
+          "input": "V",
+          "usage": "Activa las alas de tu raza y comienza el viaje aéreo cuando el vuelo esté disponible."
+        },
+        {
+          "platform": "Móvil",
+          "action": "Acciones de combate",
+          "input": "Tocar los botones del HUD",
+          "usage": "Usa los botones en pantalla de ataque cuerpo a cuerpo, finta, bloqueo, dash, crítico, montura, vuelo y habilidades."
+        },
+        {
+          "platform": "Móvil",
+          "action": "Movimiento y cámara",
+          "input": "Joystick virtual y arrastrar la pantalla",
+          "usage": "Muévete con el joystick y arrastra el lado derecho de la pantalla para controlar la cámara y la dirección del objetivo."
+        },
+        {
+          "platform": "Consola",
+          "action": "Combate y movimiento",
+          "input": "Indicaciones del mando mostradas en el juego",
+          "usage": "Sigue los iconos actuales del mando para ataque cuerpo a cuerpo, bloqueo, dash, ataques críticos, habilidades, monturas y vuelo."
+        },
+        {
+          "platform": "Todas las plataformas",
+          "action": "Enfriamientos de habilidades",
+          "input": "Indicadores de la barra de habilidades",
+          "usage": "Vigila cada icono de enfriamiento antes de iniciar otro combo o fase de jefe."
+        }
+      ]
+    },
+    "updatesEarlyAccess": {
+      "title": "Actualizaciones y acceso anticipado de Grand Alfheim",
+      "intro": "Grand Alfheim ha progresado a través de múltiples fases de prueba que abarcan combate, monturas, vuelo, clases, mapas, sistemas de supervivencia, mazmorras y acceso público. La demo oficial de prelanzamiento se abrió en julio de 2026 con un evento de verano y mayores recompensas de botín.",
+      "entries": [
+        {
+          "date": "31 de marzo de 2024",
+          "phase": "Fase 2",
+          "title": "Sistemas de montura y vuelo",
+          "status": "Lanzado",
+          "highlights": [
+            "Monturas de caballos añadidas",
+            "Vuelo de raza y asistencia de vuelo añadidos",
+            "Armadura cosmética y ajustes añadidos",
+            "Iluminación dinámica introducida",
+            "Soporte de vuelo en móviles mejorado"
+          ]
+        },
+        {
+          "date": "Agosto de 2024",
+          "phase": "Fase 3",
+          "title": "Mejoras de combate y clases",
+          "status": "Lanzado",
+          "highlights": [
+            "Interfaz de Herrero y selección de clase actualizada",
+            "Indicadores de tiempo de recarga de habilidades añadidos",
+            "Sincronización de parry y retroalimentación de combate mejoradas",
+            "Velocidades de ataque de armas ajustadas",
+            "Correcciones de interfaz para móviles y mandos añadidas"
+          ]
+        },
+        {
+          "date": "Fase 5",
+          "phase": "Fase 5",
+          "title": "Expansión de clases de armas",
+          "status": "Lanzado",
+          "highlights": [
+            "Una nueva clase de arma se unió al elenco de combate",
+            "Se introdujeron opciones adicionales de progresión y equipamiento",
+            "Continuaron las pruebas para el equilibrio de clases y velocidad de armas"
+          ]
+        },
+        {
+          "date": "Fase 6",
+          "phase": "Fase 6",
+          "title": "Actualización de mundo y supervivencia",
+          "status": "Lanzado",
+          "highlights": [
+            "El territorio Gnome recibió una importante renovación de mapa",
+            "Se añadieron sistemas de hambre y cocina",
+            "Progresión de mazmorras y jefes expandida",
+            "Se introdujeron nuevos equipamientos y recompensas de alto nivel"
+          ]
+        },
+        {
+          "date": "16 de junio de 2026",
+          "phase": "Pre-lanzamiento",
+          "title": "Anuncio de la demo de verano",
+          "status": "Anunciado",
+          "highlights": [
+            "La cuenta oficial de Grand Alfheim confirmó una demo de pre-lanzamiento para el verano de 2026",
+            "Se dirigió a los jugadores a los canales oficiales de la comunidad para obtener noticias sobre el acceso"
+          ]
+        },
+        {
+          "date": "8 de julio de 2026",
+          "phase": "Demo pública",
+          "title": "Se abre la demo pública de Grand Alfheim",
+          "status": "Disponible",
+          "highlights": [
+            "La experiencia oficial de Roblox se abrió como una demo pública de prerrelanzamiento",
+            "La demo de verano incluyó un evento de 2X Drops",
+            "La actividad The White Room ofreció una ruta para obtener participación en el acceso anticipado",
+            "El soporte para PC, móviles y consolas estaba listado en la página oficial del juego"
+          ]
+        },
+        {
+          "date": "En curso",
+          "phase": "Comunidad",
+          "title": "Anuncios oficiales y eventos de prueba",
+          "status": "Activo",
+          "highlights": [
+            "Discord publica actualizaciones, adelantos, eventos y sorteos",
+            "Los grupos de Roblox conectan a los jugadores con experiencias oficiales",
+            "La cuenta social oficial publica anuncios de la demo y del lanzamiento"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Todo lo que necesitas saber sobre Grand Alfheim antes de jugar",
+    "questions": [
+      {
+        "question": "¿Qué es Grand Alfheim?",
+        "answer": "Grand Alfheim es un MMORPG de fantasía inspirado en Sword Art Online en Roblox. Cuenta con una gran exploración de mundo abierto, nueve razas de hadas, múltiples clases de combate, vuelo, misiones, jefes, mazmorras y contenido tanto PvE como PvP."
+      },
+      {
+        "question": "¿Es Grand Alfheim gratis?",
+        "answer": "Sí. Grand Alfheim es una experiencia de Roblox, por lo que puedes jugar de forma gratuita a través de la página oficial del juego en Roblox en PC, móviles y consolas."
+      },
+      {
+        "question": "¿Cuál es la etapa de desarrollo actual de Grand Alfheim?",
+        "answer": "Grand Alfheim está en acceso anticipado como una demo pública de prerrelanzamiento. La demo oficial se abrió en julio de 2026 e incluye un evento de verano de 2X Drops para los jugadores que se unan a la experiencia."
+      },
+      {
+        "question": "¿Qué raza debería elegir en Grand Alfheim?",
+        "answer": "Salamander, Sylph y Undine son las opciones más sólidas y equilibradas para ataque, movilidad y soporte. Otras razas como Cait Sith, Spriggan y Gnome destacan cuando se enfocan en un estilo de juego o rol de equipo específico."
+      },
+      {
+        "question": "¿Cómo cambio mi clase en Grand Alfheim?",
+        "answer": "Visita la forja o a un herrero para seleccionar una nueva clase. Cada clase proporciona su propia arma inicial y árbol de habilidades, y puedes cambiar de clase con un herrero sin necesidad de crear un personaje nuevo."
+      },
+      {
+        "question": "¿Cómo desbloqueo el vuelo en Grand Alfheim?",
+        "answer": "El vuelo está ligado a las alas de tu raza y se activa con la tecla V en PC. Muchas misiones y territorios requieren desplazamiento vertical, así que practica el vuelo temprano durante el tutorial."
+      },
+      {
+        "question": "¿Dónde encuentro códigos y actualizaciones de Grand Alfheim?",
+        "answer": "Los códigos, actualizaciones, eventos y anuncios se comparten a través del Discord oficial de Grand Alfheim, el grupo de Roblox y la cuenta oficial de X. Utiliza siempre estos canales oficiales para enterarte de las noticias de acceso."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar Grand Alfheim?",
+    "description": "¡Únete a la comunidad de Grand Alfheim en Discord para ver guías, actualizaciones y debates!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Grand Alfheim",
+    "description": "Tu centro de recursos completo para códigos, razas, clases, niveles, armas, jefes, mazmorras y guías de mapas de Grand Alfheim.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Grupo de Roblox",
+    "steamStore": "Jugar en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Grand Alfheim Wiki. No está afiliado con los desarrolladores de Grand Alfheim.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Grand Alfheim",
+      "description": "Los últimos códigos funcionales para gemas gratis, stat chips y trait rerolls. Actualizado diariamente con códigos verificados y una guía de canje paso a paso.",
+      "metaTitle": "Códigos de Grand Alfheim - Gemas gratis y Trait Rerolls",
+      "metaDescription": "Consigue gemas gratis, stat chips y trait rerolls con los códigos activos de Grand Alfheim. Actualizado diariamente con códigos verificados y pasos de canje.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos son recompensas gratuitas canjeables lanzadas por los desarrolladores de Grand Alfheim a través de los canales oficiales de Discord y X. Otorgan gemas, stat chips, trait rerolls y otras bonificaciones que aceleran la progresión inicial.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Impulso de progresión gratuito",
+        "step1Description": "Reclama gemas y stat chips para subir de nivel y equiparte sin farmeo adicional",
+        "step2Title": "Mantente al día",
+        "step2Description": "Nuevos códigos aparecen junto con las actualizaciones, eventos y fases de prueba",
+        "step3Title": "Canjea antes de que expiren",
+        "step3Description": "Los códigos expiran con el tiempo, así que vuelve a consultar a diario y canjéalos rápido"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guías de Grand Alfheim",
+      "description": "Guías completas de juego desde el primer inicio de sesión hasta la progresión avanzada. Aprende los controles, el vuelo, la cocina y las rutas de nivelación más rápidas por todo Alfheim.",
+      "metaTitle": "Guías de Grand Alfheim - Progresión de principiante a avanzada",
+      "metaDescription": "Guías completas de Grand Alfheim que cubren los conceptos básicos para principiantes, controles, vuelo, cocina, nivelación y progresión para el MMORPG de fantasía de Roblox.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Recorridos paso a paso que cubren la creación de cuentas, controles básicos, movimiento, vuelo, cocina, misiones y rutas de nivelación eficientes por el mundo de Alfheim.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Empieza con fuerza",
+        "step1Description": "Aprende la configuración de la cuenta, los controles y tus primeras misiones sin prueba y error",
+        "step2Title": "Domina las mecánicas principales",
+        "step2Description": "Entiende los sistemas de vuelo, combate, cocina y exploración únicos de Grand Alfheim",
+        "step3Title": "Sube de nivel eficientemente",
+        "step3Description": "Sigue rutas de progresión probadas para llegar más rápido a las mazmorras y razas del endgame"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "races": {
+      "title": "Razas de Grand Alfheim",
+      "description": "Todas las razas jugables explicadas — Salamander, Undine, Gnome, Spriggan y Leprechaun. Compara magia, alas, fortalezas y los mejores casos de uso.",
+      "metaTitle": "Razas de Grand Alfheim - Todas las razas jugables y mejores elecciones",
+      "metaDescription": "Compara cada raza de Grand Alfheim, incluyendo Salamander, Undine, Gnome, Spriggan y Leprechaun. Conoce su magia, alas, fortalezas y mejores roles.",
+      "categoryLabel": "RAZAS",
+      "whatIs": "¿Qué son las razas?",
+      "whatIsDescription": "Las razas definen la magia elemental de tu personaje, sus alas de vuelo, habilidades pasivas y territorio de origen en Alfheim. Cada raza se adapta a un estilo de juego diferente, desde daño agresivo hasta soporte y utilidad.",
+      "why": "¿Por qué elegir la raza correcta?",
+      "whySteps": {
+        "step1Title": "Adapta tu estilo de juego",
+        "step1Description": "Elige una raza cuya magia y alas se adapten a cuerpo a cuerpo, a distancia, soporte o exploración",
+        "step2Title": "Aprovecha las fortalezas de la raza",
+        "step2Description": "Usa magia elemental y habilidades pasivas para obtener ventaja en PvE y PvP",
+        "step3Title": "Planifica tu build",
+        "step3Description": "Combina tu raza con la clase y equipamiento adecuados para un rendimiento óptimo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de razas"
+    },
+    "combat": {
+      "title": "Combate y armas de Grand Alfheim",
+      "description": "Domina las armas, la armadura premium, el árbol de habilidades, el PvP y los indicadores de combate. Crea al luchador más fuerte de Alfheim con el equipamiento adecuado.",
+      "metaTitle": "Combate de Grand Alfheim - Armas, armadura, árbol de habilidades y PvP",
+      "metaDescription": "Domina el combate de Grand Alfheim con tipos de armas, armadura premium, builds del árbol de habilidades, tácticas de PvP e indicadores de ataque para cada encuentro.",
+      "categoryLabel": "COMBATE Y EQUIPAMIENTO",
+      "whatIs": "¿Qué es el combate?",
+      "whatIsDescription": "El combate abarca tipos de armas, conjuntos de armadura, el árbol de habilidades, encuentros PvP e indicadores de ataque como el indicador negro. Crea la configuración adecuada para sobrevivir a mazmorras, jefes y otros jugadores.",
+      "why": "¿Por qué estudiar el combate?",
+      "whySteps": {
+        "step1Title": "Elige el arma adecuada",
+        "step1Description": "Adapta los tipos de armas y estadísticas a tu clase y rol de combate",
+        "step2Title": "Optimiza tu árbol de habilidades",
+        "step2Description": "Gasta puntos de habilidad en los nodos que amplifiquen tu build",
+        "step3Title": "Gana en PvP",
+        "step3Description": "Lee los indicadores de ataque y equípate para superar a otros jugadores"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de combate"
+    },
+    "dungeons": {
+      "title": "Mazmorras de Grand Alfheim",
+      "description": "Guías completas de mazmorras — mazmorra inicial, primer rompecabezas de la mazmorra, incursiones en solitario y la batalla contra el jefe Skeletal Dragon con todas las mecánicas.",
+      "metaTitle": "Mazmorras de Grand Alfheim - Guías, rompecabezas y jefes",
+      "metaDescription": "Completa cada mazmorra de Grand Alfheim con guías para la mazmorra inicial, el primer rompecabezas de la mazmorra, incursiones en solitario y el jefe Skeletal Dragon.",
+      "categoryLabel": "MAZMORRAS",
+      "whatIs": "¿Qué son las mazmorras?",
+      "whatIsDescription": "Las mazmorras son desafíos de combate instanciados llenos de rompecabezas, minijefes y botín. Cada mazmorra tiene requisitos de entrada, mecánicas únicas y valiosas recompensas que incluyen armas, armaduras y materiales de fabricación.",
+      "why": "¿Por qué completar mazmorras?",
+      "whySteps": {
+        "step1Title": "Resuelve los rompecabezas",
+        "step1Description": "Aprende las mecánicas de los rompecabezas de mazmorras como el primer rompecabezas de mazmorra",
+        "step2Title": "Derrota a los jefes",
+        "step2Description": "Domina los patrones de ataque y la configuración del grupo para jefes como el Skeletal Dragon",
+        "step3Title": "Consigue el botín",
+        "step3Description": "Dirígete a mazmorras específicas para conseguir las armas, armaduras y materiales que necesitas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de mazmorras"
+    },
+    "maps": {
+      "title": "Mapas y ubicaciones de Grand Alfheim",
+      "description": "Encuentra cada ubicación clave: Temple of Beginnings, Satyr, comerciantes, Fisherman Bubba, tablón de caza, Ode to the Abyss y la mina.",
+      "metaTitle": "Mapas de Grand Alfheim - Todas las ubicaciones y puntos de interés",
+      "metaDescription": "Localiza cada punto de interés de Grand Alfheim, incluyendo el Temple of Beginnings, Satyr, comerciantes, Fisherman Bubba, tablón de caza y la mina.",
+      "categoryLabel": "MAPAS Y UBICACIONES",
+      "whatIs": "¿Qué son los mapas?",
+      "whatIsDescription": "Las guías de mapas señalan ubicaciones clave en Alfheim: mazmorras, NPCs, comerciantes, centros de misiones y puntos de interés como el Temple of Beginnings, Satyr, Fisherman Bubba, tablón de caza, Ode to the Abyss y la mina.",
+      "why": "¿Por qué usar los mapas?",
+      "whySteps": {
+        "step1Title": "Encuentra ubicaciones clave",
+        "step1Description": "Localiza mazmorras, NPCs, comerciantes y centros de misiones sin perderte",
+        "step2Title": "Planifica rutas eficientes",
+        "step2Description": "Viaja entre territorios usando el vuelo y puntos de referencia conocidos",
+        "step3Title": "Completa misiones de ubicación",
+        "step3Description": "Llega a NPCs como Fisherman Bubba y el Satyr para desbloquear recompensas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de mapas"
+    },
+    "updates": {
+      "title": "Actualizaciones de Grand Alfheim",
+      "description": "Realiza un seguimiento de cada fase de desarrollo, actualización y tráiler. Mantente al día sobre los nuevos sistemas, eventos y el camino hacia el lanzamiento completo.",
+      "metaTitle": "Actualizaciones de Grand Alfheim - Fases, notas del parche y tráilers",
+      "metaDescription": "Sigue las fases de desarrollo de Grand Alfheim, incluyendo la Fase 6, las últimas actualizaciones, notas del parche, eventos y tráilers oficiales.",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "¿Qué son las actualizaciones?",
+      "whatIsDescription": "Las actualizaciones cubren fases de desarrollo, notas del parche, cambios de equilibrio, nuevos sistemas, eventos y tráilers oficiales a medida que Grand Alfheim avanza a través del Early Access hacia el lanzamiento completo.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Realiza un seguimiento de las fases de desarrollo",
+        "step1Description": "Mira lo que cada fase como la Fase 6 añade al juego",
+        "step2Title": "Descubre nuevo contenido",
+        "step2Description": "Infórmate sobre nuevas razas, mazmorras, sistemas y cambios de equilibrio a medida que llegan",
+        "step3Title": "Mira los tráilers",
+        "step3Description": "Echa un vistazo a las próximas funciones y contenidos a través de los tráilers oficiales"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de actualizaciones"
+    }
   }
 }
