@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim Armor: Best Sets & Progression Setup Guide",
+  description: "Discover the best Grand Alfheim armor sets, stats, and drop locations. Learn how to optimize your build with our step-by-step progression guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Grand+Alfheim+Armor+Guide",
+  date: "2026-07-13",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand Alfheim Armor**: Provides flat health increases across three slots: Mask, Top, and Bottom.
+- **Key Difference**: Armor grants flat HP, while accessories provide percentage-based HP scaling.
+- **Top Early Set**: The Azure Knightplate Set is highly recommended for beginners starting at Level 1.
+- **Best Endgame Set**: Blackflame Knight Set offers the highest flat HP boost currently available.
+- **Cosmetic Skins**: Premium cosmetic armors require the Advanced Armor gamepass to overlay skins.
+</Callout>
+
+<Section icon={Shield} title="Grand Alfheim Armor System Mechanics">
+
+Understanding how armor works in Grand Alfheim is crucial for surviving tough dungeons like the Temple of Beginnings. Unlike accessories that scale your health by percentages, armor sets provide flat health points (HP) to keep you alive during combat. 
+
+**Video Highlights:**
+- **Map Scale & Navigation**: The world map is massive, making early-game traversal a running simulator until you unlock gates.
+- **Combat Core**: Successful combat relies on mastering parrying, heavy kicks, and managing your hunger bar.
+- **Survival Cooking**: Starvation halts passive health regeneration; cooking raw meat via quick-time events is essential.
+
+<YouTubeEmbed videoId="tAvGruscgtI" title="I played Grand Alfheim and..." />
+
+There are three main armor slots available for your character:
+- **Mask** (Head slot, not included in all sets)
+- **Top** (Chest armor piece)
+- **Bottom** (Leg armor piece)
+
+Additionally, players can purchase the **Advanced Armor** gamepass to unlock premium cosmetic skins. These skins overlay your equipped stat gear, allowing you to customize your look without losing valuable defensive attributes.
+
+| Armor Feature | Flat HP Bonuses | Percentage Scaling | Cosmetic Overlay |
+| :--- | :--- | :--- | :--- |
+| **Standard Armor** | Yes | No | No |
+| **Accessories** | No | Yes | No |
+| **Advanced Armor** | No | No | Yes (Full Set Only) |
+
+<Callout type="tip" title="Survival Strategy">
+Never ignore your hunger bar. If you are starving, your character will not regenerate health naturally, making high-level dungeons nearly impossible even with top-tier armor equipped.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Grand Alfheim Armor Set Directory">
+
+Armor sets are dropped by specific bosses and enemies scattered across the different islands and dungeons. Below is the complete data table of all currently available armor sets in Grand Alfheim, organized by level requirements and performance stats.
+
+| Armor Set | Level Req. | Pieces Included | Drop Source & Rate | Individual Stats | Total Stats |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Azure Knightplate** | 1+ | Top, Bottom | Temple of Beginnings [20%] | +135 HP (Top) / +110 HP (Bottom) | +245 HP |
+| **Tidal Gown (UNOB)** | 5+ | Top, Bottom | Temple of Beginnings [8%] | +200 HP (Top) / +? HP (Bottom) | +? HP |
+| **Verdant Sovereign** | 10+ | Mask, Top, Bottom | Treant Boss [1.9%] | +100 HP (Mask) / +228 HP (Top) / +270 HP (Bottom) | +598 HP |
+| **Bloodcrown Regalia** | 20+ | Top, Bottom | Satyr in Salamander [0.1%] | +560 HP & +2.5% MD (Top) / +450 HP & +1% MD (Bottom) | +1010 HP & +3.5% MD |
+| **Blackflame Knight** | 25+ | Horn, Top, Bottom | Unnamed Knight [0.1%] | +310 HP (Horn) / +715 HP (Top) / +530 HP (Bottom) | +1555 HP |
+| **Crimson Dragon** | 30+ | Top, Bottom | Temple of Beginnings [~0.0001%] | +1175 HP & +5% MD (Top) / +? HP (Bottom) | +? HP |
+
+<Callout type="warning" title="Unobtainable Items">
+The Tidal Gown Set is currently marked as unobtainable (UNOB). Do not spend time farming the Temple of Beginnings specifically for this set.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Armor Progression Route">
+
+To build up your defenses efficiently, follow this optimized gear progression path from level 1 to the endgame.
+
+<Steps>
+  <Step num="1" title="Secure the Azure Knightplate">
+    Run the Temple of Beginnings dungeon early. With a generous 20% drop rate, you can easily secure the Azure Knightplate Top and Bottom to gain a quick +245 HP boost.
+  </Step>
+  <Step num="2" title="Farm the Treant Boss">
+    Once you reach Level 10, target the Treant Boss inside the Temple of Beginnings. Farm this boss until you drop the full Verdant Sovereign Set, which provides a massive jump to +598 HP.
+  </Step>
+  <Step num="3" title="Unlock Salamander Territory">
+    Travel through the world gates to Salamander territory. Locate and defeat the Satyrs (0.1% drop rate) to obtain the Bloodcrown Regalia, giving you +1010 HP and a +3.5% Magic Damage bonus.
+  </Step>
+  <Step num="4" title="Defeat the Unnamed Knight">
+    For the ultimate defensive build, hunt down the Unnamed Knight at Level 25+ to obtain the Blackflame Knight Set, boosting your total pool by +1555 flat HP.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build Optimization">
+If your build relies heavily on spells or dark magic skills like Event Horizon, prioritize farming the Bloodcrown Regalia or Crimson Dragon sets for their Magic Damage (MD) multipliers.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Class Performance & Synergy Options">
+
+Different armor sets excel depending on your chosen playstyle. Use the comparison cards below to decide which set to target for your specific character build.
+
+<CardGrid cols={3}>
+  <Card title="Tank Build (Max HP)">
+    - **Recommended Set**: Blackflame Knight
+    - **Total HP**: +1555 HP
+    - **Best For**: Frontline survival
+  </Card>
+  <Card title="Mage Build (Magic DPS)">
+    - **Recommended Set**: Bloodcrown Regalia
+    - **Bonus stats**: +3.5% Magic Damage
+    - **Best For**: Skill-based combat
+  </Card>
+  <Card title="Beginner Build (Fast Start)">
+    - **Recommended Set**: Azure Knightplate
+    - **Drop Rate**: 20% (Very High)
+    - **Best For**: Early progression
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Stat Priority">
+Always evaluate if you need raw survivability (HP) or offensive scaling (Magic Damage) before dedicating hours to farming rare 0.1% drops.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Armor Milestones">
+
+Use this checklist to track your character's gear progression and ensure you are fully prepared for high-level territories.
+
+<Checklist
+  id="armor-checklist"
+  title="Progression Goals:"
+  items={[
+    "Reach Level 10 and equip the full Verdant Sovereign Set",
+    "Unlock the gate to Salamander Territory",
+    "Acquire a set with Magic Damage (MD) multipliers for spell scaling",
+    "Farm the Unnamed Knight for the Blackflame Knight Set"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Grand Alfheim Armor FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the difference between grand alfheim armor and accessories?",
+    answer: "Armor sets provide flat health points (HP) increases and are equipped across three slots (Mask, Top, Bottom). Accessories provide percentage-based health increases rather than flat values."
+  },
+  {
+    question: "How do I get cosmetic armor in Grand Alfheim?",
+    answer: "Cosmetic armors can be obtained by purchasing the Advanced Armor gamepass. These act as premium skins that overlay your stats gear as a complete set."
+  },
+  {
+    question: "Where does the Blackflame Knight Set drop?",
+    answer: "The Blackflame Knight Set drops from the Unnamed Knight boss with a 0.1% drop rate. You must be at least Level 25 to equip this armor set."
+  },
+  {
+    question: "Does the Crimson Dragon Set actually drop?",
+    answer: "Yes, but it has an extremely low drop rate of approximately 0.0001% from the Temple of Beginnings and requires Level 30+ to equip."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim Temple of Beginnings: 2026 Dungeon Walkthrough & Loot",
+  description: "Master the Grand Alfheim Temple of Beginnings with our 2026 guide. Solve the cube puzzles, defeat the Bone Dragon, and claim legendary loot rewards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Temple+of+Beginnings+Guide",
+  date: "2026-07-13",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand Alfheim Temple of Beginnings**: A pivotal early-game dungeon accessible from Salamander, Undine, and Gnome.
+- **Path Selection**: Choose between the high-skill **Parkour Path** or the combat-heavy **Monster Path**.
+- **Key Mechanic**: Mastering the **Stump Ent** parry timing is essential for survival in the labyrinth.
+- **Puzzle Solution**: Place boxes on altars in the Angel and Demon rooms based on specific wall symbols.
+- **Boss Encounter**: Defeat the **Bone Dragon** to unlock Epic and Legendary loot chests.
+</Callout>
+
+<Section icon={Map} title="Dungeon Location and Access Points">
+
+The **grand alfheim temple of beginnings** serves as a foundational challenge for adventurers looking to progress through the world of Alfheim. Unlike many specialized late-game dungeons, this location is designed to test both your mechanical movement and your combat efficiency. It acts as a gateway to better equipment, making it a frequent stop for players transitioning out of the early-game phase.
+
+Finding the entrance requires navigating to specific regions within the game. The dungeon is strategically placed to be accessible from multiple starting islands, ensuring that players from different factions or starting points can reach it without excessive travel.
+
+| Region | Entrance Location | Accessibility |
+| :--- | :--- | :--- |
+| **Salamander** | West side of the island | High/Primary |
+| **Undine** | Northwest of the main spawn | Moderate |
+| **Gnome** | Regional access point | Moderate |
+
+<Callout type="tip" title="Navigation Tip">
+If you are starting in Undine, head northwest immediately after spawning. The terrain can be tricky, so keeping a high-vantage point will help you spot the temple entrance from a distance.
+</Callout>
+
+Before entering, ensure your character is prepared for a mix of environmental hazards and group combat. While there is no strict level requirement for entry, attempting this dungeon solo under level 15 can be extremely punishing for new players.
+
+</Section>
+
+<Section icon={Swords} title="Path Selection: Parkour vs. Combat">
+
+Upon entering the **grand alfheim temple of beginnings**, you are immediately presented with a choice that dictates the first half of your run. The dungeon splits into two distinct routes: the Left Path and the Right Path. These paths eventually converge at the puzzle chamber, but the challenges they present are fundamentally different.
+
+<CardGrid cols={2}>
+  <Card title="The Parkour Path (Left)">
+    - **Skill Focus**: Precise jumping and movement.
+    - **Risk**: Falling leads to reset or damage.
+    - **Speed**: Fastest route for experienced players.
+    - **Enemies**: Minimal to none.
+  </Card>
+  <Card title="The Monster Path (Right)">
+    - **Skill Focus**: Combat, parrying, and AoE management.
+    - **Risk**: Being overwhelmed by enemy groups.
+    - **Speed**: Slower but provides combat XP.
+    - **Enemies**: Scorpions, Dinosaurs, and groups.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="New Player Advice">
+The Parkour path is notorious for being frustratingly difficult for those unfamiliar with the game's jump physics. If you are lagging or have high ping, the Right (Monster) path is significantly safer and more reliable.
+</Callout>
+
+If you choose the Monster Path, be prepared for wave-based combat. The Scorpions and Dinosaurs encountered here have predictable attack patterns, but they often attack in clusters. Utilizing weapons with wide swings or area-of-effect (AoE) abilities is highly recommended to clear these rooms efficiently.
+
+</Section>
+
+<Section icon={Shield} title="Defeating the Stump Ent and Elite Mobs">
+
+Deep within the labyrinth of the **grand alfheim temple of beginnings**, you will encounter the Stump Ent. This enemy serves as a "skill check" for players, forcing them to learn the game's parry mechanics. The Stump Ent hits hard and can easily deplete the health of an unprepared adventurer in just a few strikes.
+
+| Enemy Type | Primary Attack | Strategy | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Scorpion** | Rapid stings | Block and counter | Easy |
+| **Dinosaur** | Heavy lunges | Side-dodge or parry | Medium |
+| **Stump Ent** | Heavy slams | Perfect parry required | Hard |
+| **Bone Dragon** | Breath & Tail | Stay behind/underneath | Boss |
+
+<Callout type="success" title="Stump Ent Strategy">
+The Stump Ent's pathfinding is limited to a straight line. If you are struggling with the parry timing, you can "cheese" the fight by keeping a wall or pillar between yourself and the Ent. It will often get stuck, allowing you to land safe hits.
+</Callout>
+
+Successfully navigating these encounters requires a balance of aggression and defense. In 2026, the meta for this dungeon involves using high-impact weapons that can stagger the Stump Ent, providing a window for high-damage combos.
+
+</Section>
+
+<Section icon={Target} title="Solving the Cube Puzzle Room">
+
+After surviving the initial paths, you will reach the most complex part of the **grand alfheim temple of beginnings**: the Cube Puzzles. This section requires players to interact with two separate rooms—the Angel Room (Green) and the Demon Room (Red). To progress to the boss, you must place specific boxes on their corresponding altars.
+
+<Steps>
+  <Step num="1" title="Identify the Symbols">
+    Look at the walls in the room with the red portal. These wall symbols act as the legend for the correct box order.
+  </Step>
+  <Step num="2" title="Locate the Boxes">
+    Search the surrounding chambers for cubes labeled with names like Berserk, Squid, or Radioactive.
+  </Step>
+  <Step num="3" title="Match and Place">
+    Transport the correct box to the Angel or Demon altar as indicated by the wall hints.
+  </Step>
+  <Step num="4" title="Confirm Activation">
+    When a box is placed correctly, it will ignite with fire and a distinct sound effect will play.
+  </Step>
+</Steps>
+
+| Symbol Image | Symbol Name | Logic Type |
+| :--- | :--- | :--- |
+| **Berserk** | Angry Face | Demon/Combat |
+| **Key** | Mechanical Key | Utility/Angel |
+| **Squid** | Tentacle Icon | Aquatic/Demon |
+| **Radioactive** | Hazard Sign | Toxic/Demon |
+| **Candle** | Lit Flame | Light/Angel |
+| **Triangle** | Geometric | Order/Angel |
+
+<Callout type="info" title="Guild Codes">
+Many player guilds in Grand Alfheim use custom nicknames for these symbols. If you are running this dungeon with a group, confirm which naming convention they use (e.g., "Radioactive" vs "Biohazard") to avoid confusion during the puzzle phase.
+</Callout>
+
+Once all boxes are correctly placed in both the Angel and Demon rooms, the central portal will stabilize, allowing you to enter the final arena.
+
+</Section>
+
+<Section icon={Sparkles} title="Boss Battle: The Bone Dragon">
+
+The final challenge of the **grand alfheim temple of beginnings** is the Bone Dragon. This boss is a massive skeletal entity that utilizes a combination of physical tail swipes and elemental breath attacks. Unlike the smaller mobs earlier in the dungeon, the Bone Dragon requires constant movement and awareness of its "telegraphs" (visual cues before an attack).
+
+**Key Mechanics to Watch:**
+- **Tail Swipe**: A wide 180-degree arc behind the dragon. Avoid standing directly behind it for too long.
+- **Breath Attack**: The dragon breathes a cone of energy in front of it. When it raises its head and glows, dash to its side.
+- **Stomp**: A close-range AoE. If the dragon rears up on its hind legs, back away immediately.
+
+| Attack Name | Warning Sign | Avoidance Maneuver |
+| :--- | :--- | :--- |
+| **Skeletal Breath** | Glowing chest/neck | Dash to the left or right |
+| **Bone Crush** | Raising front legs | Jump or back-step |
+| **Tail Whip** | Looking over shoulder | Move toward the neck |
+
+<Callout type="warning" title="Boss Arena Hazard">
+The arena is smaller than it looks. Be careful not to back yourself into a corner, as the Bone Dragon's large hitbox can "pin" you against the wall, making it impossible to dodge the breath attack.
+</Callout>
+
+Focus your damage on the dragon's legs to occasionally trip it, providing a 5-second window where it takes increased damage. High-DPS players can usually finish this fight in under three minutes if they maintain a consistent rhythm of dodging and attacking.
+
+</Section>
+
+<Section icon={Trophy} title="Rewards, Loot, and Chests">
+
+Completing the **grand alfheim temple of beginnings** is highly rewarding for players in the mid-progression stage. Upon the Bone Dragon's defeat, a treasure room opens containing several high-value chests. The loot table is fixed, but the specific stats on the gear can vary.
+
+<Checklist
+  id="temple-loot-checklist"
+  title="Possible Dungeon Rewards:"
+  items={[
+    "2 Epic Chests (Guaranteed drop)",
+    "1 Legendary Chest (Boss clear reward)",
+    "Rare crafting materials for Salamander gear",
+    "Experience points (scaled to level)",
+    "Dungeon-specific character titles"
+  ]}
+/>
+
+| Chest Type | Rarity | Level Requirement | Potential Contents |
+| :--- | :--- | :--- | :--- |
+| **Epic Chest** | **Epic** | Level 0 | Epic Weapons, Armor, Gold |
+| **Legendary Chest** | **Legendary** | Level 0 | Legendary Weapons, Rare Gems |
+
+<Callout type="success" title="Loot Efficiency">
+Because the level requirement for the chests is Level 0, this dungeon is excellent for "gearing up" secondary characters (alts). You can run the dungeon on a high-level main character to secure the loot and transfer it if your guild has a shared storage system.
+</Callout>
+
+In 2026, the Temple of Beginnings remains a staple for any serious Grand Alfheim player. Whether you are farming for that elusive Legendary drop or simply practicing your parry timing against the Stump Ent, mastering this dungeon is a rite of passage for every adventurer.
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best path in the Grand Alfheim Temple of Beginnings for solo players?",
+    answer: "For solo players, the Right Path (Monster Path) is generally recommended. While it involves more combat, it is much more predictable than the Parkour Path, which can lead to frustrating deaths if you miss a single jump."
+  },
+  {
+    question: "How do I solve the cube puzzle if the symbols don't match the guide?",
+    answer: "The symbols are always the same, but their required order changes per run. Always check the wall symbols in the red portal room; they provide the exact sequence needed for that specific instance."
+  },
+  {
+    question: "Can I skip the Stump Ent in the Temple of Beginnings?",
+    answer: "Yes, you can bypass the Stump Ent by using its straight-line pathing against it. Lure it toward a large obstacle or wall, then quickly maneuver around it while it is stuck."
+  },
+  {
+    question: "What level should I be to fight the Bone Dragon?",
+    answer: "While you can enter at any level, being at least Level 15-20 ensures you have enough health to survive a single mistake during the Bone Dragon's breath attack."
+  }
+]} />
+
+</Section>

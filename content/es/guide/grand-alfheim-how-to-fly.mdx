@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo volar en Grand Alfheim: Guía de movimiento y mecánicas de vuelo de 2026",
+  description: "Domina el vuelo en Grand Alfheim con nuestra guía. Aprende los controles, la gestión de la resistencia, las mejoras de habilidades y cómo navegar por zonas restringidas de manera eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Flight+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica básica**: Usa la tecla **V** para alternar el modo de vuelo y **WASD** para el movimiento direccional.
+- **Resistencia de vuelo**: Vigila el **icono amarillo** en la esquina superior izquierda; quedarte sin ella provocará una caída.
+- **Progresión de habilidades**: La eficiencia del vuelo solo se puede mejorar a través de las habilidades del **Árbol de personajes**.
+- **Zonas restringidas**: Las mazmorras y partes específicas de la **Isla Leprechaun** prohíben volar.
+- **Resolución de problemas**: Si los controles de vuelo o los marcadores de misión fallan, un **reinicio de sesión** rápido suele solucionar la interfaz.
+</Callout>
+
+<Section icon={Map} title="Dominando el vuelo en Grand Alfheim: Controles básicos">
+
+Comprender **cómo volar en Grand Alfheim** es el primer gran hito para cualquier jugador que busque explorar el expansivo mundo inspirado en Sword Art Online. A diferencia de los RPG tradicionales basados en tierra, el movimiento en este título es vertical y multidimensional, lo que requiere un sólido dominio de la interfaz de vuelo y los sistemas de resistencia. Aunque el juego ofrece un mapa enorme, el tutorial a veces puede ser vago, dejando que los jugadores descubran los matices de la navegación aérea por su cuenta.
+
+**Puntos destacados del video:**
+- Descripción general del enorme e inmersivo mapa del mundo.
+- Demostración de las misiones del inicio del juego y los desafíos de movimiento.
+- Importancia de la persistencia al encontrarse con errores en el inicio del juego.
+- Guía visual para la misión de los «Pilares» y problemas de navegación.
+
+<YouTubeEmbed videoId="MSrkkuZZ3hg" title="¡LA PROGRESIÓN EN GRAND ALFHEIM ES UNA LOCURA! (NUEVO MMORPG DE SAO)" />
+
+Para comenzar a volar, primero debes asegurarte de estar en un área de mundo abierto donde se permita el vuelo. Los controles son los estándar para juegos de PC, pero requieren coordinación para gestionar la altura y la velocidad de manera efectiva.
+
+| Acción | Tecla de control | Descripción |
+| :--- | :--- | :--- |
+| **Alternar vuelo** | **V** | Activa o desactiva el modo de vuelo. |
+| **Moverse hacia adelante** | **W** | Inclina al personaje hacia adelante para ganar impulso. |
+| **Moverse a la izquierda/derecha** | **A / D** | Inclina al personaje en la dirección respectiva. |
+| **Moverse hacia atrás** | **S** | Frena o invierte el impulso aéreo. |
+| **Ascender** | **Espacio** | Aumenta la altitud mientras vuelas. |
+| **Descender** | **Ctrl izquierdo** | Disminuye la altitud o inicia un picado. |
+
+<Callout type="tip" title="Consejo profesional: Conservación del impulso">
+Evita pulsar la tecla de ascender constantemente. En su lugar, usa una mezcla de impulso hacia adelante y ligeras inclinaciones hacia arriba para maximizar la distancia recorrida por punto de resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resistencia de vuelo y mecánicas de supervivencia">
+
+El aspecto más crítico del sistema de **cómo volar en Grand Alfheim** es la barra de resistencia de vuelo. Representada como un **icono amarillo** en la esquina superior izquierda de tu interfaz (HUD), este recurso dicta cuánto tiempo puedes permanecer en el aire. Si este medidor llega a cero, tu personaje entrará automáticamente en pérdida y caerá. Dependiendo de tu altitud, esto puede resultar en un daño por caída significativo o incluso la muerte instantánea.
+
+La gestión de la resistencia es una habilidad en sí misma. Se regenera automáticamente siempre que estés en suelo firme o nadando, pero no se recuperará mientras estés suspendido en el aire o moviéndote por él.
+
+| Estado de la resistencia | Color del icono | Efecto |
+| :--- | :--- | :--- |
+| **Llena / Alta** | Amarillo brillante | Máxima maniobrabilidad y velocidad. |
+| **Baja / Crítica** | Amarillo parpadeante | El personaje comienza a tambalearse; prepárate para aterrizar. |
+| **Agotada** | Gris | Descenso forzado inmediato y riesgo de daño por caída. |
+| **Regenerándose** | Pulsante | Ocurre solo en tierra; la velocidad depende de las estadísticas. |
+
+<Callout type="warning" title="Peligro: Daño por caída">
+Mantén siempre al menos el 10% de tu barra de resistencia como «reserva» para aterrizar. Si te quedas sin resistencia a gran altura, no podrás reactivar el vuelo para amortiguar la caída.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejora de las habilidades de vuelo mediante el árbol de personajes">
+
+A medida que progreses en el juego, descubrirás que la velocidad de vuelo y la resistencia base son insuficientes para cruzar los océanos más grandes entre las islas. Para mejorar tus capacidades aéreas, debes invertir en el **Árbol de personajes**. Actualmente, este es el único método para mejorar permanentemente tus estadísticas de vuelo.
+
+<Steps>
+  <Step num="1" title="Consigue puntos de habilidad">
+    Completa las misiones de la historia principal, como la misión de caza de jabalíes o la interacción con el bibliotecario, para ganar experiencia y subir de nivel.
+  </Step>
+  <Step num="2" title="Accede al árbol de personajes">
+    Abre el menú de tu personaje y navega hasta la pestaña del árbol de habilidades. Busca la rama dedicada al movimiento y la utilidad.
+  </Step>
+  <Step num="3" title="Desbloquea la maestría de vuelo">
+    Invierte puntos en «Duración del vuelo» o «Eficiencia de las alas» para reducir la tasa de consumo de resistencia al moverte a altas velocidades.
+  </Step>
+  <Step num="4" title="Prueba tus nuevos límites">
+    Después de mejorar, practica viajes de larga distancia entre islas como **Salamander** y **Undine** para evaluar tu nuevo alcance.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de optimización">
+Prioriza la «Tasa de regeneración de resistencia» sobre la «Resistencia máxima» al principio del juego. Esto te permitirá tomar descansos más cortos en islas pequeñas o rocas flotantes y volver al aire mucho más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegación por zonas de vuelo restringido">
+
+No todos los rincones de Grand Alfheim permiten el vuelo libre. Los desarrolladores han implementado «Áreas de vuelo limitado» para mantener el desafío de ciertas secciones de plataformas y mazmorras. Entrar en estas zonas te impedirá presionar **V** o te obligará a aterrizar de inmediato.
+
+<CardGrid cols={2}>
+  <Card title="Mazmorras y asaltos">
+    - **Templo de los Comienzos**: No se permite volar.
+    - **Oda al Abismo**: Restringido al movimiento terrestre.
+    - **Estrategia**: Concéntrate en la agilidad y en los esquives terrestres.
+  </Card>
+  <Card title="Zonas específicas de islas">
+    - **Isla Leprechaun**: Ciertos picos de gran altitud.
+    - **Áreas de misión**: Pilares o sitios rituales específicos.
+    - **Estrategia**: Usa el terreno a tu favor y busca caminos.
+  </Card>
+</CardGrid>
+
+| Tipo de ubicación | Estado del vuelo | Razón / Detalle |
+| :--- | :--- | :--- |
+| **Islas abiertas** | **Habilitado** | Forma principal de viajar entre centros de PNJ. |
+| **Mazmorras** | **Deshabilitado** | Fomenta el combate táctico y las plataformas. |
+| **Ciudades capitales** | **Habilitado** | Permite un desplazamiento rápido a tiendas/bancos. |
+| **Arenas de eventos especiales** | **Varía** | Depende de las mecánicas específicas del evento. |
+
+<Callout type="info" title="Peligros ambientales">
+Es posible que algunas áreas no «desactiven» el vuelo, sino que presenten vientos fuertes o climas que inducen el hambre. Asegúrate de que tu barra de hambre esté llena antes de intentar vuelos de larga distancia en estas regiones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resolución de problemas de vuelo y errores de progresión">
+
+El estado actual de Grand Alfheim puede presentar errores, especialmente en lo que respecta a los activadores de misiones y la sincronización del movimiento. Muchos jugadores informan que después de desbloquear el vuelo o llegar a un nuevo pilar de misión, la indicación «E» para interactuar o la tecla «V» para volar pueden dejar de responder.
+
+**Soluciones comunes para el movimiento y las misiones:**
+- **El método de reiniciar sesión**: Si la interfaz de vuelo desaparece o no puedes interactuar con los pilares, sal al menú principal y vuelve a entrar. Esto soluciona el 90% de los fallos relacionados con el movimiento.
+- **Solución al bucle de misiones**: Si el alcalde te sigue dando la misma misión de «Matar jabalíes», revisa tu inventario en busca de objetos de misión o reinicia sesión para actualizar el estado de diálogo del PNJ.
+- **Gestión del hambre**: El vuelo consume más energía que caminar. Si tu personaje se siente «pesado» o lento, comprueba si está hambriento. Puedes encontrar más información sobre las fuentes de alimento en la [Wiki de Grand Alfheim](https://grand-alfheim.fandom.com/wiki/Flying).
+
+<Checklist
+  id="flight-readiness"
+  title="Lista de comprobación antes del vuelo:"
+  items={[
+    "Comprobar que el icono amarillo de resistencia esté completamente cargado",
+    "Asegurarse de que la barra de hambre esté llena al menos al 75%",
+    "Verificar que no estás en una zona de mazmorra restringida",
+    "Asignar la tecla 'V' a una tecla secundaria cómoda si es necesario",
+    "Equipar equipo con bonificaciones de 'Agilidad' o 'Velocidad de movimiento'"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia: Marcadores de posición de IA">
+Ten en cuenta que algunos elementos de la interfaz y transiciones de barcos utilizan actualmente recursos provisionales. Si un menú parece extraño o no funciona, probablemente se trate de un artefacto de desarrollo y no de un error del jugador.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono el problema de que la tecla 'E' no funcione para las misiones de vuelo?",
+    answer: "Este es un error conocido en Grand Alfheim. La solución más confiable es reiniciar sesión en el servidor. Esto suele restablecer la zona de interacción de los pilares y los PNJ."
+  },
+  {
+    question: "¿Puedo volar indefinidamente si tengo suficiente resistencia?",
+    answer: "Técnicamente, no. Incluso con las habilidades al máximo, la mecánica del hambre actúa como un temporizador secundario. Volar aumenta el hambre más rápido que estar quieto, por lo que eventualmente tendrás que aterrizar y comer."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de viajar entre islas?",
+    answer: "Una vez que domines cómo volar en Grand Alfheim, el método más rápido es usar planeos a gran altitud. Asciende a un punto alto y luego inclínate hacia adelante para mantener la velocidad consumiendo el mínimo de resistencia."
+  },
+  {
+    question: "¿El peso de la armadura afecta la velocidad de vuelo?",
+    answer: "La armadura pesada aumenta significativamente el consumo de resistencia. Para la exploración a larga distancia, considera usar armadura de clase 'Ligera' o de 'Utilidad' para prolongar tu tiempo de vuelo."
+  }
+]} />
+
+</Section>

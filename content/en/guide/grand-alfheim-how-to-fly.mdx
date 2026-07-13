@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim How to Fly: 2026 Movement Guide & Flight Mechanics",
+  description: "Master flight in Grand Alfheim with our guide. Learn controls, stamina management, skill upgrades, and how to navigate restricted zones efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Flight+Guide",
+  date: "2026-07-13",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: Use the **V** key to toggle flight mode and **WASD** for directional movement.
+- **Flight Stamina**: Monitor the **yellow icon** in the top-left corner; running out results in a fall.
+- **Skill Progression**: Flight efficiency can only be improved through the **Character Tree** skills.
+- **Restricted Zones**: Dungeons and specific parts of **Leprechaun Island** prohibit flying.
+- **Troubleshooting**: If flight controls or quest markers bug out, a quick **re-log** usually fixes the UI.
+</Callout>
+
+<Section icon={Map} title="Mastering Grand Alfheim How to Fly: Basic Controls">
+
+Understanding **grand alfheim how to fly** is the first major milestone for any player looking to explore the expansive world inspired by Sword Art Online. Unlike traditional ground-based RPGs, movement in this title is vertical and multi-dimensional, requiring a firm grasp of the flight UI and stamina systems. While the game provides a massive map, the tutorial can sometimes be vague, leaving players to figure out the nuances of aerial navigation on their own.
+
+**Video Highlights:**
+- Overview of the massive, immersive world map.
+- Demonstration of early-game questing and movement challenges.
+- Importance of persistence when encountering early-game bugs.
+- Visual guide to the "Pillars" quest and navigation issues.
+
+<YouTubeEmbed videoId="MSrkkuZZ3hg" title="GRAND ALFHEIM PROGRESSION IS INSANE.... (NEW SAO MMORPG)" />
+
+To begin flying, you must first ensure you are in an open-world area where flight is permitted. The controls are standard for PC gaming but require coordination to manage height and speed effectively.
+
+| Action | Control Key | Description |
+| :--- | :--- | :--- |
+| **Toggle Flight** | **V** | Activates or deactivates the flight mode. |
+| **Move Forward** | **W** | Tilts the character forward to gain momentum. |
+| **Move Left/Right** | **A / D** | Banks the character in the respective direction. |
+| **Move Backward** | **S** | Slows down or reverses aerial momentum. |
+| **Ascend** | **Space** | Increases altitude while flying. |
+| **Descend** | **Left Ctrl** | Decreases altitude or initiates a dive. |
+
+<Callout type="tip" title="Pro Tip: Momentum Conservation">
+Avoid spamming the ascend key constantly. Instead, use a mix of forward momentum and slight upward tilts to maximize the distance covered per point of stamina.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Flight Stamina and Survival Mechanics">
+
+The most critical aspect of the **grand alfheim how to fly** system is the flight stamina bar. Represented as a **yellow icon** in the top-left corner of your HUD, this resource dictates how long you can remain airborne. If this meter reaches zero, your character will automatically stall and fall. Depending on your altitude, this can result in significant fall damage or even instant death.
+
+Stamina management is a skill in itself. It regenerates automatically whenever you are standing on solid ground or swimming, but it will not recover while you are hovering or moving in the air.
+
+| Stamina State | Icon Color | Effect |
+| :--- | :--- | :--- |
+| **Full / High** | Bright Yellow | Maximum maneuverability and speed. |
+| **Low / Critical** | Flashing Yellow | Character begins to wobble; prepare for landing. |
+| **Depleted** | Greyed Out | Immediate forced descent and fall damage risk. |
+| **Regenerating** | Pulsing | Occurs only when grounded; rate depends on stats. |
+
+<Callout type="warning" title="Danger: Fall Damage">
+Always keep at least 10% of your stamina bar as a "reserve" for landing. If you run out of stamina high above the ground, you won't be able to reactivate flight to break your fall.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrading Flight Skills via Character Tree">
+
+As you progress through the game, you will find that the base flight speed and stamina are insufficient for crossing the larger oceans between islands. To improve your aerial capabilities, you must invest in the **Character Tree**. Currently, this is the only method to permanently upgrade your flight stats.
+
+<Steps>
+  <Step num="1" title="Earn Skill Points">
+    Complete main story quests, such as the boar hunting quest or the librarian interaction, to gain experience and level up.
+  </Step>
+  <Step num="2" title="Access Character Tree">
+    Open your character menu and navigate to the skill tree tab. Look for the branch dedicated to movement and utility.
+  </Step>
+  <Step num="3" title="Unlock Flight Mastery">
+    Invest points into "Flight Duration" or "Wing Efficiency" to reduce the stamina consumption rate while moving at high speeds.
+  </Step>
+  <Step num="4" title="Test New Limits">
+    After upgrading, practice long-distance travel between islands like **Salamander** and **Undine** to gauge your new range.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimization Strategy">
+Prioritize "Stamina Regeneration Rate" over "Max Stamina" in the early game. This allows you to take shorter breaks on small islands or floating rocks and get back into the air much faster.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigating Flight Restricted Zones">
+
+Not every corner of Grand Alfheim allows for free flight. The developers have implemented "Flight Limited Areas" to maintain the challenge of certain platforming sections and dungeons. Entering these zones will either prevent you from pressing **V** or force you to land immediately.
+
+<CardGrid cols={2}>
+  <Card title="Dungeons & Raids">
+    - **Temple of Beginnings**: No flight allowed.
+    - **Ode to the Abyss**: Restricted to ground movement.
+    - **Strategy**: Focus on agility and ground-based dodge rolls.
+  </Card>
+  <Card title="Specific Island Zones">
+    - **Leprechaun Island**: Certain high-altitude peaks.
+    - **Quest Areas**: Specific pillars or ritual sites.
+    - **Strategy**: Use the terrain to your advantage and look for paths.
+  </Card>
+</CardGrid>
+
+| Location Type | Flight Status | Reason / Detail |
+| :--- | :--- | :--- |
+| **Open Islands** | **Enabled** | Primary way to travel between NPC hubs. |
+| **Dungeons** | **Disabled** | Encourages tactical combat and platforming. |
+| **Capital Cities** | **Enabled** | Allows for quick traversal to shops/banks. |
+| **Special Event Arenas** | **Varies** | Depends on the specific event mechanics. |
+
+<Callout type="info" title="Environmental Hazards">
+Some areas may not "disable" flight but instead feature high winds or hunger-inducing climates. Ensure your hunger bar is filled before attempting long-distance flights in these regions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Troubleshooting Flight and Progression Bugs">
+
+The current state of Grand Alfheim can be buggy, especially regarding quest triggers and movement synchronization. Many players report that after unlocking flight or reaching a new quest pillar, the "E" prompt to interact or the "V" key to fly may stop responding.
+
+**Common Movement & Quest Fixes:**
+- **The Re-log Method**: If the flight UI disappears or you cannot interact with pillars, exit to the main menu and rejoin. This fixes 90% of movement-related glitches.
+- **Quest Loop Fix**: If the Mayor keeps giving you the same "Kill Boars" quest, check your inventory for quest items or re-log to refresh the NPC's dialogue state.
+- **Hunger Management**: Flight consumes more energy than walking. If your character feels "heavy" or slow, check if you are starving. You can find more info on the [Grand Alfheim Wiki](https://grand-alfheim.fandom.com/wiki/Flying) regarding food sources.
+
+<Checklist
+  id="flight-readiness"
+  title="Pre-Flight Checklist:"
+  items={[
+    "Check yellow stamina icon for full charge",
+    "Ensure hunger bar is at least 75% full",
+    "Verify you are not in a restricted Dungeon zone",
+    "Bind 'V' to a comfortable secondary key if needed",
+    "Equip gear with 'Agility' or 'Movement Speed' bonuses"
+  ]}
+/>
+
+<Callout type="warning" title="Warning: AI Placeholders">
+Be aware that some UI elements and ship transitions currently use placeholder assets. If a menu looks strange or non-functional, it is likely a development artifact rather than a player error.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I fix the 'E' key not working for flight quests?",
+    answer: "This is a known bug in Grand Alfheim. The most reliable fix is to re-log into the server. This usually resets the interaction hitbox for pillars and NPCs."
+  },
+  {
+    question: "Can I fly forever if I have enough stamina?",
+    answer: "Technically, no. Even with maxed skills, the hunger mechanic acts as a secondary timer. Flying increases hunger faster than standing still, so you will eventually need to land and eat."
+  },
+  {
+    question: "What is the fastest way to travel between islands?",
+    answer: "Once you master grand alfheim how to fly, the fastest method is using high-altitude glides. Ascend to a high point, then tilt forward to maintain speed while consuming minimal stamina."
+  },
+  {
+    question: "Does armor weight affect flight speed?",
+    answer: "Heavy armor significantly increases stamina consumption. For long-distance exploration, consider wearing 'Light' or 'Utility' class armor to extend your flight time."
+  }
+]} />
+
+</Section>

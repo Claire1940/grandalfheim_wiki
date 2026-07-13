@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim Fishing: Step-by-Step Leveling & Mechanics Guide",
+  description: "Master grand alfheim fishing with our complete progression guide. Learn rod mechanics, leveling routes, and how to catch high-tier fish fast.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Fishing+Guide",
+  date: "2026-07-13",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Grand alfheim fishing** is a brand-new progression system introduced in the massive 0.4 patch update.
+- **Minigame controls** require active mouse and keyboard inputs, matching your key presses to the rod's physical movement.
+- **Leveling up** grants substantial fishing experience, unlocking better progression opportunities as you raise your rank.
+- **Getting started** only requires selecting the Fisherman job at character creation or visiting the designated starting towns.
+- **Core loop** revolves around reading rod tension and counter-steering to reel in rare species efficiently.
+</Callout>
+
+<Section icon={Map} title="Introduction to Grand Alfheim Fishing">
+
+The 0.4 patch update has officially introduced **grand alfheim fishing** as a major progression system. Players can now step away from high-stakes combat to pursue a dedicated gathering career. This system features its own leveling curve, unique minigames, and job-specific rewards that tie directly into the game's economy.
+
+**Video Highlights:**
+- **Job Selection:** How to pick the Fisherman class at the start of your journey.
+- **Minigame Basics:** Visual cues showing how to track rod movement.
+- **Leveling Up:** Watching your experience bar rise with each successful catch.
+
+<YouTubeEmbed videoId="k53w5k5svGY" title="Grand Alfheim ADDED FISHING!!" />
+
+| Feature | Description | Primary Benefit |
+|--- |--- |--- |
+| **Fisherman Job** | Starting class option in 0.4 | Unlocks early-game gathering mechanics |
+| **Active Minigame** | Physics-based directional reeling | High engagement, skill-based success |
+| **XP System** | Level-based progression | Unlocks higher tier zones and better rods |
+
+<Callout type="tip" title="Class Choice Warning">
+Choosing the Fisherman job early is highly recommended for passive economy generation, but you can still craft weapons and explore other archetypes like the Assassin or Bow Master as you progress.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Master the Reeling Minigame">
+
+The core of grand alfheim fishing lies in its interactive minigame. Unlike passive fishing systems in other RPGs, you must actively fight the fish's pull by observing the physical lean of your fishing rod and inputting the correct counter-movements on your keyboard.
+
+| Rod Direction | Required Key Press | Reeling Status |
+|--- |--- |--- |
+| Leaning Right | Press **D** | Pulling Left |
+| Leaning Left | Press **A** | Pulling Right |
+| Centered | Press **S** / Neutral | Reeling In |
+
+<Steps>
+  <Step num="1" title="Cast Your Line">
+    Equip your fishing rod and interact with any viable water source, such as the docks in Salamander Town. Wait quietly for the fish to bite.
+  </Step>
+  <Step num="2" title="Observe the Tension">
+    Watch the physical angle of your fishing rod. Do not look for a traditional UI bar; instead, focus on which way the rod bends.
+  </Step>
+  <Step num="3" title="Counter-Steer to Reel">
+    If the rod pulls to the right, hold **D**. If it pulls to the left, hold **A**. This brings the fishing rod closer to your character.
+  </Step>
+  <Step num="4" title="Claim Your Catch">
+    Once the fish is pulled all the way in, the catch menu will automatically pop up, displaying your fish type and awarded experience.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Your Keys">
+Pressing the wrong key when the rod leans will increase tension, causing the fish to escape. Always react to the physical movement of the rod rather than guessing.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression and Job Comparisons">
+
+Fishing is just one of several jobs introduced to round out the non-combat progression. To help you decide where to invest your time, we have compared the primary gathering and crafting jobs available in the current patch.
+
+<CardGrid cols={3}>
+  <Card title="Fisherman">
+    - **Active gathering gameplay**
+    - High early-game XP gains
+    - Supplies food for Chefs
+  </Card>
+  <Card title="Blacksmith">
+    - **Weapon crafting focus**
+    - Requires mined ores
+    - Essential for gear progression
+  </Card>
+  <Card title="Chef">
+    - **Passive stat buff creation**
+    - Uses fish and crops
+    - Highly valued in group raids
+  </Card>
+</CardGrid>
+
+| Job Name | Activity Type | Input Difficulty | Best Synergy |
+|--- |--- |--- |--- |
+| **Fisherman** | Gathering | Medium (Active) | Chef |
+| **Blacksmith** | Crafting | Low (Menu) | Miner / Hunter |
+| **Chef** | Crafting | Low (Recipe) | Fisherman |
+
+<Callout type="info" title="Synergy Bonus">
+Leveling Fisherman alongside Chef allows you to self-sustain your food buffs, drastically reducing your gold spend on consumable items.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fishing Milestones & Checklist">
+
+To fully optimize your gathering career, aim to complete these essential milestones. Tracking your progress ensures you do not waste time in low-yielding waters.
+
+<Checklist
+  id="fishing-milestones"
+  title="Fisherman Career Goals:"
+  items={[
+    "Select Fisherman job or acquire your first basic rod",
+    "Reach Fishing Level 15 in Salamander Town",
+    "Master the counter-steering movement without losing line tension",
+    "Unlock high-tier regions like Frost or Gnome territory",
+    "Deliver raw catches to a Chef player to craft high-tier food buffs"
+  ]}
+/>
+
+<Callout type="success" title="Leveling Speed">
+At early levels, each successful catch can boost your level by multiple ranks, making the initial grind incredibly fast and rewarding.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I start grand alfheim fishing?",
+    answer: "You can select the Fisherman job during character creation or visit starting towns like Salamander Town to acquire a rod and fish near the docks."
+  },
+  {
+    question: "What should I do if the fish keeps escaping?",
+    answer: "Watch the rod's physical tilt. If it leans right, hold D. If it leans left, hold A. Counter-steering correctly is the only way to pull the fish in."
+  },
+  {
+    question: "Does fishing level up my overall character?",
+    answer: "Fishing levels up your specific job experience, which unlocks better gathering capabilities, rather than your main combat level."
+  },
+  {
+    question: "Can I switch my job from Fisherman to something else later?",
+    answer: "Yes, you can interact with other job NPCs, such as the Blacksmith, to craft weapons or explore different progression paths."
+  }
+]} />
+
+</Section>

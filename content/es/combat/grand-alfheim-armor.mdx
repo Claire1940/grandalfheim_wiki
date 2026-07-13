@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Armadura de Grand Alfheim: Mejores Sets y Guía de Progresión",
+  description: "Descubre los mejores sets de armadura de Grand Alfheim, sus estadísticas y ubicaciones de obtención. Aprende a optimizar tu build con nuestra guía de progresión paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Grand+Alfheim+Armor+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim, armadura, guía, estadísticas, sets, progresión"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Armadura de Grand Alfheim**: Proporciona aumentos fijos de salud en tres ranuras: Máscara, Pechera (Top) y Pantalones (Bottom).
+- **Diferencia Clave**: La armadura otorga HP plano, mientras que los accesorios proporcionan escalado de HP basado en porcentajes.
+- **Mejor Set Inicial**: El set de Placa de Caballero Azur (Azure Knightplate) es altamente recomendado para principiantes desde el Nivel 1.
+- **Mejor Set de Endgame**: El set de Caballero de Llama Negra (Blackflame Knight) ofrece el mayor aumento de HP plano disponible actualmente.
+- **Skins Cosméticas**: Las armaduras cosméticas premium requieren el gamepass de Armadura Avanzada para superponer las apariencias.
+</Callout>
+
+<Section icon={Shield} title="Mecánicas del Sistema de Armadura de Grand Alfheim">
+
+Entender cómo funciona la armadura en Grand Alfheim es crucial para sobrevivir en mazmorras difíciles como el Templo de los Comienzos. A diferencia de los accesorios que escalan tu salud por porcentajes, los sets de armadura proporcionan puntos de salud (HP) planos para mantenerte con vida durante el combate.
+
+**Puntos Destacados del Video:**
+- **Escala del Mapa y Navegación**: El mapa del mundo es masivo, lo que hace que el recorrido al inicio del juego sea un simulador de correr hasta que desbloquees las puertas.
+- **Núcleo del Combate**: El combate exitoso depende de dominar el parry (bloqueo perfecto), las patadas pesadas y la gestión de tu barra de hambre.
+- **Cocina de Supervivencia**: La inanición detiene la regeneración pasiva de salud; cocinar carne cruda mediante eventos de tiempo rápido (QTE) es esencial.
+
+<YouTubeEmbed videoId="tAvGruscgtI" title="Jugué Grand Alfheim y..." />
+
+Hay tres ranuras principales de armadura disponibles para tu personaje:
+- **Máscara** (Ranura de cabeza, no incluida en todos los sets)
+- **Pechera** (Parte superior de la armadura)
+- **Pantalones** (Parte inferior de la armadura)
+
+Además, los jugadores pueden comprar el gamepass de **Armadura Avanzada** para desbloquear skins cosméticas premium. Estas apariencias se superponen a tu equipo con estadísticas, permitiéndote personalizar tu aspecto sin perder valiosos atributos defensivos.
+
+| Característica de Armadura | Bonificaciones de HP Plano | Escalado por Porcentaje | Superposición Cosmética |
+| :--- | :--- | :--- | :--- |
+| **Armadura Estándar** | Sí | No | No |
+| **Accesorios** | No | Sí | No |
+| **Armadura Avanzada** | No | No | Sí (Solo Set Completo) |
+
+<Callout type="tip" title="Estrategia de Supervivencia">
+Nunca ignores tu barra de hambre. Si estás muriendo de hambre, tu personaje no regenerará salud de forma natural, lo que hace que las mazmorras de alto nivel sean casi imposibles incluso con la mejor armadura equipada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Directorio de Sets de Armadura de Grand Alfheim">
+
+Los sets de armadura son soltados por jefes y enemigos específicos dispersos por las diferentes islas y mazmorras. A continuación se muestra la tabla de datos completa de todos los sets de armadura disponibles actualmente en Grand Alfheim, organizados por requisitos de nivel y estadísticas de rendimiento.
+
+| Set de Armadura | Nivel Req. | Piezas Incluidas | Origen y Tasa de Caída | Estadísticas Individuales | Estadísticas Totales |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Placa de Caballero Azur** | 1+ | Pechera, Pantalones | Templo de los Comienzos [20%] | +135 HP (Pechera) / +110 HP (Pantalones) | +245 HP |
+| **Túnica de Marea (NO OBTENIBLE)** | 5+ | Pechera, Pantalones | Templo de los Comienzos [8%] | +200 HP (Pechera) / +? HP (Pantalones) | +? HP |
+| **Soberano Verdante** | 10+ | Máscara, Pechera, Pantalones | Jefe Treant [1.9%] | +100 HP (Máscara) / +228 HP (Pechera) / +270 HP (Pantalones) | +598 HP |
+| **Regalía de Corona de Sangre** | 20+ | Pechera, Pantalones | Sátiro en Salamandra [0.1%] | +560 HP & +2.5% DM (Pechera) / +450 HP & +1% DM (Pantalones) | +1010 HP & +3.5% DM |
+| **Caballero de Llama Negra** | 25+ | Cuerno, Pechera, Pantalones | Caballero Sin Nombre [0.1%] | +310 HP (Cuerno) / +715 HP (Pechera) / +530 HP (Pantalones) | +1555 HP |
+| **Dragón Carmesí** | 30+ | Pechera, Pantalones | Templo de los Comienzos [~0.0001%] | +1175 HP & +5% DM (Pechera) / +? HP (Pantalones) | +? HP |
+
+<Callout type="warning" title="Objetos no obtenibles">
+El set de Túnica de Marea (Tidal Gown) está marcado actualmente como no obtenible (UNOB). No pierdas tiempo farmeando el Templo de los Comienzos específicamente por este set.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión de Armadura Paso a Paso">
+
+Para fortalecer tus defensas de manera eficiente, sigue esta ruta de progresión de equipo optimizada desde el nivel 1 hasta el endgame.
+
+<Steps>
+  <Step num="1" title="Asegura la Placa de Caballero Azur">
+    Completa la mazmorra del Templo de los Comienzos temprano. Con una generosa tasa de caída del 20%, puedes conseguir fácilmente la Pechera y los Pantalones de Caballero Azur para obtener un rápido aumento de +245 HP.
+  </Step>
+  <Step num="2" title="Farmea al Jefe Treant">
+    Una vez que alcances el Nivel 10, enfócate en el Jefe Treant dentro del Templo de los Comienzos. Farmea a este jefe hasta que obtengas el set completo de Soberano Verdante, que proporciona un salto masivo a +598 HP.
+  </Step>
+  <Step num="3" title="Desbloquea el Territorio de Salamandra">
+    Viaja a través de las puertas del mundo hacia el territorio de Salamandra. Localiza y derrota a los Sátiros (0.1% de tasa de caída) para obtener la Regalía de Corona de Sangre, que te otorga +1010 HP y un bono de +3.5% de Daño Mágico.
+  </Step>
+  <Step num="4" title="Derrota al Caballero Sin Nombre">
+    Para la build defensiva definitiva, caza al Caballero Sin Nombre a Nivel 25+ para obtener el set de Caballero de Llama Negra, aumentando tu reserva total por +1555 HP planos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimización de Build">
+Si tu build depende en gran medida de hechizos o habilidades de magia oscura como Event Horizon, prioriza farmear los sets de Regalía de Corona de Sangre o Dragón Carmesí por sus multiplicadores de Daño Mágico (DM).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rendimiento de Clase y Opciones de Sinergia">
+
+Diferentes sets de armadura destacan dependiendo de tu estilo de juego elegido. Usa las tarjetas de comparación a continuación para decidir qué set buscar para tu build específica.
+
+<CardGrid cols={3}>
+  <Card title="Build de Tanque (Máximo HP)">
+    - **Set Recomendado**: Caballero de Llama Negra
+    - **HP Total**: +1555 HP
+    - **Ideal para**: Supervivencia en primera línea
+  </Card>
+  <Card title="Build de Mago (DPS Mágico)">
+    - **Set Recomendado**: Regalía de Corona de Sangre
+    - **Estadísticas extra**: +3.5% Daño Mágico
+    - **Ideal para**: Combate basado en habilidades
+  </Card>
+  <Card title="Build de Principiante (Inicio Rápido)">
+    - **Set Recomendado**: Placa de Caballero Azur
+    - **Tasa de Caída**: 20% (Muy Alta)
+    - **Ideal para**: Progresión temprana
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Prioridad de Estadísticas">
+Evalúa siempre si necesitas supervivencia pura (HP) o escalado ofensivo (Daño Mágico) antes de dedicar horas a farmear objetos raros con un 0.1% de caída.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Armadura de Endgame">
+
+Usa esta lista de verificación para seguir la progresión del equipo de tu personaje y asegurarte de estar completamente preparado para los territorios de alto nivel.
+
+<Checklist
+  id="armor-checklist"
+  title="Objetivos de Progresión:"
+  items={[
+    "Alcanzar el Nivel 10 y equipar el set completo de Soberano Verdante",
+    "Desbloquear la puerta al Territorio de Salamandra",
+    "Adquirir un set con multiplicadores de Daño Mágico (DM) para el escalado de hechizos",
+    "Farmear al Caballero Sin Nombre para obtener el set de Caballero de Llama Negra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre la Armadura de Grand Alfheim">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la diferencia entre la armadura y los accesorios en Grand Alfheim?",
+    answer: "Los sets de armadura proporcionan aumentos de puntos de salud (HP) planos y se equipan en tres ranuras (Máscara, Pechera, Pantalones). Los accesorios proporcionan aumentos de salud basados en porcentajes en lugar de valores fijos."
+  },
+  {
+    question: "¿Cómo obtengo armaduras cosméticas en Grand Alfheim?",
+    answer: "Las armaduras cosméticas se pueden obtener comprando el gamepass de Armadura Avanzada. Estas actúan como skins premium que se superponen a tu equipo de estadísticas como un set completo."
+  },
+  {
+    question: "¿Dónde cae el set de Caballero de Llama Negra?",
+    answer: "El set de Caballero de Llama Negra cae del jefe Caballero Sin Nombre con una tasa de caída del 0.1%. Debes ser al menos Nivel 25 para equipar este set de armadura."
+  },
+  {
+    question: "¿Realmente cae el set de Dragón Carmesí?",
+    answer: "Sí, pero tiene una tasa de caída extremadamente baja de aproximadamente 0.0001% en el Templo de los Comienzos y requiere Nivel 30+ para equiparse."
+  }
+]} />
+
+</Section>

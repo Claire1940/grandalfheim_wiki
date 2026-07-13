@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grand Alfheim AFK World: Progression Guide & Bug Fixes",
+  description: "Master the grand alfheim afk world. Learn how to bypass early access progression bugs, unlock territory fast, and optimize your SAO MMORPG journey.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Progression",
+  date: "2026-07-13",
+  author: "grand alfheim Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Goal**: Navigate the testing phase of **grand alfheim afk world** efficiently despite early development hurdles.
+- **Key Mechanic**: Use the quick re-log method to instantly resolve broken quest triggers and unresponsive NPCs.
+- **Best Strategy**: Focus on unlocking your selected race's home territory before attempting high-level neutral zones.
+- **Critical Tip**: Keep track of the hunger indicator; lack of food limits your health recovery and movement speeds.
+- **Top Choice**: Purchase early access via Patreon or PayPal to test exclusive racial abilities and early builds.
+</Callout>
+
+<Section icon={Map} title="Navigating the Grand Alfheim AFK World">
+
+The **grand alfheim afk world** offers players an immersive, expansive MMORPG experience heavily inspired by the Sword Art Online universe. Currently in its active testing phase, players can explore massive landscapes, claim unique racial territories, and engage in hybrid PvE and PvP combat. However, because the game is in early development, navigating this vast world requires specific workarounds to bypass quest bugs and progression blocks.
+
+**Video Highlights:**
+- **Initial Setup**: How to log in and bypass the broken starter quest triggers.
+- **Movement Mechanics**: Navigating the high-flying maneuvers in Alfheim.
+- **Quest Workarounds**: Step-by-step demonstration of using the re-log method to force quest progression.
+
+<YouTubeEmbed videoId="MSrkkuZZ3hg" title="GRAND ALFHEIM PROGRESSION IS INSANE.... (NEW SAO MMORPG)" />
+
+<Callout type="warning" title="Early Access Warning">
+Many features in the current test build, including the ship UI and certain dialogue screens, use placeholder assets. Expect occasional visual glitches and empty zones as the developers expand the map.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Early Access Entry Options">
+
+Gaining entry to the testing phase of Grand Alfheim requires specific steps. The development team offers a few official channels to secure your spot in the game.
+
+| Access Method | Price (USD) | Speed of Delivery | Best For |
+|---|---|---|---|
+| **Discord Giveaways** | Free | Slow (RNG-based) | Budget-conscious players |
+| **Patreon Subscription** | $20.00 | Instant | Active supporters |
+| **Direct PayPal** | 8% Discount | Fast (Manual verification) | Cost-efficient buyers |
+
+<Callout type="success" title="Patreon Tip">
+The Patreon option is a one-time purchase for game access. You can safely cancel your monthly subscription immediately after receiving your game credentials.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Starter Class and Race Territories">
+
+Your progression path in Grand Alfheim depends heavily on your starting race. Each faction controls a specific island territory, offering unique environmental designs and initial quest hubs.
+
+<CardGrid cols={3}>
+  <Card title="Salamander & Cait Sith">
+    - **High Offensive Power**
+    - Fire-based magic boosts
+    - Best for aggressive solo players
+  </Card>
+  <Card title="Sylph & Spriggan">
+    - **Unmatched Mobility**
+    - Faster flight speeds
+    - Ideal for swift map navigation
+  </Card>
+  <Card title="Undine & Leprechaun">
+    - **Support & Crafting**
+    - High defensive utility
+    - Excellent for team-oriented players
+  </Card>
+</CardGrid>
+
+| Island Name | Controlling Race | Primary Focus | Difficulty Rating |
+|---|---|---|---|
+| **Salamander Island** | Salamanders | Combat & Offense | ★★★★☆ |
+| **Cait Sith Island** | Cait Siths | Beast Taming & Speed | ★★★☆☆ |
+| **Leprechaun Island** | Leprechauns | Crafting & Defense | ★★☆☆☆ |
+| **Undine Island** | Undines | Healing & Support | ★★☆☆☆ |
+| **Spriggan Island** | Spriggans | Illusion & Stealth | ★★★★☆ |
+
+<Callout type="info" title="Territorial Expansion">
+Neutral territories like Ravemount and Fernvale serve as high-level meeting points where PvP encounters are more frequent. Complete your local island quests before traveling here.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Progression Workaround">
+
+Due to current build stability issues, standard quest tracking can occasionally break down. Follow this precise progression sequence to bypass common starter quest locks.
+
+<Steps>
+  <Step num="1" title="Bypass the Tutorial Ship Lock">
+    When spawning on the starter ship, press the interaction key. If the UI freezes or the action does not register, log out to the main menu and re-join immediately to force-start the sequence.
+  </Step>
+  <Step num="2" title="Resolve the Boar Quest Loop">
+    After defeating the required boars for the Mayor, if he repeatedly hands you the same quest instead of pointing you to the Librarian, perform a hard re-log. This refreshes your quest state.
+  </Step>
+  <Step num="3" title="Locate the Hidden Pillars">
+    Travel to the designated ritual site. Interact with each elemental pillar in clockwise order. If a pillar fails to glow, wait 10 seconds for the server tick to register your position.
+  </Step>
+  <Step num="4" title="Manage Your Survival Stats">
+    Monitor your hunger meter constantly. Purchase bread from local tavern NPCs in Fernvale to prevent the movement debuff from ruining your flight capabilities.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Survival Tip">
+If chat players ignore your questions, join the official [Grand Alfheim Wiki Fandom](https://grand-alfheim.fandom.com/wiki/Grand_Alfheim_Wiki) community Discord to find active party members who can share quest locations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Early Game Milestones">
+
+To ensure your character is ready for future updates, focus on completing these core milestones during the testing phase.
+
+<Checklist
+  id="starter-milestones"
+  title="Beginner Checklist:"
+  items={[
+    "Reach Level 15 in your starting racial territory",
+    "Unlock the basic flight capability and master the hovering controls",
+    "Clear the Temple of Beginnings starter dungeon at least once",
+    "Acquire a complete set of Uncommon grade armor from local vendors",
+    "Locate and register at the Fernvale teleportation gate"
+  ]}
+/>
+
+| Dungeon Name | Recommended Level | Key Drops | Daily Limit |
+|---|---|---|---|
+| **Temple of Beginnings** | Level 1 - 10 | Starter Weapons, Basic Potions | Unlimited |
+| **Ode to the Abyss** | Level 20+ | Rare Armor Pieces, Upgrade Materials | 3 Runs |
+
+<Callout type="warning" title="Dungeon Lockouts">
+Attempting Ode to the Abyss solo at early levels is highly discouraged. Team up with at least one support class to manage the boss aggro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I fix the broken quest loop in the grand alfheim afk world?",
+    answer: "The most reliable fix is to log out of the game and immediately log back in. This forces the server to update your character's quest flags, allowing you to turn in completed tasks to NPCs like the Mayor."
+  },
+  {
+    question: "What is the cheapest way to get into the Grand Alfheim testing phase?",
+    answer: "Buying access via PayPal is approximately 8% cheaper than the standard Patreon route. You can also participate in official Discord events and giveaways to win free entry."
+  },
+  {
+    question: "How do I cure the hunger status effect in the game?",
+    answer: "You must buy food items from tavern merchants located in major town hubs like Fernvale. Consuming food clears the hunger debuff and restores your natural flight stamina."
+  },
+  {
+    question: "Are the current AI-style user interfaces permanent?",
+    answer: "No. The developers have indicated that many of the current UI elements, including the ship interface, are temporary placeholder assets that will be replaced in future beta builds."
+  }
+]} />
+
+</Section>

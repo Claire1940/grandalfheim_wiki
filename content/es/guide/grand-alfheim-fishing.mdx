@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pesca en Grand Alfheim: Guía paso a paso de nivelación y mecánicas",
+  description: "Domina la pesca en Grand Alfheim con nuestra guía de progresión completa. Aprende las mecánicas de la caña, rutas de nivelación y cómo capturar peces de alto nivel rápidamente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Grand+Alfheim+Fishing+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Grand Alfheim"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La pesca en Grand Alfheim** es un sistema de progresión totalmente nuevo introducido en la gran actualización del parche 0.4.
+- **Los controles del minijuego** requieren entradas activas de ratón y teclado, haciendo coincidir tus pulsaciones con el movimiento físico de la caña.
+- **Subir de nivel** otorga una experiencia de pesca sustancial, desbloqueando mejores oportunidades de progresión a medida que aumentas tu rango.
+- **Para empezar** solo necesitas seleccionar el trabajo de Pescador en la creación de personaje o visitar las ciudades iniciales designadas.
+- **El bucle principal** consiste en leer la tensión de la caña y realizar contravirajes para recoger especies raras de manera eficiente.
+</Callout>
+
+<Section icon={Map} title="Introducción a la pesca en Grand Alfheim">
+
+La actualización del parche 0.4 ha introducido oficialmente la **pesca en Grand Alfheim** como un sistema de progresión importante. Los jugadores ahora pueden alejarse del combate de alto riesgo para dedicarse a una carrera de recolección especializada. Este sistema cuenta con su propia curva de nivelación, minijuegos únicos y recompensas específicas del trabajo que se vinculan directamente con la economía del juego.
+
+**Aspectos destacados del vídeo:**
+- **Selección de trabajo:** Cómo elegir la clase de Pescador al comienzo de tu viaje.
+- **Conceptos básicos del minijuego:** Señales visuales que muestran cómo seguir el movimiento de la caña.
+- **Subir de nivel:** Observa cómo tu barra de experiencia aumenta con cada captura exitosa.
+
+<YouTubeEmbed videoId="k53w5k5svGY" title="Grand Alfheim AÑADIÓ LA PESCA!!" />
+
+| Característica | Descripción | Beneficio principal |
+|--- |--- |--- |
+| **Trabajo de Pescador** | Opción de clase inicial en el 0.4 | Desbloquea mecánicas de recolección iniciales |
+| **Minijuego activo** | Recogida direccional basada en física | Alta participación, éxito basado en habilidad |
+| **Sistema de XP** | Progresión basada en niveles | Desbloquea zonas de mayor nivel y mejores cañas |
+
+<Callout type="tip" title="Advertencia sobre la elección de clase">
+Se recomienda encarecidamente elegir el trabajo de Pescador al principio para generar economía pasiva, pero aún puedes fabricar armas y explorar otros arquetipos como el Asesino o el Maestro del Arco a medida que progresas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo dominar el minijuego de pesca">
+
+El núcleo de la pesca en Grand Alfheim radica en su minijuego interactivo. A diferencia de los sistemas de pesca pasivos en otros RPGs, debes luchar activamente contra el tirón del pez observando la inclinación física de tu caña de pescar e introduciendo los contra-movimientos correctos en tu teclado.
+
+| Dirección de la caña | Pulsación de tecla necesaria | Estado de recogida |
+|--- |--- |--- |
+| Inclinada a la derecha | Pulsa **D** | Tirando a la izquierda |
+| Inclinada a la izquierda | Pulsa **A** | Tirando a la derecha |
+| Centrada | Pulsa **S** / Neutral | Recogiendo |
+
+<Steps>
+  <Step num="1" title="Lanza tu sedal">
+    Equipa tu caña de pescar e interactúa con cualquier fuente de agua viable, como los muelles en Salamander Town. Espera tranquilamente a que el pez pique.
+  </Step>
+  <Step num="2" title="Observa la tensión">
+    Observa el ángulo físico de tu caña de pescar. No busques una barra de interfaz tradicional; en su lugar, enfócate en hacia qué lado se dobla la caña.
+  </Step>
+  <Step num="3" title="Contravira para recoger">
+    Si la caña tira hacia la derecha, mantén presionado **D**. Si tira hacia la izquierda, mantén presionado **A**. Esto acerca la caña de pescar a tu personaje.
+  </Step>
+  <Step num="4" title="Reclama tu captura">
+    Una vez que el pez haya sido atraído completamente, el menú de captura aparecerá automáticamente, mostrando el tipo de pez y la experiencia otorgada.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cuidado con tus teclas">
+Presionar la tecla incorrecta cuando la caña se inclina aumentará la tensión, provocando que el pez escape. Reacciona siempre al movimiento físico de la caña en lugar de adivinar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión y comparaciones de trabajos">
+
+La pesca es solo uno de varios trabajos introducidos para completar la progresión fuera del combate. Para ayudarte a decidir dónde invertir tu tiempo, hemos comparado los principales trabajos de recolección y artesanía disponibles en el parche actual.
+
+<CardGrid cols={3}>
+  <Card title="Pescador">
+    - **Jugabilidad de recolección activa**
+    - Altas ganancias de XP al inicio
+    - Suministra comida a los Chefs
+  </Card>
+  <Card title="Herrero">
+    - **Enfoque en fabricación de armas**
+    - Requiere minerales extraídos
+    - Esencial para la progresión de equipo
+  </Card>
+  <Card title="Chef">
+    - **Creación de mejoras de estadísticas pasivas**
+    - Utiliza peces y cultivos
+    - Muy valorado en incursiones grupales
+  </Card>
+</CardGrid>
+
+| Nombre del trabajo | Tipo de actividad | Dificultad de entrada | Mejor sinergia |
+|--- |--- |--- |--- |
+| **Pescador** | Recolección | Media (Activa) | Chef |
+| **Herrero** | Artesanía | Baja (Menú) | Minero / Cazador |
+| **Chef** | Artesanía | Baja (Receta) | Pescador |
+
+<Callout type="info" title="Bono de sinergia">
+Subir de nivel al Pescador junto al Chef te permite autosustentar tus mejoras de comida, reduciendo drásticamente el gasto de oro en artículos consumibles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de pesca y lista de verificación">
+
+Para optimizar completamente tu carrera de recolección, intenta completar estos hitos esenciales. Realizar un seguimiento de tu progreso asegura que no pierdas tiempo en aguas de bajo rendimiento.
+
+<Checklist
+  id="fishing-milestones"
+  title="Objetivos profesionales del Pescador:"
+  items={[
+    "Selecciona el trabajo de Pescador o adquiere tu primera caña básica",
+    "Alcanza el nivel 15 de pesca en Salamander Town",
+    "Domina el movimiento de contraviraje sin perder la tensión del sedal",
+    "Desbloquea regiones de alto nivel como el territorio Frost o Gnome",
+    "Entrega capturas crudas a un jugador Chef para fabricar mejoras de comida de alto nivel"
+  ]}
+/>
+
+<Callout type="success" title="Velocidad de nivelación">
+En los niveles iniciales, cada captura exitosa puede aumentar tu nivel en varios rangos, haciendo que la rutina inicial sea increíblemente rápida y gratificante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empiezo a pescar en Grand Alfheim?",
+    answer: "Puedes seleccionar el trabajo de Pescador durante la creación del personaje o visitar ciudades iniciales como Salamander Town para adquirir una caña y pescar cerca de los muelles."
+  },
+  {
+    question: "¿Qué debo hacer si el pez sigue escapando?",
+    answer: "Observa la inclinación física de la caña. Si se inclina a la derecha, mantén presionado D. Si se inclina a la izquierda, mantén presionado A. Realizar el contraviraje correctamente es la única forma de atraer al pez."
+  },
+  {
+    question: "¿La pesca sube de nivel a mi personaje general?",
+    answer: "La pesca sube de nivel tu experiencia de trabajo específica, lo que desbloquea mejores capacidades de recolección, en lugar de tu nivel de combate principal."
+  },
+  {
+    question: "¿Puedo cambiar mi trabajo de Pescador a otro más tarde?",
+    answer: "Sí, puedes interactuar con otros NPCs de trabajo, como el Herrero, para fabricar armas o explorar diferentes caminos de progresión."
+  }
+]} />
+
+</Section>

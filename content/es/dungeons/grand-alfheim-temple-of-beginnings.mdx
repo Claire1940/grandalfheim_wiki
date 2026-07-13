@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grand Alfheim Templo de los Comienzos: Guía de Mazmorra y Botín 2026",
+  description: "Domina el Templo de los Comienzos de Grand Alfheim con nuestra guía de 2026. Resuelve los puzles de cubos, derrota al Dragón de Hueso y reclama recompensas de botín legendario.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Temple+of+Beginnings+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Grand Alfheim",
+  keywords: "grand alfheim, templo de los comienzos, guía de mazmorra, dragón de hueso, puzle de cubos, botín"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Templo de los Comienzos de Grand Alfheim**: Una mazmorra crucial del juego temprano accesible desde Salamander, Undine y Gnome.
+- **Selección de Ruta**: Elige entre la **Ruta de Parkour** de alta habilidad o la **Ruta de Monstruos** centrada en el combate.
+- **Mecánica Clave**: Dominar el tiempo de parry del **Ent de Tocón** es esencial para sobrevivir en el laberinto.
+- **Solución del Puzle**: Coloca cajas en los altares de las salas de Ángel y Demonio basándote en los símbolos específicos de la pared.
+- **Encuentro con el Jefe**: Derrota al **Dragón de Hueso** para desbloquear cofres de botín Épico y Legendario.
+</Callout>
+
+<Section icon={Map} title="Ubicación de la Mazmorra y Puntos de Acceso">
+
+El **templo de los comienzos de grand alfheim** sirve como un desafío fundamental para los aventureros que buscan progresar en el mundo de Alfheim. A diferencia de muchas mazmorras especializadas de juego tardío, esta ubicación está diseñada para poner a prueba tanto tu movimiento mecánico como tu eficiencia en combate. Actúa como una puerta de entrada a un mejor equipo, lo que la convierte en una parada frecuente para los jugadores que transitan fuera de la fase inicial del juego.
+
+Encontrar la entrada requiere navegar por regiones específicas dentro del juego. La mazmorra está colocada estratégicamente para ser accesible desde múltiples islas iniciales, asegurando que los jugadores de diferentes facciones o puntos de partida puedan llegar a ella sin un viaje excesivo.
+
+| Región | Ubicación de la Entrada | Accesibilidad |
+| :--- | :--- | :--- |
+| **Salamander** | Lado oeste de la isla | Alta/Principal |
+| **Undine** | Noroeste del spawn principal | Moderada |
+| **Gnome** | Punto de acceso regional | Moderada |
+
+<Callout type="tip" title="Consejo de Navegación">
+Si comienzas en Undine, dirígete al noroeste inmediatamente después de aparecer. El terreno puede ser complicado, por lo que mantener un punto de vista elevado te ayudará a detectar la entrada del templo desde la distancia.
+</Callout>
+
+Antes de entrar, asegúrate de que tu personaje esté preparado para una mezcla de peligros ambientales y combate grupal. Aunque no hay un requisito de nivel estricto para entrar, intentar esta mazmorra en solitario por debajo del nivel 15 puede ser extremadamente castigador para los nuevos jugadores.
+
+</Section>
+
+<Section icon={Swords} title="Selección de Ruta: Parkour vs. Combate">
+
+Al entrar al **templo de los comienzos de grand alfheim**, se te presenta inmediatamente una elección que dicta la primera mitad de tu recorrido. La mazmorra se divide en dos rutas distintas: la Ruta Izquierda y la Ruta Derecha. Estas rutas eventualmente convergen en la cámara del puzle, pero los desafíos que presentan son fundamentalmente diferentes.
+
+<CardGrid cols={2}>
+  <Card title="La Ruta de Parkour (Izquierda)">
+    - **Enfoque de Habilidad**: Saltos y movimientos precisos.
+    - **Riesgo**: Caer conlleva reinicio o daño.
+    - **Velocidad**: La ruta más rápida para jugadores experimentados.
+    - **Enemigos**: Mínimos o ninguno.
+  </Card>
+  <Card title="La Ruta de Monstruos (Derecha)">
+    - **Enfoque de Habilidad**: Combate, parry y gestión de daño en área (AoE).
+    - **Riesgo**: Ser abrumado por grupos de enemigos.
+    - **Velocidad**: Más lenta pero proporciona XP de combate.
+    - **Enemigos**: Escorpiones, Dinosaurios y grupos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Consejo para Nuevos Jugadores">
+La ruta de Parkour es conocida por ser frustrantemente difícil para aquellos que no están familiarizados con la física de salto del juego. Si tienes lag o ping alto, la ruta Derecha (Monstruos) es significativamente más segura y confiable.
+</Callout>
+
+Si eliges la Ruta de Monstruos, prepárate para combates por oleadas. Los Escorpiones y Dinosaurios encontrados aquí tienen patrones de ataque predecibles, pero a menudo atacan en grupos. Se recomienda encarecidamente utilizar armas con ataques amplios o habilidades de área de efecto (AoE) para limpiar estas salas de manera eficiente.
+
+</Section>
+
+<Section icon={Shield} title="Derrotando al Ent de Tocón y Mobs de Élite">
+
+En lo profundo del laberinto del **templo de los comienzos de grand alfheim**, te encontrarás con el Ent de Tocón. Este enemigo sirve como un "control de habilidad" para los jugadores, obligándolos a aprender las mecánicas de parry del juego. El Ent de Tocón golpea fuerte y puede agotar fácilmente la salud de un aventurero desprevenido en solo unos pocos golpes.
+
+| Tipo de Enemigo | Ataque Principal | Estrategia | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Escorpión** | Aguijonazos rápidos | Bloquear y contraatacar | Fácil |
+| **Dinosaurio** | Embestidas pesadas | Esquivar lateralmente o parry | Media |
+| **Ent de Tocón** | Golpes pesados | Requiere parry perfecto | Difícil |
+| **Dragón de Hueso** | Aliento y Cola | Mantenerse detrás/debajo | Jefe |
+
+<Callout type="success" title="Estrategia contra el Ent de Tocón">
+La búsqueda de rutas del Ent de Tocón se limita a una línea recta. Si tienes problemas con el tiempo del parry, puedes "engañar" al enemigo manteniendo una pared o pilar entre tú y el Ent. A menudo se quedará atascado, permitiéndote asestar golpes seguros.
+</Callout>
+
+Navegar con éxito estos encuentros requiere un equilibrio entre agresión y defensa. En 2026, el meta para esta mazmorra implica el uso de armas de alto impacto que pueden aturdir al Ent de Tocón, proporcionando una ventana para combos de alto daño.
+
+</Section>
+
+<Section icon={Target} title="Resolviendo la Sala del Puzle de Cubos">
+
+Después de sobrevivir a las rutas iniciales, llegarás a la parte más compleja del **templo de los comienzos de grand alfheim**: los Puzles de Cubos. Esta sección requiere que los jugadores interactúen con dos salas separadas: la Sala del Ángel (Verde) y la Sala del Demonio (Roja). Para progresar hacia el jefe, debes colocar cajas específicas en sus altares correspondientes.
+
+<Steps>
+  <Step num="1" title="Identificar los Símbolos">
+    Mira las paredes en la sala con el portal rojo. Estos símbolos de la pared actúan como la leyenda para el orden correcto de las cajas.
+  </Step>
+  <Step num="2" title="Localizar las Cajas">
+    Busca en las cámaras circundantes cubos etiquetados con nombres como Berserk, Squid (Calamar) o Radioactive (Radioactivo).
+  </Step>
+  <Step num="3" title="Emparejar y Colocar">
+    Transporta la caja correcta al altar del Ángel o del Demonio según lo indiquen las pistas de la pared.
+  </Step>
+  <Step num="4" title="Confirmar Activación">
+    Cuando una caja se coloca correctamente, se encenderá con fuego y sonará un efecto de sonido distintivo.
+  </Step>
+</Steps>
+
+| Imagen del Símbolo | Nombre del Símbolo | Tipo de Lógica |
+| :--- | :--- | :--- |
+| **Berserk** | Cara Enojada | Demonio/Combate |
+| **Key** | Llave Mecánica | Utilidad/Ángel |
+| **Squid** | Icono de Tentáculo | Acuático/Demonio |
+| **Radioactive** | Señal de Peligro | Tóxico/Demonio |
+| **Candle** | Llama Encendida | Luz/Ángel |
+| **Triangle** | Geométrico | Orden/Ángel |
+
+<Callout type="info" title="Códigos de Gremio">
+Muchos gremios de jugadores en Grand Alfheim usan apodos personalizados para estos símbolos. Si estás realizando esta mazmorra con un grupo, confirma qué convención de nombres usan (por ejemplo, "Radioactivo" vs "Biohazard") para evitar confusiones durante la fase del puzle.
+</Callout>
+
+Una vez que todas las cajas estén colocadas correctamente tanto en la sala del Ángel como en la del Demonio, el portal central se estabilizará, permitiéndote entrar en la arena final.
+
+</Section>
+
+<Section icon={Sparkles} title="Batalla contra el Jefe: El Dragón de Hueso">
+
+El desafío final del **templo de los comienzos de grand alfheim** es el Dragón de Hueso. Este jefe es una entidad esquelética masiva que utiliza una combinación de coletazos físicos y ataques de aliento elemental. A diferencia de los mobs más pequeños anteriores, el Dragón de Hueso requiere movimiento constante y conciencia de sus "telegraphs" (pistas visuales antes de un ataque).
+
+**Mecánicas Clave a Observar:**
+- **Coletazo**: Un arco amplio de 180 grados detrás del dragón. Evita estar directamente detrás de él por mucho tiempo.
+- **Ataque de Aliento**: El dragón exhala un cono de energía frente a él. Cuando levante la cabeza y brille, deslízate hacia su costado.
+- **Pisotón**: Un AoE de corto alcance. Si el dragón se levanta sobre sus patas traseras, retrocede inmediatamente.
+
+| Nombre del Ataque | Señal de Advertencia | Maniobra de Evasión |
+| :--- | :--- | :--- |
+| **Aliento Esquelético** | Pecho/cuello brillante | Deslizarse a la izquierda o derecha |
+| **Aplastamiento Óseo** | Levantar patas delanteras | Saltar o dar un paso atrás |
+| **Latigazo de Cola** | Mirar sobre el hombro | Moverse hacia el cuello |
+
+<Callout type="warning" title="Peligro en la Arena del Jefe">
+La arena es más pequeña de lo que parece. Ten cuidado de no arrinconarte, ya que el gran hitbox del Dragón de Hueso puede "acorralarte" contra la pared, haciendo imposible esquivar el ataque de aliento.
+</Callout>
+
+Concentra tu daño en las patas del dragón para derribarlo ocasionalmente, lo que proporciona una ventana de 5 segundos donde recibe mayor daño. Los jugadores con alto DPS suelen terminar esta pelea en menos de tres minutos si mantienen un ritmo constante de esquive y ataque.
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Botín y Cofres">
+
+Completar el **templo de los comienzos de grand alfheim** es altamente gratificante para los jugadores en la etapa intermedia de progresión. Tras la derrota del Dragón de Hueso, se abre una sala del tesoro que contiene varios cofres de alto valor. La tabla de botín es fija, pero las estadísticas específicas del equipo pueden variar.
+
+<Checklist
+  id="temple-loot-checklist"
+  title="Posibles Recompensas de la Mazmorra:"
+  items={[
+    "2 Cofres Épicos (Drop garantizado)",
+    "1 Cofre Legendario (Recompensa por derrotar al jefe)",
+    "Materiales de artesanía raros para equipo Salamander",
+    "Puntos de experiencia (escalados al nivel)",
+    "Títulos de personaje específicos de la mazmorra"
+  ]}
+/>
+
+| Tipo de Cofre | Rareza | Requisito de Nivel | Contenido Potencial |
+| :--- | :--- | :--- | :--- |
+| **Cofre Épico** | **Épico** | Nivel 0 | Armas Épicas, Armadura, Oro |
+| **Cofre Legendario** | **Legendario** | Nivel 0 | Armas Legendarias, Gemas Raras |
+
+<Callout type="success" title="Eficiencia de Botín">
+Debido a que el requisito de nivel para los cofres es Nivel 0, esta mazmorra es excelente para "equipar" personajes secundarios (alts). Puedes completar la mazmorra con un personaje principal de alto nivel para asegurar el botín y transferirlo si tu gremio tiene un sistema de almacenamiento compartido.
+</Callout>
+
+En 2026, el Templo de los Comienzos sigue siendo un elemento básico para cualquier jugador serio de Grand Alfheim. Ya sea que estés farmeando ese esquivo drop Legendario o simplemente practicando el tiempo de tu parry contra el Ent de Tocón, dominar esta mazmorra es un rito de iniciación para cada aventurero.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor ruta en el Templo de los Comienzos de Grand Alfheim para jugadores en solitario?",
+    answer: "Para los jugadores en solitario, generalmente se recomienda la Ruta Derecha (Ruta de Monstruos). Aunque implica más combate, es mucho más predecible que la Ruta de Parkour, que puede llevar a muertes frustrantes si fallas un solo salto."
+  },
+  {
+    question: "¿Cómo resuelvo el puzle de cubos si los símbolos no coinciden con la guía?",
+    answer: "Los símbolos son siempre los mismos, pero su orden requerido cambia en cada recorrido. Revisa siempre los símbolos de la pared en la sala del portal rojo; proporcionan la secuencia exacta necesaria para esa instancia específica."
+  },
+  {
+    question: "¿Puedo saltarme al Ent de Tocón en el Templo de los Comienzos?",
+    answer: "Sí, puedes evitar al Ent de Tocón usando su movimiento en línea recta en su contra. Atráelo hacia un obstáculo grande o una pared, luego maniobra rápidamente a su alrededor mientras está atascado."
+  },
+  {
+    question: "¿Qué nivel debería tener para luchar contra el Dragón de Hueso?",
+    answer: "Aunque puedes entrar a cualquier nivel, tener al menos Nivel 15-20 asegura que tengas suficiente salud para sobrevivir a un solo error durante el ataque de aliento del Dragón de Hueso."
+  }
+]} />
+
+</Section>
